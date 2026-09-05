@@ -190,7 +190,7 @@
     },
     {
       "id": 4,
-      "name": "Kas",
+      "name": "Prince darts cup bearer ",
       "location": null,
       "nickname": null,
       "abbrev": "Kas",
@@ -376,10 +376,10 @@
     },
     {
       "id": 9,
-      "name": "Square Headed Freaks!",
+      "name": "My Sweet Thugs.",
       "location": null,
       "nickname": null,
-      "abbrev": "KUKU",
+      "abbrev": "THUG",
       "owners": [
         "{918FAA2F-05DA-4C81-8FAA-2F05DAAC81A1}"
       ],
@@ -500,10 +500,10 @@
     },
     {
       "id": 11,
-      "name": "Jetmyr Gibbs",
+      "name": "Walker and Llamondre Blo",
       "location": null,
       "nickname": null,
-      "abbrev": "ASLP",
+      "abbrev": "ASLL",
       "owners": [
         "{CD0A026B-D775-42D7-89F9-852FD4AA13DF}",
         "{495494F5-93C3-4C3E-8802-82652FE10C24}"
@@ -687,10 +687,10 @@
     },
     {
       "id": 14,
-      "name": "Chassin' Greatness ",
+      "name": "Turn On The Jets",
       "location": null,
       "nickname": null,
-      "abbrev": "CHAS",
+      "abbrev": "TOTJ",
       "owners": [
         "{BD91143D-9F38-4C11-9114-3D9F38FC1162}"
       ],
@@ -1953,7 +1953,7 @@
     "standingsUpdateDate": 1788579760452,
     "teamsJoined": 12,
     "transactionScoringPeriod": 1,
-    "waiverLastExecutionDate": 1788505663468,
+    "waiverLastExecutionDate": 1788592129585,
     "waiverProcessStatus": {}
   }
 }

@@ -1,0 +1,36 @@
+name: Update ESPN Fantasy Data
+
+on:
+  workflow_dispatch: {}        # lets you trigger it manually from the Actions tab
+  schedule:
+    - cron: "0 13 * * 2"       # every Tuesday 9am ET (13:00 UTC) during the season
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Fetch league data
+        env:
+          ESPN_SWID: ${{ secrets.ESPN_SWID }}
+          ESPN_S2: ${{ secrets.ESPN_S2 }}
+        run: python scripts/fetch_espn_data.py --league-id 703243
+
+      - name: Commit updated data
+        run: |
+          git config user.name "espn-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/data/seasons docs/data/league_meta.json
+          git diff --cached --quiet || git commit -m "Update league data ($(date -u +%Y-%m-%d))"
+          git push

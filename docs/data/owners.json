@@ -1,0 +1,32 @@
+{
+  "_comment": "Maps ESPN team identities to real names for display + roast copy. 'currentTeamNames' covers the 2025 season teams as given. 'memberNameOverrides' maps an ESPN member id (from members[].id in a season file, e.g. '{ABC-123}') to a real name -- fill this in once fetch_espn_data.py has run and you can see member ids across years, especially for any owner whose team name changed in past seasons.",
+  "currentTeamNames": {
+    "Verry Hut": "Ilir Asllani",
+    "Deez Nutz": "Arben Sinanaj",
+    "Team muriqi": "Flamur Muriqi",
+    "Kas": "Nori Kastrati",
+    "Little Bill!": "Rilind Ahmetaj",
+    "Team Shmooooney": "Rinor Ahmetaj",
+    "Square Headed Freaks!": "Rob Ricigliano",
+    "Disciples of Veezus": "Veton Gjonbalaj",
+    "Jetmyr Gibbs": "Jetmir Asllani / Peter Mardjonovic",
+    "Skatt on Thugkins": "Ben Vucetaj",
+    "THE DARK KNIGHT": "Faton Muriqi",
+    "Chassin' Greatness": "Adam Vilajeti"
+  },
+  "memberNameOverrides": {
+    "{495494F5-93C3-4C3E-8802-82652FE10C24}": "Jetmir Asllani / Peter Mardjonovic",
+    "{64D28FB1-6D93-45DF-928F-B16D9335DFFB}": "Rilind Ahmetaj",
+    "{70F57318-FB13-45D0-B573-18FB1395D05C}": "Ben Vucetaj",
+    "{918FAA2F-05DA-4C81-8FAA-2F05DAAC81A1}": "Rob Ricigliano",
+    "{B07AE637-C087-419E-BB2D-8C952EF6CA5D}": "Flamur Muriqi",
+    "{B0F7F274-FAE1-4BC9-B7F2-74FAE15BC948}": "Ilir Asllani",
+    "{B78B3958-E456-4886-B1B6-28EF4CBEA614}": "Faton Muriqi",
+    "{BD91143D-9F38-4C11-9114-3D9F38FC1162}": "Adam Vilajeti",
+    "{CD0A026B-D775-42D7-89F9-852FD4AA13DF}": "Jetmir Asllani / Peter Mardjonovic",
+    "{D7C2E254-7A57-4A2D-82E2-547A570A2D35}": "Arben Sinanaj",
+    "{DE944E67-30FF-482C-BC97-F8CA35935459}": "Veton Gjonbalaj",
+    "{EA8C495C-6D64-48DF-9021-D1CC0441B72F}": "Rinor Ahmetaj",
+    "{F50DD445-E290-465A-AD66-E58F3F146D4A}": "Nori Kastrati"
+  }
+}

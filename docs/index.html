@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>League History &amp; Hall of Shame</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <h1 id="league-title">Loading league...</h1>
+    <p id="league-sub">pulling the receipts from ESPN</p>
+  </header>
+
+  <nav class="tabs">
+    <button data-tab="standings" class="active">Standings</button>
+    <button data-tab="alltime">All-Time</button>
+    <button data-tab="roasts">Hall of Shame</button>
+    <button data-tab="h2h">Head-to-Head</button>
+  </nav>
+
+  <main>
+    <section id="tab-standings" class="panel">
+      <h2><span class="emoji">📊</span>Current Season Standings</h2>
+      <div id="standings-content"><p class="empty-state">Loading...</p></div>
+    </section>
+
+    <section id="tab-alltime" class="panel" hidden>
+      <h2><span class="emoji">🏆</span>All-Time Leaderboard</h2>
+      <div id="alltime-content"><p class="empty-state">Loading...</p></div>
+    </section>
+
+    <section id="tab-roasts" class="panel" hidden>
+      <h2><span class="emoji">🔥</span>Hall of Shame</h2>
+      <div id="roasts-content"><p class="empty-state">Loading...</p></div>
+    </section>
+
+    <section id="tab-h2h" class="panel" hidden>
+      <h2><span class="emoji">⚔️</span>Head-to-Head Records</h2>
+      <div id="h2h-content"><p class="empty-state">Loading...</p></div>
+    </section>
+
+    <p class="footer-note">Data pulled from ESPN Fantasy Football. Refreshed automatically. Take every roast with a grain of salt (and a beer).</p>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -16,19 +16,24 @@ const ROASTS = {
     "{owner} finished {record}. A wet paper bag has a better win rate.",
     "{owner} went {record}. At some point 'bad luck' becomes 'bad at this'.",
     "{owner} posted a {record} season. Congrats on the daily reminder from ESPN that you suck.",
+    "{owner} closed out {record}. There should be a support group for this.",
+    "{owner} limped to {record}. Some rosters are cursed. This one's just poorly run.",
   ],
   mostBlownOut: [
     "{owner} got demolished {margin} points in a single week by {opponent}. Hope the popcorn was good watching that massacre.",
     "{owner} lost by {margin} to {opponent}. That's not a fantasy loss, that's a restraining-order-worthy beatdown.",
     "{owner} got run over by {opponent}, {margin}-point margin. Somebody call an ambulance, that lineup needs one.",
+    "{owner} lost to {opponent} by {margin}. That's not a fantasy matchup, that's a hostage situation.",
   ],
   closestHeartbreak: [
     "{owner} lost to {opponent} by a soul-crushing {margin} points. Bench that kicker forever.",
     "{owner} choked away a game to {opponent} by just {margin}. The bench points alone would've won it. Embarrassing.",
+    "{owner} fell to {opponent} by {margin}. So close, and yet somehow still a loss. Impressive, actually.",
   ],
   lowestScore: [
     "{owner} put up a laughable {points} points in a single week. Did you even set your lineup?",
     "{owner} scored {points} in one week. That's not a fantasy team, that's a cry for help.",
+    "{owner} managed just {points} points. A bye week would've scored higher.",
   ],
   losingStreak: [
     "{owner} dropped {streak} in a row at one point. An actual black hole of a roster.",
@@ -36,20 +41,64 @@ const ROASTS = {
   ],
   mostPointsAgainst: [
     "{owner} has given up {points} total points for their career -- basically running a soup kitchen for opposing lineups.",
+    "{owner} has surrendered {points} career points. Every bye week in this league, someone's still scoring on them.",
   ],
   bestRecord: [
     "{owner} sits on top with a {record} all-time record. Insufferable, but earned.",
+    "{owner} tops the league at {record}. Nobody likes them for it, but the numbers don't care.",
   ],
   mostChampionships: [
     "{owner} has {count} title{plural} to their name. Somebody's compensating for something with all that hardware.",
+    "{owner} has won it all {count} time{plural}. At some point commissioner needs to check the league for cheating.",
   ],
   ringless: [
     "{owner} has played {seasons} seasons and won exactly zero championships. Zero. A perfect, humiliating streak.",
     "{owner} is {seasons} seasons deep with no rings. At this point it's not bad luck, it's a personality trait.",
+    "{owner} has {seasons} years of tenure and nothing to show for it but participation trophies that don't exist.",
+  ],
+};
+
+/* One card per owner, built from their own numbers -- everybody gets clowned,
+ * not just the league-wide extremes above. */
+const PERSONAL_ROASTS = {
+  record: [
+    "{owner}'s lifetime record sits at {record} ({winPct}% wins). Numbers don't lie, and these numbers are ugly.",
+    "{owner} has gone {record} all-time. That's not a resume, that's a cry for help.",
+  ],
+  hasTitles: [
+    "{owner} has {titles} title(s) in {seasons} seasons. Insufferable, and worse, correct.",
+    "{owner} won it all {titles} time(s). Somebody remind them this is a friend group, not a dynasty.",
+  ],
+  noTitles: [
+    "{owner} has played {seasons} seasons and has exactly zero championships. Zero.",
+    "{owner} is {seasons} years deep with no rings. At some point that's not variance, that's a skill issue.",
+  ],
+  worstSeason: [
+    "{owner}'s low point was {year}, going {record}. A truly historic collapse.",
+    "In {year}, {owner} posted a {record} season. Some things you just can't unsee.",
+  ],
+  bestSeason: [
+    "{owner}'s best season ever was {year} at {record}. Peaked early, never recovered.",
+    "{owner} once went {record} in {year}. A one-hit wonder if there ever was one.",
+  ],
+  softVictim: [
+    "{owner} has given up {pointsAgainst} points for their career -- somehow still finding new ways to lose.",
+  ],
+  belowAverage: [
+    "{owner} averages below the league in points scored, year after year. Truly a modest little roster.",
   ],
 };
 
 function pick(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
+
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
 
 function fmt(tpl, vars) {
   return tpl.replace(/\{(\w+)\}/g, (_, k) => (vars[k] !== undefined ? vars[k] : `{${k}}`));
@@ -135,9 +184,12 @@ function buildOwnerAggregates(seasons, owners) {
       if (season.champion != null && team.id === season.champion) agg.championships += 1;
       agg.seasons.push({ year: season.seasonId, wins: w, losses: l, ties: t, teamId: team.id, teamName: teamDisplayName(team) });
 
-      const winPct = (w + t * 0.5) / Math.max(1, w + l + t);
-      if (!agg.worstSeasonRecord || winPct < agg.worstSeasonRecord.winPct) {
-        agg.worstSeasonRecord = { year: season.seasonId, wins: w, losses: l, ties: t, winPct };
+      const decisions = w + l + t;
+      if (decisions > 0) {
+        const winPct = (w + t * 0.5) / decisions;
+        if (!agg.worstSeasonRecord || winPct < agg.worstSeasonRecord.winPct) {
+          agg.worstSeasonRecord = { year: season.seasonId, wins: w, losses: l, ties: t, winPct };
+        }
       }
     }
   }
@@ -152,6 +204,49 @@ function ownerForTeamInSeason(season, teamId, owners) {
 }
 
 /* ---------------- roast computation ---------------- */
+
+function buildPersonalRoastLines(o, leagueAvgPFPerSeason) {
+  const decisions = o.wins + o.losses + o.ties;
+  const winPct = decisions ? (o.wins + o.ties * 0.5) / decisions : 0;
+  const seasonCount = o.seasons.length;
+  const record = `${o.wins}-${o.losses}${o.ties ? "-" + o.ties : ""}`;
+
+  const seasonsWithPct = o.seasons
+    .filter(s => s.wins + s.losses + s.ties > 0)
+    .map(s => ({ ...s, pct: (s.wins + s.ties * 0.5) / (s.wins + s.losses + s.ties) }));
+  const best = [...seasonsWithPct].sort((a, b) => b.pct - a.pct)[0];
+  const worst = o.worstSeasonRecord;
+
+  const pool = [];
+
+  pool.push(fmt(pick(PERSONAL_ROASTS.record), { owner: o.name, record, winPct: (winPct * 100).toFixed(1) }));
+
+  if (o.championships > 0) {
+    pool.push(fmt(pick(PERSONAL_ROASTS.hasTitles), { owner: o.name, titles: o.championships, seasons: seasonCount }));
+  } else if (seasonCount >= 2) {
+    pool.push(fmt(pick(PERSONAL_ROASTS.noTitles), { owner: o.name, seasons: seasonCount }));
+  }
+
+  if (worst && worst.winPct < 0.4) {
+    const worstRecord = `${worst.wins}-${worst.losses}${worst.ties ? "-" + worst.ties : ""}`;
+    pool.push(fmt(pick(PERSONAL_ROASTS.worstSeason), { owner: o.name, year: worst.year, record: worstRecord }));
+  }
+
+  if (best) {
+    const bestRecord = `${best.wins}-${best.losses}${best.ties ? "-" + best.ties : ""}`;
+    pool.push(fmt(pick(PERSONAL_ROASTS.bestSeason), { owner: o.name, year: best.year, record: bestRecord }));
+  }
+
+  if (o.pointsAgainst > o.pointsFor) {
+    pool.push(fmt(pick(PERSONAL_ROASTS.softVictim), { owner: o.name, pointsAgainst: o.pointsAgainst.toFixed(1) }));
+  }
+
+  if (leagueAvgPFPerSeason && seasonCount && (o.pointsFor / seasonCount) < leagueAvgPFPerSeason) {
+    pool.push(fmt(pick(PERSONAL_ROASTS.belowAverage), { owner: o.name }));
+  }
+
+  return shuffle(pool).slice(0, Math.min(3, pool.length));
+}
 
 function computeRoasts(seasons, owners, ownerAggs) {
   const cards = [];
@@ -264,6 +359,27 @@ function computeRoasts(seasons, owners, ownerAggs) {
     });
   }
 
+  // one personalized, multi-insult card per owner -- everybody gets clowned
+  const totalPF = ownerAggs.reduce((s, o) => s + o.pointsFor, 0);
+  const totalSeasons = ownerAggs.reduce((s, o) => s + o.seasons.length, 0);
+  const leagueAvgPFPerSeason = totalSeasons ? totalPF / totalSeasons : 0;
+
+  if (ownerAggs.length) {
+    cards.push({ divider: true, label: "Every Team, Personally" });
+    for (const o of [...ownerAggs].sort((a, b) => a.name.localeCompare(b.name))) {
+      const lines = buildPersonalRoastLines(o, leagueAvgPFPerSeason);
+      if (!lines.length) continue;
+      const record = `${o.wins}-${o.losses}${o.ties ? "-" + o.ties : ""}`;
+      cards.push({
+        key: `personal:${o.name}`,
+        personal: true,
+        ownerName: o.name,
+        lines,
+        stat: `${record} career · ${o.championships} title${o.championships === 1 ? "" : "s"}`,
+      });
+    }
+  }
+
   return cards;
 }
 
@@ -341,13 +457,27 @@ function renderRoasts(cards) {
   const el = document.getElementById("roasts-content");
   if (!cards.length) { el.innerHTML = '<p class="empty-state">Not enough data yet to roast anyone. Give it a season.</p>'; return; }
 
-  el.innerHTML = cards.map(c => `
-    <div class="roast-card">
-      <h3>${labelFor(c.key)}</h3>
-      <p>${escapeHTML(c.text)}</p>
-      <div class="stat">${escapeHTML(c.stat)}</div>
-    </div>
-  `).join("");
+  el.innerHTML = cards.map(c => {
+    if (c.divider) {
+      return `<h3 class="roast-divider">${escapeHTML(c.label)}</h3>`;
+    }
+    if (c.personal) {
+      return `
+        <div class="roast-card">
+          <h3>${escapeHTML(c.ownerName)}</h3>
+          <ul class="roast-list">${c.lines.map(l => `<li>${escapeHTML(l)}</li>`).join("")}</ul>
+          <div class="stat">${escapeHTML(c.stat)}</div>
+        </div>
+      `;
+    }
+    return `
+      <div class="roast-card">
+        <h3>${labelFor(c.key)}</h3>
+        <p>${escapeHTML(c.text)}</p>
+        <div class="stat">${escapeHTML(c.stat)}</div>
+      </div>
+    `;
+  }).join("");
 }
 
 function labelFor(key) {

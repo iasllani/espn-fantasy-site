@@ -33,6 +33,16 @@ Add two secrets:
 These are only ever used inside the GitHub Actions runner (`.github/workflows/update-data.yml`)
 and are encrypted at rest by GitHub.
 
+### Optional: AI-generated roasts
+
+If you add a third secret, `ANTHROPIC_API_KEY` (from console.anthropic.com —
+note this is a separate paid API account, not a Claude Pro subscription),
+the weekly Action will also call Claude to write fresh, stat-specific roast
+lines for every owner instead of picking from a fixed set of templates.
+Cost is negligible (well under $1/season at the default model). If this
+secret isn't set, the site just falls back to the built-in template roasts —
+nothing breaks.
+
 ## 3. Turn on GitHub Pages
 
 `Settings -> Pages -> Build and deployment -> Deploy from a branch -> Branch: main, folder: /docs`
@@ -70,12 +80,17 @@ Then open `docs/index.html` in a browser (or run `python3 -m http.server`
 from inside `docs/` and visit `localhost:8000`) to preview locally before
 pushing.
 
-## Notes / known limitations (v1)
+## Notes / known limitations
 
-- Championship history isn't parsed yet — the "All-Time" table is regular
-  season record + points only, not playoff results. Can add if you want it.
-- Owner identity across years is matched by team name (this season) and
-  falls back to ESPN's own account display name for past seasons. Not
-  perfect if someone renamed their team AND their ESPN display name.
-- The roast engine works off aggregate stats and single-game results —
-  it'll get funnier and more targeted as more seasons of data accumulate.
+- Owner identity is resolved by stable ESPN member ID (`docs/data/owners.json`
+  → `memberNameOverrides`), not by team name, so it survives someone renaming
+  their team every year. Former league members who left before the earliest
+  mapped season still show up under their raw ESPN handle until you add them
+  to `memberNameOverrides` yourself — there's no way to auto-discover a real
+  name for someone no longer in the league.
+- Championship history is parsed (last `WINNERS_BRACKET` game of each season)
+  and shown as a "Titles" column plus dedicated roast cards.
+- Hall of Shame roasts every owner individually, not just the league-wide
+  extremes. With `ANTHROPIC_API_KEY` set, those per-owner roasts are
+  AI-generated fresh each week from real stats; otherwise they're drawn from
+  a template bank baked into `docs/app.js`.

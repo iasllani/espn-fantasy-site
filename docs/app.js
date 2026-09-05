@@ -115,6 +115,7 @@ async function fetchJSON(path) {
 async function loadEverything() {
   const meta = await fetchJSON(`${DATA_DIR}/league_meta.json`);
   const owners = await fetchJSON(`${DATA_DIR}/owners.json`).catch(() => ({ currentTeamNames: {}, memberNameOverrides: {} }));
+  const aiRoasts = await fetchJSON(`${DATA_DIR}/ai_roasts.json`).catch(() => null);
 
   const seasons = [];
   for (const year of meta.years || []) {
@@ -126,7 +127,7 @@ async function loadEverything() {
     }
   }
   seasons.sort((a, b) => a.seasonId - b.seasonId);
-  return { meta, owners, seasons };
+  return { meta, owners, seasons, aiRoasts };
 }
 
 /* ---------------- owner resolution ---------------- */
@@ -248,7 +249,7 @@ function buildPersonalRoastLines(o, leagueAvgPFPerSeason) {
   return shuffle(pool).slice(0, Math.min(3, pool.length));
 }
 
-function computeRoasts(seasons, owners, ownerAggs) {
+function computeRoasts(seasons, owners, ownerAggs, aiRoasts) {
   const cards = [];
 
   // worst all-time record
@@ -364,10 +365,13 @@ function computeRoasts(seasons, owners, ownerAggs) {
   const totalSeasons = ownerAggs.reduce((s, o) => s + o.seasons.length, 0);
   const leagueAvgPFPerSeason = totalSeasons ? totalPF / totalSeasons : 0;
 
+  const aiLinesByOwner = (aiRoasts && aiRoasts.roasts) || {};
+
   if (ownerAggs.length) {
     cards.push({ divider: true, label: "Every Team, Personally" });
     for (const o of [...ownerAggs].sort((a, b) => a.name.localeCompare(b.name))) {
-      const lines = buildPersonalRoastLines(o, leagueAvgPFPerSeason);
+      const aiLines = aiLinesByOwner[o.name];
+      const lines = (aiLines && aiLines.length) ? aiLines.slice(0, 3) : buildPersonalRoastLines(o, leagueAvgPFPerSeason);
       if (!lines.length) continue;
       const record = `${o.wins}-${o.losses}${o.ties ? "-" + o.ties : ""}`;
       cards.push({
@@ -535,7 +539,7 @@ function setupTabs() {
 (async function init() {
   setupTabs();
   try {
-    const { meta, owners, seasons } = await loadEverything();
+    const { meta, owners, seasons, aiRoasts } = await loadEverything();
     const leagueName = seasons.length ? seasons[seasons.length - 1].leagueName : "Fantasy League";
     document.getElementById("league-title").textContent = leagueName || "Fantasy League";
     document.getElementById("league-sub").textContent = seasons.length
@@ -545,7 +549,7 @@ function setupTabs() {
     const ownerAggs = buildOwnerAggregates(seasons, owners);
     renderStandings(seasons, owners);
     renderAllTime(ownerAggs);
-    renderRoasts(computeRoasts(seasons, owners, ownerAggs));
+    renderRoasts(computeRoasts(seasons, owners, ownerAggs, aiRoasts));
     renderH2H(computeHeadToHead(seasons, owners));
   } catch (e) {
     console.error(e);

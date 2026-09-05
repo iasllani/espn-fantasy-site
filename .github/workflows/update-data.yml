@@ -27,10 +27,16 @@ jobs:
           ESPN_S2: ${{ secrets.ESPN_S2 }}
         run: python scripts/fetch_espn_data.py --league-id 703243
 
+      - name: Generate AI roasts
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/generate_ai_roasts.py
+
       - name: Commit updated data
         run: |
           git config user.name "espn-data-bot"
           git config user.email "actions@users.noreply.github.com"
           git add docs/data/seasons docs/data/league_meta.json
+          if [ -f docs/data/ai_roasts.json ]; then git add docs/data/ai_roasts.json; fi
           git diff --cached --quiet || git commit -m "Update league data ($(date -u +%Y-%m-%d))"
           git push

@@ -1,0 +1,52 @@
+{
+  "generatedAt": "2026-09-06T03:10:51.925951+00:00",
+  "seasonId": 2026,
+  "lastWeek": null,
+  "thisWeek": {
+    "matchupPeriodId": 1,
+    "matchups": [
+      {
+        "homeOwner": "Rilind Ahmetaj",
+        "awayOwner": "Rob Ricigliano",
+        "homeRecord": "0-0",
+        "awayRecord": "0-0",
+        "preview": "Rilind Ahmetaj (0-0) vs Rob Ricigliano (0-0)."
+      },
+      {
+        "homeOwner": "Jetmir Asllani / Peter Mardjonovic",
+        "awayOwner": "Adam Vilajeti",
+        "homeRecord": "0-0",
+        "awayRecord": "0-0",
+        "preview": "Jetmir Asllani / Peter Mardjonovic (0-0) vs Adam Vilajeti (0-0)."
+      },
+      {
+        "homeOwner": "Ilir Asllani",
+        "awayOwner": "Rinor Ahmetaj",
+        "homeRecord": "0-0",
+        "awayRecord": "0-0",
+        "preview": "Ilir Asllani (0-0) vs Rinor Ahmetaj (0-0)."
+      },
+      {
+        "homeOwner": "Faton Muriqi",
+        "awayOwner": "Flamur Muriqi",
+        "homeRecord": "0-0",
+        "awayRecord": "0-0",
+        "preview": "Faton Muriqi (0-0) vs Flamur Muriqi (0-0)."
+      },
+      {
+        "homeOwner": "Veton Gjonbalaj",
+        "awayOwner": "Arben Sinanaj",
+        "homeRecord": "0-0",
+        "awayRecord": "0-0",
+        "preview": "Veton Gjonbalaj (0-0) vs Arben Sinanaj (0-0)."
+      },
+      {
+        "homeOwner": "Ben Vucetaj",
+        "awayOwner": "Nori Kastrati",
+        "homeRecord": "0-0",
+        "awayRecord": "0-0",
+        "preview": "Ben Vucetaj (0-0) vs Nori Kastrati (0-0)."
+      }
+    ]
+  }
+}

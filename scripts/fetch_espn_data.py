@@ -49,6 +49,28 @@ EARLIEST_PLAUSIBLE_YEAR = 2000  # ESPN fantasy football predates this; safety fl
 
 VIEWS = ["mTeam", "mRoster", "mSettings", "mMatchupScore", "mStandings"]
 
+# ESPN's fantasy API is undocumented; these tables are reverse-engineered
+# and verified against real 2025 season data (see PR history) -- cross
+# checked a known RB's actual rushing/receiving line and a known QB's
+# passing line against their real public season stats before trusting them.
+POSITION_MAP = {1: "QB", 2: "RB", 3: "WR", 4: "TE", 5: "K", 16: "D/ST"}
+PRO_TEAM_MAP = {
+    0: "FA", 1: "ATL", 2: "BUF", 3: "CHI", 4: "CIN", 5: "CLE", 6: "DAL",
+    7: "DEN", 8: "DET", 9: "GB", 10: "TEN", 11: "IND", 12: "KC", 13: "LV",
+    14: "LAR", 15: "MIA", 16: "MIN", 17: "NE", 18: "NO", 19: "NYG",
+    20: "NYJ", 21: "PHI", 22: "ARI", 23: "PIT", 24: "LAC", 25: "SF",
+    26: "SEA", 27: "TB", 28: "WSH", 29: "CAR", 30: "JAX", 33: "BAL", 34: "HOU",
+}
+# Only the stat categories we're confident about (verified above). ESPN's
+# raw stat dict has dozens more IDs (kicking, defense, red-zone detail)
+# that we deliberately don't surface to avoid mislabeling something.
+STAT_ID_LABELS = {
+    "0": "passAtt", "1": "passCmp", "3": "passYds", "4": "passTD", "20": "int",
+    "23": "rushAtt", "24": "rushYds", "25": "rushTD",
+    "53": "rec", "42": "recYds", "43": "recTD",
+    "72": "fumblesLost",
+}
+
 
 def fetch_season(session, league_id, year):
     """Return the raw league JSON for one season, or None if it doesn't exist."""
@@ -72,11 +94,53 @@ def fetch_season(session, league_id, year):
     return data
 
 
+def find_stat_block(player_stats, season_id, source_id=0, split_id=0):
+    for block in player_stats or []:
+        if block.get("seasonId") == season_id and block.get("statSourceId") == source_id and block.get("statSplitTypeId") == split_id:
+            return block
+    return None
+
+
+def extract_stat_line(raw_stats):
+    if not raw_stats:
+        return {}
+    return {label: raw_stats[key] for key, label in STAT_ID_LABELS.items() if key in raw_stats}
+
+
+def summarize_stat_block(block):
+    if not block:
+        return None
+    return {
+        "points": block.get("appliedTotal"),
+        "pointsPerGame": block.get("appliedAverage"),
+        "stats": extract_stat_line(block.get("stats")),
+    }
+
+
+def summarize_roster(team_raw, season_year):
+    roster = []
+    for entry in ((team_raw.get("roster") or {}).get("entries") or []):
+        player = (entry.get("playerPoolEntry") or {}).get("player") or {}
+        stats = player.get("stats", [])
+        roster.append({
+            "id": player.get("id"),
+            "name": player.get("fullName"),
+            "position": POSITION_MAP.get(player.get("defaultPositionId"), "?"),
+            "proTeam": PRO_TEAM_MAP.get(player.get("proTeamId"), "FA"),
+            "injuryStatus": player.get("injuryStatus"),
+            "seasonOutlook": player.get("seasonOutlook"),
+            "currentSeason": summarize_stat_block(find_stat_block(stats, season_year)),
+            "priorSeason": summarize_stat_block(find_stat_block(stats, season_year - 1)),
+        })
+    return roster
+
+
 def summarize_season(raw):
     """Pull out the pieces the site actually needs, in a stable shape."""
     if raw is None:
         return None
 
+    season_year = raw.get("seasonId")
     teams = []
     for t in raw.get("teams", []):
         teams.append({
@@ -93,6 +157,7 @@ def summarize_season(raw):
             "wins": (t.get("record", {}).get("overall", {}) or {}).get("wins"),
             "losses": (t.get("record", {}).get("overall", {}) or {}).get("losses"),
             "ties": (t.get("record", {}).get("overall", {}) or {}).get("ties"),
+            "roster": summarize_roster(t, season_year),
         })
 
     members = []

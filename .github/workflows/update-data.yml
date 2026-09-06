@@ -32,11 +32,17 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/generate_ai_roasts.py
 
+      - name: Generate weekly recap
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/generate_weekly_recap.py
+
       - name: Commit updated data
         run: |
           git config user.name "espn-data-bot"
           git config user.email "actions@users.noreply.github.com"
           git add docs/data/seasons docs/data/league_meta.json
           if [ -f docs/data/ai_roasts.json ]; then git add docs/data/ai_roasts.json; fi
+          if [ -f docs/data/weekly_recap.json ]; then git add docs/data/weekly_recap.json; fi
           git diff --cached --quiet || git commit -m "Update league data ($(date -u +%Y-%m-%d))"
           git push

@@ -116,6 +116,7 @@ async function loadEverything() {
   const meta = await fetchJSON(`${DATA_DIR}/league_meta.json`);
   const owners = await fetchJSON(`${DATA_DIR}/owners.json`).catch(() => ({ currentTeamNames: {}, memberNameOverrides: {} }));
   const aiRoasts = await fetchJSON(`${DATA_DIR}/ai_roasts.json`).catch(() => null);
+  const weeklyRecap = await fetchJSON(`${DATA_DIR}/weekly_recap.json`).catch(() => null);
 
   const seasons = [];
   for (const year of meta.years || []) {
@@ -127,7 +128,7 @@ async function loadEverything() {
     }
   }
   seasons.sort((a, b) => a.seasonId - b.seasonId);
-  return { meta, owners, seasons, aiRoasts };
+  return { meta, owners, seasons, aiRoasts, weeklyRecap };
 }
 
 /* ---------------- owner resolution ---------------- */
@@ -367,20 +368,32 @@ function computeRoasts(seasons, owners, ownerAggs, aiRoasts) {
 
   const aiLinesByOwner = (aiRoasts && aiRoasts.roasts) || {};
 
+  function pushPersonalCard(o) {
+    const aiLines = aiLinesByOwner[o.name];
+    const lines = (aiLines && aiLines.length) ? aiLines.slice(0, 3) : buildPersonalRoastLines(o, leagueAvgPFPerSeason);
+    if (!lines.length) return;
+    const record = `${o.wins}-${o.losses}${o.ties ? "-" + o.ties : ""}`;
+    cards.push({
+      key: `personal:${o.name}`,
+      personal: true,
+      ownerName: o.name,
+      lines,
+      stat: `${record} career · ${o.championships} title${o.championships === 1 ? "" : "s"}`,
+    });
+  }
+
   if (ownerAggs.length) {
+    const latestSeason = seasons[seasons.length - 1];
+    const activeNames = new Set((latestSeason.teams || []).map(t => resolveOwnerName(t, latestSeason, owners)));
+    const active = ownerAggs.filter(o => activeNames.has(o.name)).sort((a, b) => a.name.localeCompare(b.name));
+    const departed = ownerAggs.filter(o => !activeNames.has(o.name)).sort((a, b) => a.name.localeCompare(b.name));
+
     cards.push({ divider: true, label: "Every Team, Personally" });
-    for (const o of [...ownerAggs].sort((a, b) => a.name.localeCompare(b.name))) {
-      const aiLines = aiLinesByOwner[o.name];
-      const lines = (aiLines && aiLines.length) ? aiLines.slice(0, 3) : buildPersonalRoastLines(o, leagueAvgPFPerSeason);
-      if (!lines.length) continue;
-      const record = `${o.wins}-${o.losses}${o.ties ? "-" + o.ties : ""}`;
-      cards.push({
-        key: `personal:${o.name}`,
-        personal: true,
-        ownerName: o.name,
-        lines,
-        stat: `${record} career · ${o.championships} title${o.championships === 1 ? "" : "s"}`,
-      });
+    active.forEach(pushPersonalCard);
+
+    if (departed.length) {
+      cards.push({ divider: true, label: "The Fantasy Graveyard (Quit Before We Could Roast Them Enough)" });
+      departed.forEach(pushPersonalCard);
     }
   }
 
@@ -432,9 +445,109 @@ function renderStandings(seasons, owners) {
   let html = `<p class="footer-note" style="margin-bottom:16px">${latest.seasonId} season</p>`;
   html += "<table><thead><tr><th>#</th><th>Owner</th><th>Team</th><th class='num'>W-L-T</th><th class='num'>PF</th><th class='num'>PA</th></tr></thead><tbody>";
   rows.forEach((t, i) => {
-    html += `<tr><td>${i + 1}</td><td class="owner-name">${escapeHTML(t.owner)}</td><td>${escapeHTML(teamDisplayName(t))}</td><td class="num">${t.wins}-${t.losses}${t.ties ? "-" + t.ties : ""}</td><td class="num">${(t.points_for || 0).toFixed(1)}</td><td class="num">${(t.points_against || 0).toFixed(1)}</td></tr>`;
+    html += `<tr class="clickable-row" data-team-id="${t.id}"><td>${i + 1}</td><td class="owner-name">${escapeHTML(t.owner)}</td><td>${escapeHTML(teamDisplayName(t))}</td><td class="num">${t.wins}-${t.losses}${t.ties ? "-" + t.ties : ""}</td><td class="num">${(t.points_for || 0).toFixed(1)}</td><td class="num">${(t.points_against || 0).toFixed(1)}</td></tr>`;
   });
   html += "</tbody></table>";
+  el.innerHTML = html;
+}
+
+/* ---------------- roster modal ---------------- */
+
+function formatStatLine(stats) {
+  if (!stats) return "";
+  const parts = [];
+  if (stats.passYds != null) parts.push(`${stats.passCmp ?? 0}/${stats.passAtt ?? 0}, ${stats.passYds} pass yds, ${stats.passTD ?? 0} TD, ${stats.int ?? 0} INT`);
+  if (stats.rushYds != null) parts.push(`${stats.rushAtt ?? 0} car, ${stats.rushYds} rush yds, ${stats.rushTD ?? 0} TD`);
+  if (stats.recYds != null) parts.push(`${stats.rec ?? 0} rec, ${stats.recYds} rec yds, ${stats.recTD ?? 0} TD`);
+  return parts.join(" · ");
+}
+
+function renderRosterModal(ownerName, teamName, roster, rosterJoke) {
+  const modal = document.getElementById("roster-modal");
+  const body = document.getElementById("roster-modal-body");
+
+  const rows = (roster || []).map(p => {
+    const curStat = formatStatLine((p.currentSeason || {}).stats);
+    const priorStat = formatStatLine((p.priorSeason || {}).stats);
+    const curPts = p.currentSeason ? p.currentSeason.points.toFixed(1) : "-";
+    const priorPts = p.priorSeason ? p.priorSeason.points.toFixed(1) : "-";
+    const hurt = p.injuryStatus && p.injuryStatus !== "ACTIVE" && p.injuryStatus !== "NORMAL";
+    const injuryBadge = hurt ? `<span class="badge loss">${escapeHTML(p.injuryStatus)}</span>` : "";
+    return `
+      <div class="player-row">
+        <div class="player-header">
+          <strong>${escapeHTML(p.name)}</strong>
+          <span class="stat">${escapeHTML(p.position)} · ${escapeHTML(p.proTeam)}</span>
+          ${injuryBadge}
+        </div>
+        <div class="stat">This season: ${curPts} pts${curStat ? " (" + escapeHTML(curStat) + ")" : ""}</div>
+        <div class="stat">Last season: ${priorPts} pts${priorStat ? " (" + escapeHTML(priorStat) + ")" : ""}</div>
+        ${p.seasonOutlook ? `<p class="player-outlook">${escapeHTML(p.seasonOutlook)}</p>` : ""}
+      </div>
+    `;
+  }).join("");
+
+  body.innerHTML = `
+    <h2 style="margin-top:0">${escapeHTML(teamName)}</h2>
+    <p class="footer-note" style="text-align:left;margin:-8px 0 16px">${escapeHTML(ownerName)}</p>
+    ${rosterJoke ? `<div class="roast-card"><p>${escapeHTML(rosterJoke)}</p></div>` : ""}
+    ${rows || '<p class="empty-state">No roster data yet.</p>'}
+  `;
+  modal.hidden = false;
+}
+
+function setupRosterModal(latestSeason, owners, aiRoasts) {
+  const modal = document.getElementById("roster-modal");
+  if (!modal) return;
+  document.getElementById("roster-modal-close").addEventListener("click", () => { modal.hidden = true; });
+  modal.addEventListener("click", (e) => { if (e.target === modal) modal.hidden = true; });
+
+  document.getElementById("standings-content").addEventListener("click", (e) => {
+    const row = e.target.closest("tr[data-team-id]");
+    if (!row || !latestSeason) return;
+    const teamId = Number(row.dataset.teamId);
+    const team = (latestSeason.teams || []).find(t => t.id === teamId);
+    if (!team) return;
+    const ownerName = resolveOwnerName(team, latestSeason, owners);
+    const rosterJoke = (aiRoasts && aiRoasts.rosterJokes) ? aiRoasts.rosterJokes[ownerName] : null;
+    renderRosterModal(ownerName, teamDisplayName(team), team.roster, rosterJoke);
+  });
+}
+
+function renderWeekly(weeklyRecap) {
+  const el = document.getElementById("weekly-content");
+  const hasLastWeek = weeklyRecap && weeklyRecap.lastWeek && weeklyRecap.lastWeek.matchups.length;
+  const hasThisWeek = weeklyRecap && weeklyRecap.thisWeek && weeklyRecap.thisWeek.matchups.length;
+
+  if (!hasLastWeek && !hasThisWeek) {
+    el.innerHTML = '<p class="empty-state">No matchups yet this season. Check back once games kick off.</p>';
+    return;
+  }
+
+  let html = "";
+
+  if (hasThisWeek) {
+    html += `<h3 class="roast-divider">This Week's Matchups (Week ${weeklyRecap.thisWeek.matchupPeriodId})</h3>`;
+    html += weeklyRecap.thisWeek.matchups.map(m => `
+      <div class="roast-card">
+        <h3>${escapeHTML(m.homeOwner)} vs ${escapeHTML(m.awayOwner)}</h3>
+        <p>${escapeHTML(m.preview)}</p>
+        <div class="stat">${escapeHTML(m.homeRecord)} vs ${escapeHTML(m.awayRecord)}</div>
+      </div>
+    `).join("");
+  }
+
+  if (hasLastWeek) {
+    html += `<h3 class="roast-divider">Last Week's Carnage (Week ${weeklyRecap.lastWeek.matchupPeriodId})</h3>`;
+    html += weeklyRecap.lastWeek.matchups.map(m => `
+      <div class="roast-card">
+        <h3>${escapeHTML(m.winner)} def. ${escapeHTML(m.loser)}</h3>
+        <p>${escapeHTML(m.recap)}</p>
+        <div class="stat">${m.homeScore.toFixed(1)} - ${m.awayScore.toFixed(1)}</div>
+      </div>
+    `).join("");
+  }
+
   el.innerHTML = html;
 }
 
@@ -539,7 +652,7 @@ function setupTabs() {
 (async function init() {
   setupTabs();
   try {
-    const { meta, owners, seasons, aiRoasts } = await loadEverything();
+    const { meta, owners, seasons, aiRoasts, weeklyRecap } = await loadEverything();
     const leagueName = seasons.length ? seasons[seasons.length - 1].leagueName : "Fantasy League";
     document.getElementById("league-title").textContent = leagueName || "Fantasy League";
     document.getElementById("league-sub").textContent = seasons.length
@@ -548,6 +661,8 @@ function setupTabs() {
 
     const ownerAggs = buildOwnerAggregates(seasons, owners);
     renderStandings(seasons, owners);
+    setupRosterModal(seasons[seasons.length - 1], owners, aiRoasts);
+    renderWeekly(weeklyRecap);
     renderAllTime(ownerAggs);
     renderRoasts(computeRoasts(seasons, owners, ownerAggs, aiRoasts));
     renderH2H(computeHeadToHead(seasons, owners));

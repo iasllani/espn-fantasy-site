@@ -62,7 +62,350 @@
       "points_against": 1356.6800000000003,
       "wins": 11,
       "losses": 3,
-      "ties": 0
+      "ties": 0,
+      "roster": [
+        {
+          "id": 4374302,
+          "name": "Amon-Ra St. Brown",
+          "position": "WR",
+          "proTeam": "DET",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 265.5,
+            "pointsPerGame": 15.617647058823529,
+            "stats": {
+              "rushAtt": 3.0,
+              "rushYds": 9.0,
+              "rec": 117.0,
+              "recYds": 1401.0,
+              "recTD": 11.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4429160,
+          "name": "De'Von Achane",
+          "position": "RB",
+          "proTeam": "MIA",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 289.3,
+            "pointsPerGame": 18.08125,
+            "stats": {
+              "rushAtt": 238.0,
+              "rushYds": 1350.0,
+              "rushTD": 8.0,
+              "rec": 67.0,
+              "recYds": 488.0,
+              "recTD": 4.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 3916387,
+          "name": "Lamar Jackson",
+          "position": "QB",
+          "proTeam": "BAL",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 214.86,
+            "pointsPerGame": 16.52769230769231,
+            "stats": {
+              "passAtt": 302.0,
+              "passCmp": 192.0,
+              "passYds": 2549.0,
+              "passTD": 21.0,
+              "int": 7.0,
+              "rushAtt": 67.0,
+              "rushYds": 349.0,
+              "rushTD": 2.0,
+              "fumblesLost": 3.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4241416,
+          "name": "Chuba Hubbard",
+          "position": "RB",
+          "proTeam": "CAR",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 110.4,
+            "pointsPerGame": 7.359999999999999,
+            "stats": {
+              "rushAtt": 134.0,
+              "rushYds": 511.0,
+              "rushTD": 1.0,
+              "rec": 30.0,
+              "recYds": 223.0,
+              "recTD": 3.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4426354,
+          "name": "George Pickens",
+          "position": "WR",
+          "proTeam": "DAL",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 245.4,
+            "pointsPerGame": 14.435294117647059,
+            "stats": {
+              "rec": 93.0,
+              "recYds": 1429.0,
+              "recTD": 9.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 3040151,
+          "name": "George Kittle",
+          "position": "TE",
+          "proTeam": "SF",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 133.0,
+            "pointsPerGame": 12.090909090909092,
+            "stats": {
+              "rushAtt": 1.0,
+              "rushYds": -3.0,
+              "rec": 57.0,
+              "recYds": 628.0,
+              "recTD": 7.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4361370,
+          "name": "Chris Olave",
+          "position": "WR",
+          "proTeam": "NO",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 218.0,
+            "pointsPerGame": 13.625,
+            "stats": {
+              "passAtt": 1.0,
+              "int": 1.0,
+              "rushAtt": 1.0,
+              "rushYds": -3.0,
+              "rec": 100.0,
+              "recYds": 1163.0,
+              "recTD": 9.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4038815,
+          "name": "Rico Dowdle",
+          "position": "RB",
+          "proTeam": "CAR",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 196.8,
+            "pointsPerGame": 11.576470588235296,
+            "stats": {
+              "rushAtt": 236.0,
+              "rushYds": 1076.0,
+              "rushTD": 6.0,
+              "rec": 39.0,
+              "recYds": 297.0,
+              "recTD": 1.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 5083076,
+          "name": "Harold Fannin Jr.",
+          "position": "TE",
+          "proTeam": "CLE",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 150.4,
+            "pointsPerGame": 9.4,
+            "stats": {
+              "rushAtt": 7.0,
+              "rushYds": 13.0,
+              "rushTD": 1.0,
+              "rec": 72.0,
+              "recYds": 731.0,
+              "recTD": 6.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": -16014,
+          "name": "Rams D/ST",
+          "position": "D/ST",
+          "proTeam": "LAR",
+          "injuryStatus": null,
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 125.0,
+            "pointsPerGame": 7.352941176470588,
+            "stats": {}
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4599739,
+          "name": "Kendre Miller",
+          "position": "RB",
+          "proTeam": "NO",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 30.8,
+            "pointsPerGame": 4.4,
+            "stats": {
+              "rushAtt": 47.0,
+              "rushYds": 193.0,
+              "rushTD": 1.0,
+              "rec": 5.0,
+              "recYds": 30.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": -16018,
+          "name": "Saints D/ST",
+          "position": "D/ST",
+          "proTeam": "NO",
+          "injuryStatus": null,
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 123.0,
+            "pointsPerGame": 7.235294117647059,
+            "stats": {}
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 2578570,
+          "name": "Jacoby Brissett",
+          "position": "QB",
+          "proTeam": "ARI",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 227.44,
+            "pointsPerGame": 16.245714285714286,
+            "stats": {
+              "passAtt": 485.0,
+              "passCmp": 315.0,
+              "passYds": 3366.0,
+              "passTD": 23.0,
+              "int": 8.0,
+              "rushAtt": 38.0,
+              "rushYds": 168.0,
+              "rushTD": 1.0,
+              "fumblesLost": 4.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4360248,
+          "name": "Kyle Pitts Sr.",
+          "position": "TE",
+          "proTeam": "ATL",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 166.8,
+            "pointsPerGame": 9.811764705882354,
+            "stats": {
+              "rec": 88.0,
+              "recYds": 928.0,
+              "recTD": 5.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4240657,
+          "name": "Michael Carter",
+          "position": "RB",
+          "proTeam": "ARI",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 82.5,
+            "pointsPerGame": 6.346153846153846,
+            "stats": {
+              "rushAtt": 92.0,
+              "rushYds": 333.0,
+              "rushTD": 1.0,
+              "rec": 33.0,
+              "recYds": 267.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 5081397,
+          "name": "Dylan Sampson",
+          "position": "RB",
+          "proTeam": "CLE",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 71.1,
+            "pointsPerGame": 4.739999999999999,
+            "stats": {
+              "rushAtt": 65.0,
+              "rushYds": 175.0,
+              "rec": 33.0,
+              "recYds": 271.0,
+              "recTD": 2.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 3916945,
+          "name": "Darius Slayton",
+          "position": "WR",
+          "proTeam": "NYG",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 80.3,
+            "pointsPerGame": 5.735714285714287,
+            "stats": {
+              "rec": 37.0,
+              "recYds": 538.0,
+              "recTD": 1.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        }
+      ]
     },
     {
       "id": 2,
@@ -124,7 +467,335 @@
       "points_against": 1606.8600000000001,
       "wins": 9,
       "losses": 5,
-      "ties": 0
+      "ties": 0,
+      "roster": [
+        {
+          "id": 4242335,
+          "name": "Jonathan Taylor",
+          "position": "RB",
+          "proTeam": "IND",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 339.3,
+            "pointsPerGame": 19.958823529411767,
+            "stats": {
+              "rushAtt": 323.0,
+              "rushYds": 1585.0,
+              "rushTD": 18.0,
+              "rec": 46.0,
+              "recYds": 378.0,
+              "recTD": 2.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4047646,
+          "name": "A.J. Brown",
+          "position": "WR",
+          "proTeam": "PHI",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 181.3,
+            "pointsPerGame": 12.086666666666668,
+            "stats": {
+              "rec": 78.0,
+              "recYds": 1003.0,
+              "recTD": 7.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 16737,
+          "name": "Mike Evans",
+          "position": "WR",
+          "proTeam": "TB",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 69.8,
+            "pointsPerGame": 8.725000000000001,
+            "stats": {
+              "rec": 30.0,
+              "recYds": 368.0,
+              "recTD": 3.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4035687,
+          "name": "Michael Pittman Jr.",
+          "position": "WR",
+          "proTeam": "IND",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 162.4,
+            "pointsPerGame": 9.552941176470588,
+            "stats": {
+              "rec": 80.0,
+              "recYds": 784.0,
+              "recTD": 7.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4569173,
+          "name": "Rhamondre Stevenson",
+          "position": "RB",
+          "proTeam": "NE",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 162.8,
+            "pointsPerGame": 11.62857142857143,
+            "stats": {
+              "rushAtt": 130.0,
+              "rushYds": 603.0,
+              "rushTD": 7.0,
+              "rec": 32.0,
+              "recYds": 345.0,
+              "recTD": 2.0,
+              "fumblesLost": 3.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4430878,
+          "name": "Jaxon Smith-Njigba",
+          "position": "WR",
+          "proTeam": "SEA",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 300.4,
+            "pointsPerGame": 17.670588235294115,
+            "stats": {
+              "rushAtt": 7.0,
+              "rushYds": 36.0,
+              "rec": 119.0,
+              "recYds": 1793.0,
+              "recTD": 10.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4239996,
+          "name": "Travis Etienne Jr.",
+          "position": "RB",
+          "proTeam": "JAX",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 235.9,
+            "pointsPerGame": 13.876470588235293,
+            "stats": {
+              "rushAtt": 260.0,
+              "rushYds": 1107.0,
+              "rushTD": 7.0,
+              "rec": 36.0,
+              "recYds": 292.0,
+              "recTD": 6.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4385690,
+          "name": "Dalton Kincaid",
+          "position": "TE",
+          "proTeam": "BUF",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 106.6,
+            "pointsPerGame": 8.883333333333333,
+            "stats": {
+              "rec": 39.0,
+              "recYds": 571.0,
+              "recTD": 5.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4361432,
+          "name": "Romeo Doubs",
+          "position": "WR",
+          "proTeam": "GB",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 137.9,
+            "pointsPerGame": 8.61875,
+            "stats": {
+              "rec": 55.0,
+              "recYds": 724.0,
+              "recTD": 6.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4360761,
+          "name": "Michael Wilson",
+          "position": "WR",
+          "proTeam": "ARI",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 181.6,
+            "pointsPerGame": 10.682352941176472,
+            "stats": {
+              "rec": 78.0,
+              "recYds": 1006.0,
+              "recTD": 7.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4242355,
+          "name": "Jake Ferguson",
+          "position": "TE",
+          "proTeam": "DAL",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 147.1,
+            "pointsPerGame": 8.652941176470588,
+            "stats": {
+              "rushAtt": 1.0,
+              "rushYds": 1.0,
+              "rec": 82.0,
+              "recYds": 600.0,
+              "recTD": 8.0,
+              "fumblesLost": 2.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4040761,
+          "name": "Devin Singletary",
+          "position": "RB",
+          "proTeam": "NYG",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 99.8,
+            "pointsPerGame": 5.870588235294118,
+            "stats": {
+              "rushAtt": 119.0,
+              "rushYds": 437.0,
+              "rushTD": 5.0,
+              "rec": 18.0,
+              "recYds": 151.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4682652,
+          "name": "Devin Neal",
+          "position": "RB",
+          "proTeam": "NO",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 51.5,
+            "pointsPerGame": 5.15,
+            "stats": {
+              "rushAtt": 57.0,
+              "rushYds": 206.0,
+              "rushTD": 2.0,
+              "rec": 17.0,
+              "recYds": 104.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": -16006,
+          "name": "Cowboys D/ST",
+          "position": "D/ST",
+          "proTeam": "DAL",
+          "injuryStatus": null,
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 37.0,
+            "pointsPerGame": 2.176470588235294,
+            "stats": {}
+          },
+          "priorSeason": null
+        },
+        {
+          "id": -16015,
+          "name": "Dolphins D/ST",
+          "position": "D/ST",
+          "proTeam": "MIA",
+          "injuryStatus": null,
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 77.0,
+            "pointsPerGame": 4.529411764705882,
+            "stats": {}
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4569682,
+          "name": "Audric Estime",
+          "position": "RB",
+          "proTeam": "NO",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 42.1,
+            "pointsPerGame": 6.014285714285714,
+            "stats": {
+              "rushAtt": 46.0,
+              "rushYds": 198.0,
+              "rushTD": 1.0,
+              "rec": 12.0,
+              "recYds": 103.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 3046779,
+          "name": "Jared Goff",
+          "position": "QB",
+          "proTeam": "DET",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 297.06,
+            "pointsPerGame": 17.474117647058822,
+            "stats": {
+              "passAtt": 578.0,
+              "passCmp": 393.0,
+              "passYds": 4564.0,
+              "passTD": 34.0,
+              "int": 8.0,
+              "rushAtt": 19.0,
+              "rushYds": 45.0,
+              "fumblesLost": 5.0
+            }
+          },
+          "priorSeason": null
+        }
+      ]
     },
     {
       "id": 3,
@@ -186,7 +857,320 @@
       "points_against": 1377.66,
       "wins": 8,
       "losses": 6,
-      "ties": 0
+      "ties": 0,
+      "roster": [
+        {
+          "id": 4241389,
+          "name": "CeeDee Lamb",
+          "position": "WR",
+          "proTeam": "DAL",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 163.4,
+            "pointsPerGame": 11.671428571428573,
+            "stats": {
+              "rushAtt": 1.0,
+              "rushYds": 2.0,
+              "rec": 75.0,
+              "recYds": 1077.0,
+              "recTD": 3.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4426502,
+          "name": "Drake London",
+          "position": "WR",
+          "proTeam": "ATL",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 167.9,
+            "pointsPerGame": 13.991666666666667,
+            "stats": {
+              "rec": 68.0,
+              "recYds": 919.0,
+              "recTD": 7.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4432710,
+          "name": "TreVeyon Henderson",
+          "position": "RB",
+          "proTeam": "NE",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 188.7,
+            "pointsPerGame": 11.100000000000001,
+            "stats": {
+              "rushAtt": 180.0,
+              "rushYds": 911.0,
+              "rushTD": 9.0,
+              "rec": 35.0,
+              "recYds": 221.0,
+              "recTD": 1.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 3128429,
+          "name": "Courtland Sutton",
+          "position": "WR",
+          "proTeam": "DEN",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 182.7,
+            "pointsPerGame": 10.74705882352941,
+            "stats": {
+              "rec": 74.0,
+              "recYds": 1017.0,
+              "recTD": 7.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 3916433,
+          "name": "Jakobi Meyers",
+          "position": "WR",
+          "proTeam": "JAX",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 138.3,
+            "pointsPerGame": 8.64375,
+            "stats": {
+              "rushAtt": 5.0,
+              "rushYds": 13.0,
+              "rec": 75.0,
+              "recYds": 835.0,
+              "recTD": 3.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4362238,
+          "name": "Chase Brown",
+          "position": "RB",
+          "proTeam": "CIN",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 248.1,
+            "pointsPerGame": 14.594117647058825,
+            "stats": {
+              "rushAtt": 232.0,
+              "rushYds": 1019.0,
+              "rushTD": 6.0,
+              "rec": 69.0,
+              "recYds": 437.0,
+              "recTD": 5.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4431459,
+          "name": "Tyler Warren",
+          "position": "TE",
+          "proTeam": "IND",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 150.5,
+            "pointsPerGame": 8.852941176470589,
+            "stats": {
+              "passAtt": 1.0,
+              "rushAtt": 6.0,
+              "rushYds": 8.0,
+              "rushTD": 1.0,
+              "rec": 76.0,
+              "recYds": 817.0,
+              "recTD": 4.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4426338,
+          "name": "Bo Nix",
+          "position": "QB",
+          "proTeam": "DEN",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 304.84,
+            "pointsPerGame": 17.931764705882355,
+            "stats": {
+              "passAtt": 612.0,
+              "passCmp": 388.0,
+              "passYds": 3931.0,
+              "passTD": 25.0,
+              "int": 11.0,
+              "rushAtt": 83.0,
+              "rushYds": 356.0,
+              "rushTD": 5.0,
+              "fumblesLost": 2.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4882093,
+          "name": "Bhayshul Tuten",
+          "position": "RB",
+          "proTeam": "JAX",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 83.6,
+            "pointsPerGame": 5.573333333333334,
+            "stats": {
+              "rushAtt": 83.0,
+              "rushYds": 307.0,
+              "rushTD": 5.0,
+              "rec": 10.0,
+              "recYds": 79.0,
+              "recTD": 2.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4429059,
+          "name": "Woody Marks",
+          "position": "RB",
+          "proTeam": "HOU",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 139.1,
+            "pointsPerGame": 8.69375,
+            "stats": {
+              "rushAtt": 196.0,
+              "rushYds": 703.0,
+              "rushTD": 2.0,
+              "rec": 24.0,
+              "recYds": 208.0,
+              "recTD": 3.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": -16017,
+          "name": "Patriots D/ST",
+          "position": "D/ST",
+          "proTeam": "NE",
+          "injuryStatus": null,
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 133.0,
+            "pointsPerGame": 7.823529411764706,
+            "stats": {}
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4429025,
+          "name": "Quentin Johnston",
+          "position": "WR",
+          "proTeam": "LAC",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 145.7,
+            "pointsPerGame": 10.407142857142857,
+            "stats": {
+              "rushAtt": 2.0,
+              "rushYds": 7.0,
+              "rec": 51.0,
+              "recYds": 735.0,
+              "recTD": 8.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4362619,
+          "name": "Chris Rodriguez Jr.",
+          "position": "RB",
+          "proTeam": "WSH",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 90.5,
+            "pointsPerGame": 6.961538461538462,
+            "stats": {
+              "rushAtt": 112.0,
+              "rushYds": 500.0,
+              "rushTD": 6.0,
+              "rec": 3.0,
+              "recYds": 30.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": -16028,
+          "name": "Commanders D/ST",
+          "position": "D/ST",
+          "proTeam": "WSH",
+          "injuryStatus": null,
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 44.0,
+            "pointsPerGame": 2.588235294117647,
+            "stats": {}
+          },
+          "priorSeason": null
+        },
+        {
+          "id": -16003,
+          "name": "Bears D/ST",
+          "position": "D/ST",
+          "proTeam": "CHI",
+          "injuryStatus": null,
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 94.0,
+            "pointsPerGame": 5.529411764705882,
+            "stats": {}
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4710855,
+          "name": "Konata Mumpfield",
+          "position": "WR",
+          "proTeam": "LAR",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 20.2,
+            "pointsPerGame": 1.1882352941176473,
+            "stats": {
+              "rec": 10.0,
+              "recYds": 92.0,
+              "recTD": 1.0
+            }
+          },
+          "priorSeason": null
+        }
+      ]
     },
     {
       "id": 4,
@@ -248,7 +1232,338 @@
       "points_against": 1254.82,
       "wins": 10,
       "losses": 4,
-      "ties": 0
+      "ties": 0,
+      "roster": [
+        {
+          "id": 4430807,
+          "name": "Bijan Robinson",
+          "position": "RB",
+          "proTeam": "ATL",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 331.3,
+            "pointsPerGame": 19.488235294117647,
+            "stats": {
+              "rushAtt": 287.0,
+              "rushYds": 1478.0,
+              "rushTD": 7.0,
+              "rec": 79.0,
+              "recYds": 820.0,
+              "recTD": 4.0,
+              "fumblesLost": 3.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 3054850,
+          "name": "Alvin Kamara",
+          "position": "RB",
+          "proTeam": "NO",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 84.2,
+            "pointsPerGame": 7.654545454545453,
+            "stats": {
+              "rushAtt": 131.0,
+              "rushYds": 471.0,
+              "rushTD": 1.0,
+              "rec": 33.0,
+              "recYds": 186.0,
+              "fumblesLost": 2.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4426388,
+          "name": "Jameson Williams",
+          "position": "WR",
+          "proTeam": "DET",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 187.4,
+            "pointsPerGame": 11.023529411764706,
+            "stats": {
+              "rushAtt": 6.0,
+              "rushYds": 12.0,
+              "rec": 65.0,
+              "recYds": 1117.0,
+              "recTD": 7.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4568490,
+          "name": "RJ Harvey",
+          "position": "RB",
+          "proTeam": "DEN",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 183.1,
+            "pointsPerGame": 10.770588235294117,
+            "stats": {
+              "passAtt": 1.0,
+              "rushAtt": 146.0,
+              "rushYds": 540.0,
+              "rushTD": 7.0,
+              "rec": 47.0,
+              "recYds": 356.0,
+              "recTD": 5.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4361579,
+          "name": "Javonte Williams",
+          "position": "RB",
+          "proTeam": "DAL",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 225.3,
+            "pointsPerGame": 14.08125,
+            "stats": {
+              "rushAtt": 252.0,
+              "rushYds": 1201.0,
+              "rushTD": 11.0,
+              "rec": 35.0,
+              "recYds": 137.0,
+              "recTD": 2.0,
+              "fumblesLost": 2.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4429205,
+          "name": "Jordan Addison",
+          "position": "WR",
+          "proTeam": "MIN",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 114.1,
+            "pointsPerGame": 8.15,
+            "stats": {
+              "rushAtt": 2.0,
+              "rushYds": 81.0,
+              "rushTD": 1.0,
+              "rec": 42.0,
+              "recYds": 610.0,
+              "recTD": 3.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4038941,
+          "name": "Justin Herbert",
+          "position": "QB",
+          "proTeam": "LAC",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 286.88,
+            "pointsPerGame": 17.93,
+            "stats": {
+              "passAtt": 512.0,
+              "passCmp": 340.0,
+              "passYds": 3727.0,
+              "passTD": 26.0,
+              "int": 13.0,
+              "rushAtt": 83.0,
+              "rushYds": 498.0,
+              "rushTD": 2.0,
+              "fumblesLost": 2.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": -16026,
+          "name": "Seahawks D/ST",
+          "position": "D/ST",
+          "proTeam": "SEA",
+          "injuryStatus": null,
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 185.0,
+            "pointsPerGame": 10.882352941176471,
+            "stats": {}
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 2576925,
+          "name": "Darren Waller",
+          "position": "TE",
+          "proTeam": "MIA",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 76.7,
+            "pointsPerGame": 8.522222222222222,
+            "stats": {
+              "rushAtt": 1.0,
+              "rushYds": 4.0,
+              "rec": 24.0,
+              "recYds": 283.0,
+              "recTD": 6.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4360310,
+          "name": "Trevor Lawrence",
+          "position": "QB",
+          "proTeam": "JAX",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 338.18,
+            "pointsPerGame": 19.89294117647059,
+            "stats": {
+              "passAtt": 560.0,
+              "passCmp": 341.0,
+              "passYds": 4007.0,
+              "passTD": 29.0,
+              "int": 12.0,
+              "rushAtt": 82.0,
+              "rushYds": 359.0,
+              "rushTD": 9.0,
+              "fumblesLost": 3.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 2991662,
+          "name": "Mack Hollins",
+          "position": "WR",
+          "proTeam": "NE",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 90.4,
+            "pointsPerGame": 6.026666666666667,
+            "stats": {
+              "rushAtt": 1.0,
+              "rushYds": 4.0,
+              "rec": 46.0,
+              "recYds": 550.0,
+              "recTD": 2.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4431268,
+          "name": "Chimere Dike",
+          "position": "WR",
+          "proTeam": "TEN",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 102.1,
+            "pointsPerGame": 6.0058823529411764,
+            "stats": {
+              "rushAtt": 11.0,
+              "rushYds": 18.0,
+              "rec": 48.0,
+              "recYds": 423.0,
+              "recTD": 4.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4432620,
+          "name": "Parker Washington",
+          "position": "WR",
+          "proTeam": "JAX",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 155.7,
+            "pointsPerGame": 9.73125,
+            "stats": {
+              "rushAtt": 7.0,
+              "rushYds": 0.0,
+              "rec": 58.0,
+              "recYds": 847.0,
+              "recTD": 5.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 2468609,
+          "name": "Taysom Hill",
+          "position": "TE",
+          "proTeam": "NO",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 36.28,
+            "pointsPerGame": 2.790769230769231,
+            "stats": {
+              "passAtt": 6.0,
+              "passCmp": 2.0,
+              "passYds": 57.0,
+              "passTD": 1.0,
+              "rushAtt": 52.0,
+              "rushYds": 114.0,
+              "rushTD": 1.0,
+              "rec": 11.0,
+              "recYds": 91.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4259147,
+          "name": "Jake Tonges",
+          "position": "TE",
+          "proTeam": "SF",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 76.3,
+            "pointsPerGame": 4.488235294117647,
+            "stats": {
+              "rec": 34.0,
+              "recYds": 293.0,
+              "recTD": 5.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": -16019,
+          "name": "Giants D/ST",
+          "position": "D/ST",
+          "proTeam": "NYG",
+          "injuryStatus": null,
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 62.0,
+            "pointsPerGame": 3.6470588235294117,
+            "stats": {}
+          },
+          "priorSeason": null
+        }
+      ]
     },
     {
       "id": 7,
@@ -310,7 +1625,321 @@
       "points_against": 1487.82,
       "wins": 3,
       "losses": 11,
-      "ties": 0
+      "ties": 0,
+      "roster": [
+        {
+          "id": 4040715,
+          "name": "Jalen Hurts",
+          "position": "QB",
+          "proTeam": "PHI",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 299.06,
+            "pointsPerGame": 18.69125,
+            "stats": {
+              "passAtt": 454.0,
+              "passCmp": 294.0,
+              "passYds": 3224.0,
+              "passTD": 25.0,
+              "int": 6.0,
+              "rushAtt": 105.0,
+              "rushYds": 421.0,
+              "rushTD": 8.0,
+              "fumblesLost": 4.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4683062,
+          "name": "Xavier Worthy",
+          "position": "WR",
+          "proTeam": "KC",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 88.9,
+            "pointsPerGame": 6.3500000000000005,
+            "stats": {
+              "rushAtt": 11.0,
+              "rushYds": 87.0,
+              "rec": 42.0,
+              "recYds": 532.0,
+              "recTD": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4575131,
+          "name": "Jacory Croskey-Merritt",
+          "position": "RB",
+          "proTeam": "WSH",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 135.8,
+            "pointsPerGame": 7.988235294117648,
+            "stats": {
+              "rushAtt": 175.0,
+              "rushYds": 805.0,
+              "rushTD": 8.0,
+              "rec": 9.0,
+              "recYds": 68.0,
+              "fumblesLost": 2.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 2976212,
+          "name": "Stefon Diggs",
+          "position": "WR",
+          "proTeam": "NE",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 167.8,
+            "pointsPerGame": 9.870588235294118,
+            "stats": {
+              "rec": 85.0,
+              "recYds": 1013.0,
+              "recTD": 4.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4036133,
+          "name": "T.J. Hockenson",
+          "position": "TE",
+          "proTeam": "MIN",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 87.3,
+            "pointsPerGame": 5.820000000000001,
+            "stats": {
+              "rushAtt": 1.0,
+              "rec": 51.0,
+              "recYds": 438.0,
+              "recTD": 3.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4877706,
+          "name": "Jayden Higgins",
+          "position": "WR",
+          "proTeam": "HOU",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 109.0,
+            "pointsPerGame": 6.411764705882353,
+            "stats": {
+              "rec": 41.0,
+              "recYds": 525.0,
+              "recTD": 6.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": -16016,
+          "name": "Vikings D/ST",
+          "position": "D/ST",
+          "proTeam": "MIN",
+          "injuryStatus": null,
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 131.0,
+            "pointsPerGame": 7.705882352941177,
+            "stats": {}
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4428718,
+          "name": "Tre Tucker",
+          "position": "WR",
+          "proTeam": "LV",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 133.2,
+            "pointsPerGame": 7.835294117647059,
+            "stats": {
+              "rushAtt": 11.0,
+              "rushYds": 51.0,
+              "rec": 57.0,
+              "recYds": 696.0,
+              "recTD": 5.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4431280,
+          "name": "Troy Franklin",
+          "position": "WR",
+          "proTeam": "DEN",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 144.6,
+            "pointsPerGame": 8.505882352941178,
+            "stats": {
+              "rushAtt": 5.0,
+              "rushYds": 12.0,
+              "rec": 65.0,
+              "recYds": 709.0,
+              "recTD": 6.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4259545,
+          "name": "D'Andre Swift",
+          "position": "RB",
+          "proTeam": "CHI",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 211.6,
+            "pointsPerGame": 13.225,
+            "stats": {
+              "rushAtt": 223.0,
+              "rushYds": 1087.0,
+              "rushTD": 9.0,
+              "rec": 34.0,
+              "recYds": 299.0,
+              "recTD": 1.0,
+              "fumblesLost": 2.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 3128720,
+          "name": "Nick Chubb",
+          "position": "RB",
+          "proTeam": "HOU",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 81.8,
+            "pointsPerGame": 5.453333333333333,
+            "stats": {
+              "rushAtt": 122.0,
+              "rushYds": 506.0,
+              "rushTD": 3.0,
+              "rec": 13.0,
+              "recYds": 67.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 16800,
+          "name": "Davante Adams",
+          "position": "WR",
+          "proTeam": "LAR",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 192.9,
+            "pointsPerGame": 13.778571428571428,
+            "stats": {
+              "rec": 60.0,
+              "recYds": 789.0,
+              "recTD": 14.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4432773,
+          "name": "Brian Thomas Jr.",
+          "position": "WR",
+          "proTeam": "JAX",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 114.8,
+            "pointsPerGame": 8.200000000000001,
+            "stats": {
+              "rushAtt": 3.0,
+              "rushYds": 21.0,
+              "rushTD": 1.0,
+              "rec": 48.0,
+              "recYds": 707.0,
+              "recTD": 2.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 12483,
+          "name": "Matthew Stafford",
+          "position": "QB",
+          "proTeam": "LAR",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 350.38,
+            "pointsPerGame": 20.610588235294117,
+            "stats": {
+              "passAtt": 597.0,
+              "passCmp": 388.0,
+              "passYds": 4707.0,
+              "passTD": 46.0,
+              "int": 8.0,
+              "rushAtt": 29.0,
+              "rushYds": 1.0,
+              "fumblesLost": 3.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4635008,
+          "name": "Keon Coleman",
+          "position": "WR",
+          "proTeam": "BUF",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 83.4,
+            "pointsPerGame": 6.415384615384616,
+            "stats": {
+              "rec": 38.0,
+              "recYds": 404.0,
+              "recTD": 4.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": -16002,
+          "name": "Bills D/ST",
+          "position": "D/ST",
+          "proTeam": "BUF",
+          "injuryStatus": null,
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 117.0,
+            "pointsPerGame": 6.882352941176471,
+            "stats": {}
+          },
+          "priorSeason": null
+        }
+      ]
     },
     {
       "id": 8,
@@ -372,7 +2001,340 @@
       "points_against": 1408.42,
       "wins": 4,
       "losses": 10,
-      "ties": 0
+      "ties": 0,
+      "roster": [
+        {
+          "id": 4262921,
+          "name": "Justin Jefferson",
+          "position": "WR",
+          "proTeam": "MIN",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 159.5,
+            "pointsPerGame": 9.382352941176471,
+            "stats": {
+              "rushAtt": 2.0,
+              "rushYds": 7.0,
+              "rec": 84.0,
+              "recYds": 1048.0,
+              "recTD": 2.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 3918298,
+          "name": "Josh Allen",
+          "position": "QB",
+          "proTeam": "BUF",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 364.62,
+            "pointsPerGame": 21.448235294117648,
+            "stats": {
+              "passAtt": 460.0,
+              "passCmp": 319.0,
+              "passYds": 3668.0,
+              "passTD": 25.0,
+              "int": 10.0,
+              "rushAtt": 112.0,
+              "rushYds": 579.0,
+              "rushTD": 14.0,
+              "fumblesLost": 3.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 3121422,
+          "name": "Terry McLaurin",
+          "position": "WR",
+          "proTeam": "WSH",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 95.2,
+            "pointsPerGame": 9.52,
+            "stats": {
+              "rec": 38.0,
+              "recYds": 582.0,
+              "recTD": 3.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4361529,
+          "name": "Isiah Pacheco",
+          "position": "RB",
+          "proTeam": "KC",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 77.8,
+            "pointsPerGame": 5.984615384615386,
+            "stats": {
+              "rushAtt": 118.0,
+              "rushYds": 462.0,
+              "rushTD": 1.0,
+              "rec": 19.0,
+              "recYds": 101.0,
+              "recTD": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 3042519,
+          "name": "Aaron Jones Sr.",
+          "position": "RB",
+          "proTeam": "MIN",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 104.7,
+            "pointsPerGame": 8.725000000000001,
+            "stats": {
+              "rushAtt": 132.0,
+              "rushYds": 548.0,
+              "rushTD": 2.0,
+              "rec": 28.0,
+              "recYds": 199.0,
+              "recTD": 1.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4429615,
+          "name": "Zay Flowers",
+          "position": "WR",
+          "proTeam": "BAL",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 200.3,
+            "pointsPerGame": 11.782352941176471,
+            "stats": {
+              "rushAtt": 10.0,
+              "rushYds": 62.0,
+              "rushTD": 1.0,
+              "rec": 86.0,
+              "recYds": 1211.0,
+              "recTD": 5.0,
+              "fumblesLost": 3.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 2977187,
+          "name": "Cooper Kupp",
+          "position": "WR",
+          "proTeam": "SEA",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 92.8,
+            "pointsPerGame": 5.800000000000001,
+            "stats": {
+              "passAtt": 1.0,
+              "int": 1.0,
+              "rec": 47.0,
+              "recYds": 593.0,
+              "recTD": 2.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 3116385,
+          "name": "Joe Mixon",
+          "position": "RB",
+          "proTeam": "HOU",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 0.0,
+            "pointsPerGame": 0.0,
+            "stats": {}
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4429275,
+          "name": "Trey Benson",
+          "position": "RB",
+          "proTeam": "ARI",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 28.9,
+            "pointsPerGame": 7.225,
+            "stats": {
+              "rushAtt": 29.0,
+              "rushYds": 160.0,
+              "rec": 13.0,
+              "recYds": 64.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4697815,
+          "name": "Rachaad White",
+          "position": "RB",
+          "proTeam": "TB",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 123.0,
+            "pointsPerGame": 7.235294117647059,
+            "stats": {
+              "rushAtt": 132.0,
+              "rushYds": 572.0,
+              "rushTD": 4.0,
+              "rec": 40.0,
+              "recYds": 218.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": -16023,
+          "name": "Steelers D/ST",
+          "position": "D/ST",
+          "proTeam": "PIT",
+          "injuryStatus": null,
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 113.0,
+            "pointsPerGame": 6.647058823529412,
+            "stats": {}
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4596448,
+          "name": "Bucky Irving",
+          "position": "RB",
+          "proTeam": "TB",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 123.5,
+            "pointsPerGame": 12.350000000000001,
+            "stats": {
+              "rushAtt": 173.0,
+              "rushYds": 588.0,
+              "rushTD": 1.0,
+              "rec": 30.0,
+              "recYds": 277.0,
+              "recTD": 3.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4429096,
+          "name": "Blake Corum",
+          "position": "RB",
+          "proTeam": "LAR",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 118.2,
+            "pointsPerGame": 6.952941176470588,
+            "stats": {
+              "rushAtt": 145.0,
+              "rushYds": 746.0,
+              "rushTD": 6.0,
+              "rec": 8.0,
+              "recYds": 36.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4360516,
+          "name": "Tyrone Tracy Jr.",
+          "position": "RB",
+          "proTeam": "NYG",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 142.8,
+            "pointsPerGame": 9.520000000000001,
+            "stats": {
+              "rushAtt": 176.0,
+              "rushYds": 740.0,
+              "rushTD": 2.0,
+              "rec": 36.0,
+              "recYds": 288.0,
+              "recTD": 2.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": -16008,
+          "name": "Lions D/ST",
+          "position": "D/ST",
+          "proTeam": "DET",
+          "injuryStatus": null,
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 91.0,
+            "pointsPerGame": 5.352941176470588,
+            "stats": {}
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4429013,
+          "name": "Tank Bigsby",
+          "position": "RB",
+          "proTeam": "PHI",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 52.3,
+            "pointsPerGame": 3.0764705882352943,
+            "stats": {
+              "rushAtt": 63.0,
+              "rushYds": 356.0,
+              "rushTD": 2.0,
+              "rec": 3.0,
+              "recYds": 32.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4243331,
+          "name": "Cade Otton",
+          "position": "TE",
+          "proTeam": "TB",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 92.7,
+            "pointsPerGame": 5.79375,
+            "stats": {
+              "rec": 59.0,
+              "recYds": 572.0,
+              "recTD": 1.0
+            }
+          },
+          "priorSeason": null
+        }
+      ]
     },
     {
       "id": 9,
@@ -434,7 +2396,325 @@
       "points_against": 1561.7399999999996,
       "wins": 5,
       "losses": 9,
-      "ties": 0
+      "ties": 0,
+      "roster": [
+        {
+          "id": 3929630,
+          "name": "Saquon Barkley",
+          "position": "RB",
+          "proTeam": "PHI",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 213.8,
+            "pointsPerGame": 13.3625,
+            "stats": {
+              "rushAtt": 280.0,
+              "rushYds": 1140.0,
+              "rushTD": 7.0,
+              "rec": 37.0,
+              "recYds": 273.0,
+              "recTD": 2.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4685382,
+          "name": "Omarion Hampton",
+          "position": "RB",
+          "proTeam": "LAC",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 119.7,
+            "pointsPerGame": 13.3,
+            "stats": {
+              "rushAtt": 124.0,
+              "rushYds": 545.0,
+              "rushTD": 4.0,
+              "rec": 32.0,
+              "recYds": 192.0,
+              "recTD": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 3915416,
+          "name": "DJ Moore",
+          "position": "WR",
+          "proTeam": "CHI",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 145.18,
+            "pointsPerGame": 8.540000000000001,
+            "stats": {
+              "passAtt": 1.0,
+              "passCmp": 1.0,
+              "passYds": 2.0,
+              "passTD": 1.0,
+              "rushAtt": 15.0,
+              "rushYds": 79.0,
+              "rushTD": 1.0,
+              "rec": 50.0,
+              "recYds": 682.0,
+              "recTD": 6.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4567750,
+          "name": "Emeka Egbuka",
+          "position": "WR",
+          "proTeam": "TB",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 164.2,
+            "pointsPerGame": 9.658823529411766,
+            "stats": {
+              "rushAtt": 2.0,
+              "rushYds": 9.0,
+              "rec": 63.0,
+              "recYds": 938.0,
+              "recTD": 6.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4428331,
+          "name": "Rashee Rice",
+          "position": "WR",
+          "proTeam": "KC",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 123.6,
+            "pointsPerGame": 15.45,
+            "stats": {
+              "rushAtt": 5.0,
+              "rushYds": 20.0,
+              "rushTD": 1.0,
+              "rec": 53.0,
+              "recYds": 571.0,
+              "recTD": 5.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 3123076,
+          "name": "David Njoku",
+          "position": "TE",
+          "proTeam": "CLE",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 69.8,
+            "pointsPerGame": 5.816666666666666,
+            "stats": {
+              "rec": 33.0,
+              "recYds": 293.0,
+              "recTD": 4.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 3886598,
+          "name": "Jauan Jennings",
+          "position": "WR",
+          "proTeam": "SF",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 145.8,
+            "pointsPerGame": 9.72,
+            "stats": {
+              "rec": 55.0,
+              "recYds": 643.0,
+              "recTD": 9.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4360569,
+          "name": "Jordan Mason",
+          "position": "RB",
+          "proTeam": "MIN",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 121.9,
+            "pointsPerGame": 7.6187499999999995,
+            "stats": {
+              "rushAtt": 159.0,
+              "rushYds": 758.0,
+              "rushTD": 6.0,
+              "rec": 14.0,
+              "recYds": 51.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": -16034,
+          "name": "Texans D/ST",
+          "position": "D/ST",
+          "proTeam": "HOU",
+          "injuryStatus": null,
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 173.0,
+            "pointsPerGame": 10.176470588235293,
+            "stats": {}
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4430737,
+          "name": "Kyren Williams",
+          "position": "RB",
+          "proTeam": "LAR",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 245.3,
+            "pointsPerGame": 14.42941176470588,
+            "stats": {
+              "rushAtt": 259.0,
+              "rushYds": 1252.0,
+              "rushTD": 10.0,
+              "rec": 36.0,
+              "recYds": 281.0,
+              "recTD": 3.0,
+              "fumblesLost": 2.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 3045523,
+          "name": "Kendrick Bourne",
+          "position": "WR",
+          "proTeam": "SF",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 73.6,
+            "pointsPerGame": 4.6,
+            "stats": {
+              "rec": 37.0,
+              "recYds": 551.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4808766,
+          "name": "Mason Taylor",
+          "position": "TE",
+          "proTeam": "NYJ",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 66.9,
+            "pointsPerGame": 5.1461538461538465,
+            "stats": {
+              "rec": 44.0,
+              "recYds": 369.0,
+              "recTD": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4248528,
+          "name": "Christian Watson",
+          "position": "WR",
+          "proTeam": "GB",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 114.9,
+            "pointsPerGame": 11.49,
+            "stats": {
+              "rushAtt": 1.0,
+              "rushYds": 3.0,
+              "rec": 35.0,
+              "recYds": 611.0,
+              "recTD": 6.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4036131,
+          "name": "Noah Fant",
+          "position": "TE",
+          "proTeam": "CIN",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 57.8,
+            "pointsPerGame": 3.853333333333333,
+            "stats": {
+              "rec": 34.0,
+              "recYds": 288.0,
+              "recTD": 3.0,
+              "fumblesLost": 3.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": -16030,
+          "name": "Jaguars D/ST",
+          "position": "D/ST",
+          "proTeam": "JAX",
+          "injuryStatus": null,
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 139.0,
+            "pointsPerGame": 8.176470588235293,
+            "stats": {}
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 14163,
+          "name": "Tyrod Taylor",
+          "position": "QB",
+          "proTeam": "NYJ",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 59.46,
+            "pointsPerGame": 9.91,
+            "stats": {
+              "passAtt": 134.0,
+              "passCmp": 80.0,
+              "passYds": 779.0,
+              "passTD": 5.0,
+              "int": 5.0,
+              "rushAtt": 27.0,
+              "rushYds": 143.0,
+              "rushTD": 1.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        }
+      ]
     },
     {
       "id": 10,
@@ -496,7 +2776,355 @@
       "points_against": 1548.8,
       "wins": 6,
       "losses": 8,
-      "ties": 0
+      "ties": 0,
+      "roster": [
+        {
+          "id": 4426515,
+          "name": "Puka Nacua",
+          "position": "WR",
+          "proTeam": "LAR",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 310.5,
+            "pointsPerGame": 19.40625,
+            "stats": {
+              "rushAtt": 10.0,
+              "rushYds": 105.0,
+              "rushTD": 1.0,
+              "rec": 129.0,
+              "recYds": 1715.0,
+              "recTD": 10.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 3043078,
+          "name": "Derrick Henry",
+          "position": "RB",
+          "proTeam": "BAL",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 272.0,
+            "pointsPerGame": 16.0,
+            "stats": {
+              "passAtt": 1.0,
+              "rushAtt": 307.0,
+              "rushYds": 1595.0,
+              "rushTD": 16.0,
+              "rec": 15.0,
+              "recYds": 150.0,
+              "fumblesLost": 3.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4427366,
+          "name": "Breece Hall",
+          "position": "RB",
+          "proTeam": "NYJ",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 189.66,
+            "pointsPerGame": 11.85375,
+            "stats": {
+              "passAtt": 1.0,
+              "passCmp": 1.0,
+              "passYds": 4.0,
+              "passTD": 1.0,
+              "rushAtt": 243.0,
+              "rushYds": 1065.0,
+              "rushTD": 4.0,
+              "rec": 36.0,
+              "recYds": 350.0,
+              "recTD": 1.0,
+              "fumblesLost": 2.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4372016,
+          "name": "Jaylen Waddle",
+          "position": "WR",
+          "proTeam": "MIA",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 162.12,
+            "pointsPerGame": 10.1325,
+            "stats": {
+              "passAtt": 1.0,
+              "passCmp": 1.0,
+              "passYds": 8.0,
+              "rushAtt": 2.0,
+              "rushYds": 28.0,
+              "rec": 64.0,
+              "recYds": 910.0,
+              "recTD": 6.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4241478,
+          "name": "DeVonta Smith",
+          "position": "WR",
+          "proTeam": "PHI",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 163.3,
+            "pointsPerGame": 9.605882352941178,
+            "stats": {
+              "rec": 77.0,
+              "recYds": 1008.0,
+              "recTD": 4.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4430027,
+          "name": "Sam LaPorta",
+          "position": "TE",
+          "proTeam": "DET",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 86.9,
+            "pointsPerGame": 9.655555555555557,
+            "stats": {
+              "rec": 40.0,
+              "recYds": 489.0,
+              "recTD": 3.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4373678,
+          "name": "Khalil Shakir",
+          "position": "WR",
+          "proTeam": "BUF",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 130.4,
+            "pointsPerGame": 8.15,
+            "stats": {
+              "rushAtt": 1.0,
+              "rushYds": 5.0,
+              "rec": 72.0,
+              "recYds": 719.0,
+              "recTD": 4.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4258173,
+          "name": "Nico Collins",
+          "position": "WR",
+          "proTeam": "HOU",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 190.7,
+            "pointsPerGame": 12.713333333333333,
+            "stats": {
+              "rushAtt": 2.0,
+              "rushYds": 15.0,
+              "rushTD": 1.0,
+              "rec": 71.0,
+              "recYds": 1117.0,
+              "recTD": 6.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4360438,
+          "name": "Brandon Aiyuk",
+          "position": "WR",
+          "proTeam": "SF",
+          "injuryStatus": "OUT",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 0.0,
+            "pointsPerGame": 0.0,
+            "stats": {}
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4241474,
+          "name": "Brian Robinson Jr.",
+          "position": "RB",
+          "proTeam": "SF",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 58.5,
+            "pointsPerGame": 3.4411764705882355,
+            "stats": {
+              "rushAtt": 92.0,
+              "rushYds": 400.0,
+              "rushTD": 2.0,
+              "rec": 8.0,
+              "recYds": 25.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4038441,
+          "name": "Justice Hill",
+          "position": "RB",
+          "proTeam": "BAL",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 54.7,
+            "pointsPerGame": 5.470000000000001,
+            "stats": {
+              "rushAtt": 18.0,
+              "rushYds": 93.0,
+              "rushTD": 2.0,
+              "rec": 21.0,
+              "recYds": 169.0,
+              "recTD": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": -16009,
+          "name": "Packers D/ST",
+          "position": "D/ST",
+          "proTeam": "GB",
+          "injuryStatus": null,
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 77.0,
+            "pointsPerGame": 4.529411764705882,
+            "stats": {}
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 3917792,
+          "name": "Daniel Jones",
+          "position": "QB",
+          "proTeam": "IND",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 226.44,
+            "pointsPerGame": 17.41846153846154,
+            "stats": {
+              "passAtt": 384.0,
+              "passCmp": 261.0,
+              "passYds": 3101.0,
+              "passTD": 19.0,
+              "int": 8.0,
+              "rushAtt": 45.0,
+              "rushYds": 164.0,
+              "rushTD": 5.0,
+              "fumblesLost": 3.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4596334,
+          "name": "Keaton Mitchell",
+          "position": "RB",
+          "proTeam": "BAL",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 50.9,
+            "pointsPerGame": 3.9153846153846157,
+            "stats": {
+              "rushAtt": 59.0,
+              "rushYds": 341.0,
+              "rushTD": 1.0,
+              "rec": 9.0,
+              "recYds": 63.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4427728,
+          "name": "Bam Knight",
+          "position": "RB",
+          "proTeam": "ARI",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 81.9,
+            "pointsPerGame": 6.825,
+            "stats": {
+              "rushAtt": 82.0,
+              "rushYds": 269.0,
+              "rushTD": 4.0,
+              "rec": 22.0,
+              "recYds": 160.0,
+              "recTD": 1.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 3929645,
+          "name": "Juwan Johnson",
+          "position": "TE",
+          "proTeam": "NO",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 141.4,
+            "pointsPerGame": 8.31764705882353,
+            "stats": {
+              "rec": 77.0,
+              "recYds": 889.0,
+              "recTD": 3.0,
+              "fumblesLost": 2.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4428850,
+          "name": "Dontayvion Wicks",
+          "position": "WR",
+          "proTeam": "GB",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 60.8,
+            "pointsPerGame": 4.342857142857143,
+            "stats": {
+              "rushAtt": 1.0,
+              "rushYds": 6.0,
+              "rec": 30.0,
+              "recYds": 332.0,
+              "recTD": 2.0
+            }
+          },
+          "priorSeason": null
+        }
+      ]
     },
     {
       "id": 11,
@@ -559,7 +3187,348 @@
       "points_against": 1451.6000000000001,
       "wins": 8,
       "losses": 6,
-      "ties": 0
+      "ties": 0,
+      "roster": [
+        {
+          "id": 4429795,
+          "name": "Jahmyr Gibbs",
+          "position": "RB",
+          "proTeam": "DET",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 328.4,
+            "pointsPerGame": 19.317647058823532,
+            "stats": {
+              "rushAtt": 243.0,
+              "rushYds": 1223.0,
+              "rushTD": 13.0,
+              "rec": 77.0,
+              "recYds": 616.0,
+              "recTD": 5.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4379399,
+          "name": "James Cook III",
+          "position": "RB",
+          "proTeam": "BUF",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 285.7,
+            "pointsPerGame": 16.80588235294118,
+            "stats": {
+              "rushAtt": 309.0,
+              "rushYds": 1621.0,
+              "rushTD": 12.0,
+              "rec": 33.0,
+              "recYds": 291.0,
+              "recTD": 2.0,
+              "fumblesLost": 3.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4432708,
+          "name": "Marvin Harrison Jr.",
+          "position": "WR",
+          "proTeam": "ARI",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 107.3,
+            "pointsPerGame": 8.941666666666668,
+            "stats": {
+              "rec": 41.0,
+              "recYds": 608.0,
+              "recTD": 4.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 15847,
+          "name": "Travis Kelce",
+          "position": "TE",
+          "proTeam": "KC",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 155.2,
+            "pointsPerGame": 9.129411764705882,
+            "stats": {
+              "rushAtt": 1.0,
+              "rushYds": 1.0,
+              "rec": 76.0,
+              "recYds": 851.0,
+              "recTD": 5.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4426385,
+          "name": "Zach Charbonnet",
+          "position": "RB",
+          "proTeam": "SEA",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 171.4,
+            "pointsPerGame": 10.7125,
+            "stats": {
+              "rushAtt": 184.0,
+              "rushYds": 730.0,
+              "rushTD": 12.0,
+              "rec": 20.0,
+              "recYds": 144.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 15818,
+          "name": "Keenan Allen",
+          "position": "WR",
+          "proTeam": "LAC",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 142.2,
+            "pointsPerGame": 8.36470588235294,
+            "stats": {
+              "rec": 81.0,
+              "recYds": 777.0,
+              "recTD": 4.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4430968,
+          "name": "Kimani Vidal",
+          "position": "RB",
+          "proTeam": "LAC",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 109.9,
+            "pointsPerGame": 8.453846153846154,
+            "stats": {
+              "rushAtt": 155.0,
+              "rushYds": 643.0,
+              "rushTD": 3.0,
+              "rec": 16.0,
+              "recYds": 136.0,
+              "recTD": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4426348,
+          "name": "Jayden Daniels",
+          "position": "QB",
+          "proTeam": "WSH",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 114.28,
+            "pointsPerGame": 16.325714285714287,
+            "stats": {
+              "passAtt": 188.0,
+              "passCmp": 114.0,
+              "passYds": 1262.0,
+              "passTD": 8.0,
+              "int": 3.0,
+              "rushAtt": 58.0,
+              "rushYds": 278.0,
+              "rushTD": 2.0,
+              "fumblesLost": 2.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 3126486,
+          "name": "Deebo Samuel",
+          "position": "WR",
+          "proTeam": "WSH",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 152.2,
+            "pointsPerGame": 9.5125,
+            "stats": {
+              "rushAtt": 17.0,
+              "rushYds": 75.0,
+              "rushTD": 1.0,
+              "rec": 72.0,
+              "recYds": 727.0,
+              "recTD": 5.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 3915511,
+          "name": "Joe Burrow",
+          "position": "QB",
+          "proTeam": "CIN",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 134.46,
+            "pointsPerGame": 16.8075,
+            "stats": {
+              "passAtt": 259.0,
+              "passCmp": 173.0,
+              "passYds": 1809.0,
+              "passTD": 17.0,
+              "int": 5.0,
+              "rushAtt": 14.0,
+              "rushYds": 41.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4429022,
+          "name": "Kayshon Boutte",
+          "position": "WR",
+          "proTeam": "NE",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 107.6,
+            "pointsPerGame": 7.685714285714285,
+            "stats": {
+              "rec": 33.0,
+              "recYds": 551.0,
+              "recTD": 6.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4361741,
+          "name": "Brock Purdy",
+          "position": "QB",
+          "proTeam": "SF",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 177.38,
+            "pointsPerGame": 19.70888888888889,
+            "stats": {
+              "passAtt": 284.0,
+              "passCmp": 197.0,
+              "passYds": 2167.0,
+              "passTD": 20.0,
+              "int": 10.0,
+              "rushAtt": 33.0,
+              "rushYds": 147.0,
+              "rushTD": 3.0,
+              "fumblesLost": 2.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 3046439,
+          "name": "Hunter Henry",
+          "position": "TE",
+          "proTeam": "NE",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 148.8,
+            "pointsPerGame": 8.75294117647059,
+            "stats": {
+              "rec": 60.0,
+              "recYds": 768.0,
+              "recTD": 7.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4569559,
+          "name": "Devaughn Vele",
+          "position": "WR",
+          "proTeam": "NO",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 53.8,
+            "pointsPerGame": 4.138461538461538,
+            "stats": {
+              "rec": 25.0,
+              "recYds": 293.0,
+              "recTD": 2.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4685278,
+          "name": "Luther Burden III",
+          "position": "WR",
+          "proTeam": "CHI",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 104.4,
+            "pointsPerGame": 6.96,
+            "stats": {
+              "rushAtt": 6.0,
+              "rushYds": 37.0,
+              "rec": 47.0,
+              "recYds": 652.0,
+              "recTD": 2.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": -16021,
+          "name": "Eagles D/ST",
+          "position": "D/ST",
+          "proTeam": "PHI",
+          "injuryStatus": null,
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 126.0,
+            "pointsPerGame": 7.411764705882353,
+            "stats": {}
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4361050,
+          "name": "Isaiah Likely",
+          "position": "TE",
+          "proTeam": "BAL",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 48.2,
+            "pointsPerGame": 3.442857142857143,
+            "stats": {
+              "rec": 27.0,
+              "recYds": 307.0,
+              "recTD": 1.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        }
+      ]
     },
     {
       "id": 12,
@@ -621,7 +3590,346 @@
       "points_against": 1335.9799999999998,
       "wins": 8,
       "losses": 6,
-      "ties": 0
+      "ties": 0,
+      "roster": [
+        {
+          "id": 4890973,
+          "name": "Ashton Jeanty",
+          "position": "RB",
+          "proTeam": "LV",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 217.6,
+            "pointsPerGame": 12.799999999999999,
+            "stats": {
+              "rushAtt": 266.0,
+              "rushYds": 975.0,
+              "rushTD": 5.0,
+              "rec": 55.0,
+              "recYds": 346.0,
+              "recTD": 5.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4612826,
+          "name": "Ladd McConkey",
+          "position": "WR",
+          "proTeam": "LAC",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 147.9,
+            "pointsPerGame": 9.24375,
+            "stats": {
+              "rec": 66.0,
+              "recYds": 789.0,
+              "recTD": 6.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4685472,
+          "name": "Tetairoa McMillan",
+          "position": "WR",
+          "proTeam": "CAR",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 176.4,
+            "pointsPerGame": 10.376470588235295,
+            "stats": {
+              "rec": 70.0,
+              "recYds": 1014.0,
+              "recTD": 7.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4819231,
+          "name": "Kaleb Johnson",
+          "position": "RB",
+          "proTeam": "PIT",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 8.3,
+            "pointsPerGame": 0.8300000000000001,
+            "stats": {
+              "rushAtt": 28.0,
+              "rushYds": 69.0,
+              "rec": 1.0,
+              "recYds": 9.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4685702,
+          "name": "Quinshon Judkins",
+          "position": "RB",
+          "proTeam": "CLE",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 156.8,
+            "pointsPerGame": 11.2,
+            "stats": {
+              "rushAtt": 230.0,
+              "rushYds": 827.0,
+              "rushTD": 7.0,
+              "rec": 26.0,
+              "recYds": 171.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4696981,
+          "name": "Cam Skattebo",
+          "position": "RB",
+          "proTeam": "NYG",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 115.7,
+            "pointsPerGame": 14.4625,
+            "stats": {
+              "rushAtt": 101.0,
+              "rushYds": 410.0,
+              "rushTD": 5.0,
+              "rec": 24.0,
+              "recYds": 207.0,
+              "recTD": 2.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4723086,
+          "name": "Colston Loveland",
+          "position": "TE",
+          "proTeam": "CHI",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 136.1,
+            "pointsPerGame": 8.50625,
+            "stats": {
+              "rushAtt": 1.0,
+              "rushYds": -2.0,
+              "rec": 58.0,
+              "recYds": 713.0,
+              "recTD": 6.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4431611,
+          "name": "Caleb Williams",
+          "position": "QB",
+          "proTeam": "CHI",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 317.18,
+            "pointsPerGame": 18.657647058823528,
+            "stats": {
+              "passAtt": 568.0,
+              "passCmp": 330.0,
+              "passYds": 3942.0,
+              "passTD": 27.0,
+              "int": 7.0,
+              "rushAtt": 77.0,
+              "rushYds": 383.0,
+              "rushTD": 3.0,
+              "rec": 2.0,
+              "recYds": 22.0,
+              "recTD": 1.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4883647,
+          "name": "Elic Ayomanor",
+          "position": "WR",
+          "proTeam": "TEN",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 96.0,
+            "pointsPerGame": 6.0,
+            "stats": {
+              "rec": 41.0,
+              "recYds": 515.0,
+              "recTD": 4.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 3121023,
+          "name": "Dallas Goedert",
+          "position": "TE",
+          "proTeam": "PHI",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 155.1,
+            "pointsPerGame": 10.34,
+            "stats": {
+              "rec": 60.0,
+              "recYds": 591.0,
+              "recTD": 11.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4688813,
+          "name": "Josh Downs",
+          "position": "WR",
+          "proTeam": "IND",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 107.4,
+            "pointsPerGame": 6.7125,
+            "stats": {
+              "rushAtt": 2.0,
+              "rushYds": -2.0,
+              "rec": 58.0,
+              "recYds": 566.0,
+              "recTD": 4.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4047365,
+          "name": "Josh Jacobs",
+          "position": "RB",
+          "proTeam": "GB",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 219.1,
+            "pointsPerGame": 14.606666666666667,
+            "stats": {
+              "rushAtt": 234.0,
+              "rushYds": 929.0,
+              "rushTD": 13.0,
+              "rec": 36.0,
+              "recYds": 282.0,
+              "recTD": 1.0,
+              "fumblesLost": 2.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 3116165,
+          "name": "Chris Godwin Jr.",
+          "position": "WR",
+          "proTeam": "TB",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 66.5,
+            "pointsPerGame": 7.388888888888889,
+            "stats": {
+              "rec": 33.0,
+              "recYds": 360.0,
+              "recTD": 2.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4360078,
+          "name": "Alec Pierce",
+          "position": "WR",
+          "proTeam": "IND",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 159.8,
+            "pointsPerGame": 10.653333333333334,
+            "stats": {
+              "rec": 47.0,
+              "recYds": 1003.0,
+              "recTD": 6.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4722893,
+          "name": "Jaleel McLaughlin",
+          "position": "RB",
+          "proTeam": "DEN",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 29.4,
+            "pointsPerGame": 3.675,
+            "stats": {
+              "rushAtt": 37.0,
+              "rushYds": 187.0,
+              "rushTD": 1.0,
+              "rec": 4.0,
+              "recYds": 27.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4597500,
+          "name": "Adonai Mitchell",
+          "position": "WR",
+          "proTeam": "NYJ",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 71.4,
+            "pointsPerGame": 4.4625,
+            "stats": {
+              "rushAtt": 1.0,
+              "rushYds": -4.0,
+              "rec": 33.0,
+              "recYds": 453.0,
+              "recTD": 2.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": -16029,
+          "name": "Panthers D/ST",
+          "position": "D/ST",
+          "proTeam": "CAR",
+          "injuryStatus": null,
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 98.0,
+            "pointsPerGame": 5.764705882352941,
+            "stats": {}
+          },
+          "priorSeason": null
+        }
+      ]
     },
     {
       "id": 13,
@@ -683,7 +3991,334 @@
       "points_against": 1576.5400000000002,
       "wins": 6,
       "losses": 8,
-      "ties": 0
+      "ties": 0,
+      "roster": [
+        {
+          "id": 3117251,
+          "name": "Christian McCaffrey",
+          "position": "RB",
+          "proTeam": "SF",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 365.6,
+            "pointsPerGame": 21.50588235294118,
+            "stats": {
+              "passAtt": 1.0,
+              "rushAtt": 311.0,
+              "rushYds": 1202.0,
+              "rushTD": 10.0,
+              "rec": 102.0,
+              "recYds": 924.0,
+              "recTD": 7.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4569618,
+          "name": "Garrett Wilson",
+          "position": "WR",
+          "proTeam": "NYJ",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 81.5,
+            "pointsPerGame": 10.1875,
+            "stats": {
+              "rec": 36.0,
+              "recYds": 395.0,
+              "recTD": 4.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4239993,
+          "name": "Tee Higgins",
+          "position": "WR",
+          "proTeam": "CIN",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 182.1,
+            "pointsPerGame": 12.140000000000002,
+            "stats": {
+              "rec": 59.0,
+              "recYds": 846.0,
+              "recTD": 11.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4035538,
+          "name": "David Montgomery",
+          "position": "RB",
+          "proTeam": "HOU",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 154.92,
+            "pointsPerGame": 9.112941176470589,
+            "stats": {
+              "passAtt": 2.0,
+              "passCmp": 1.0,
+              "passYds": 3.0,
+              "passTD": 1.0,
+              "rushAtt": 158.0,
+              "rushYds": 716.0,
+              "rushTD": 8.0,
+              "rec": 24.0,
+              "recYds": 192.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 3916148,
+          "name": "Tony Pollard",
+          "position": "RB",
+          "proTeam": "TEN",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 169.3,
+            "pointsPerGame": 9.958823529411763,
+            "stats": {
+              "rushAtt": 242.0,
+              "rushYds": 1082.0,
+              "rushTD": 5.0,
+              "rec": 33.0,
+              "recYds": 206.0,
+              "fumblesLost": 3.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 3116365,
+          "name": "Mark Andrews",
+          "position": "TE",
+          "proTeam": "BAL",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 107.0,
+            "pointsPerGame": 6.294117647058823,
+            "stats": {
+              "rushAtt": 10.0,
+              "rushYds": 48.0,
+              "rushTD": 1.0,
+              "rec": 48.0,
+              "recYds": 422.0,
+              "recTD": 5.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4431299,
+          "name": "Rome Odunze",
+          "position": "WR",
+          "proTeam": "CHI",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 124.1,
+            "pointsPerGame": 10.341666666666667,
+            "stats": {
+              "rec": 44.0,
+              "recYds": 661.0,
+              "recTD": 6.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 2577417,
+          "name": "Dak Prescott",
+          "position": "QB",
+          "proTeam": "DAL",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 313.78,
+            "pointsPerGame": 18.45764705882353,
+            "stats": {
+              "passAtt": 600.0,
+              "passCmp": 404.0,
+              "passYds": 4552.0,
+              "passTD": 30.0,
+              "int": 10.0,
+              "rushAtt": 53.0,
+              "rushYds": 177.0,
+              "rushTD": 2.0,
+              "fumblesLost": 2.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4362249,
+          "name": "Jayden Reed",
+          "position": "WR",
+          "proTeam": "GB",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 39.0,
+            "pointsPerGame": 5.571428571428571,
+            "stats": {
+              "rushAtt": 3.0,
+              "rushYds": 28.0,
+              "rec": 19.0,
+              "recYds": 207.0,
+              "recTD": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4428557,
+          "name": "Tyjae Spears",
+          "position": "RB",
+          "proTeam": "TEN",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 89.2,
+            "pointsPerGame": 6.861538461538462,
+            "stats": {
+              "rushAtt": 72.0,
+              "rushYds": 283.0,
+              "rushTD": 2.0,
+              "rec": 45.0,
+              "recYds": 264.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": -16005,
+          "name": "Browns D/ST",
+          "position": "D/ST",
+          "proTeam": "CLE",
+          "injuryStatus": null,
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 143.0,
+            "pointsPerGame": 8.411764705882353,
+            "stats": {}
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4689114,
+          "name": "Jaxson Dart",
+          "position": "QB",
+          "proTeam": "NYG",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 241.58,
+            "pointsPerGame": 17.255714285714284,
+            "stats": {
+              "passAtt": 339.0,
+              "passCmp": 216.0,
+              "passYds": 2272.0,
+              "passTD": 15.0,
+              "int": 5.0,
+              "rushAtt": 86.0,
+              "rushYds": 487.0,
+              "rushTD": 9.0,
+              "fumblesLost": 2.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4429148,
+          "name": "Theo Johnson",
+          "position": "TE",
+          "proTeam": "NYG",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 105.3,
+            "pointsPerGame": 7.0200000000000005,
+            "stats": {
+              "rec": 45.0,
+              "recYds": 528.0,
+              "recTD": 5.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4608810,
+          "name": "Tez Johnson",
+          "position": "WR",
+          "proTeam": "TB",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 78.4,
+            "pointsPerGame": 4.9,
+            "stats": {
+              "rushAtt": 7.0,
+              "rushYds": 22.0,
+              "rec": 28.0,
+              "recYds": 322.0,
+              "recTD": 5.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4567096,
+          "name": "John Metchie III",
+          "position": "WR",
+          "proTeam": "NYJ",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 55.4,
+            "pointsPerGame": 3.4625000000000004,
+            "stats": {
+              "rushAtt": 3.0,
+              "rushYds": -5.0,
+              "rec": 33.0,
+              "recYds": 274.0,
+              "recTD": 2.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4569603,
+          "name": "Malik Washington",
+          "position": "WR",
+          "proTeam": "MIA",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 93.7,
+            "pointsPerGame": 5.511764705882353,
+            "stats": {
+              "rushAtt": 17.0,
+              "rushYds": 110.0,
+              "rushTD": 1.0,
+              "rec": 46.0,
+              "recYds": 317.0,
+              "recTD": 3.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        }
+      ]
     },
     {
       "id": 14,
@@ -745,7 +4380,335 @@
       "points_against": 1470.58,
       "wins": 6,
       "losses": 8,
-      "ties": 0
+      "ties": 0,
+      "roster": [
+        {
+          "id": 4362628,
+          "name": "Ja'Marr Chase",
+          "position": "WR",
+          "proTeam": "CIN",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 251.1,
+            "pointsPerGame": 15.693750000000001,
+            "stats": {
+              "rushAtt": 3.0,
+              "rushYds": 14.0,
+              "rec": 125.0,
+              "recYds": 1412.0,
+              "recTD": 8.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4567048,
+          "name": "Kenneth Walker III",
+          "position": "RB",
+          "proTeam": "SEA",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 176.4,
+            "pointsPerGame": 10.376470588235293,
+            "stats": {
+              "rushAtt": 221.0,
+              "rushYds": 1027.0,
+              "rushTD": 5.0,
+              "rec": 31.0,
+              "recYds": 282.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4361307,
+          "name": "Trey McBride",
+          "position": "TE",
+          "proTeam": "ARI",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 252.9,
+            "pointsPerGame": 14.876470588235295,
+            "stats": {
+              "rec": 126.0,
+              "recYds": 1239.0,
+              "recTD": 11.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4428209,
+          "name": "Ricky Pearsall",
+          "position": "WR",
+          "proTeam": "SF",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 70.6,
+            "pointsPerGame": 7.844444444444445,
+            "stats": {
+              "rushAtt": 2.0,
+              "rushYds": -2.0,
+              "rec": 36.0,
+              "recYds": 528.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4569987,
+          "name": "Jaylen Warren",
+          "position": "RB",
+          "proTeam": "PIT",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 197.1,
+            "pointsPerGame": 12.318750000000001,
+            "stats": {
+              "rushAtt": 211.0,
+              "rushYds": 958.0,
+              "rushTD": 6.0,
+              "rec": 40.0,
+              "recYds": 333.0,
+              "recTD": 2.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 3052587,
+          "name": "Baker Mayfield",
+          "position": "QB",
+          "proTeam": "TB",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 271.92,
+            "pointsPerGame": 15.99529411764706,
+            "stats": {
+              "passAtt": 543.0,
+              "passCmp": 343.0,
+              "passYds": 3693.0,
+              "passTD": 26.0,
+              "int": 11.0,
+              "rushAtt": 55.0,
+              "rushYds": 382.0,
+              "rushTD": 1.0,
+              "fumblesLost": 3.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4032473,
+          "name": "Rashid Shaheed",
+          "position": "WR",
+          "proTeam": "SEA",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 127.1,
+            "pointsPerGame": 7.061111111111111,
+            "stats": {
+              "rushAtt": 9.0,
+              "rushYds": 69.0,
+              "rec": 59.0,
+              "recYds": 687.0,
+              "recTD": 2.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": -16007,
+          "name": "Broncos D/ST",
+          "position": "D/ST",
+          "proTeam": "DEN",
+          "injuryStatus": null,
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 144.0,
+            "pointsPerGame": 8.470588235294118,
+            "stats": {}
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4431452,
+          "name": "Drake Maye",
+          "position": "QB",
+          "proTeam": "NE",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 351.46,
+            "pointsPerGame": 20.67411764705882,
+            "stats": {
+              "passAtt": 492.0,
+              "passCmp": 354.0,
+              "passYds": 4394.0,
+              "passTD": 31.0,
+              "int": 8.0,
+              "rushAtt": 103.0,
+              "rushYds": 450.0,
+              "rushTD": 4.0,
+              "rec": 1.0,
+              "recYds": 2.0,
+              "fumblesLost": 3.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4569587,
+          "name": "Wan'Dale Robinson",
+          "position": "WR",
+          "proTeam": "NYG",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 171.9,
+            "pointsPerGame": 10.74375,
+            "stats": {
+              "rushAtt": 3.0,
+              "rushYds": 5.0,
+              "rec": 92.0,
+              "recYds": 1014.0,
+              "recTD": 4.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4371733,
+          "name": "Kenneth Gainwell",
+          "position": "RB",
+          "proTeam": "PIT",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 184.8,
+            "pointsPerGame": 10.870588235294116,
+            "stats": {
+              "rushAtt": 114.0,
+              "rushYds": 537.0,
+              "rushTD": 5.0,
+              "rec": 73.0,
+              "recYds": 486.0,
+              "recTD": 3.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4608686,
+          "name": "Kyle Monangai",
+          "position": "RB",
+          "proTeam": "CHI",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 137.7,
+            "pointsPerGame": 8.100000000000001,
+            "stats": {
+              "rushAtt": 169.0,
+              "rushYds": 783.0,
+              "rushTD": 5.0,
+              "rec": 18.0,
+              "recYds": 164.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4241463,
+          "name": "Jerry Jeudy",
+          "position": "WR",
+          "proTeam": "CLE",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 95.7,
+            "pointsPerGame": 5.629411764705883,
+            "stats": {
+              "rushAtt": 1.0,
+              "rushYds": 5.0,
+              "rec": 50.0,
+              "recYds": 602.0,
+              "recTD": 2.0,
+              "fumblesLost": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4430871,
+          "name": "Sean Tucker",
+          "position": "RB",
+          "proTeam": "TB",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 87.4,
+            "pointsPerGame": 5.141176470588236,
+            "stats": {
+              "rushAtt": 86.0,
+              "rushYds": 320.0,
+              "rushTD": 7.0,
+              "rec": 8.0,
+              "recYds": 34.0,
+              "recTD": 1.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4887558,
+          "name": "Emanuel Wilson",
+          "position": "RB",
+          "proTeam": "GB",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 87.0,
+            "pointsPerGame": 5.117647058823529,
+            "stats": {
+              "rushAtt": 125.0,
+              "rushYds": 496.0,
+              "rushTD": 3.0,
+              "rec": 15.0,
+              "recYds": 99.0
+            }
+          },
+          "priorSeason": null
+        },
+        {
+          "id": 4040655,
+          "name": "Darnell Mooney",
+          "position": "WR",
+          "proTeam": "ATL",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 66.3,
+            "pointsPerGame": 4.420000000000001,
+            "stats": {
+              "rec": 32.0,
+              "recYds": 443.0,
+              "recTD": 1.0
+            }
+          },
+          "priorSeason": null
+        }
+      ]
     }
   ],
   "members": [

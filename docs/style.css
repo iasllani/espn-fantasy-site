@@ -203,6 +203,68 @@ td.num, th.num { text-align: right; }
   gap: 16px;
 }
 
+tr.clickable-row { cursor: pointer; }
+tr.clickable-row:hover td { background: var(--panel-2); }
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 40px 16px;
+  overflow-y: auto;
+  z-index: 100;
+}
+
+.modal-overlay[hidden] { display: none; }
+
+.modal-card {
+  position: relative;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 24px;
+  max-width: 700px;
+  width: 100%;
+}
+
+.modal-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: transparent;
+  border: none;
+  color: var(--muted);
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 4px 8px;
+}
+
+.modal-close:hover { color: var(--text); }
+
+.player-row {
+  border-bottom: 1px solid var(--border);
+  padding: 12px 0;
+}
+
+.player-row:last-child { border-bottom: none; }
+
+.player-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.player-outlook {
+  color: var(--muted);
+  font-size: 13px;
+  margin: 6px 0 0;
+}
+
 @media (max-width: 640px) {
   .grid-2 { grid-template-columns: 1fr; }
   table { font-size: 12px; }

@@ -21,14 +21,13 @@ from pathlib import Path
 
 import anthropic
 
+from owner_resolution import resolve_owner_name
+from ai_tone import TONE_GUARDRAIL
+
 MODEL = "claude-haiku-4-5"
 
-SYSTEM_PROMPT = """You write crude, trash-talking one-liners for a private \
-fantasy football league's "Hall of Shame" website. The tone is deliberately \
-vulgar and mean -- these are close friends who fully expect to get clowned. \
-Keep it playful-mean, not genuinely hateful: no slurs, nothing about \
-protected traits (race, religion, gender, disability, etc). Just fantasy \
-football incompetence, roasted the way it deserves.
+SYSTEM_PROMPT = f"""You write crude, trash-talking one-liners for a private \
+fantasy football league's "Hall of Shame" website. {TONE_GUARDRAIL}
 
 You will be given one league member's real career stats. Write exactly 3 \
 short, distinct one-line roasts based on those specific stats -- reference \
@@ -38,6 +37,17 @@ structure and angle of attack between the 3 lines.
 
 Respond with ONLY the 3 roast lines, one per line, nothing else -- no \
 numbering, no quotes, no preamble, no explanation."""
+
+ROSTER_SYSTEM_PROMPT = f"""You write one short, crude roast about an entire \
+fantasy football roster, for a private league's website. {TONE_GUARDRAIL}
+
+You will be given one team's full roster with each player's position, NFL \
+team, injury status, and points scored. Write exactly 2-3 sentences \
+roasting the roster as a whole -- bad draft picks, wasted bench spots, \
+injury-prone guys, boring lineup choices, whatever stands out. Reference \
+specific players by name.
+
+Respond with ONLY the roast text, nothing else -- no preamble, no labels."""
 
 
 def owner_stats(name, agg):
@@ -62,33 +72,6 @@ def owner_stats(name, agg):
         worst_record = f"{worst['wins']}-{worst['losses']}" + (f"-{worst['ties']}" if worst["ties"] else "")
         lines.append(f"Worst season: {worst['year']}, went {worst_record}")
     return "\n".join(lines)
-
-
-def team_display_name(team):
-    name = (team.get("name") or "").strip()
-    if name:
-        return name
-    parts = [p for p in [team.get("location"), team.get("nickname")] if p]
-    return " ".join(parts).strip() or f"Team {team.get('id')}"
-
-
-def resolve_owner_name(team, season, owners):
-    team_name = team_display_name(team)
-    current = owners.get("currentTeamNames", {})
-    if team_name in current:
-        return current[team_name]
-
-    overrides = owners.get("memberNameOverrides", {})
-    for member_id in team.get("owners", []):
-        if member_id in overrides:
-            return overrides[member_id]
-
-    member_ids = set(team.get("owners", []))
-    for member in season.get("members", []):
-        if member.get("id") in member_ids and member.get("displayName"):
-            return member["displayName"]
-
-    return f"{team_name} (unmapped)"
 
 
 def build_owner_aggregates(seasons, owners):
@@ -123,6 +106,41 @@ def generate_roasts_for_owner(client, name, agg):
     text = "".join(block.text for block in response.content if block.type == "text")
     lines = [line.strip(" -•\"'") for line in text.splitlines() if line.strip()]
     return lines[:3]
+
+
+def current_rosters_by_owner(seasons, owners):
+    if not seasons:
+        return {}
+    latest = seasons[-1]
+    return {
+        resolve_owner_name(team, latest, owners): team.get("roster", [])
+        for team in latest.get("teams", [])
+    }
+
+
+def roster_summary_for_prompt(roster):
+    lines = []
+    for p in roster:
+        cur_pts = (p.get("currentSeason") or {}).get("points") or 0
+        prior = p.get("priorSeason") or {}
+        prior_pts = prior.get("points")
+        status = f" ({p['injuryStatus']})" if p.get("injuryStatus") and p["injuryStatus"] != "ACTIVE" else ""
+        prior_str = f", {prior_pts:.1f} pts last season" if prior_pts is not None else ", no games last season"
+        lines.append(f"- {p['name']} ({p['position']}, {p['proTeam']}){status}: {cur_pts:.1f} pts this season{prior_str}")
+    return "\n".join(lines)
+
+
+def generate_roster_joke(client, owner_name, roster):
+    if not roster:
+        return None
+    response = client.messages.create(
+        model=MODEL,
+        max_tokens=300,
+        system=ROSTER_SYSTEM_PROMPT,
+        messages=[{"role": "user", "content": f"Owner: {owner_name}\n\nRoster:\n{roster_summary_for_prompt(roster)}"}],
+    )
+    text = "".join(block.text for block in response.content if block.type == "text").strip()
+    return text or None
 
 
 def main():
@@ -162,13 +180,29 @@ def main():
         except anthropic.APIConnectionError as e:
             print(f"  {name}: connection error ({e}), skipping -- site will use template fallback", file=sys.stderr)
 
+    rosters = current_rosters_by_owner(seasons, owners)
+    roster_jokes = {}
+    for name, roster in rosters.items():
+        if "(unmapped)" in name:
+            continue
+        try:
+            joke = generate_roster_joke(client, name, roster)
+            if joke:
+                roster_jokes[name] = joke
+                print(f"  {name}: roster joke generated")
+        except anthropic.APIStatusError as e:
+            print(f"  {name}: roster joke API error ({e.status_code}), skipping", file=sys.stderr)
+        except anthropic.APIConnectionError as e:
+            print(f"  {name}: roster joke connection error ({e}), skipping", file=sys.stderr)
+
     output = {
         "generatedAt": datetime.datetime.now(datetime.timezone.utc).isoformat(),
         "model": MODEL,
         "roasts": roasts,
+        "rosterJokes": roster_jokes,
     }
     (data_dir / "ai_roasts.json").write_text(json.dumps(output, indent=2), encoding="utf-8")
-    print(f"\nDone. Wrote AI roasts for {len(roasts)} owner(s).")
+    print(f"\nDone. Wrote AI roasts for {len(roasts)} owner(s), roster jokes for {len(roster_jokes)} owner(s).")
 
 
 if __name__ == "__main__":

@@ -33,15 +33,22 @@ Add two secrets:
 These are only ever used inside the GitHub Actions runner (`.github/workflows/update-data.yml`)
 and are encrypted at rest by GitHub.
 
-### Optional: AI-generated roasts
+### Optional: AI-generated content
 
 If you add a third secret, `ANTHROPIC_API_KEY` (from console.anthropic.com —
 note this is a separate paid API account, not a Claude Pro subscription),
-the weekly Action will also call Claude to write fresh, stat-specific roast
-lines for every owner instead of picking from a fixed set of templates.
-Cost is negligible (well under $1/season at the default model). If this
-secret isn't set, the site just falls back to the built-in template roasts —
-nothing breaks.
+the weekly Action also calls Claude (explicit language, on purpose) to
+write:
+- fresh, stat-specific roast lines for every owner, in place of the fixed
+  template bank
+- one roast of each owner's current roster as a whole
+- an explicit recap of last week's matchups and a trash-talk preview of
+  this week's
+
+Cost is small (a few dollars per season at most, depending on roster size —
+still far under what a $5 prepaid balance covers). If this secret isn't
+set, roasts fall back to templates and matchup blurbs fall back to plain
+factual text — nothing breaks either way.
 
 ## 3. Turn on GitHub Pages
 
@@ -93,4 +100,16 @@ pushing.
 - Hall of Shame roasts every owner individually, not just the league-wide
   extremes. With `ANTHROPIC_API_KEY` set, those per-owner roasts are
   AI-generated fresh each week from real stats; otherwise they're drawn from
-  a template bank baked into `docs/app.js`.
+  a template bank baked into `docs/app.js`. Former league members who left
+  the league are shown separately at the bottom, under their own divider.
+- The "This Week" tab shows a preview of the upcoming matchups and a recap
+  of the last completed week.
+- Clicking any team on the Standings tab opens its current roster: each
+  player's position, NFL team, injury status, this-season and last-season
+  stats (passing/rushing/receiving lines where applicable), ESPN's own
+  real "season outlook" blurb, and one AI-written roast of the roster as a
+  whole. Roster/player stat data comes from ESPN's `mRoster` view; the raw
+  stat categories ESPN returns are numeric IDs with no public mapping, so
+  `scripts/fetch_espn_data.py` only surfaces the ones verified against real
+  data (passing/rushing/receiving yards, TDs, INTs, receptions, fumbles
+  lost) rather than guessing at the rest (kicking/defense detail, etc).

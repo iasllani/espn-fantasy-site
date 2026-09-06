@@ -14,6 +14,7 @@
 
   <nav class="tabs">
     <button data-tab="standings" class="active">Standings</button>
+    <button data-tab="weekly">This Week</button>
     <button data-tab="alltime">All-Time</button>
     <button data-tab="roasts">Hall of Shame</button>
     <button data-tab="h2h">Head-to-Head</button>
@@ -23,6 +24,11 @@
     <section id="tab-standings" class="panel">
       <h2><span class="emoji">📊</span>Current Season Standings</h2>
       <div id="standings-content"><p class="empty-state">Loading...</p></div>
+    </section>
+
+    <section id="tab-weekly" class="panel" hidden>
+      <h2><span class="emoji">🏈</span>This Week's Beatdowns</h2>
+      <div id="weekly-content"><p class="empty-state">Loading...</p></div>
     </section>
 
     <section id="tab-alltime" class="panel" hidden>
@@ -42,6 +48,13 @@
 
     <p class="footer-note">Data pulled from ESPN Fantasy Football. Refreshed automatically. Take every roast with a grain of salt (and a beer).</p>
   </main>
+
+  <div id="roster-modal" class="modal-overlay" hidden>
+    <div class="modal-card">
+      <button id="roster-modal-close" class="modal-close" aria-label="Close">&times;</button>
+      <div id="roster-modal-body"></div>
+    </div>
+  </div>
 
   <script src="app.js"></script>
 </body>

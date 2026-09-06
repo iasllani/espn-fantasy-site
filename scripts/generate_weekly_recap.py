@@ -25,7 +25,7 @@ from pathlib import Path
 import anthropic
 
 from owner_resolution import resolve_owner_name
-from ai_tone import TONE_GUARDRAIL
+from ai_tone import TONE_GUARDRAIL, looks_like_refusal
 
 MODEL = "claude-haiku-4-5"
 
@@ -121,7 +121,9 @@ def build_recap(client, m, teams_by_id, season, owners):
                 messages=[{"role": "user", "content": recap_prompt(winner, loser, winner_score, loser_score)}],
             )
             text = "".join(b.text for b in response.content if b.type == "text").strip()
-            if text:
+            if response.stop_reason == "refusal" or looks_like_refusal(text):
+                print(f"  {winner} vs {loser}: model declined, using fallback recap", file=sys.stderr)
+            elif text:
                 recap = text
         except anthropic.APIStatusError as e:
             print(f"  {winner} vs {loser}: API error ({e.status_code}), using fallback recap", file=sys.stderr)
@@ -153,7 +155,9 @@ def build_preview(client, m, teams_by_id, season, owners):
                 messages=[{"role": "user", "content": preview_prompt(home_name, home_record, away_name, away_record)}],
             )
             text = "".join(b.text for b in response.content if b.type == "text").strip()
-            if text:
+            if response.stop_reason == "refusal" or looks_like_refusal(text):
+                print(f"  {home_name} vs {away_name}: model declined, using fallback preview", file=sys.stderr)
+            elif text:
                 preview = text
         except anthropic.APIStatusError as e:
             print(f"  {home_name} vs {away_name}: API error ({e.status_code}), using fallback preview", file=sys.stderr)

@@ -22,7 +22,7 @@ from pathlib import Path
 import anthropic
 
 from owner_resolution import resolve_owner_name
-from ai_tone import TONE_GUARDRAIL
+from ai_tone import TONE_GUARDRAIL, looks_like_refusal
 
 MODEL = "claude-haiku-4-5"
 
@@ -104,6 +104,8 @@ def generate_roasts_for_owner(client, name, agg):
         messages=[{"role": "user", "content": owner_stats(name, agg)}],
     )
     text = "".join(block.text for block in response.content if block.type == "text")
+    if response.stop_reason == "refusal" or looks_like_refusal(text):
+        return []  # docs/app.js falls back to its own template lines for this owner
     lines = [line.strip(" -•\"'") for line in text.splitlines() if line.strip()]
     return lines[:3]
 
@@ -140,6 +142,8 @@ def generate_roster_joke(client, owner_name, roster):
         messages=[{"role": "user", "content": f"Owner: {owner_name}\n\nRoster:\n{roster_summary_for_prompt(roster)}"}],
     )
     text = "".join(block.text for block in response.content if block.type == "text").strip()
+    if response.stop_reason == "refusal" or looks_like_refusal(text):
+        return None
     return text or None
 
 

@@ -44,10 +44,16 @@ previews for upcoming fantasy football matchups on a private league's \
 website. {TONE_GUARDRAIL}
 
 You will be given two teams facing off this week, with their season \
-records so far. Write a 2-3 sentence hype/trash-talk preview that roasts \
-both sides based on their record -- this game hasn't happened yet, so \
-don't invent a score or a result, just talk shit about who they are and \
-why they're going to choke.
+records so far. Write a 2-3 sentence hype/trash-talk preview -- this game \
+hasn't happened yet, so don't invent a score or a result, just talk shit \
+about who they are and why they're going to choke.
+
+If both records are 0-0 (preseason or week 1, nothing played yet), that's \
+completely normal -- do NOT decline or say there's nothing to roast. \
+Instead go after their draft-day decisions, name/reputation within the \
+league, or just pure hype trash talk about who's going to embarrass \
+themselves this week. There is always something to roast; never refuse \
+because the record is empty.
 
 Respond with ONLY the preview text, nothing else -- no preamble, no labels."""
 

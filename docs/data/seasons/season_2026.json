@@ -1747,12 +1747,34 @@
               "recYds": 16.0
             }
           }
+        },
+        {
+          "id": 4361409,
+          "name": "Jahan Dotson",
+          "position": "WR",
+          "proTeam": "ATL",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 0.0,
+            "pointsPerGame": 0.0,
+            "stats": {}
+          },
+          "priorSeason": {
+            "points": 41.2,
+            "pointsPerGame": 2.423529411764706,
+            "stats": {
+              "rec": 18.0,
+              "recYds": 262.0,
+              "recTD": 1.0
+            }
+          }
         }
       ]
     },
     {
       "id": 7,
-      "name": "Little Bill!",
+      "name": "Rrrrrrrrico",
       "location": null,
       "nickname": null,
       "abbrev": "RAH",
@@ -3021,6 +3043,24 @@
             "stats": {}
           },
           "priorSeason": null
+        },
+        {
+          "id": 16733,
+          "name": "Odell Beckham Jr.",
+          "position": "WR",
+          "proTeam": "NYG",
+          "injuryStatus": "ACTIVE",
+          "seasonOutlook": null,
+          "currentSeason": {
+            "points": 0.0,
+            "pointsPerGame": 0.0,
+            "stats": {}
+          },
+          "priorSeason": {
+            "points": 0.0,
+            "pointsPerGame": 0.0,
+            "stats": {}
+          }
         }
       ]
     },
@@ -3866,44 +3906,34 @@
           }
         },
         {
-          "id": 4382466,
-          "name": "Jalen Nailor",
-          "position": "WR",
-          "proTeam": "LV",
+          "id": 4832955,
+          "name": "Emmett Johnson",
+          "position": "RB",
+          "proTeam": "KC",
           "injuryStatus": "ACTIVE",
-          "seasonOutlook": "Nailor signed with the Raiders and will battle the likes of Tre Tucker and second-year receivers Jack Bech and Dont'e Thornton Jr. for a starting gig in Las Vegas' new-look offense. Nailor was a rarely used commodity during his first four NFL seasons, all with the Vikings. The 2022 sixth-round pick totaled a 69-1,066-11 receiving line and never reached 30 catches or 450 yards in a single season. In fact, he's yet to clear six targets in a game. The 27-year-old very well could lock down a starting job in Las Vegas, but he's a long shot to make the big leap to consistent fantasy output in his fifth professional season. He's no more than a late-round wild card in deep leagues.",
+          "seasonOutlook": "Johnson was selected by the Chiefs in the fifth round of April's draft. His career 3.4 forced missed tackle rate is fourth best in this RB rookie class and his elusiveness helped him to 1,451 rushing yards (fourth in the nation and first in this class) last season. His lack of speed -- last among 10 RBs who ran the 40-yard dash (4.56) and speed score (93) at the combine -- and size limits him after initial contact (career 2.86 YAC), but he can help out in the passing game (92 collegiate receptions). Johnson and Brashard Smith are set to handle No. 2/3 duties behind Kenneth Walker III. Smith will be worth rostering only if Walker misses action.",
           "currentSeason": {
             "points": 0.0,
             "pointsPerGame": 0.0,
             "stats": {}
           },
-          "priorSeason": {
-            "points": 86.2,
-            "pointsPerGame": 5.070588235294117,
-            "stats": {
-              "rushAtt": 2.0,
-              "rushYds": 13.0,
-              "rec": 29.0,
-              "recYds": 444.0,
-              "recTD": 4.0
-            }
-          }
+          "priorSeason": null
         },
         {
-          "id": -16016,
-          "name": "Vikings D/ST",
+          "id": -16030,
+          "name": "Jaguars D/ST",
           "position": "D/ST",
-          "proTeam": "MIN",
+          "proTeam": "JAX",
           "injuryStatus": null,
-          "seasonOutlook": "Brian Flores' blitz-happy defense has managed exactly 49 sacks, fourth-most in the league, in each of the past two seasons, playing a big part in the team finishing among the position's top seven in fantasy scoring in each of those years. Though Jonathan Allen and Jonathan Greenard are no longer with the team, the Vikings' draft selections of DTs Caleb Banks and Domonique Orange should at least keep them competitive up front. That said, the Vikings face a brutal opening schedule (GB, Week 1; @CHI, Week 2) and have one of the toughest second-half schedules in the league. Be prepared to pivot if this D/ST starts slowly.",
+          "seasonOutlook": "Anthony Campanile's defense was one of the most surprisingly productive of 2025, finishing fifth in fantasy points, and the team was fortunate to get him back for this year. That said, the team had modest sack and fumble recovery numbers, and it did lose LB Devin Lloyd and CB Greg Newsome over the offseason. Fantasy managers can still freely select this defense, knowing it has one of the best opening-week matchups by hosting the Browns, but they'll likely need to swap them out for Weeks 2 through 6 (@DEN, NE, @CIN, PHI, HOU).",
           "currentSeason": {
             "points": 0.0,
             "pointsPerGame": 0.0,
             "stats": {}
           },
           "priorSeason": {
-            "points": 131.0,
-            "pointsPerGame": 7.705882352941177,
+            "points": 139.0,
+            "pointsPerGame": 8.176470588235293,
             "stats": {}
           }
         }
@@ -6394,7 +6424,7 @@
     "standingsUpdateDate": 1788579760452,
     "teamsJoined": 12,
     "transactionScoringPeriod": 1,
-    "waiverLastExecutionDate": 1788592129585,
+    "waiverLastExecutionDate": 1788851516275,
     "waiverProcessStatus": {}
   }
 }

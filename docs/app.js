@@ -570,6 +570,33 @@ function renderAllTime(ownerAggs) {
   el.innerHTML = html;
 }
 
+function renderSeasonPodiums(seasons, owners) {
+  const el = document.getElementById("podiums-content");
+  if (!seasons.length) { el.innerHTML = '<p class="empty-state">No data yet.</p>'; return; }
+
+  const played = seasons.filter(s => (s.teams || []).some(t => (t.wins || 0) + (t.losses || 0) + (t.ties || 0) > 0));
+  if (!played.length) { el.innerHTML = '<p class="empty-state">No completed seasons yet.</p>'; return; }
+
+  let html = "<table><thead><tr><th>Season</th><th>1st</th><th>2nd</th><th>3rd</th></tr></thead><tbody>";
+  [...played].sort((a, b) => b.seasonId - a.seasonId).forEach(season => {
+    const ranked = [...(season.teams || [])].sort((a, b) => {
+      const winsA = a.wins || 0, winsB = b.wins || 0;
+      if (winsB !== winsA) return winsB - winsA;
+      return (b.points_for || 0) - (a.points_for || 0);
+    });
+    const top3 = ranked.slice(0, 3).map(t => {
+      const owner = resolveOwnerName(t, season, owners);
+      const record = `${t.wins || 0}-${t.losses || 0}${t.ties ? "-" + t.ties : ""}`;
+      const crown = (season.champion != null && t.id === season.champion) ? "🏆 " : "";
+      return `${crown}${escapeHTML(owner)} <span class="stat">(${record})</span>`;
+    });
+    while (top3.length < 3) top3.push('<span class="stat">—</span>');
+    html += `<tr><td>${season.seasonId}</td><td>${top3[0]}</td><td>${top3[1]}</td><td>${top3[2]}</td></tr>`;
+  });
+  html += "</tbody></table>";
+  el.innerHTML = html;
+}
+
 function renderRoasts(cards) {
   const el = document.getElementById("roasts-content");
   if (!cards.length) { el.innerHTML = '<p class="empty-state">Not enough data yet to roast anyone. Give it a season.</p>'; return; }
@@ -664,6 +691,7 @@ function setupTabs() {
     setupRosterModal(seasons[seasons.length - 1], owners, aiRoasts);
     renderWeekly(weeklyRecap);
     renderAllTime(ownerAggs);
+    renderSeasonPodiums(seasons, owners);
     renderRoasts(computeRoasts(seasons, owners, ownerAggs, aiRoasts));
     renderH2H(computeHeadToHead(seasons, owners));
   } catch (e) {

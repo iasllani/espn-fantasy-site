@@ -89,6 +89,12 @@ pushing.
 
 ## Notes / known limitations
 
+- The "Top 3 Each Season" table (All-Time tab) shows actual playoff finish
+  (champion/runner-up/3rd place), not regular-season record. 3rd place is
+  reconstructed from the bracket structure (the two semifinal losers' game)
+  since ESPN doesn't expose final placement directly — see the comment on
+  `find_playoff_placements` in `scripts/fetch_espn_data.py` for how that's
+  verified.
 - Owner identity is resolved by stable ESPN member ID (`docs/data/owners.json`
   → `memberNameOverrides`), not by team name, so it survives someone renaming
   their team every year. Former league members who left before the earliest

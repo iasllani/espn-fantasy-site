@@ -92,6 +92,11 @@ section.panel h2 {
 
 section.panel h2 .emoji { margin-right: 8px; }
 
+.table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -254,8 +259,9 @@ tr.clickable-row:hover td { background: var(--panel-2); }
 
 .player-header {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 8px;
+  gap: 4px 8px;
   margin-bottom: 4px;
 }
 
@@ -268,4 +274,13 @@ tr.clickable-row:hover td { background: var(--panel-2); }
 @media (max-width: 640px) {
   .grid-2 { grid-template-columns: 1fr; }
   table { font-size: 12px; }
+  main { padding: 16px 12px 60px; }
+  section.panel { padding: 16px; border-radius: 12px; }
+  header.hero { padding: 32px 16px 24px; }
+  nav.tabs { padding: 12px 8px; gap: 6px; }
+  nav.tabs button { padding: 7px 12px; font-size: 13px; }
+  th, td { padding: 8px 6px; }
+  .modal-overlay { padding: 16px 8px; }
+  .modal-card { padding: 16px; border-radius: 12px; }
+  .roast-card { padding: 14px; }
 }

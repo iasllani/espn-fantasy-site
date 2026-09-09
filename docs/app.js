@@ -443,11 +443,11 @@ function renderStandings(seasons, owners) {
     .sort((a, b) => (b.wins - a.wins) || (b.points_for - a.points_for));
 
   let html = `<p class="footer-note" style="margin-bottom:16px">${latest.seasonId} season</p>`;
-  html += "<table><thead><tr><th>#</th><th>Owner</th><th>Team</th><th class='num'>W-L-T</th><th class='num'>PF</th><th class='num'>PA</th></tr></thead><tbody>";
+  html += "<div class='table-wrap'><table><thead><tr><th>#</th><th>Owner</th><th>Team</th><th class='num'>W-L-T</th><th class='num'>PF</th><th class='num'>PA</th></tr></thead><tbody>";
   rows.forEach((t, i) => {
     html += `<tr class="clickable-row" data-team-id="${t.id}"><td>${i + 1}</td><td class="owner-name">${escapeHTML(t.owner)}</td><td>${escapeHTML(teamDisplayName(t))}</td><td class="num">${t.wins}-${t.losses}${t.ties ? "-" + t.ties : ""}</td><td class="num">${(t.points_for || 0).toFixed(1)}</td><td class="num">${(t.points_against || 0).toFixed(1)}</td></tr>`;
   });
-  html += "</tbody></table>";
+  html += "</tbody></table></div>";
   el.innerHTML = html;
 }
 
@@ -561,12 +561,12 @@ function renderAllTime(ownerAggs) {
     return pctB - pctA;
   });
 
-  let html = "<table><thead><tr><th>#</th><th>Owner</th><th class='num'>W-L-T</th><th class='num'>Win%</th><th class='num'>PF</th><th class='num'>PA</th><th class='num'>Titles</th><th class='num'>Seasons</th></tr></thead><tbody>";
+  let html = "<div class='table-wrap'><table><thead><tr><th>#</th><th>Owner</th><th class='num'>W-L-T</th><th class='num'>Win%</th><th class='num'>PF</th><th class='num'>PA</th><th class='num'>Titles</th><th class='num'>Seasons</th></tr></thead><tbody>";
   rows.forEach((o, i) => {
     const pct = (o.wins + o.ties * 0.5) / Math.max(1, o.wins + o.losses + o.ties);
     html += `<tr><td>${i + 1}</td><td class="owner-name">${escapeHTML(o.name)}</td><td class="num">${o.wins}-${o.losses}${o.ties ? "-" + o.ties : ""}</td><td class="num">${(pct * 100).toFixed(1)}%</td><td class="num">${o.pointsFor.toFixed(1)}</td><td class="num">${o.pointsAgainst.toFixed(1)}</td><td class="num">${o.championships || ""}</td><td class="num">${o.seasons.length}</td></tr>`;
   });
-  html += "</tbody></table>";
+  html += "</tbody></table></div>";
   el.innerHTML = html;
 }
 
@@ -574,26 +574,23 @@ function renderSeasonPodiums(seasons, owners) {
   const el = document.getElementById("podiums-content");
   if (!seasons.length) { el.innerHTML = '<p class="empty-state">No data yet.</p>'; return; }
 
-  const played = seasons.filter(s => (s.teams || []).some(t => (t.wins || 0) + (t.losses || 0) + (t.ties || 0) > 0));
-  if (!played.length) { el.innerHTML = '<p class="empty-state">No completed seasons yet.</p>'; return; }
+  const decided = seasons.filter(s => s.champion != null && s.runnerUp != null);
+  if (!decided.length) { el.innerHTML = '<p class="empty-state">No completed playoffs yet.</p>'; return; }
 
-  let html = "<table><thead><tr><th>Season</th><th>1st</th><th>2nd</th><th>3rd</th></tr></thead><tbody>";
-  [...played].sort((a, b) => b.seasonId - a.seasonId).forEach(season => {
-    const ranked = [...(season.teams || [])].sort((a, b) => {
-      const winsA = a.wins || 0, winsB = b.wins || 0;
-      if (winsB !== winsA) return winsB - winsA;
-      return (b.points_for || 0) - (a.points_for || 0);
-    });
-    const top3 = ranked.slice(0, 3).map(t => {
+  const medals = ["🥇", "🥈", "🥉"];
+  let html = "<div class='table-wrap'><table><thead><tr><th>Season</th><th>1st</th><th>2nd</th><th>3rd</th></tr></thead><tbody>";
+  [...decided].sort((a, b) => b.seasonId - a.seasonId).forEach(season => {
+    const teamsById = new Map((season.teams || []).map(t => [t.id, t]));
+    const label = (teamId, medal) => {
+      if (teamId == null || !teamsById.has(teamId)) return '<span class="stat">—</span>';
+      const t = teamsById.get(teamId);
       const owner = resolveOwnerName(t, season, owners);
       const record = `${t.wins || 0}-${t.losses || 0}${t.ties ? "-" + t.ties : ""}`;
-      const crown = (season.champion != null && t.id === season.champion) ? "🏆 " : "";
-      return `${crown}${escapeHTML(owner)} <span class="stat">(${record})</span>`;
-    });
-    while (top3.length < 3) top3.push('<span class="stat">—</span>');
-    html += `<tr><td>${season.seasonId}</td><td>${top3[0]}</td><td>${top3[1]}</td><td>${top3[2]}</td></tr>`;
+      return `${medal} ${escapeHTML(owner)} <span class="stat">(${record})</span>`;
+    };
+    html += `<tr><td>${season.seasonId}</td><td>${label(season.champion, medals[0])}</td><td>${label(season.runnerUp, medals[1])}</td><td>${label(season.thirdPlace, medals[2])}</td></tr>`;
   });
-  html += "</tbody></table>";
+  html += "</tbody></table></div>";
   el.innerHTML = html;
 }
 
@@ -644,7 +641,7 @@ function renderH2H(records) {
   const entries = Array.from(records.entries());
   if (!entries.length) { el.innerHTML = '<p class="empty-state">No head-to-head data yet.</p>'; return; }
 
-  let html = "<table><thead><tr><th>Matchup</th><th class='num'>Record</th></tr></thead><tbody>";
+  let html = "<div class='table-wrap'><table><thead><tr><th>Matchup</th><th class='num'>Record</th></tr></thead><tbody>";
   entries
     .sort((a, b) => a[0].localeCompare(b[0]))
     .forEach(([key, rec]) => {
@@ -652,7 +649,7 @@ function renderH2H(records) {
       const ties = rec.ties ? ` (${rec.ties} tie${rec.ties > 1 ? "s" : ""})` : "";
       html += `<tr><td>${escapeHTML(a)} vs ${escapeHTML(b)}</td><td class="num">${rec[a] || 0}-${rec[b] || 0}${ties}</td></tr>`;
     });
-  html += "</tbody></table>";
+  html += "</tbody></table></div>";
   el.innerHTML = html;
 }
 

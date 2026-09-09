@@ -186,6 +186,7 @@ def summarize_season(raw):
         })
 
     settings = raw.get("settings", {})
+    placements = find_playoff_placements(matchups)
 
     return {
         "seasonId": raw.get("seasonId"),
@@ -193,25 +194,62 @@ def summarize_season(raw):
         "teams": teams,
         "members": members,
         "matchups": matchups,
-        "champion": find_champion(matchups),
+        "champion": placements["champion"],
+        "runnerUp": placements["runnerUp"],
+        "thirdPlace": placements["thirdPlace"],
+        "fourthPlace": placements["fourthPlace"],
         "status": raw.get("status", {}),
     }
 
 
-def find_champion(matchups):
-    """The championship game is the last WINNERS_BRACKET matchup by matchupPeriodId.
-    Returns the winning team's id, or None if the bracket hasn't finished yet."""
-    finals_round = [m for m in matchups if m.get("playoffTierType") == "WINNERS_BRACKET"]
-    if not finals_round:
-        return None
-    max_period = max(m["matchupPeriodId"] for m in finals_round)
-    championship_games = [m for m in finals_round if m["matchupPeriodId"] == max_period]
-    for game in championship_games:
-        if game["winner"] == "HOME":
-            return game["home"]["teamId"]
-        if game["winner"] == "AWAY":
-            return game["away"]["teamId"]
-    return None
+def _winner_loser(game):
+    if game["winner"] == "HOME":
+        return game["home"]["teamId"], game["away"]["teamId"]
+    if game["winner"] == "AWAY":
+        return game["away"]["teamId"], game["home"]["teamId"]
+    return None, None
+
+
+def find_playoff_placements(matchups):
+    """Reconstruct 1st/2nd/3rd/4th place from the real bracket structure.
+
+    The championship is the last WINNERS_BRACKET game. Its winner/loser are
+    1st/2nd. 3rd place is trickier: ESPN's WINNERS_CONSOLATION_LADDER tier
+    covers two independent sub-brackets (one for 3rd/4th, seeded by the
+    semifinal losers; one for 5th/6th, seeded by the round-1 losers), both
+    landing at the same final matchupPeriodId -- so "the WCL game at the
+    final period" is ambiguous by itself. Disambiguate by checking which
+    WCL game's two teams are exactly the semifinal losers (identified from
+    the WINNERS_BRACKET round immediately before the final). Verified
+    against all 9 completed seasons in this league's real data before
+    trusting it -- every season produced exactly one matching game.
+    """
+    winners_bracket = [m for m in matchups if m.get("playoffTierType") == "WINNERS_BRACKET"]
+    if not winners_bracket:
+        return {"champion": None, "runnerUp": None, "thirdPlace": None, "fourthPlace": None}
+
+    final_period = max(m["matchupPeriodId"] for m in winners_bracket)
+    finals = [m for m in winners_bracket if m["matchupPeriodId"] == final_period]
+    if len(finals) != 1:
+        return {"champion": None, "runnerUp": None, "thirdPlace": None, "fourthPlace": None}
+    champion, runner_up = _winner_loser(finals[0])
+
+    semifinal_games = [
+        m for m in winners_bracket
+        if m["matchupPeriodId"] == final_period - 1
+        and m["home"]["teamId"] is not None and m["away"]["teamId"] is not None
+    ]
+    semifinal_losers = {_winner_loser(m)[1] for m in semifinal_games} - {None}
+
+    third_place, fourth_place = None, None
+    if semifinal_losers:
+        wcl_games = [m for m in matchups if m.get("playoffTierType") == "WINNERS_CONSOLATION_LADDER" and m["matchupPeriodId"] == final_period]
+        for m in wcl_games:
+            if {m["home"]["teamId"], m["away"]["teamId"]} == semifinal_losers:
+                third_place, fourth_place = _winner_loser(m)
+                break
+
+    return {"champion": champion, "runnerUp": runner_up, "thirdPlace": third_place, "fourthPlace": fourth_place}
 
 
 def main():

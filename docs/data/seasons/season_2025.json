@@ -6133,6 +6133,9 @@
     }
   ],
   "champion": 4,
+  "runnerUp": 1,
+  "thirdPlace": 3,
+  "fourthPlace": 2,
   "status": {
     "activatedDate": 1755558042353,
     "createdAsLeagueType": 0,

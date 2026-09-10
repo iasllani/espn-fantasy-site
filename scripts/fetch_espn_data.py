@@ -72,9 +72,9 @@ STAT_ID_LABELS = {
 }
 
 
-def fetch_season(session, league_id, year):
+def fetch_season(session, league_id, year, views=None):
     """Return the raw league JSON for one season, or None if it doesn't exist."""
-    params = [("view", v) for v in VIEWS]
+    params = [("view", v) for v in (views or VIEWS)]
     if year >= MODERN_CUTOFF_YEAR:
         url = MODERN_BASE.format(year=year, league_id=league_id)
     else:
@@ -94,9 +94,13 @@ def fetch_season(session, league_id, year):
     return data
 
 
-def find_stat_block(player_stats, season_id, source_id=0, split_id=0):
+def find_stat_block(player_stats, season_id, source_id=0, split_id=0, period_id=None):
+    """period_id disambiguates weekly blocks (split_id=1, one per scoringPeriodId);
+    leave it None for season-total lookups (split_id=0, unique without it)."""
     for block in player_stats or []:
-        if block.get("seasonId") == season_id and block.get("statSourceId") == source_id and block.get("statSplitTypeId") == split_id:
+        if (block.get("seasonId") == season_id and block.get("statSourceId") == source_id
+                and block.get("statSplitTypeId") == split_id
+                and (period_id is None or block.get("scoringPeriodId") == period_id)):
             return block
     return None
 
@@ -252,6 +256,14 @@ def find_playoff_placements(matchups):
     return {"champion": champion, "runnerUp": runner_up, "thirdPlace": third_place, "fourthPlace": fourth_place}
 
 
+def build_session(swid, espn_s2):
+    session = requests.Session()
+    session.cookies.set("SWID", swid, domain=".espn.com")
+    session.cookies.set("espn_s2", espn_s2, domain=".espn.com")
+    session.headers.update({"User-Agent": "Mozilla/5.0 (fantasy-history-fetcher)"})
+    return session
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--league-id", required=True, type=int)
@@ -265,10 +277,7 @@ def main():
         print("ERROR: set ESPN_SWID and ESPN_S2 environment variables first.", file=sys.stderr)
         sys.exit(1)
 
-    session = requests.Session()
-    session.cookies.set("SWID", swid, domain=".espn.com")
-    session.cookies.set("espn_s2", espn_s2, domain=".espn.com")
-    session.headers.update({"User-Agent": "Mozilla/5.0 (fantasy-history-fetcher)"})
+    session = build_session(swid, espn_s2)
 
     out_dir = Path(args.out_dir)
     seasons_dir = out_dir / "seasons"

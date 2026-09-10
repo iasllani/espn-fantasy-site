@@ -3,7 +3,13 @@ name: Update ESPN Fantasy Data
 on:
   workflow_dispatch: {}        # lets you trigger it manually from the Actions tab
   schedule:
-    - cron: "0 13 * * 2"       # every Tuesday 9am ET (13:00 UTC) during the season
+    # Each fires ~3-4 hours after that night's NFL games typically end (8:00
+    # UTC = 4am EDT / 3am EST), so it catches the full night's real stats
+    # even with overtime. Times are UTC year-round; ET buffer shifts by an
+    # hour across the DST change, which is fine either way.
+    - cron: "0 8 * * 5"        # Friday: after Thursday Night Football
+    - cron: "0 8 * * 1"        # Monday: after Sunday's full slate (incl. SNF)
+    - cron: "0 8 * * 2"        # Tuesday: after Monday Night Football
 
 permissions:
   contents: write
@@ -37,6 +43,13 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/generate_weekly_recap.py
 
+      - name: Generate game night update
+        env:
+          ESPN_SWID: ${{ secrets.ESPN_SWID }}
+          ESPN_S2: ${{ secrets.ESPN_S2 }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/generate_game_night_update.py --league-id 703243
+
       - name: Commit updated data
         run: |
           git config user.name "espn-data-bot"
@@ -44,5 +57,6 @@ jobs:
           git add docs/data/seasons docs/data/league_meta.json
           if [ -f docs/data/ai_roasts.json ]; then git add docs/data/ai_roasts.json; fi
           if [ -f docs/data/weekly_recap.json ]; then git add docs/data/weekly_recap.json; fi
+          if [ -f docs/data/game_night_update.json ]; then git add docs/data/game_night_update.json; fi
           git diff --cached --quiet || git commit -m "Update league data ($(date -u +%Y-%m-%d))"
           git push

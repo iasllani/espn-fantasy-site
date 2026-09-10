@@ -37,13 +37,16 @@ and are encrypted at rest by GitHub.
 
 If you add a third secret, `ANTHROPIC_API_KEY` (from console.anthropic.com —
 note this is a separate paid API account, not a Claude Pro subscription),
-the weekly Action also calls Claude (explicit language, on purpose) to
-write:
+the Action also calls Claude (explicit language, on purpose) to write:
 - fresh, stat-specific roast lines for every owner, in place of the fixed
   template bank
 - one roast of each owner's current roster as a whole
 - an explicit recap of last week's matchups and a trash-talk preview of
   this week's
+- a live "Game Night" check-in after each night's real games wrap (Thursday,
+  Sunday, Monday) — current score margins plus standout starter performances
+  (vs. that player's own established average, so it's "stud/stinker
+  relative to them," not just raw points)
 
 Cost is small (a few dollars per season at most, depending on roster size —
 still far under what a $5 prepaid balance covers). If this secret isn't
@@ -64,9 +67,11 @@ and click **Run workflow**. This pulls every season of your league's history
 it can find (auto-discovers how far back it goes) and commits the JSON into
 `docs/data/seasons/`. Once that commit lands, refresh the live site.
 
-After the first run, it also fires automatically every Tuesday during the
-season (see the `cron` line in the workflow file — tweak it if you want a
-different cadence).
+After the first run, it also fires automatically three times a week during
+the season — Friday, Monday, and Tuesday mornings UTC, timed to land a few
+hours after Thursday Night Football, Sunday's full slate, and Monday Night
+Football wrap up (see the `cron` lines in the workflow file — tweak them if
+you want a different cadence, e.g. if games are running very late).
 
 ## 5. Fix up owner names for past seasons
 

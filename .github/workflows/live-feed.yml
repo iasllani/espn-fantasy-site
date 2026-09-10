@@ -8,12 +8,21 @@ name: Live Player Feed
 on:
   workflow_dispatch: {}
   schedule:
-    # ~11:30pm ET on each game night. GitHub cron is UTC year-round, so the
-    # local ET time drifts an hour at the DST change (04:00 UTC = 12:00am
-    # EDT / 11:00pm EST) -- close enough either way for a post-game feed.
-    - cron: "0 4 * * 5"        # Friday UTC: after Thursday night's games
-    - cron: "0 4 * * 1"        # Monday UTC: after Sunday's games
-    - cron: "0 4 * * 2"        # Tuesday UTC: after Monday night's game
+    # Just after midnight ET on each game night, then a catch-up pass a few
+    # hours later. The catch-up matters: night games often end ~11:45pm ET
+    # (03:45 UTC), and ESPN takes a while to finalize stat corrections, so a
+    # single early run can capture partial data -- and since the next game
+    # night is days away, that partial snapshot would otherwise sit stale.
+    # Each run recomputes the whole feed from scratch, so re-running is
+    # harmless and self-healing.
+    # (GitHub cron is UTC year-round; local ET drifts an hour at the DST
+    # change. 04:30 UTC = 12:30am EDT / 11:30pm EST.)
+    - cron: "30 4 * * 5"       # Friday UTC: after Thursday night's game
+    - cron: "0 8 * * 5"        #   catch-up
+    - cron: "30 4 * * 1"       # Monday UTC: after Sunday's games (incl. SNF)
+    - cron: "0 8 * * 1"        #   catch-up
+    - cron: "30 4 * * 2"       # Tuesday UTC: after Monday night's game
+    - cron: "0 8 * * 2"        #   catch-up
 
 permissions:
   contents: write

@@ -11,11 +11,13 @@ TONE_GUARDRAIL = (
     "picks, specific underperforming players on their roster) and team "
     "history, never their real-life character, appearance, or identity. "
     "Think 'you drafted like an idiot and your team choked in Week 12,' not "
-    "anything about them as a person. Real profanity (fuck, shit, ass, "
-    "etc.) is expected and encouraged. The one hard line: no slurs and "
-    "nothing targeting race, religion, gender, disability, or other "
-    "protected traits. Everything else about fantasy football incompetence "
-    "is fair game."
+    "anything about them as a person. Never make the joke about someone's "
+    "name itself, what it sounds like, or where it or their family is from "
+    "-- the names are just labels for the teams, never the punchline. Real "
+    "profanity (fuck, shit, ass, etc.) is expected and encouraged. The one "
+    "hard line: no slurs and nothing targeting race, religion, ethnicity, "
+    "national origin, gender, disability, or other protected traits. "
+    "Everything else about fantasy football incompetence is fair game."
 )
 
 _REFUSAL_MARKERS = (

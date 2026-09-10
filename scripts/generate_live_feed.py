@@ -40,9 +40,13 @@ from ai_tone import TONE_GUARDRAIL, looks_like_refusal
 MODEL = "claude-haiku-4-5"
 BENCH_SLOT_ID = 20   # stable/standard ESPN lineup slot id
 IR_SLOT_ID = 21
-OVERPERFORM_THRESHOLD = 8.0
-UNDERPERFORM_THRESHOLD = -8.0
-BENCH_NOTABLE_THRESHOLD = 15.0
+# Tuned against a real single game (NE/SEA week 1 2026): an 8.0 cutoff
+# threw away A.J. Brown scoring 4.1 on an 11.5 projection, which is exactly
+# the kind of stinker this feed exists to call out. A ~5 point swing off
+# projection is genuinely notable for one game.
+OVERPERFORM_THRESHOLD = 5.0
+UNDERPERFORM_THRESHOLD = -5.0
+BENCH_NOTABLE_THRESHOLD = 12.0
 MAX_EVENTS = 10
 
 SYSTEM_PROMPT = f"""You write one short, explicit, cursing reaction to a \
@@ -60,12 +64,10 @@ scoring big, roast the owner hard for the bench decision specifically.
 Respond with ONLY the reaction text, nothing else -- no preamble, no labels."""
 
 
-def find_current_period(matchups):
-    active_periods = {
-        m["matchupPeriodId"] for m in matchups
-        if (m.get("home") or {}).get("totalPoints") or (m.get("away") or {}).get("totalPoints")
-    }
-    return max(active_periods) if active_periods else None
+def find_current_period(raw):
+    """Delegates to ESPN's own status fields -- see the note on
+    espn.current_matchup_period about why score-based detection is wrong."""
+    return espn.current_matchup_period(raw)
 
 
 def collect_events(raw, current_period, owners):
@@ -172,14 +174,32 @@ def main():
         print(f"Could not fetch live data for {latest_year}, skipping.")
         sys.exit(0)
 
-    current_period = find_current_period(raw.get("schedule", []))
+    current_period = find_current_period(raw)
     if current_period is None:
-        print(f"No games have started yet in {latest_year}, skipping live feed.")
+        print(f"Could not determine the current week in {latest_year}, skipping live feed.")
         sys.exit(0)
 
     events = collect_events(raw, current_period, owners)
     if not events:
         print(f"No notable performances yet in week {current_period}.")
+
+    # Runs daily, but games don't happen daily -- if nothing has changed
+    # since the last run, leave the existing file (and its AI lines) alone
+    # rather than paying to regenerate identical content.
+    out_path = data_dir / "live_feed.json"
+    signature = [(e["type"], e["player"], round(e["actual"], 2)) for e in events]
+    if out_path.exists():
+        try:
+            existing = json.loads(out_path.read_text(encoding="utf-8"))
+            existing_sig = [
+                (e["type"], e["player"], round(e["actual"], 2))
+                for e in existing.get("events", [])
+            ]
+            if existing.get("matchupPeriodId") == current_period and existing_sig == signature:
+                print(f"No change since last run (week {current_period}), leaving existing feed in place.")
+                sys.exit(0)
+        except (json.JSONDecodeError, KeyError, TypeError):
+            pass  # unreadable/older format -- just regenerate
 
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     client = anthropic.Anthropic(api_key=api_key) if api_key else None

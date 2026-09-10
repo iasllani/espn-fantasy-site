@@ -50,13 +50,10 @@ isn't over, so don't declare a final winner, just roast the current state.
 Respond with ONLY the update text, nothing else -- no preamble, no labels."""
 
 
-def find_current_period(matchups):
-    """Most recent matchupPeriodId with any real (nonzero) score activity."""
-    active_periods = {
-        m["matchupPeriodId"] for m in matchups
-        if (m.get("home") or {}).get("totalPoints") or (m.get("away") or {}).get("totalPoints")
-    }
-    return max(active_periods) if active_periods else None
+def find_current_period(raw):
+    """Delegates to ESPN's own status fields -- see the note on
+    espn.current_matchup_period about why score-based detection is wrong."""
+    return espn.current_matchup_period(raw)
 
 
 def build_ppg_lookup(season):
@@ -146,9 +143,9 @@ def main():
 
     teams_by_id = {t["id"]: t for t in raw.get("teams", [])}
     matchups = raw.get("schedule", [])
-    current_period = find_current_period(matchups)
+    current_period = find_current_period(raw)
     if current_period is None:
-        print(f"No games have started yet in {latest_year}, skipping game night update.")
+        print(f"Could not determine the current week in {latest_year}, skipping game night update.")
         sys.exit(0)
 
     games = [
@@ -168,7 +165,7 @@ def main():
         home, away = m["home"], m["away"]
         home_name = resolve_owner_name(teams_by_id[home["teamId"]], raw, owners)
         away_name = resolve_owner_name(teams_by_id[away["teamId"]], raw, owners)
-        home_score, away_score = home.get("totalPoints") or 0.0, away.get("totalPoints") or 0.0
+        home_score, away_score = espn.live_total_points(home), espn.live_total_points(away)
 
         home_perf = starter_performances(home.get("rosterForCurrentScoringPeriod"), current_period, latest_year, ppg_lookup)
         away_perf = starter_performances(away.get("rosterForCurrentScoringPeriod"), current_period, latest_year, ppg_lookup)

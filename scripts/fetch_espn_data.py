@@ -256,6 +256,27 @@ def find_playoff_placements(matchups):
     return {"champion": champion, "runnerUp": runner_up, "thirdPlace": third_place, "fourthPlace": fourth_place}
 
 
+def current_matchup_period(raw):
+    """Which week the league is currently on, per ESPN's own status fields.
+
+    Do NOT infer this from matchup totalPoints: ESPN leaves totalPoints at
+    0.0 while a week is in progress and only populates totalPointsLive, so
+    score-based detection reports "nothing has started" even when games
+    have been played and real player stats exist.
+    """
+    status = raw.get("status") or {}
+    for value in (status.get("currentMatchupPeriod"), raw.get("scoringPeriodId"), status.get("latestScoringPeriod")):
+        if value:
+            return value
+    return None
+
+
+def live_total_points(side):
+    """A matchup side's points, preferring the live figure while in progress."""
+    side = side or {}
+    return max(side.get("totalPoints") or 0.0, side.get("totalPointsLive") or 0.0)
+
+
 def build_session(swid, espn_s2):
     session = requests.Session()
     session.cookies.set("SWID", swid, domain=".espn.com")

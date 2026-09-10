@@ -8,21 +8,20 @@ name: Live Player Feed
 on:
   workflow_dispatch: {}
   schedule:
-    # Just after midnight ET on each game night, then a catch-up pass a few
-    # hours later. The catch-up matters: night games often end ~11:45pm ET
-    # (03:45 UTC), and ESPN takes a while to finalize stat corrections, so a
-    # single early run can capture partial data -- and since the next game
-    # night is days away, that partial snapshot would otherwise sit stale.
-    # Each run recomputes the whole feed from scratch, so re-running is
-    # harmless and self-healing.
+    # Daily, not just Thu/Sun/Mon: the NFL schedule is irregular (Wednesday
+    # season openers, Friday/Saturday international games, late-season
+    # Saturday slates), and hardcoding game nights silently misses those.
+    # The 2026 opener was a Wednesday night game that a Thu/Sun/Mon schedule
+    # would not have picked up until a day later.
+    #
+    # Two passes: just after midnight ET, then a catch-up a few hours later,
+    # since night games often end ~11:45pm ET (03:45 UTC) and ESPN takes a
+    # while to finalize stat corrections. The script no-ops (no AI spend)
+    # when nothing has changed since the last run, so daily is cheap.
     # (GitHub cron is UTC year-round; local ET drifts an hour at the DST
     # change. 04:30 UTC = 12:30am EDT / 11:30pm EST.)
-    - cron: "30 4 * * 5"       # Friday UTC: after Thursday night's game
-    - cron: "0 8 * * 5"        #   catch-up
-    - cron: "30 4 * * 1"       # Monday UTC: after Sunday's games (incl. SNF)
-    - cron: "0 8 * * 1"        #   catch-up
-    - cron: "30 4 * * 2"       # Tuesday UTC: after Monday night's game
-    - cron: "0 8 * * 2"        #   catch-up
+    - cron: "30 4 * * *"       # just after midnight ET
+    - cron: "0 8 * * *"        # catch-up, for late finishes / stat corrections
 
 permissions:
   contents: write

@@ -1,0 +1,52 @@
+{
+  "generatedAt": "2026-09-10T04:13:40.771493+00:00",
+  "seasonId": 2026,
+  "matchupPeriodId": 1,
+  "events": [
+    {
+      "type": "under",
+      "owner": "Adam Vilajeti",
+      "player": "A.J. Brown",
+      "position": "WR",
+      "actual": 4.1,
+      "projected": 11.54542305,
+      "line": "Adam, you started A.J. Brown for 4.1 fucking points when he was projected for 11.5\u2014that's not just a miss, that's a full-blown disaster that probably cost you the week."
+    },
+    {
+      "type": "over",
+      "owner": "Ilir Asllani",
+      "player": "Seahawks D/ST",
+      "position": "D/ST",
+      "actual": 14.0,
+      "projected": 7.22353485,
+      "line": "Ilir actually made a competent decision for once\u2014started a defense that doubled its projection and saved his sorry-ass week, so congratulations on accidentally stumbling into not completely fucking this up."
+    },
+    {
+      "type": "over",
+      "owner": "Arben Sinanaj",
+      "player": "Jaxon Smith-Njigba",
+      "position": "WR",
+      "actual": 22.2,
+      "projected": 15.52963115,
+      "line": "Arben actually made a smart decision for once in his goddamn life\u2014JSN went off and validated the start, guess even a broken clock is right twice a day."
+    },
+    {
+      "type": "under",
+      "owner": "Adam Vilajeti",
+      "player": "Drake Maye",
+      "position": "QB",
+      "actual": 9.82,
+      "projected": 16.25228795,
+      "line": "Adam, I get that you're trying to be cute with the rookie QB, but Drake Maye just shit the bed harder than a hungover college kid and you started him anyway\u20149.8 points when you needed 16 is exactly why you're getting stomped this week."
+    },
+    {
+      "type": "under",
+      "owner": "Rob Ricigliano",
+      "player": "Jadarian Price",
+      "position": "RB",
+      "actual": 6.8,
+      "projected": 12.83437993,
+      "line": "Rob really said \"this backup RB is gonna save my season\" and then watched him put up 6.8 points like it was a goddamn preseason game, absolutely brutal miscalculation."
+    }
+  ]
+}

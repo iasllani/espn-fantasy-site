@@ -47,6 +47,9 @@ the Action also calls Claude (explicit language, on purpose) to write:
   Sunday, Monday) — current score margins plus standout starter performances
   (vs. that player's own established average, so it's "stud/stinker
   relative to them," not just raw points)
+- the **LIVE** tab's per-player feed: individual call-outs for players who
+  beat or missed their week's projection, plus roasts aimed at any owner who
+  left a big scorer on the bench
 
 Cost is small (a few dollars per season at most, depending on roster size —
 still far under what a $5 prepaid balance covers). If this secret isn't
@@ -72,6 +75,15 @@ the season — Friday, Monday, and Tuesday mornings UTC, timed to land a few
 hours after Thursday Night Football, Sunday's full slate, and Monday Night
 Football wrap up (see the `cron` lines in the workflow file — tweak them if
 you want a different cadence, e.g. if games are running very late).
+
+There's a **second, separate workflow** (`.github/workflows/live-feed.yml`)
+for the LIVE tab, running ~11:30pm ET on those same game nights. It's
+deliberately kept apart from the main pipeline: it only needs fresh
+per-player box scores for the current week, so it skips the full 10-season
+history fetch and career-roast regeneration entirely, which makes it fast
+and cheap enough to run right after games instead of the next morning. Both
+workflows commit to `main`, so they share a `concurrency` group to keep them
+from racing each other.
 
 ## 5. Fix up owner names for past seasons
 

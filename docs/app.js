@@ -118,6 +118,7 @@ async function loadEverything() {
   const aiRoasts = await fetchJSON(`${DATA_DIR}/ai_roasts.json`).catch(() => null);
   const weeklyRecap = await fetchJSON(`${DATA_DIR}/weekly_recap.json`).catch(() => null);
   const gameNightUpdate = await fetchJSON(`${DATA_DIR}/game_night_update.json`).catch(() => null);
+  const liveFeed = await fetchJSON(`${DATA_DIR}/live_feed.json`).catch(() => null);
 
   const seasons = [];
   for (const year of meta.years || []) {
@@ -129,7 +130,7 @@ async function loadEverything() {
     }
   }
   seasons.sort((a, b) => a.seasonId - b.seasonId);
-  return { meta, owners, seasons, aiRoasts, weeklyRecap, gameNightUpdate };
+  return { meta, owners, seasons, aiRoasts, weeklyRecap, gameNightUpdate, liveFeed };
 }
 
 /* ---------------- owner resolution ---------------- */
@@ -515,6 +516,37 @@ function setupRosterModal(latestSeason, owners, aiRoasts) {
   });
 }
 
+const LIVE_EVENT_LABELS = {
+  over: "🔥 Went Off",
+  under: "💩 Stunk It Up",
+  benched: "🪑 Left On The Bench",
+};
+
+function renderLiveFeed(liveFeed) {
+  const el = document.getElementById("live-content");
+  const subtitle = document.getElementById("live-subtitle");
+
+  if (!liveFeed || !liveFeed.events || !liveFeed.events.length) {
+    subtitle.textContent = "";
+    el.innerHTML = '<p class="empty-state">Nothing to report yet. Check back once games are underway.</p>';
+    return;
+  }
+
+  const when = liveFeed.generatedAt ? new Date(liveFeed.generatedAt).toLocaleString() : "";
+  subtitle.textContent = `Week ${liveFeed.matchupPeriodId}${when ? ` · last updated ${when}` : ""}`;
+
+  el.innerHTML = liveFeed.events.map(e => {
+    const proj = e.projected != null ? `${e.projected.toFixed(1)} projected` : "no projection";
+    return `
+      <div class="roast-card">
+        <h3>${LIVE_EVENT_LABELS[e.type] || e.type} · ${escapeHTML(e.player)}</h3>
+        <p>${escapeHTML(e.line)}</p>
+        <div class="stat">${escapeHTML(e.position)} · ${e.actual.toFixed(1)} pts vs ${proj} · rostered by ${escapeHTML(e.owner)}</div>
+      </div>
+    `;
+  }).join("");
+}
+
 function renderWeekly(weeklyRecap, gameNightUpdate) {
   const el = document.getElementById("weekly-content");
   const hasLiveUpdate = gameNightUpdate && gameNightUpdate.matchups && gameNightUpdate.matchups.length;
@@ -689,7 +721,7 @@ function setupTabs() {
 (async function init() {
   setupTabs();
   try {
-    const { meta, owners, seasons, aiRoasts, weeklyRecap, gameNightUpdate } = await loadEverything();
+    const { meta, owners, seasons, aiRoasts, weeklyRecap, gameNightUpdate, liveFeed } = await loadEverything();
     const leagueName = seasons.length ? seasons[seasons.length - 1].leagueName : "Fantasy League";
     document.getElementById("league-title").textContent = leagueName || "Fantasy League";
     document.getElementById("league-sub").textContent = seasons.length
@@ -699,6 +731,7 @@ function setupTabs() {
     const ownerAggs = buildOwnerAggregates(seasons, owners);
     renderStandings(seasons, owners);
     setupRosterModal(seasons[seasons.length - 1], owners, aiRoasts);
+    renderLiveFeed(liveFeed);
     renderWeekly(weeklyRecap, gameNightUpdate);
     renderAllTime(ownerAggs);
     renderSeasonPodiums(seasons, owners);

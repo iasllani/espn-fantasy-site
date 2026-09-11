@@ -1,8 +1,44 @@
 {
-  "generatedAt": "2026-09-10T04:13:40.771493+00:00",
+  "generatedAt": "2026-09-11T09:01:17.948584+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 1,
   "events": [
+    {
+      "type": "benched",
+      "owner": "Veton Gjonbalaj",
+      "player": "Brock Purdy",
+      "position": "QB",
+      "actual": 21.1,
+      "projected": 15.48135402,
+      "line": "Veton benched the Mr. Irrelevant himself for 21 fucking points\u2014guess the Mr. Relevant decision-making strikes again."
+    },
+    {
+      "type": "benched",
+      "owner": "Nori Kastrati",
+      "player": "Deebo Samuel Sr.",
+      "position": "WR",
+      "actual": 15.0,
+      "projected": 7.3570026,
+      "line": "Nori, you absolute coward\u2014benched Deebo when he was gonna go off, and now you're watching him rack up 15 on your fucking bench while your starter probably put up 4 points and a prayer."
+    },
+    {
+      "type": "under",
+      "owner": "Rinor Ahmetaj",
+      "player": "Davante Adams",
+      "position": "WR",
+      "actual": 4.1,
+      "projected": 11.79912902,
+      "line": "Rinor really said \"fuck it, let's start the guy projected for 12 and watch him shit the bed for 4 points\" \u2014 absolutely masterclass in reading the room this week."
+    },
+    {
+      "type": "under",
+      "owner": "Ben Vucetaj",
+      "player": "Puka Nacua",
+      "position": "WR",
+      "actual": 9.9,
+      "projected": 17.37041747,
+      "line": "Ben, Puka averaging 9 points when you needed 17 is basically the fantasy equivalent of ordering a full pizza and getting served a single slice with a shrug."
+    },
     {
       "type": "under",
       "owner": "Adam Vilajeti",
@@ -10,7 +46,7 @@
       "position": "WR",
       "actual": 4.1,
       "projected": 11.54542305,
-      "line": "Adam, you started A.J. Brown for 4.1 fucking points when he was projected for 11.5\u2014that's not just a miss, that's a full-blown disaster that probably cost you the week."
+      "line": "Adam, your boy A.J. Brown just took a massive shit on your lineup after you confidently started him\u2014dude put up 4.1 points when you needed 11.5, and now you're sitting here wondering if maybe you should've checked literally any injury report before game time."
     },
     {
       "type": "over",
@@ -19,7 +55,7 @@
       "position": "D/ST",
       "actual": 14.0,
       "projected": 7.22353485,
-      "line": "Ilir actually made a competent decision for once\u2014started a defense that doubled its projection and saved his sorry-ass week, so congratulations on accidentally stumbling into not completely fucking this up."
+      "line": "Ilir actually made a competent decision for once in his miserable existence and started the Seahawks D/ST, which proceeded to absolutely shit the bed and still somehow doubled its projection\u2014somehow you managed to accidentally lucksack your way into 14 points while your team implodes around you like a dying star."
     },
     {
       "type": "over",
@@ -28,7 +64,7 @@
       "position": "WR",
       "actual": 22.2,
       "projected": 15.52963115,
-      "line": "Arben actually made a smart decision for once in his goddamn life\u2014JSN went off and validated the start, guess even a broken clock is right twice a day."
+      "line": "JSN just shit all over his projection and carried Arben's ass this week\u2014maybe next time trust your first-round pick instead of panic-benching him every other Sunday like you've got commitment issues."
     },
     {
       "type": "under",
@@ -37,7 +73,7 @@
       "position": "QB",
       "actual": 9.82,
       "projected": 16.25228795,
-      "line": "Adam, I get that you're trying to be cute with the rookie QB, but Drake Maye just shit the bed harder than a hungover college kid and you started him anyway\u20149.8 points when you needed 16 is exactly why you're getting stomped this week."
+      "line": "Adam, Drake Maye just took a massive shit on your starting lineup and you *knew* it was coming\u2014nine points from your QB is the kind of performance that makes you seriously question every decision you've made in this league."
     },
     {
       "type": "under",
@@ -46,7 +82,16 @@
       "position": "RB",
       "actual": 6.8,
       "projected": 12.83437993,
-      "line": "Rob really said \"this backup RB is gonna save my season\" and then watched him put up 6.8 points like it was a goddamn preseason game, absolutely brutal miscalculation."
+      "line": "Rob really said \"I'm gonna start a guy projected for 12.8\" and then watched him pull up like he was running through mud in a fucking nightmare, finishing with 6.8 points of pure disappointment."
+    },
+    {
+      "type": "under",
+      "owner": "Adam Vilajeti",
+      "player": "Rams D/ST",
+      "position": "D/ST",
+      "actual": 1.0,
+      "projected": 6.11892266,
+      "line": "Adam, the Rams D/ST putting up a fucking 1 point is basically what happens when you leave your defense slot on autopilot and pray\u2014except the prayers didn't work either, so now you're just bleeding points like a stuck pig."
     }
   ]
 }

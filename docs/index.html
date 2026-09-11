@@ -67,5 +67,30 @@
   </div>
 
   <script src="app.js"></script>
+
+  <!--
+    Visitor analytics (GoatCounter: free, no cookies, no consent banner).
+
+    SETUP: sign up at https://www.goatcounter.com, pick a site code, then
+    paste it below. If your dashboard ends up at https://shnoz.goatcounter.com
+    then the code is "shnoz". Leaving it empty disables analytics entirely --
+    nothing is loaded and no requests are made.
+
+    Stats are viewed on your GoatCounter dashboard (which has its own login),
+    not on this site. Note that ad blockers block this script, so counts
+    undercount somewhat -- unavoidable without a backend.
+  -->
+  <script>
+    (function () {
+      var GOATCOUNTER_CODE = "";  // <-- paste your site code here
+
+      if (!GOATCOUNTER_CODE) return;
+      var s = document.createElement("script");
+      s.async = true;
+      s.src = "//gc.zgo.at/count.js";
+      s.setAttribute("data-goatcounter", "https://" + GOATCOUNTER_CODE + ".goatcounter.com/count");
+      document.head.appendChild(s);
+    })();
+  </script>
 </body>
 </html>

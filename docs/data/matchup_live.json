@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T12:59:13.886553+00:00",
+  "generatedAt": "2026-09-17T09:35:00.284657+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 2,
   "matchups": [
@@ -8,7 +8,7 @@
       "awayOwner": "Adam Vilajeti",
       "home": {
         "score": 0.0,
-        "projectedFinal": 115.0,
+        "projectedFinal": 115.1,
         "winProbability": 0.58,
         "yetToPlay": [
           "Christian McCaffrey",
@@ -45,15 +45,15 @@
         "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Rob's walking in with a 58% win probability and 115.0 projected versus Adam's 99.9, which means ESPN's already penciled this one in Rob's favor\u2014that 15-point gap is basically the kind of lead where you'd need McCaffrey, Rice, and Wilson to all collectively decide to phone it in for this to flip. Adam's sitting there hoping Justin Jefferson and Mahomes somehow carry the entire load while his depth chart of Judkins, Lloyd, and Worthy magically goes nuclear, which is absolutely not how this roster has performed all season. Both teams have nine starters left cooking so it's not officially dead yet, but Rob's got the safer floor here; Adam's got the \"please God\" energy, and those prayers don't usually hit in fantasy football. If Adam somehow pulls this off, he genuinely earns bragging rights for turning a double-digit projection deficit into a W, but right now he's basically asking his entire bench to overperform just to make this respectable\u2014and that's not a bet ESPN likes for him."
+      "analysis": "Rob's walking in with a 58% win probability and a 15-point projection advantage (115.1 to 99.9), which is the kind of cushion where Adam would need McCaffrey, Rice, and Wilson to all collectively phone it in just to make this competitive\u2014and that's not happening. Adam's entire gameplan is riding Justin Jefferson and Mahomes to carry the load while Judkins, Lloyd, and Worthy somehow go supernova, which is the kind of execution this roster has actively refused to deliver all season. Both teams have nine starters left cooking so it's technically alive, but Rob's got the safer floor and the projection math working overtime in his favor\u2014Adam's basically asking for lightning to strike multiple times while his bench collectively overperforms, and that's a losing bet when you're already staring down double digits. Rob should cruise here unless his remaining guys decide to collectively tank, which would be legitimately embarrassing given how comfortable this projection looks right now."
     },
     {
       "homeOwner": "Rinor Ahmetaj",
       "awayOwner": "Rilind Ahmetaj",
       "home": {
         "score": 0.0,
-        "projectedFinal": 113.3,
-        "winProbability": 0.56,
+        "projectedFinal": 113.0,
+        "winProbability": 0.55,
         "yetToPlay": [
           "De'Von Achane",
           "Derrick Henry",
@@ -71,8 +71,8 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 102.7,
-        "winProbability": 0.44,
+        "projectedFinal": 103.5,
+        "winProbability": 0.45,
         "yetToPlay": [
           "Amon-Ra St. Brown",
           "Ashton Jeanty",
@@ -89,14 +89,14 @@
         "worstStarter": null
       },
       "familyName": "Ahmetaj",
-      "analysis": "Rinor's sitting at a 56% win probability with 113.3 projected while Rilind's stuck at 102.7 and 44%\u2014ESPN's basically handing Rinor the keys to the family bragging rights with an 11-point projection gap that's looking more unforgiving by the minute. Rinor's got the safer floor with Dak, Derrick Henry, and De'Von Achane all still cooking, while Rilind's banking on Ashton Jeanty and Amon-Ra St. Brown to somehow carry the entire load and make up that projection deficit, which this roster hasn't shown the juice to pull off. Both teams have nine starters left so it's not completely over, but Rinor's got the more reliable path to victory here\u2014Rilind's basically asking three different guys to all hit their ceiling in the same week just to stay competitive. The real nightmare for Rilind is that this gets decided on Monday night when the Ravens-Steelers game goes sideways, and there's nothing worse than spending six months hearing about how the younger brother got beat by the older one because of projection math. Neither one of you made any obvious lineup disasters, so this is pure execution\u2014but Rinor's just got the better ammunition left to work with, and that's the kind of advantage that doesn't usually go away when you're projecting 113 versus 103."
+      "analysis": "Rinor's walking in with a 55% win probability and a 9.5-point projection advantage, which is basically ESPN's way of saying the older brother gets to keep bragging rights unless Rilind can somehow conjure up a miracle from Ashton Jeanty, Amon-Ra St. Brown, and a supporting cast that's been pretty fucking pedestrian all season. Rinor's got the more predictable floor with Dak, Henry, and Achane still out there\u2014guys who are basically guaranteed to pad a lead\u2014while Rilind needs his entire remaining roster to simultaneously exceed projections just to make this a game, and that's not a bet ESPN's willing to take. Both of you have nine starters left cooking so this isn't mathematically dead yet, but Rinor's got the safer path to 113 here, and Rilind's basically asking lightning to strike three different times in the same week just to avoid hearing about this loss at every family dinner for the next year. The real story here is that one of you is definitely going to find a creative way to choke before Monday night, and whichever way it goes, the group chat is going to remember it forever."
     },
     {
       "homeOwner": "Flamur Muriqi",
       "awayOwner": "Jetmir Asllani / Peter Mardjonovic",
       "home": {
         "score": 0.0,
-        "projectedFinal": 107.4,
+        "projectedFinal": 107.1,
         "winProbability": 0.49,
         "yetToPlay": [
           "CeeDee Lamb",
@@ -115,7 +115,7 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 109.9,
+        "projectedFinal": 109.8,
         "winProbability": 0.51,
         "yetToPlay": [
           "Omarion Hampton",
@@ -133,14 +133,14 @@
         "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Both teams are staring at 0.0 with ESPN calling this a genuine coin flip at 49-51, but Jetmir/Peter are getting the microscopic edge at 109.9 projected versus Flamur's 107.4\u2014basically ESPN's way of saying \"we have absolutely no fucking idea.\" With nine starters left for each side, this could flip either direction, but Jetmir/Peter's got the more predictable floor here: Kenneth Walker and Rhamondre Stevenson are going to churn out carries regardless of game script, while Flamur's entire gameplan is riding CeeDee Lamb and Saquon Barkley both hitting ceiling plays in the same week, which this roster has actively refused to do consistently all season. The real wildcard is Caleb Williams\u2014if he plays like he did against the Texans he's projecting way above this, but if he plays like he did the week before that, Flamur's got a legitimate shot to steal it. This is genuinely too tight to call with the starters still out there, so neither one of you should be measuring anything at kickoff, but the team with the more reliable path to 110 is the one that doesn't need everything to break exactly right."
+      "analysis": "Flamur's got the 49% win probability and 107.1 projected while Jetmir/Peter are sitting at 51% and 109.8\u2014ESPN's basically calling this a coin flip with a 2.7-point gap that could evaporate the second Caleb Williams throws two picks instead of zero, so neither one of you should be measuring anything at kickoff. Both teams have nine starters left to play, which means this genuinely stays a toss-up, but Jetmir/Peter's got the more predictable path forward: Kenneth Walker and Rhamondre Stevenson are going to churn out carries regardless of game script, while Flamur needs CeeDee Lamb and Saquon Barkley to both hit ceiling plays in the same week\u2014and this roster has actively refused to do that consistently all season. The real wildcard is whether Caleb Williams plays like he did against the Texans or like he did the week before that, because that swing could be anywhere from plus-15 to minus-10 depending on which version shows up. This is legitimately too tight to call with the starters still out there, so neither one of you should be getting comfortable until the Eagles-Patriots game wraps up Monday night."
     },
     {
       "homeOwner": "Arben Sinanaj",
       "awayOwner": "Ilir Asllani",
       "home": {
         "score": 0.0,
-        "projectedFinal": 115.4,
+        "projectedFinal": 115.3,
         "winProbability": 0.5,
         "yetToPlay": [
           "Jonathan Taylor",
@@ -159,7 +159,7 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 115.3,
+        "projectedFinal": 115.4,
         "winProbability": 0.5,
         "yetToPlay": [
           "Bijan Robinson",
@@ -177,14 +177,14 @@
         "worstStarter": null
       },
       "familyName": null,
-      "analysis": "This is basically a coin flip that ESPN's refusing to actually call\u2014115.4 to 115.3 is the kind of separation where you're splitting hairs with a fucking magnifying glass, and both of you getting a 50% win probability is ESPN's way of admitting it genuinely has no idea. Arben's got the slightly safer floor with Lamar Jackson and Jonathan Taylor basically printing money, while Ilir's leaning on Josh Allen and Bijan Robinson to keep pace, so this comes down to pure execution from nine starters each with no obvious lineup disasters to point at. Neither one of you fucked this away on draft day or through bad decisions, so whoever's guys actually show up Monday wins\u2014and that's legitimately a toss-up when the projections are separated by a tenth of a point and the win probability is basically asking both of you to flip a coin and hope your roster doesn't collectively tank in the second half."
+      "analysis": "Both teams are staring at 0.0 with ESPN calling this a coin flip at dead even 50-50, but that's because these rosters are legitimately built to do the exact same shit\u2014Arben's projecting 115.3 versus Ilir's 115.4, which is close enough that the difference is basically rounding error. Arben's got Lamar Jackson and Jonathan Taylor guaranteeing points while Ilir's leaning on Josh Allen and Bijan Robinson to keep pace, so this comes down to which team's depth actually shows up: Arben's got receivers in McLaurin and Smith-Njigba plus Chuba Hubbard as a safety valve, while Ilir's banking on Olave and Pickens to produce alongside his backfield. Both of you have nine starters left to play with zero lineup disasters to hang your hat on, so neither one of you gets to blame anyone but your roster execution when the final whistle blows\u2014this is purely a toss-up when you're separated by a tenth of a point and ESPN's literally refusing to pick a side."
     },
     {
       "homeOwner": "Nori Kastrati",
       "awayOwner": "Faton Muriqi",
       "home": {
         "score": 0.0,
-        "projectedFinal": 117.3,
+        "projectedFinal": 117.4,
         "winProbability": 0.55,
         "yetToPlay": [
           "Jahmyr Gibbs",
@@ -203,7 +203,7 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 107.0,
+        "projectedFinal": 107.1,
         "winProbability": 0.45,
         "yetToPlay": [
           "James Cook III",
@@ -221,14 +221,14 @@
         "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Nori's sitting at a 55% win probability with 117.3 projected while Faton's stuck at 107.0 and 45%\u2014ESPN's essentially saying Nori's floor is Faton's ceiling, and with both teams running nine starters each, there's plenty of time for this to stay comfortable or implode completely. Nori's got the better roster construction here with Gibbs, Bowers, and Breece Hall all still out, while Faton's leaning on James Cook and D'Andre Swift to somehow bridge a 10-point gap that keeps getting wider the more you look at it. Neither team made any obvious lineup disasters to hand this away, so this comes down to pure execution\u2014but Nori's got the safer weapons and the projection advantage, which means Faton's basically hoping three of Nori's guys all simultaneously disappoint while his entire depth chart goes nuclear. It's not locked yet, but this is Nori's to lose at this point."
+      "analysis": "Nori's cruising at a 55% win probability with 117.4 projected while Faton's sitting at 107.1 and 45%\u2014ESPN's basically saying Nori's got a 10-point cushion that's going to hold up even with nine starters still left for each of you. Nori's got Gibbs, Bowers, and Hall left to pad an already comfortable lead, while Faton's banking on James Cook and D'Andre Swift to somehow bridge a gap that keeps looking worse every time you do the math on it. This isn't technically over since both teams have plenty of guys still on the field, but Faton's got that \"praying for everybody to hit ceiling\" energy, and that's not how fantasy football usually works out when you're already double-digit down in the projections. Nori should cruise here unless his entire remaining roster collectively tanks in the second half\u2014Faton's basically hoping for a perfect storm of Nori underperformance and his own depth chart going nuclear, which is a bet that loses more often than it wins."
     },
     {
       "homeOwner": "Ben Vucetaj",
       "awayOwner": "Veton Gjonbalaj",
       "home": {
         "score": 0.0,
-        "projectedFinal": 99.1,
+        "projectedFinal": 99.2,
         "winProbability": 0.45,
         "yetToPlay": [
           "Puka Nacua",
@@ -247,7 +247,7 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 107.9,
+        "projectedFinal": 108.1,
         "winProbability": 0.55,
         "yetToPlay": [
           "Ja'Marr Chase",
@@ -265,21 +265,21 @@
         "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Ben's staring down a 10-point projection gap with only a 45% win probability, and honestly ESPN's math doesn't lie here\u2014Veton's got 107.9 to Ben's 99.1, which means Ben needs near-perfect execution while Veton just needs his guys to show up like they're supposed to. Both teams have nine starters left so it's not completely dead, but Veton's got the safer ceiling with Ja'Marr Chase, Jalen Hurts, and Malik Nabers all still out there, whereas Ben's betting on Joe Burrow and Travis Kelce to somehow outscore an entire stack of elite receivers\u2014that's a losing proposition. Ben's got enough talent left to stay in it, but he's basically asking his whole remaining roster to go nuclear while hoping Veton's guys collectively underperform, and teams that are already down double digits don't usually get bailed out by miracle weeks from their bench."
+      "analysis": "Ben's staring at a 9-point projection hole with only a 45% win probability, and ESPN's basically calling this one for Veton before the second half even starts\u2014108.1 to 99.2 is the kind of gap where Ben needs his entire remaining roster to hit ceiling while Veton's just coasting on the strength of Ja'Marr Chase, Jalen Hurts, and Malik Nabers actually showing up like they're supposed to. Ben's got enough firepower left with Puka Nacua, Travis Kelce, and Joe Burrow to stay dangerous, but he's fundamentally asking three different guys to all explode in the same week just to make this competitive, which is the exact kind of execution this team has actively avoided all season. Both of you still have nine starters left cooking so it's technically not dead yet, but Veton's got the safer floor and the projection advantage\u2014Ben's basically hoping for the scenario where everything breaks exactly right, and that's not usually how fantasy football works when you're already down double digits heading into the second half. Neither one of you fucked away a lineup spot with some catastrophic decision, so this comes down to pure roster strength, but Veton's got the more reliable path to 108 while Ben's sweating whether his depth chart can actually perform when it matters."
     }
   ],
   "recentLines": [
+    "Rob's walking in with a 58% win probability and a 15-point projection advantage (115.1 to 99.9), which is the kind of cushion where Adam would need McCaffrey, Rice, and Wilson to all collectively phone it in just to make this competitive\u2014and that's not happening. Adam's entire gameplan is riding Justin Jefferson and Mahomes to carry the load while Judkins, Lloyd, and Worthy somehow go supernova, which is the kind of execution this roster has actively refused to deliver all season. Both teams have nine starters left cooking so it's technically alive, but Rob's got the safer floor and the projection math working overtime in his favor\u2014Adam's basically asking for lightning to strike multiple times while his bench collectively overperforms, and that's a losing bet when you're already staring down double digits. Rob should cruise here unless his remaining guys decide to collectively tank, which would be legitimately embarrassing given how comfortable this projection looks right now.",
+    "Rinor's walking in with a 55% win probability and a 9.5-point projection advantage, which is basically ESPN's way of saying the older brother gets to keep bragging rights unless Rilind can somehow conjure up a miracle from Ashton Jeanty, Amon-Ra St. Brown, and a supporting cast that's been pretty fucking pedestrian all season. Rinor's got the more predictable floor with Dak, Henry, and Achane still out there\u2014guys who are basically guaranteed to pad a lead\u2014while Rilind needs his entire remaining roster to simultaneously exceed projections just to make this a game, and that's not a bet ESPN's willing to take. Both of you have nine starters left cooking so this isn't mathematically dead yet, but Rinor's got the safer path to 113 here, and Rilind's basically asking lightning to strike three different times in the same week just to avoid hearing about this loss at every family dinner for the next year. The real story here is that one of you is definitely going to find a creative way to choke before Monday night, and whichever way it goes, the group chat is going to remember it forever.",
+    "Flamur's got the 49% win probability and 107.1 projected while Jetmir/Peter are sitting at 51% and 109.8\u2014ESPN's basically calling this a coin flip with a 2.7-point gap that could evaporate the second Caleb Williams throws two picks instead of zero, so neither one of you should be measuring anything at kickoff. Both teams have nine starters left to play, which means this genuinely stays a toss-up, but Jetmir/Peter's got the more predictable path forward: Kenneth Walker and Rhamondre Stevenson are going to churn out carries regardless of game script, while Flamur needs CeeDee Lamb and Saquon Barkley to both hit ceiling plays in the same week\u2014and this roster has actively refused to do that consistently all season. The real wildcard is whether Caleb Williams plays like he did against the Texans or like he did the week before that, because that swing could be anywhere from plus-15 to minus-10 depending on which version shows up. This is legitimately too tight to call with the starters still out there, so neither one of you should be getting comfortable until the Eagles-Patriots game wraps up Monday night.",
+    "Both teams are staring at 0.0 with ESPN calling this a coin flip at dead even 50-50, but that's because these rosters are legitimately built to do the exact same shit\u2014Arben's projecting 115.3 versus Ilir's 115.4, which is close enough that the difference is basically rounding error. Arben's got Lamar Jackson and Jonathan Taylor guaranteeing points while Ilir's leaning on Josh Allen and Bijan Robinson to keep pace, so this comes down to which team's depth actually shows up: Arben's got receivers in McLaurin and Smith-Njigba plus Chuba Hubbard as a safety valve, while Ilir's banking on Olave and Pickens to produce alongside his backfield. Both of you have nine starters left to play with zero lineup disasters to hang your hat on, so neither one of you gets to blame anyone but your roster execution when the final whistle blows\u2014this is purely a toss-up when you're separated by a tenth of a point and ESPN's literally refusing to pick a side.",
+    "Nori's cruising at a 55% win probability with 117.4 projected while Faton's sitting at 107.1 and 45%\u2014ESPN's basically saying Nori's got a 10-point cushion that's going to hold up even with nine starters still left for each of you. Nori's got Gibbs, Bowers, and Hall left to pad an already comfortable lead, while Faton's banking on James Cook and D'Andre Swift to somehow bridge a gap that keeps looking worse every time you do the math on it. This isn't technically over since both teams have plenty of guys still on the field, but Faton's got that \"praying for everybody to hit ceiling\" energy, and that's not how fantasy football usually works out when you're already double-digit down in the projections. Nori should cruise here unless his entire remaining roster collectively tanks in the second half\u2014Faton's basically hoping for a perfect storm of Nori underperformance and his own depth chart going nuclear, which is a bet that loses more often than it wins.",
+    "Ben's staring at a 9-point projection hole with only a 45% win probability, and ESPN's basically calling this one for Veton before the second half even starts\u2014108.1 to 99.2 is the kind of gap where Ben needs his entire remaining roster to hit ceiling while Veton's just coasting on the strength of Ja'Marr Chase, Jalen Hurts, and Malik Nabers actually showing up like they're supposed to. Ben's got enough firepower left with Puka Nacua, Travis Kelce, and Joe Burrow to stay dangerous, but he's fundamentally asking three different guys to all explode in the same week just to make this competitive, which is the exact kind of execution this team has actively avoided all season. Both of you still have nine starters left cooking so it's technically not dead yet, but Veton's got the safer floor and the projection advantage\u2014Ben's basically hoping for the scenario where everything breaks exactly right, and that's not usually how fantasy football works when you're already down double digits heading into the second half. Neither one of you fucked away a lineup spot with some catastrophic decision, so this comes down to pure roster strength, but Veton's got the more reliable path to 108 while Ben's sweating whether his depth chart can actually perform when it matters.",
     "Rob's walking in with a 58% win probability and 115.0 projected versus Adam's 99.9, which means ESPN's already penciled this one in Rob's favor\u2014that 15-point gap is basically the kind of lead where you'd need McCaffrey, Rice, and Wilson to all collectively decide to phone it in for this to flip. Adam's sitting there hoping Justin Jefferson and Mahomes somehow carry the entire load while his depth chart of Judkins, Lloyd, and Worthy magically goes nuclear, which is absolutely not how this roster has performed all season. Both teams have nine starters left cooking so it's not officially dead yet, but Rob's got the safer floor here; Adam's got the \"please God\" energy, and those prayers don't usually hit in fantasy football. If Adam somehow pulls this off, he genuinely earns bragging rights for turning a double-digit projection deficit into a W, but right now he's basically asking his entire bench to overperform just to make this respectable\u2014and that's not a bet ESPN likes for him.",
     "Rinor's sitting at a 56% win probability with 113.3 projected while Rilind's stuck at 102.7 and 44%\u2014ESPN's basically handing Rinor the keys to the family bragging rights with an 11-point projection gap that's looking more unforgiving by the minute. Rinor's got the safer floor with Dak, Derrick Henry, and De'Von Achane all still cooking, while Rilind's banking on Ashton Jeanty and Amon-Ra St. Brown to somehow carry the entire load and make up that projection deficit, which this roster hasn't shown the juice to pull off. Both teams have nine starters left so it's not completely over, but Rinor's got the more reliable path to victory here\u2014Rilind's basically asking three different guys to all hit their ceiling in the same week just to stay competitive. The real nightmare for Rilind is that this gets decided on Monday night when the Ravens-Steelers game goes sideways, and there's nothing worse than spending six months hearing about how the younger brother got beat by the older one because of projection math. Neither one of you made any obvious lineup disasters, so this is pure execution\u2014but Rinor's just got the better ammunition left to work with, and that's the kind of advantage that doesn't usually go away when you're projecting 113 versus 103.",
     "Both teams are staring at 0.0 with ESPN calling this a genuine coin flip at 49-51, but Jetmir/Peter are getting the microscopic edge at 109.9 projected versus Flamur's 107.4\u2014basically ESPN's way of saying \"we have absolutely no fucking idea.\" With nine starters left for each side, this could flip either direction, but Jetmir/Peter's got the more predictable floor here: Kenneth Walker and Rhamondre Stevenson are going to churn out carries regardless of game script, while Flamur's entire gameplan is riding CeeDee Lamb and Saquon Barkley both hitting ceiling plays in the same week, which this roster has actively refused to do consistently all season. The real wildcard is Caleb Williams\u2014if he plays like he did against the Texans he's projecting way above this, but if he plays like he did the week before that, Flamur's got a legitimate shot to steal it. This is genuinely too tight to call with the starters still out there, so neither one of you should be measuring anything at kickoff, but the team with the more reliable path to 110 is the one that doesn't need everything to break exactly right.",
     "This is basically a coin flip that ESPN's refusing to actually call\u2014115.4 to 115.3 is the kind of separation where you're splitting hairs with a fucking magnifying glass, and both of you getting a 50% win probability is ESPN's way of admitting it genuinely has no idea. Arben's got the slightly safer floor with Lamar Jackson and Jonathan Taylor basically printing money, while Ilir's leaning on Josh Allen and Bijan Robinson to keep pace, so this comes down to pure execution from nine starters each with no obvious lineup disasters to point at. Neither one of you fucked this away on draft day or through bad decisions, so whoever's guys actually show up Monday wins\u2014and that's legitimately a toss-up when the projections are separated by a tenth of a point and the win probability is basically asking both of you to flip a coin and hope your roster doesn't collectively tank in the second half.",
     "Nori's sitting at a 55% win probability with 117.3 projected while Faton's stuck at 107.0 and 45%\u2014ESPN's essentially saying Nori's floor is Faton's ceiling, and with both teams running nine starters each, there's plenty of time for this to stay comfortable or implode completely. Nori's got the better roster construction here with Gibbs, Bowers, and Breece Hall all still out, while Faton's leaning on James Cook and D'Andre Swift to somehow bridge a 10-point gap that keeps getting wider the more you look at it. Neither team made any obvious lineup disasters to hand this away, so this comes down to pure execution\u2014but Nori's got the safer weapons and the projection advantage, which means Faton's basically hoping three of Nori's guys all simultaneously disappoint while his entire depth chart goes nuclear. It's not locked yet, but this is Nori's to lose at this point.",
-    "Ben's staring down a 10-point projection gap with only a 45% win probability, and honestly ESPN's math doesn't lie here\u2014Veton's got 107.9 to Ben's 99.1, which means Ben needs near-perfect execution while Veton just needs his guys to show up like they're supposed to. Both teams have nine starters left so it's not completely dead, but Veton's got the safer ceiling with Ja'Marr Chase, Jalen Hurts, and Malik Nabers all still out there, whereas Ben's betting on Joe Burrow and Travis Kelce to somehow outscore an entire stack of elite receivers\u2014that's a losing proposition. Ben's got enough talent left to stay in it, but he's basically asking his whole remaining roster to go nuclear while hoping Veton's guys collectively underperform, and teams that are already down double digits don't usually get bailed out by miracle weeks from their bench.",
-    "Rob's walking in with a 58% win probability and 115.0 projected versus Adam's 99.2, which means ESPN's basically already writing Rob's victory speech\u2014that 15-point gap is the kind of cushion where you'd need Christian McCaffrey, Rashee Rice, and Garrett Wilson to all collectively decide to take the day off for this to flip. Adam's stuck hoping Justin Jefferson carries the entire load while his secondary options (Quinshon Judkins, Xavier Worthy, Tucker Kraft) somehow go nuclear, which is the kind of execution this roster hasn't shown all season. Both teams have nine starters left cooking, so it's not officially over, but Rob's got the safer floor here; Adam's got the prayer, and prayers don't usually cash out in fantasy football. If Adam somehow pulls this off, he gets genuine bragging rights for turning a 15-point deficit into a W, but right now he's asking his depth chart to collectively overperform just to make this respectable.",
-    "Rinor's sitting pretty at 56% with 113.3 projected while Rilind's got 102.7 and a 44% shot\u2014ESPN's basically saying this one belongs to the older brother, but with nine starters left for each of you, neither one of you should be measuring your dick at the family dinner table just yet. Rinor's got the safer floor with Dak, Derrick Henry, and De'Von Achane likely to pad the lead, while Rilind's banking on Ashton Jeanty and Amon-Ra St. Brown to somehow make up an 11-point projection gap that's looking uglier by the minute. The real question isn't who wins the matchup, it's who gets to spend the next six months reminding the other one they managed to blow this\u2014because one of you is definitely going to find a new and creative way to choke before we hit Monday night, and the family group chat is going to be absolutely ruthless about it either way.",
-    "Both teams are sitting at 0.0 with ESPN calling this a near-perfect coin flip at 49-51, but Jetmir/Peter are getting the microscopic edge at 109.9 projected versus Flamur's 107.4\u2014basically ESPN's way of saying \"we genuinely have no fucking idea.\" With nine starters still out for each side, this could absolutely flip either direction, but Jetmir/Peter's got the safer floor here: Kenneth Walker and Rhamondre Stevenson are going to get their carries regardless of game script, while Flamur's entire hope is that CeeDee Lamb and Saquon Barkley both hit their ceiling in the same week, which this roster hasn't exactly proven it can do consistently. Caleb Williams is the real variable for Jetmir/Peter\u2014if he plays like he did last week he's projecting way above this, but if he plays like he did the week before that, Flamur's got a legitimate shot. This is genuinely a toss-up at the wire, so neither one of you should be measuring your dick at kickoff, but if forced to pick, Jetmir/Peter's got the more reliable path to 110.",
-    "Both teams are locked in at 0.0 with ESPN basically calling this a coin flip at 51-49, Arben getting the microscopic edge at 115.4 projected versus Ilir's 113.8\u2014close enough that it genuinely doesn't matter which way you slice it. Arben's got the safer floor with Lamar Jackson and Jonathan Taylor basically guaranteeing points, while Ilir's banking on Josh Allen and Bijan Robinson to stay healthy and productive through the second half, so whoever's guys actually show up wins this one. Both of you have nine starters left to play, which means there's zero reason to get comfortable right now\u2014ESPN's admitting it has no fucking idea who wins this, so this comes down to pure execution from here on out. Neither one of you made any obvious lineup disasters to hand this away, so this is just roster strength versus roster strength, and that's a toss-up when the projections are separated by 1.6 points and the win probability is basically asking for a coin flip.",
-    "Nori's sitting pretty at a 55% win probability with 117.3 projected, which is the kind of comfortable position you want when you've still got Jahmyr Gibbs, Brock Bowers, and Breece Hall waiting to go off\u2014Faton's stuck at 107.0 and a 45% edge with basically the same number of starters left, so ESPN's essentially saying Nori's floor is Faton's ceiling. Both teams are fundamentally sound with no lineup disasters to point at, but Nori's got the better weapons left on the field with that trio of studs versus Faton banking on James Cook and D'Andre Swift to actually perform, which is a way riskier proposition. This isn't over until the final whistle, but Nori should cruise here unless his roster collectively decides to tank\u2014Faton's got about a 45% chance of pulling off the upset, which means he's basically hoping three of Nori's guys all underperform at once.",
-    "Ben's staring down the barrel of a 10-point deficit with ESPN giving him only a 45% shot, and honestly that math doesn't lie\u2014Veton's got 107.9 projected to Ben's 99.1, which means Ben needs near-perfect execution while Veton just needs his guys to show up like they're supposed to. Both teams have nine starters left so it's not completely dead, but Veton's got the safer ceiling with Ja'Marr Chase, Jalen Hurts, and Malik Nabers all still cooking, whereas Ben's betting on Joe Burrow and Travis Kelce to outscore a guy with an entire Bengals-Eagles stack\u2014ESPN doesn't like those odds for him. Ben's got enough talent left to make noise, but he's basically asking his whole bench to go nuclear while hoping Veton's guys collectively underperform, and rosters that are already losing don't usually get bailed out by miracle weeks."
+    "Ben's staring down a 10-point projection gap with only a 45% win probability, and honestly ESPN's math doesn't lie here\u2014Veton's got 107.9 to Ben's 99.1, which means Ben needs near-perfect execution while Veton just needs his guys to show up like they're supposed to. Both teams have nine starters left so it's not completely dead, but Veton's got the safer ceiling with Ja'Marr Chase, Jalen Hurts, and Malik Nabers all still out there, whereas Ben's betting on Joe Burrow and Travis Kelce to somehow outscore an entire stack of elite receivers\u2014that's a losing proposition. Ben's got enough talent left to stay in it, but he's basically asking his whole remaining roster to go nuclear while hoping Veton's guys collectively underperform, and teams that are already down double digits don't usually get bailed out by miracle weeks from their bench."
   ]
 }

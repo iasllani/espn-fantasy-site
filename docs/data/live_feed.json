@@ -1,6 +1,70 @@
 {
-  "generatedAt": "2026-09-22T09:24:55.946545+00:00",
+  "generatedAt": "2026-09-25T09:43:41.155787+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 3,
-  "events": []
+  "events": [
+    {
+      "type": "benched",
+      "owner": "Nori Kastrati",
+      "player": "Jordan Love",
+      "position": "QB",
+      "actual": 18.48,
+      "projected": 17.27558774,
+      "line": "Nori benched Jordan Love for 18.5 points and is probably checking his phone every five minutes wondering why his backup QB couldn't throw for three TDs\u2014absolutely brutal bench decision that's gonna haunt you all week."
+    },
+    {
+      "type": "over",
+      "owner": "Ilir Asllani",
+      "player": "Bijan Robinson",
+      "position": "RB",
+      "actual": 34.3,
+      "projected": 17.31454189,
+      "line": "Bijan just dropped a fucking 34-burger on your ass and you STILL had doubts about him? Ilir, that's not faith in your first-round pick, that's called owning a lottery ticket and being surprised when it hits."
+    },
+    {
+      "type": "over",
+      "owner": "Faton Muriqi",
+      "player": "Drake London",
+      "position": "WR",
+      "actual": 23.9,
+      "projected": 12.52284938,
+      "line": "Drake London just put up 23.9 points and you're out here sweating like you actually know what you're doing, Faton\u2014but hey, even a broken clock is right twice a day, and somehow you managed to start the right guy for once this season, you absolute degen."
+    },
+    {
+      "type": "over",
+      "owner": "Rinor Ahmetaj",
+      "player": "Matthew Golden",
+      "position": "WR",
+      "actual": 18.5,
+      "projected": 9.50219962,
+      "line": "Rinor finally did something right for once\u2014started Golden and watched him absolutely demolish that projection like it was his playoff hopes, which, let's be honest, probably aren't looking much better."
+    },
+    {
+      "type": "over",
+      "owner": "Nori Kastrati",
+      "player": "Christian Watson",
+      "position": "WR",
+      "actual": 19.1,
+      "projected": 12.13898067,
+      "line": "Watson went off for nearly 20 and you're still gonna complain about your team, aren't you Nori? At least one thing actually worked out for you this week\u2014don't fuck it up by benching him next time you get cute."
+    },
+    {
+      "type": "under",
+      "owner": "Rob Ricigliano",
+      "player": "Kyle Pitts Sr.",
+      "position": "TE",
+      "actual": 1.0,
+      "projected": 7.84558355,
+      "line": "Rob really said \"this is the week Kyle Pitts finally breaks out\" and got rewarded with a fat goose egg, didn't he? Congrats on confidently starting a guy who apparently forgot he was playing football."
+    },
+    {
+      "type": "under",
+      "owner": "Adam Vilajeti",
+      "player": "Kaleb Johnson",
+      "position": "RB",
+      "actual": 2.1,
+      "projected": 7.5414996,
+      "line": "Adam, I don't know what the fuck you were watching on Sunday, but Kaleb Johnson looked like he was running through molasses in a hospital gown\u20142.1 points when you needed 7.5 is the kind of Wednesday morning regret that follows a bad decision at midnight."
+    }
+  ]
 }

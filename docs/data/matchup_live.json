@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T10:50:07.023008+00:00",
+  "generatedAt": "2026-09-29T14:29:40.404539+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 4,
   "matchups": [
@@ -45,7 +45,7 @@
         "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Rob's sitting at 0.0 with nine guys left to play and ESPN's got him limping home at 97.5\u2014that's a five-point margin that basically comes down to whether his depth can execute better than Flamur's, and right now the math slightly favors Flamur at 102.2 projected with 53% win probability. The problem is Rob's got some legit weapons (CMC, Rashee Rice, Garrett Wilson, Kyren Williams) but he's also got Kyle Pitts and Jadarian Price in the mix, which means his floor is way less stable than Flamur's stack of Saquon, CeeDee, and Tee Higgins\u2014all guys who have done their jobs repeatedly. Both teams are basically asking their benches to come through since nobody's thrown up points yet, but Flamur's bench pieces are objectively safer bets to hit their projections, which is why ESPN's giving this one to him by five points on the backend."
+      "analysis": "Rob Ricigliano leads Flamur Muriqi by 0.0."
     },
     {
       "homeOwner": "Arben Sinanaj",
@@ -89,25 +89,25 @@
         "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Arben's walking out with this at 61% and ESPN projecting a comfortable 124.7 finish while Rinor's staring at 39% and 103.3 final\u2014but this one's not actually over yet since both of you have basically your entire starting lineup left to play. The gap right now is real though: 21.4 points is a genuine cushion when Arben's got Lamar Jackson, Jonathan Taylor, Terry McLaurin, and Jaxon Smith-Njigba still incoming versus Rinor's setup of Dak Prescott, Derrick Henry, and Davante Adams. Neither of you managed to royally screw your lineups this week, which is refreshing after the self-inflicted carnage we've seen, but ESPN's math says Arben's roster construction and projection profile just wins this one out\u2014Rinor would need his entire crew to massively overperform while Arben's guys land closer to their floors, and that's not the way these things typically break. Still got football left to play, but Arben's got the edge and the cushion, and Rinor needs some ceiling games that his current setup isn't exactly screaming about."
+      "analysis": "Arben Sinanaj leads Rinor Ahmetaj by 0.0."
     },
     {
       "homeOwner": "Nori Kastrati",
       "awayOwner": "Adam Vilajeti",
       "home": {
         "score": 0.0,
-        "projectedFinal": 102.2,
-        "winProbability": 0.51,
+        "projectedFinal": 114.1,
+        "winProbability": 0.58,
         "yetToPlay": [
           "Jahmyr Gibbs",
           "Brock Bowers",
-          "Breece Hall",
           "Christian Watson",
           "Javonte Williams",
           "Jordan Addison",
           "Deebo Samuel Sr.",
-          "Jared Goff",
-          "Eagles D/ST"
+          "Mark Andrews",
+          "Steelers D/ST",
+          "Jared Goff"
         ],
         "worstMistake": null,
         "bestStarter": null,
@@ -116,7 +116,7 @@
       "away": {
         "score": 0.0,
         "projectedFinal": 100.0,
-        "winProbability": 0.49,
+        "winProbability": 0.42,
         "yetToPlay": [
           "Justin Jefferson",
           "Zay Flowers",
@@ -133,7 +133,7 @@
         "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Nori's walking out with this at 51% and a projected 102.2 finish while Adam's sitting at 49% with ESPN projecting 100.0\u2014this one's basically a coin flip on paper, but Nori's got nine starters left to cook while Adam's got eight, which means Nori's more likely to hit one of those ceiling games that pushes him past the projection line. Adam's got Patrick Mahomes and Justin Jefferson still to play, which is genuinely threatening, but Nori's loaded with both high-floor guys (Gibbs, Hall, Bowers) and ceiling pieces (Deebo, Watson, Eagles D), so the margin for error heavily favors him even if Jefferson goes absolutely nuclear. Neither of you made any meaningful lineup mistakes that'll haunt you later, which means this whole thing comes down to which roster executes better over the next few games\u2014and right now ESPN's math slightly favors the guy with more starters still on the field."
+      "analysis": "Nori Kastrati leads Adam Vilajeti by 0.0."
     },
     {
       "homeOwner": "Ben Vucetaj",
@@ -177,7 +177,7 @@
         "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Ben's got this locked at 52% with ESPN projecting a 98.4 finish and nine starters still cooking, while Rilind's staring at 48% odds with a 95.2 projection and basically the same runway left\u2014this thing is genuinely wide open and whoever's depth executes gets the W. Neither of you made any catastrophic lineup mistakes that would haunt you, which means this is just straight-up roster execution and projection variance from here on out, so whoever's got the hotter hand down the stretch walks away with it. Jeremiyah Love, Travis Kelce, and Joe Burrow need to show up for Ben while Amon-Ra, Ashton Jeanty, and Justin Herbert carry the load for Rilind\u2014basically a coin flip at this point with both of you having legitimate paths to victory."
+      "analysis": "Ben Vucetaj leads Rilind Ahmetaj by 0.0."
     },
     {
       "homeOwner": "Veton Gjonbalaj",
@@ -221,7 +221,7 @@
         "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Veton's staring at a 34% win probability with ESPN projecting a 77.8 finish while Jetmir and Peter are cruising at 66% with 101.9 incoming\u2014that's a 24-point cushion that's basically already locked in before either side finishes. The good news is Veton's still got nine starters left to play including Ja'Marr Chase and Brock Purdy, so this absolutely isn't over yet, but ESPN's math is saying the depth advantage here belongs firmly to the other side. Jetmir and Peter's roster is just deeper and more reliably constructed across the board, which means Veton's going to need ceiling performances instead of the floor games that usually carry you through\u2014Omarion Hampton, Kenneth Walker, and Jaylen Waddle executing as projected is plenty enough to hold serve, leaving Veton needing multiple guys to beat their marks to steal this one. Still mathematically possible, but the projection gap suggests this is heading the wrong direction unless Chase or Purdy decide to go absolutely nuclear."
+      "analysis": "Veton Gjonbalaj leads Jetmir Asllani / Peter Mardjonovic by 0.0."
     },
     {
       "homeOwner": "Faton Muriqi",
@@ -265,7 +265,7 @@
         "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Both these teams are scoring zero right now which is fucking hilarious\u2014Ilir's sitting pretty with a 56% win probability and 117.3 projected while Faton's at 44% with 106.3, meaning ESPN thinks Ilir's depth is just objectively more reliable even though both of you are starting from the same blank slate. Ilir's got Josh Allen, Bijan Robinson, and George Pickens lined up to do their thing, while Faton's counting on James Cook, Drake London, and D'Andre Swift to make up an 11-point gap\u2014on paper that's competitive, but Ilir's entire secondary crew (Montgomery, Olave, Kincaid) just profiles safer than whatever Faton's hoping for in the back half (Loveland, Bateman, Downs). This one's genuinely not over since both sides have five starters left, but ESPN's basically saying Ilir built the better bench lineup for this exact situation\u2014his floor is just higher and his ceiling's wider, which is what happens when you don't have to hope every single remaining guy beats their projection just to stay alive."
+      "analysis": "Faton Muriqi leads Ilir Asllani by 0.0."
     }
   ],
   "recentLines": [

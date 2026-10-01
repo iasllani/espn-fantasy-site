@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T14:28:22.346470+00:00",
+  "generatedAt": "2026-10-01T11:05:45.632899+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 4,
   "matchups": [
@@ -8,17 +8,17 @@
       "awayOwner": "Flamur Muriqi",
       "home": {
         "score": 0.0,
-        "projectedFinal": 104.3,
-        "winProbability": 0.52,
+        "projectedFinal": 107.0,
+        "winProbability": 0.53,
         "yetToPlay": [
           "Christian McCaffrey",
           "Rashee Rice",
           "Garrett Wilson",
           "Jameson Williams",
           "Michael Wilson",
-          "Texans D/ST",
           "Kyren Williams",
           "Kenyon Sadiq",
+          "Packers D/ST",
           "Marcus Mariota"
         ],
         "worstMistake": null,
@@ -28,7 +28,7 @@
       "away": {
         "score": 0.0,
         "projectedFinal": 101.2,
-        "winProbability": 0.48,
+        "winProbability": 0.47,
         "yetToPlay": [
           "CeeDee Lamb",
           "Saquon Barkley",
@@ -45,14 +45,14 @@
         "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Rob's up 52-48 in win probability with a 104.3 projected finish against Flamur's 101.2, but this thing stays competitive since both of you are basically starting from zero with nine weapons still to deploy. Rob's got the better receiving trio on paper with CMC, Rashee Rice, and Garrett Wilson, but Flamur's leaning on CeeDee and Saquon as absolute must-hitters\u2014neither approach is a lock, and ESPN's basically calling this a coin flip with a razor-thin edge to Rob's arsenal. The real differentiator here is whether Rob's mid-tier guys (Marcus Mariota, Kyren Williams, Kenyon Sadiq) can actually execute their projections or if they turn into the kind of bench scraps that blow up close matchups, because if they whiff, Flamur's steadier secondary group takes over. Both of you stayed out of lineup jail this week, so whoever's depth doesn't completely shit the bed wins\u2014and right now that's marginally Rob's problem to solve first."
+      "analysis": "Rob's sitting at 53% with ESPN projecting 107.0 to Flamur's 101.2\u2014that's a five-point edge that holds up if his depth crew (Kyren Williams, Kenyon Sadiq, Marcus Mariota) actually executes instead of becoming the kind of mid-tier waiver wire disappointments that blow up close matchups. Flamur's got the sexier top-two in CeeDee and Saquon, but Rob's receiving trio with McCaffrey, Rashee Rice, and Garrett Wilson is legitimately more floor-friendly across the board, which is why ESPN's giving him the slight nod when both of you are basically playing from zero. Neither team torched their own lineup this week, so this comes down to pure roster execution and whether Rob's nine starters hit their marks consistently or whether Flamur's steadier secondary layer (Tee Higgins, Chase Brown, Trevor Lawrence) decides to make up the projection gap. Still plenty of football left to play, but Rob should feel slightly less sketchy than Flamur about whether his bench depth actually shows up when it matters."
     },
     {
       "homeOwner": "Arben Sinanaj",
       "awayOwner": "Rinor Ahmetaj",
       "home": {
         "score": 0.0,
-        "projectedFinal": 127.2,
+        "projectedFinal": 127.3,
         "winProbability": 0.54,
         "yetToPlay": [
           "Jonathan Taylor",
@@ -60,9 +60,9 @@
           "Lamar Jackson",
           "Terry McLaurin",
           "Jaylen Warren",
-          "Courtland Sutton",
           "Chuba Hubbard",
           "Jaxon Smith-Njigba",
+          "Jakobi Meyers",
           "Chiefs D/ST"
         ],
         "worstMistake": null,
@@ -89,15 +89,15 @@
         "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Arben's walking away with this at 54% with ESPN projecting 127.2 while Rinor's staring at 46% and 119.6\u2014that's a seven-point gap that matters when both of you are basically asking nine starters to carry the entire load. Arben's got the safer depth profile across the board: Jonathan Taylor, Lamar Jackson, and Terry McLaurin hitting their marks is plenty enough to lock this down, while Rinor needs Derrick Henry, Dak Prescott, and Davante Adams to all outperform projections just to stay competitive. Neither of you torched your own lineup this week, so this is pure execution, but ESPN's math slightly favors the roster that doesn't need ceiling games to win\u2014and that's Arben's side. This one stays live until the final whistle since you've both got all your guys still cooking, but Arben's got the edge and the projection cushion to back it up."
+      "analysis": "Arben's walking this one at 54% with ESPN projecting 127.3 while Rinor's sitting at 46% and 119.6\u2014that's a 7.7-point gap that basically comes down to execution when both of you are starting from absolute zero with nine starters still to cook. Arben's got the safer secondary construction across the board: Taylor and Lamar executing their marks alongside a solid receiving corps is plenty enough to lock this down, while Rinor needs Henry, Prescott, and Adams to all beat their projections just to stay within striking distance. Neither of you sabotaged your own lineups this week, so this is pure roster reliability, and ESPN's math is backing Arben because his depth profile just hits higher floors than Rinor's complementary pieces. Still plenty of football left to play and Rinor's got the weapons to make this weird if everything pops, but the projection cushion and the win probability both belong to Arben's side right now."
     },
     {
       "homeOwner": "Nori Kastrati",
       "awayOwner": "Adam Vilajeti",
       "home": {
         "score": 0.0,
-        "projectedFinal": 114.2,
-        "winProbability": 0.58,
+        "projectedFinal": 113.6,
+        "winProbability": 0.57,
         "yetToPlay": [
           "Jahmyr Gibbs",
           "Brock Bowers",
@@ -105,9 +105,9 @@
           "Javonte Williams",
           "Jordan Addison",
           "Deebo Samuel Sr.",
-          "Mark Andrews",
           "Steelers D/ST",
-          "Jared Goff"
+          "Jared Goff",
+          "Darren Waller"
         ],
         "worstMistake": null,
         "bestStarter": null,
@@ -115,8 +115,8 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 100.5,
-        "winProbability": 0.42,
+        "projectedFinal": 100.4,
+        "winProbability": 0.43,
         "yetToPlay": [
           "Justin Jefferson",
           "Zay Flowers",
@@ -133,14 +133,14 @@
         "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Nori's walking out with this at 58% and ESPN projecting a 114.2 finish while Adam's staring at 42% with 100.5 incoming\u2014that's a 13.7-point gap that basically comes down to roster depth when both of you are starting from absolute zero. Nori's got nine starters still to play including Gibbs, Bowers, and Deebo Samuel Sr., which is a legitimately loaded bench construction, while Adam's got eight guys left with Mahomes and Jefferson trying to carry more of the weight\u2014ESPN's math says Nori's extra starter plus his more reliably constructed secondary (Watson, Addison, Andrews) just hits higher floors than Adam's setup. Neither of you made any catastrophic lineup mistakes, so this is pure execution from here on out, but the projection cushion and the extra starter both favor Nori unless Adam's entire crew decides to go nuclear to make up the gap. Adam's absolutely still in this since there's plenty of football left to play, but he's basically asking his top two guys to outperform their marks while hoping Nori's nine guys all hit their floors\u2014that's the kind of math that doesn't usually work out."
+      "analysis": "Nori's walking this one at 57% with a 113.6 projected finish while Adam's staring at 43% and 100.4\u2014that's a 13-point gap that basically comes down to Nori's nine-deep roster executing at floor while Adam needs his guys to hit ceiling performances just to make this interesting. Nori's got Gibbs, Bowers, Watson, and Addison all lined up to consistently execute, which is exactly the kind of reliable secondary depth that wins these things when both teams are starting from zero with everything still cooking. Adam's relying way too much on Mahomes and Jefferson to outscore their marks while hoping his other six guys magically beat their projections\u2014that's the kind of ask that doesn't usually work out, especially when ESPN's literally telling you Nori built the safer roster for exactly this moment. Both of you stayed out of lineup jail this week, which is good news, but the projection math and win probability both say Nori's got this unless Adam's entire crew decides to go nuclear and beat their targets across the board\u2014still plenty of football left, but Nori's got the edge and the cushion to hold it."
     },
     {
       "homeOwner": "Ben Vucetaj",
       "awayOwner": "Rilind Ahmetaj",
       "home": {
         "score": 0.0,
-        "projectedFinal": 98.5,
+        "projectedFinal": 98.4,
         "winProbability": 0.46,
         "yetToPlay": [
           "Jeremiyah Love",
@@ -159,7 +159,7 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 104.6,
+        "projectedFinal": 104.5,
         "winProbability": 0.54,
         "yetToPlay": [
           "Amon-Ra St. Brown",
@@ -177,7 +177,7 @@
         "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Ben's sitting at 46% with ESPN projecting 98.5 while Rilind's got the slight edge at 54% with 104.6 incoming\u2014that's a six-point gap that basically comes down to whether Ben's nine remaining starters can all execute at or above their projections while Rilind's crew just hits their floors consistently. Ben's got the weaponry on paper with Kelce, Burrow, and Diggs still cooking, but Rilind's secondary layer with Amon-Ra, Jeanty, and DeVonta Smith just profiles as more reliably constructed to hit those marks, which is why ESPN's giving him the edge despite Ben having slightly better ceiling pieces. This one stays genuinely competitive through the final whistle since both teams are basically starting their real scoring right now, but the math slightly favors Rilind's depth coming through where it matters most\u2014Ben would need multiple guys to beat their projections just to steal this, and that's a taller ask than the steady executions that usually win these things."
+      "analysis": "Ben's sitting at 46% with ESPN projecting 98.4 while Rilind's got 54% and 104.5 coming in\u2014that's a six-point gap that basically says Rilind built the more reliably constructed roster for this exact scenario. Both of you are starting from absolute zero with nine starters left, but Rilind's secondary layer with Amon-Ra, Jeanty, and DeVonta Smith just profiles as more likely to execute their projections consistently compared to Ben's reliance on role players like KC Concepcion and Harold Fannin Jr. actually hitting their marks. Ben's got ceiling pieces with Kelce, Burrow, and Diggs still cooking, but that's the kind of lineup construction that needs multiple guys to beat their projections while Rilind only needs steady execution from his depth\u2014and that's usually the math that holds up through the final whistle. This one absolutely stays competitive since both teams have most of their firepower left to deploy, but ESPN's edge is going to Rilind unless Ben's entire secondary crew decides to go nuclear simultaneously."
     },
     {
       "homeOwner": "Veton Gjonbalaj",
@@ -221,7 +221,7 @@
         "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Veton's staring down a 42% win probability with ESPN projecting him to 95.6 while Jetmir and Peter are sitting comfortably at 58% with 109.1 incoming\u2014that's a 13.5-point gap that basically says the other side built a roster that executes its floor while Veton needs his entire remaining crew to hit ceiling performances just to stay competitive. The brutal part is both of you are starting from zero with basically your full lineups still to play, but ESPN's math is saying Jetmir and Peter's depth profile just wins this one out\u2014Omarion Hampton, Kenneth Walker, and Jaylen Waddle hitting their projections is plenty enough to hold serve without needing anyone to go nuclear, which is the opposite of what Veton's asking his guys to do. Veton's still got Ja'Marr Chase and Brock Purdy as legitimate weapons, so this absolutely isn't mathematically dead yet, but the projection gap and win probability both suggest he's asking for too much when the other side only needs steady execution from their bench to coast home."
+      "analysis": "Jetmir and Peter are walking out with this at 58% and ESPN projecting 109.1 while Veton's staring at 42% with 95.6 incoming\u2014that's a 13.5-point gap that basically says the other side built a roster that executes its floor while Veton needs his entire remaining crew to hit ceiling performances just to stay competitive. Both of you are starting from zero with basically your full lineups still to play, but ESPN's math is saying Jetmir and Peter's depth profile just wins this one out: Omarion Hampton, Kenneth Walker, and Jaylen Waddle hitting their projections is plenty enough to hold serve without needing anyone to go nuclear, which is the opposite of what Veton's asking his guys to do. Veton's still got Ja'Marr Chase and Brock Purdy as legitimate weapons, so this absolutely isn't mathematically dead yet, but the projection gap and win probability both suggest he's asking for too much when the other side only needs steady execution from their bench to coast home."
     },
     {
       "homeOwner": "Faton Muriqi",
@@ -247,7 +247,7 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 117.4,
+        "projectedFinal": 116.8,
         "winProbability": 0.53,
         "yetToPlay": [
           "Bijan Robinson",
@@ -265,21 +265,21 @@
         "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Ilir's walking out with this at 53% and ESPN projecting 117.4 to Faton's 47% and 111.8\u2014that's a tight five-point gap that comes down to whether Ilir's Josh Allen, Bijan Robinson, and George Pickens can execute better than Faton's James Cook, Drake London, and D'Andre Swift, and right now the math slightly favors Ilir because his entire secondary layer (Montgomery, Olave, Kincaid) just has higher floors than Faton's complementary pieces (Loveland, Washington, Downs). Both teams are basically asking nine starters to carry the load since you both started from zero, but Ilir's got the safer construction across the board\u2014his guys are more likely to hit their projections consistently, which is the kind of depth advantage that holds up unless Faton's entire crew decides to go nuclear and beat their marks across the board. This one's genuinely competitive and absolutely not over with both sides having most of their lineups left to play, but ESPN's giving the edge to Ilir because he built the more reliably constructed roster for exactly this situation. Faton would need multiple ceiling performances instead of the steady execution that usually wins these things."
+      "analysis": "Ilir's walking out with this at 53% and ESPN projecting 116.8 to Faton's 47% and 111.8\u2014that's a five-point gap that basically comes down to whether Ilir's Josh Allen, Bijan Robinson, and George Pickens execute better than Faton's James Cook, Drake London, and D'Andre Swift, and right now the math slightly favors Ilir's side. Both of you are starting from absolute zero with nine starters still to play, but Ilir's got the safer secondary construction with Montgomery, Olave, and Kincaid hitting their projections\u2014Faton's counting on Loveland, Washington, and Downs to step up, which is a thinner margin for error. Neither of you torched your own lineup this week, so this is pure execution from here on out, but Ilir's got the projection cushion and the more reliably built bench to work with if things get messy. Faton would need multiple guys to beat their marks just to steal this\u2014the steady execution game favors Ilir unless Faton's entire crew decides to go nuclear."
     }
   ],
   "recentLines": [
+    "Rob's sitting at 53% with ESPN projecting 107.0 to Flamur's 101.2\u2014that's a five-point edge that holds up if his depth crew (Kyren Williams, Kenyon Sadiq, Marcus Mariota) actually executes instead of becoming the kind of mid-tier waiver wire disappointments that blow up close matchups. Flamur's got the sexier top-two in CeeDee and Saquon, but Rob's receiving trio with McCaffrey, Rashee Rice, and Garrett Wilson is legitimately more floor-friendly across the board, which is why ESPN's giving him the slight nod when both of you are basically playing from zero. Neither team torched their own lineup this week, so this comes down to pure roster execution and whether Rob's nine starters hit their marks consistently or whether Flamur's steadier secondary layer (Tee Higgins, Chase Brown, Trevor Lawrence) decides to make up the projection gap. Still plenty of football left to play, but Rob should feel slightly less sketchy than Flamur about whether his bench depth actually shows up when it matters.",
+    "Arben's walking this one at 54% with ESPN projecting 127.3 while Rinor's sitting at 46% and 119.6\u2014that's a 7.7-point gap that basically comes down to execution when both of you are starting from absolute zero with nine starters still to cook. Arben's got the safer secondary construction across the board: Taylor and Lamar executing their marks alongside a solid receiving corps is plenty enough to lock this down, while Rinor needs Henry, Prescott, and Adams to all beat their projections just to stay within striking distance. Neither of you sabotaged your own lineups this week, so this is pure roster reliability, and ESPN's math is backing Arben because his depth profile just hits higher floors than Rinor's complementary pieces. Still plenty of football left to play and Rinor's got the weapons to make this weird if everything pops, but the projection cushion and the win probability both belong to Arben's side right now.",
+    "Nori's walking this one at 57% with a 113.6 projected finish while Adam's staring at 43% and 100.4\u2014that's a 13-point gap that basically comes down to Nori's nine-deep roster executing at floor while Adam needs his guys to hit ceiling performances just to make this interesting. Nori's got Gibbs, Bowers, Watson, and Addison all lined up to consistently execute, which is exactly the kind of reliable secondary depth that wins these things when both teams are starting from zero with everything still cooking. Adam's relying way too much on Mahomes and Jefferson to outscore their marks while hoping his other six guys magically beat their projections\u2014that's the kind of ask that doesn't usually work out, especially when ESPN's literally telling you Nori built the safer roster for exactly this moment. Both of you stayed out of lineup jail this week, which is good news, but the projection math and win probability both say Nori's got this unless Adam's entire crew decides to go nuclear and beat their targets across the board\u2014still plenty of football left, but Nori's got the edge and the cushion to hold it.",
+    "Ben's sitting at 46% with ESPN projecting 98.4 while Rilind's got 54% and 104.5 coming in\u2014that's a six-point gap that basically says Rilind built the more reliably constructed roster for this exact scenario. Both of you are starting from absolute zero with nine starters left, but Rilind's secondary layer with Amon-Ra, Jeanty, and DeVonta Smith just profiles as more likely to execute their projections consistently compared to Ben's reliance on role players like KC Concepcion and Harold Fannin Jr. actually hitting their marks. Ben's got ceiling pieces with Kelce, Burrow, and Diggs still cooking, but that's the kind of lineup construction that needs multiple guys to beat their projections while Rilind only needs steady execution from his depth\u2014and that's usually the math that holds up through the final whistle. This one absolutely stays competitive since both teams have most of their firepower left to deploy, but ESPN's edge is going to Rilind unless Ben's entire secondary crew decides to go nuclear simultaneously.",
+    "Jetmir and Peter are walking out with this at 58% and ESPN projecting 109.1 while Veton's staring at 42% with 95.6 incoming\u2014that's a 13.5-point gap that basically says the other side built a roster that executes its floor while Veton needs his entire remaining crew to hit ceiling performances just to stay competitive. Both of you are starting from zero with basically your full lineups still to play, but ESPN's math is saying Jetmir and Peter's depth profile just wins this one out: Omarion Hampton, Kenneth Walker, and Jaylen Waddle hitting their projections is plenty enough to hold serve without needing anyone to go nuclear, which is the opposite of what Veton's asking his guys to do. Veton's still got Ja'Marr Chase and Brock Purdy as legitimate weapons, so this absolutely isn't mathematically dead yet, but the projection gap and win probability both suggest he's asking for too much when the other side only needs steady execution from their bench to coast home.",
+    "Ilir's walking out with this at 53% and ESPN projecting 116.8 to Faton's 47% and 111.8\u2014that's a five-point gap that basically comes down to whether Ilir's Josh Allen, Bijan Robinson, and George Pickens execute better than Faton's James Cook, Drake London, and D'Andre Swift, and right now the math slightly favors Ilir's side. Both of you are starting from absolute zero with nine starters still to play, but Ilir's got the safer secondary construction with Montgomery, Olave, and Kincaid hitting their projections\u2014Faton's counting on Loveland, Washington, and Downs to step up, which is a thinner margin for error. Neither of you torched your own lineup this week, so this is pure execution from here on out, but Ilir's got the projection cushion and the more reliably built bench to work with if things get messy. Faton would need multiple guys to beat their marks just to steal this\u2014the steady execution game favors Ilir unless Faton's entire crew decides to go nuclear.",
     "Rob's up 52-48 in win probability with a 104.3 projected finish against Flamur's 101.2, but this thing stays competitive since both of you are basically starting from zero with nine weapons still to deploy. Rob's got the better receiving trio on paper with CMC, Rashee Rice, and Garrett Wilson, but Flamur's leaning on CeeDee and Saquon as absolute must-hitters\u2014neither approach is a lock, and ESPN's basically calling this a coin flip with a razor-thin edge to Rob's arsenal. The real differentiator here is whether Rob's mid-tier guys (Marcus Mariota, Kyren Williams, Kenyon Sadiq) can actually execute their projections or if they turn into the kind of bench scraps that blow up close matchups, because if they whiff, Flamur's steadier secondary group takes over. Both of you stayed out of lineup jail this week, so whoever's depth doesn't completely shit the bed wins\u2014and right now that's marginally Rob's problem to solve first.",
     "Arben's walking away with this at 54% with ESPN projecting 127.2 while Rinor's staring at 46% and 119.6\u2014that's a seven-point gap that matters when both of you are basically asking nine starters to carry the entire load. Arben's got the safer depth profile across the board: Jonathan Taylor, Lamar Jackson, and Terry McLaurin hitting their marks is plenty enough to lock this down, while Rinor needs Derrick Henry, Dak Prescott, and Davante Adams to all outperform projections just to stay competitive. Neither of you torched your own lineup this week, so this is pure execution, but ESPN's math slightly favors the roster that doesn't need ceiling games to win\u2014and that's Arben's side. This one stays live until the final whistle since you've both got all your guys still cooking, but Arben's got the edge and the projection cushion to back it up.",
     "Nori's walking out with this at 58% and ESPN projecting a 114.2 finish while Adam's staring at 42% with 100.5 incoming\u2014that's a 13.7-point gap that basically comes down to roster depth when both of you are starting from absolute zero. Nori's got nine starters still to play including Gibbs, Bowers, and Deebo Samuel Sr., which is a legitimately loaded bench construction, while Adam's got eight guys left with Mahomes and Jefferson trying to carry more of the weight\u2014ESPN's math says Nori's extra starter plus his more reliably constructed secondary (Watson, Addison, Andrews) just hits higher floors than Adam's setup. Neither of you made any catastrophic lineup mistakes, so this is pure execution from here on out, but the projection cushion and the extra starter both favor Nori unless Adam's entire crew decides to go nuclear to make up the gap. Adam's absolutely still in this since there's plenty of football left to play, but he's basically asking his top two guys to outperform their marks while hoping Nori's nine guys all hit their floors\u2014that's the kind of math that doesn't usually work out.",
     "Ben's sitting at 46% with ESPN projecting 98.5 while Rilind's got the slight edge at 54% with 104.6 incoming\u2014that's a six-point gap that basically comes down to whether Ben's nine remaining starters can all execute at or above their projections while Rilind's crew just hits their floors consistently. Ben's got the weaponry on paper with Kelce, Burrow, and Diggs still cooking, but Rilind's secondary layer with Amon-Ra, Jeanty, and DeVonta Smith just profiles as more reliably constructed to hit those marks, which is why ESPN's giving him the edge despite Ben having slightly better ceiling pieces. This one stays genuinely competitive through the final whistle since both teams are basically starting their real scoring right now, but the math slightly favors Rilind's depth coming through where it matters most\u2014Ben would need multiple guys to beat their projections just to steal this, and that's a taller ask than the steady executions that usually win these things.",
     "Veton's staring down a 42% win probability with ESPN projecting him to 95.6 while Jetmir and Peter are sitting comfortably at 58% with 109.1 incoming\u2014that's a 13.5-point gap that basically says the other side built a roster that executes its floor while Veton needs his entire remaining crew to hit ceiling performances just to stay competitive. The brutal part is both of you are starting from zero with basically your full lineups still to play, but ESPN's math is saying Jetmir and Peter's depth profile just wins this one out\u2014Omarion Hampton, Kenneth Walker, and Jaylen Waddle hitting their projections is plenty enough to hold serve without needing anyone to go nuclear, which is the opposite of what Veton's asking his guys to do. Veton's still got Ja'Marr Chase and Brock Purdy as legitimate weapons, so this absolutely isn't mathematically dead yet, but the projection gap and win probability both suggest he's asking for too much when the other side only needs steady execution from their bench to coast home.",
-    "Ilir's walking out with this at 53% and ESPN projecting 117.4 to Faton's 47% and 111.8\u2014that's a tight five-point gap that comes down to whether Ilir's Josh Allen, Bijan Robinson, and George Pickens can execute better than Faton's James Cook, Drake London, and D'Andre Swift, and right now the math slightly favors Ilir because his entire secondary layer (Montgomery, Olave, Kincaid) just has higher floors than Faton's complementary pieces (Loveland, Washington, Downs). Both teams are basically asking nine starters to carry the load since you both started from zero, but Ilir's got the safer construction across the board\u2014his guys are more likely to hit their projections consistently, which is the kind of depth advantage that holds up unless Faton's entire crew decides to go nuclear and beat their marks across the board. This one's genuinely competitive and absolutely not over with both sides having most of their lineups left to play, but ESPN's giving the edge to Ilir because he built the more reliably constructed roster for exactly this situation. Faton would need multiple ceiling performances instead of the steady execution that usually wins these things.",
-    "Rob's sitting at 0.0 with nine studs still to play and ESPN's projecting him to 104.3, which gives him a razor-thin 52% edge over Flamur's 101.2\u2014but here's the thing: Rob's got the better weaponry on paper (CMC, Rashee Rice, Garrett Wilson) while Flamur's banking on CeeDee and Saquon to carry the load, and both rosters have enough juice left that this genuinely could go either way. Neither of you managed to torpedo your own lineups this week, which is honestly a relief given how many times we've watched people benching their best guys, so this one's just straight projection variance and execution\u2014whoever's depth actually hits their targets wins, and ESPN's math is basically a coin flip with a slight nod to Rob's receiving corps. Still plenty of football left to play, but Rob should be sweating slightly less than he is right now.",
-    "Arben's walking out with this at 52% and ESPN projecting a comfortable 124.6 finish while Rinor's staring at 48% and 119.6 final\u2014the gap's only five points but it's sitting in Arben's favor because his roster just profiles safer across the board. Both of you basically have your entire starting lineup still left to play, which means this thing genuinely isn't over yet, but ESPN's math is saying Arben's depth construction wins the tiebreaker when everything comes down to execution. Arben's got Jonathan Taylor, Lamar Jackson, Terry McLaurin, and Jaxon Smith-Njigba all lined up to hit their marks, while Rinor's counting on Derrick Henry, Dak Prescott, and Davante Adams to outperform their projections just to steal this\u2014neither of you made any lineup mistakes that'll haunt you, which means the edge goes to whoever built the more reliable secondary crew, and that's Arben by a razor-thin margin. Still plenty of football left to play, but ESPN's got the slight nod going to Arben's side of the bracket.",
-    "Nori's walking out with this at 58% and ESPN projecting a 114.1 finish while Adam's staring at 42% with 100.1 incoming\u2014that's a 14-point gap that basically comes down to whether Nori's absurdly deep roster executes better than Adam's, and right now the math heavily favors him. Both of you are starting from zero with basically your entire lineup still to play, but Nori's got Jahmyr Gibbs, Brock Bowers, and Deebo Samuel Sr. stacked alongside nine total starters versus Adam's more balanced approach with Mahomes and Jefferson\u2014ESPN's saying Nori's bench construction is just more reliably built to hit projections, which is the kind of depth advantage that holds up unless Adam's entire crew decides to go nuclear. Neither of you made any catastrophic lineup mistakes, so this is pure roster execution from here on out, and Nori's got the projection cushion and the extra starter to work with if things get weird. Adam's absolutely still in this since both sides have plenty of runway left, but Nori's got the edge and the math backing it up.",
-    "Ben's sitting at 54% with ESPN projecting 98.4 while Rilind's at 46% and 104.5\u2014that's a genuine flip in what looked like a toss-up earlier, and it comes down to roster construction more than anything else. Both of you are starting from zero with nine starters left to play, but Rilind's got a more stable secondary layer with Amon-Ra, Jeanty, and DeVonta Smith versus Ben's deeper reliance on role players like KC Concepcion and Harold Fannin Jr. to hit their marks. Ben's got the volume play with Kelce and Burrow still cooking, but Rilind's backup options just profile as more likely to execute their projections consistently, which is why ESPN's giving him the edge despite Ben having slightly better ceiling pieces. This one genuinely stays competitive through the final whistle since both teams are basically starting their real scoring right now, but the math slightly favors Rilind's depth coming through where it matters most.",
-    "Veton's staring down a 31% win probability with ESPN projecting a 77.8 finish while Jetmir and Peter are cruising at 69% with a 109.1 ceiling\u2014that's a 31-point gap that basically comes down to whether Veton's nine remaining starters can all hit ceiling performances while the other side's nine just execute their floors, and the Vegas math says that's not happening. The good news is Veton's still got Ja'Marr Chase and Brock Purdy left to play, which are legitimate weapons, but Hampton, Walker, and Jaylen Waddle executing as projected for the other side is plenty enough to hold serve without needing anyone to go nuclear. This one isn't mathematically dead yet since both sides have most of their lineups still cooking, but ESPN's basically saying Jetmir and Peter built the more reliably constructed roster for exactly this situation\u2014their depth just profiles safer across the board, which means Veton needs multiple ceiling games instead of the steady performances that usually win these things.",
-    "Both teams are sitting at 0.0 right now with basically their entire lineups still to play, but ESPN's giving this one to Ilir at 53% with a 117.4 projected finish versus Faton's 47% and 111.5\u2014that's a 5.9-point gap that comes down to roster construction when both of you are asking your benches to do the heavy lifting. Ilir's got Josh Allen, Bijan Robinson, and George Pickens lined up to carry the load while Faton's counting on James Cook, Drake London, and D'Andre Swift to make up the deficit, which is competitive on paper but ESPN's math says Ilir's secondary crew (Montgomery, Olave, Kincaid) just profiles safer overall than Faton's back half (Loveland, Washington, Downs). Neither of you made any catastrophic lineup mistakes that would haunt you, so this is straight-up execution and projection variance from here on out\u2014whoever's depth executes better gets the W, and right now the numbers slightly favor Ilir because his entire roster just hits higher floors across the board. Still plenty of football left to play, but Ilir's got the edge and the cushion, meaning Faton would need multiple guys to beat their marks just to steal this one."
+    "Ilir's walking out with this at 53% and ESPN projecting 117.4 to Faton's 47% and 111.8\u2014that's a tight five-point gap that comes down to whether Ilir's Josh Allen, Bijan Robinson, and George Pickens can execute better than Faton's James Cook, Drake London, and D'Andre Swift, and right now the math slightly favors Ilir because his entire secondary layer (Montgomery, Olave, Kincaid) just has higher floors than Faton's complementary pieces (Loveland, Washington, Downs). Both teams are basically asking nine starters to carry the load since you both started from zero, but Ilir's got the safer construction across the board\u2014his guys are more likely to hit their projections consistently, which is the kind of depth advantage that holds up unless Faton's entire crew decides to go nuclear and beat their marks across the board. This one's genuinely competitive and absolutely not over with both sides having most of their lineups left to play, but ESPN's giving the edge to Ilir because he built the more reliably constructed roster for exactly this situation. Faton would need multiple ceiling performances instead of the steady execution that usually wins these things."
   ]
 }

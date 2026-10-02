@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-09-29T10:49:40.732141+00:00",
+  "generatedAt": "2026-10-02T10:38:28.055892+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 4,
-  "events": []
+  "events": [
+    {
+      "type": "benched",
+      "owner": "Rinor Ahmetaj",
+      "player": "DK Metcalf",
+      "position": "WR",
+      "actual": 14.0,
+      "projected": 8.47675463,
+      "line": "Rinor benched DK for 14 points when he was only supposed to get 8.5\u2014that's the kind of fucked up decision-making that's gonna haunt you when you're watching from the couch in January."
+    },
+    {
+      "type": "over",
+      "owner": "Adam Vilajeti",
+      "player": "Quinshon Judkins",
+      "position": "RB",
+      "actual": 18.6,
+      "projected": 11.40773206,
+      "line": "Adam, I didn't know we were allowed to just fucking *manifest* a breakout performance into existence, but apparently that's what Judkins decided to do this week\u2014absolutely demolished his projection and you're out here looking like a genius for having the balls to start him when everyone else was sleeping on him."
+    }
+  ]
 }

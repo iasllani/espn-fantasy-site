@@ -1,16 +1,61 @@
 {
-  "generatedAt": "2026-10-02T10:38:28.055892+00:00",
+  "generatedAt": "2026-10-04T13:35:14.869040+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 4,
   "events": [
+    {
+      "type": "under",
+      "owner": "Arben Sinanaj",
+      "player": "Jonathan Taylor",
+      "position": "RB",
+      "actual": 0.0,
+      "projected": 18.85657358,
+      "line": "Arben really said \"let me start the guy who literally didn't touch the field\" and somehow managed to be wrong about the one thing that was actually guaranteed to happen\u2014JT getting absolutely nothing. What the fuck was that start, dude?"
+    },
+    {
+      "type": "under",
+      "owner": "Rob Ricigliano",
+      "player": "Marcus Mariota",
+      "position": "QB",
+      "actual": 0.0,
+      "projected": 18.56041647,
+      "line": "Rob, I genuinely didn't know it was possible to get skunked this hard by a starting QB in 2024\u2014congrats on finding the one week Marcus Mariota decided to audition for a European soccer league instead of throwing a football."
+    },
     {
       "type": "benched",
       "owner": "Rinor Ahmetaj",
       "player": "DK Metcalf",
       "position": "WR",
       "actual": 14.0,
-      "projected": 8.47675463,
-      "line": "Rinor benched DK for 14 points when he was only supposed to get 8.5\u2014that's the kind of fucked up decision-making that's gonna haunt you when you're watching from the couch in January."
+      "projected": 8.47710094,
+      "line": "Rinor really said \"nah, I don't need 14 points from my bench this week\" \u2013 enjoy watching DK's monster game from the sidelines while your starter probably put up 6 fucking points."
+    },
+    {
+      "type": "under",
+      "owner": "Faton Muriqi",
+      "player": "Josh Downs",
+      "position": "WR",
+      "actual": 0.0,
+      "projected": 10.99241351,
+      "line": "Faton really said \"Josh Downs is my guy\" and watched him put up a fat fucking zero while projections promised 11, what a goddamn disaster."
+    },
+    {
+      "type": "under",
+      "owner": "Ilir Asllani",
+      "player": "Jacory Croskey-Merritt",
+      "position": "RB",
+      "actual": 0.3,
+      "projected": 10.64139903,
+      "line": "Ilir really said \"let me start a guy projected for double digits\" and watched him put up a fucking tenth of a point\u2014that's not a start, that's a cry for help."
+    },
+    {
+      "type": "under",
+      "owner": "Jetmir Asllani / Peter Mardjonovic",
+      "player": "Tyler Warren",
+      "position": "TE",
+      "actual": 0.0,
+      "projected": 10.3265597,
+      "line": "Tyler Warren put up a fat fuckin' goose egg when he was supposed to get you 10 points, and you STARTED him\u2014that's what happens when you panic-start a tight end who hasn't done shit all season."
     },
     {
       "type": "over",
@@ -19,7 +64,16 @@
       "position": "RB",
       "actual": 18.6,
       "projected": 11.40773206,
-      "line": "Adam, I didn't know we were allowed to just fucking *manifest* a breakout performance into existence, but apparently that's what Judkins decided to do this week\u2014absolutely demolished his projection and you're out here looking like a genius for having the balls to start him when everyone else was sleeping on him."
+      "line": "Adam, you absolute madman\u2014Judkins just shit on his projection like he had something to prove, and somehow you're still the genius who started him when everyone else was sleeping on that backfield committee!"
+    },
+    {
+      "type": "under",
+      "owner": "Adam Vilajeti",
+      "player": "Antonio Williams",
+      "position": "WR",
+      "actual": 0.0,
+      "projected": 6.63540727,
+      "line": "Antonio Williams put up a fat fucking zero and Adam still had the stones to start him\u2014that's what happens when you draft like you're playing a slot machine instead of doing five minutes of research."
     }
   ]
 }

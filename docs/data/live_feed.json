@@ -1,79 +1,97 @@
 {
-  "generatedAt": "2026-10-04T13:35:14.869040+00:00",
+  "generatedAt": "2026-10-05T11:43:42.654909+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 4,
   "events": [
     {
-      "type": "under",
-      "owner": "Arben Sinanaj",
-      "player": "Jonathan Taylor",
+      "type": "benched",
+      "owner": "Rob Ricigliano",
+      "player": "Kyle Monangai",
       "position": "RB",
-      "actual": 0.0,
-      "projected": 18.85657358,
-      "line": "Arben really said \"let me start the guy who literally didn't touch the field\" and somehow managed to be wrong about the one thing that was actually guaranteed to happen\u2014JT getting absolutely nothing. What the fuck was that start, dude?"
+      "actual": 27.5,
+      "projected": 7.57212803,
+      "line": "Rob just benched a guy who put up 27.5 fucking points\u2014that's not fantasy football, that's fantasy fiction, and you wrote the worst ending possible."
     },
     {
-      "type": "under",
-      "owner": "Rob Ricigliano",
-      "player": "Marcus Mariota",
+      "type": "benched",
+      "owner": "Adam Vilajeti",
+      "player": "Drake Maye",
       "position": "QB",
-      "actual": 0.0,
-      "projected": 18.56041647,
-      "line": "Rob, I genuinely didn't know it was possible to get skunked this hard by a starting QB in 2024\u2014congrats on finding the one week Marcus Mariota decided to audition for a European soccer league instead of throwing a football."
+      "actual": 26.16,
+      "projected": 17.5009484,
+      "line": "Adam sat Drake Maye on the bench and watched him put up 26.2 points from his couch like a fucking idiot\u2014that's what happens when you panic bench your QB after one bad week instead of having some goddamn conviction."
+    },
+    {
+      "type": "over",
+      "owner": "Jetmir Asllani / Peter Mardjonovic",
+      "player": "Tetairoa McMillan",
+      "position": "WR",
+      "actual": 38.2,
+      "projected": 13.49521535,
+      "line": "Jetmir, you absolute madman\u2014McMillan just put up 38 fucking points and you're gonna get all the credit for having the stones to start him when literally nobody else believed, but let's be honest, that was pure luck and we both know it."
     },
     {
       "type": "benched",
       "owner": "Rinor Ahmetaj",
-      "player": "DK Metcalf",
+      "player": "Romeo Doubs",
       "position": "WR",
-      "actual": 14.0,
-      "projected": 8.47710094,
-      "line": "Rinor really said \"nah, I don't need 14 points from my bench this week\" \u2013 enjoy watching DK's monster game from the sidelines while your starter probably put up 6 fucking points."
+      "actual": 20.8,
+      "projected": 8.06317309,
+      "line": "Rinor, you absolute coward\u2014Doubs just dropped 20.8 points on your fucking bench while you were out there sweating your starter, and now you get to watch him blow up in someone else's lineup next week because you chickened out on a guy who was clearly due."
     },
     {
-      "type": "under",
-      "owner": "Faton Muriqi",
-      "player": "Josh Downs",
+      "type": "benched",
+      "owner": "Flamur Muriqi",
+      "player": "Keon Coleman",
       "position": "WR",
-      "actual": 0.0,
-      "projected": 10.99241351,
-      "line": "Faton really said \"Josh Downs is my guy\" and watched him put up a fat fucking zero while projections promised 11, what a goddamn disaster."
-    },
-    {
-      "type": "under",
-      "owner": "Ilir Asllani",
-      "player": "Jacory Croskey-Merritt",
-      "position": "RB",
-      "actual": 0.3,
-      "projected": 10.64139903,
-      "line": "Ilir really said \"let me start a guy projected for double digits\" and watched him put up a fucking tenth of a point\u2014that's not a start, that's a cry for help."
-    },
-    {
-      "type": "under",
-      "owner": "Jetmir Asllani / Peter Mardjonovic",
-      "player": "Tyler Warren",
-      "position": "TE",
-      "actual": 0.0,
-      "projected": 10.3265597,
-      "line": "Tyler Warren put up a fat fuckin' goose egg when he was supposed to get you 10 points, and you STARTED him\u2014that's what happens when you panic-start a tight end who hasn't done shit all season."
+      "actual": 20.6,
+      "projected": 5.04031142,
+      "line": "Flamur benched Keon Coleman and watched him go off for 20.6 points from the fucking couch\u2014that's what happens when you panic-bench your receivers like you're playing hot potato instead of fantasy football."
     },
     {
       "type": "over",
-      "owner": "Adam Vilajeti",
-      "player": "Quinshon Judkins",
+      "owner": "Rob Ricigliano",
+      "player": "Kyren Williams",
       "position": "RB",
-      "actual": 18.6,
-      "projected": 11.40773206,
-      "line": "Adam, you absolute madman\u2014Judkins just shit on his projection like he had something to prove, and somehow you're still the genius who started him when everyone else was sleeping on that backfield committee!"
+      "actual": 31.7,
+      "projected": 11.88295104,
+      "line": "Rob, what the fuck were you doing with Kyren on the bench all season when he decided to go full apeshit mode THIS week\u201431.7 points, nearly triple his projection, and of course it happens when you finally grew a pair and started him."
     },
     {
-      "type": "under",
-      "owner": "Adam Vilajeti",
-      "player": "Antonio Williams",
+      "type": "over",
+      "owner": "Flamur Muriqi",
+      "player": "CeeDee Lamb",
       "position": "WR",
-      "actual": 0.0,
-      "projected": 6.63540727,
-      "line": "Antonio Williams put up a fat fucking zero and Adam still had the stones to start him\u2014that's what happens when you draft like you're playing a slot machine instead of doing five minutes of research."
+      "actual": 32.8,
+      "projected": 13.65334492,
+      "line": "CeeDee just put up 32.8 points and made Flamur look like a goddamn genius for once\u2014too bad that confidence won't last more than five minutes before he panic trades him for a backup tight end next week."
+    },
+    {
+      "type": "benched",
+      "owner": "Jetmir Asllani / Peter Mardjonovic",
+      "player": "Ollie Gordon II",
+      "position": "RB",
+      "actual": 17.0,
+      "projected": 8.0435014,
+      "line": "Jetmir, you absolute coward\u2014benching a guy who just put up 17 points when you projected him for 8 is the kind of chickenshit panic move that's gonna haunt you when you lose by 6 this week."
+    },
+    {
+      "type": "over",
+      "owner": "Nori Kastrati",
+      "player": "Javonte Williams",
+      "position": "RB",
+      "actual": 28.8,
+      "projected": 13.24976195,
+      "line": "Nori actually fucking nailed it this week\u2014Williams went absolutely bonkers and more than doubled his projection, so congrats on having the balls to trust him when nobody else did."
+    },
+    {
+      "type": "over",
+      "owner": "Veton Gjonbalaj",
+      "player": "Nico Collins",
+      "position": "WR",
+      "actual": 27.3,
+      "projected": 12.63611853,
+      "line": "Veton actually had the balls to start Collins and watch him go absolutely nuclear, pulling off the most accidental genius move of the season\u2014even a blind squirrel finds a nut sometimes, I guess."
     }
   ]
 }

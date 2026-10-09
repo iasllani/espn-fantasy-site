@@ -1,6 +1,61 @@
 {
-  "generatedAt": "2026-10-06T11:25:21.418555+00:00",
+  "generatedAt": "2026-10-09T11:26:44.219544+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 5,
-  "events": []
+  "events": [
+    {
+      "type": "over",
+      "owner": "Rinor Ahmetaj",
+      "player": "Bucky Irving",
+      "position": "RB",
+      "actual": 30.5,
+      "projected": 13.95365519,
+      "line": "Rinor's been carrying Bucky Irving like a fucking lottery ticket and it actually hit\u201430.5 points when we all thought he'd be a dud, so maybe there's something to this \"trusting your gut\" thing after all."
+    },
+    {
+      "type": "under",
+      "owner": "Flamur Muriqi",
+      "player": "CeeDee Lamb",
+      "position": "WR",
+      "actual": 1.9,
+      "projected": 15.46977052,
+      "line": "CeeDee putting up 1.9 when you needed 15.5 is absolutely brutal, Flamur\u2014that's what happens when you roll the dice on a guy going against a defense that actually showed up, and now your whole week's in the fucking toilet because of it."
+    },
+    {
+      "type": "over",
+      "owner": "Ilir Asllani",
+      "player": "George Pickens",
+      "position": "WR",
+      "actual": 23.5,
+      "projected": 10.9028873,
+      "line": "Ilir actually had the balls to start Pickens and he goes OFF for nearly 24? That's what happens when you accidentally do something right, you magnificent bastard\u2014don't get used to it."
+    },
+    {
+      "type": "under",
+      "owner": "Jetmir Asllani / Peter Mardjonovic",
+      "player": "Cowboys D/ST",
+      "position": "D/ST",
+      "actual": -2.0,
+      "projected": 7.41871094,
+      "line": "Cowboys D got absolutely skull-fucked this week and you started those bums anyway\u2014that's a -2 when you needed 7, congrats on the self-inflicted wound."
+    },
+    {
+      "type": "over",
+      "owner": "Flamur Muriqi",
+      "player": "Emeka Egbuka",
+      "position": "WR",
+      "actual": 14.2,
+      "projected": 8.16159993,
+      "line": "Flamur actually made the right call for once, and Egbuka decided to show up like he gives a shit\u201414 points when everyone projected 8, so congrats on accidentally stumbling into competence this week."
+    },
+    {
+      "type": "under",
+      "owner": "Rinor Ahmetaj",
+      "player": "Dak Prescott",
+      "position": "QB",
+      "actual": 12.64,
+      "projected": 17.75122865,
+      "line": "Rinor really said \"let's ride with Dak\" and got horseshit for his trouble\u201412.6 points when you needed 18 is exactly the kind of mediocre bullshit that tanks seasons, my guy."
+    }
+  ]
 }

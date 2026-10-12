@@ -1,16 +1,88 @@
 {
-  "generatedAt": "2026-10-11T14:31:30.371320+00:00",
+  "generatedAt": "2026-10-12T12:17:16.410974+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 5,
   "events": [
+    {
+      "type": "over",
+      "owner": "Adam Vilajeti",
+      "player": "Drake Maye",
+      "position": "QB",
+      "actual": 39.46,
+      "projected": 18.46546857,
+      "line": "Adam, I didn't know you were allowed to just *cheat* like this\u2014Drake Maye absolutely obliterated that projection and made your entire roster look competent for once, which is honestly shocking given your draft history."
+    },
+    {
+      "type": "over",
+      "owner": "Arben Sinanaj",
+      "player": "Jaylen Warren",
+      "position": "RB",
+      "actual": 33.8,
+      "projected": 15.86127187,
+      "line": "Arben actually pulled off a miracle by starting Warren and watching him explode for 33.8 when everyone thought he'd be a dud at 15.9\u2014too bad your entire season's still circling the drain because you've made worse decisions than this one good call."
+    },
+    {
+      "type": "over",
+      "owner": "Nori Kastrati",
+      "player": "Christian Watson",
+      "position": "WR",
+      "actual": 29.3,
+      "projected": 11.52085425,
+      "line": "Nori actually had the balls to start Watson and watched him go absolutely nuclear for 29.3 points\u2014congrats on the accidental masterstroke, you absolute donkey, because we both know you were sweating bullets with that projection at halftime."
+    },
+    {
+      "type": "under",
+      "owner": "Faton Muriqi",
+      "player": "Tyler Shough",
+      "position": "QB",
+      "actual": -0.16,
+      "projected": 16.51041122,
+      "line": "Faton, starting a backup QB who wasn't even in the damn league two weeks ago and getting negative points is the most Faton shit I've ever seen\u2014at least you're consistent with your terrible decision-making."
+    },
     {
       "type": "over",
       "owner": "Rinor Ahmetaj",
       "player": "Bucky Irving",
       "position": "RB",
       "actual": 30.5,
-      "projected": 13.95341014,
-      "line": "Rinor actually benched this guy last week and watched him pop off, so of course he starts him this week and Bucky decides to go full anime protagonist\u2014absolutely demolished that projection like it personally insulted his family. Maybe trust your own fucking eyes next time instead of whatever crystal ball told you to sit him before."
+      "projected": 13.96877685,
+      "line": "Bucky Irving just shit all over his projection and Rinor's probably still wondering how he accidentally made the right call\u201430.5 points from a guy he was clearly banking on to bust, and somehow the fantasy gods decided to bless this mess anyway."
+    },
+    {
+      "type": "over",
+      "owner": "Flamur Muriqi",
+      "player": "Isaiah Likely",
+      "position": "TE",
+      "actual": 26.9,
+      "projected": 10.37237553,
+      "line": "Isaiah Likely just went absolutely nuclear and you still managed to look like a genius by accident\u2014that's what happens when you start a TE as a desperation play and he decides to drop 26.9 on your ass, Flamur."
+    },
+    {
+      "type": "benched",
+      "owner": "Adam Vilajeti",
+      "player": "MarShawn Lloyd",
+      "position": "RB",
+      "actual": 16.2,
+      "projected": 8.17771897,
+      "line": "Adam really said \"nah, I don't trust this guy\" and threw 16 points on the bench like it was nothing\u2014what the fuck were you doing, leaving nearly a touchdown on the sideline?"
+    },
+    {
+      "type": "over",
+      "owner": "Faton Muriqi",
+      "player": "Parker Washington",
+      "position": "WR",
+      "actual": 27.4,
+      "projected": 11.889949,
+      "line": "Faton, Parker Washington just absolutely nuked his projection and you still managed to look like a genius by accident\u2014maybe next week try actually watching tape instead of just throwing darts at the waiver wire blindfolded."
+    },
+    {
+      "type": "benched",
+      "owner": "Faton Muriqi",
+      "player": "J.K. Dobbins",
+      "position": "RB",
+      "actual": 14.4,
+      "projected": 10.11521089,
+      "line": "Faton, you absolute moron\u2014Dobbins went off for 14.4 points on your bench while you were probably starting some waiver-wire dart throw instead, and now you're sitting here watching your season implode because you can't trust your own fucking roster."
     },
     {
       "type": "under",
@@ -18,80 +90,8 @@
       "player": "CeeDee Lamb",
       "position": "WR",
       "actual": 1.9,
-      "projected": 15.46977052,
-      "line": "CeeDee put up 1.9 fucking points and you started him anyway\u2014might as well have thrown a dart at your bench and hoped for better, Flamur, because that projection was a god damn fantasy."
-    },
-    {
-      "type": "over",
-      "owner": "Ilir Asllani",
-      "player": "George Pickens",
-      "position": "WR",
-      "actual": 23.5,
-      "projected": 10.9028873,
-      "line": "Pickens went absolutely nuclear this week and Ilir still somehow managed to look like a genius for starting him\u2014even though that projection had him as a mid-tier flex play, this motherfucker just doubled down and exploded all over the place."
-    },
-    {
-      "type": "under",
-      "owner": "Rilind Ahmetaj",
-      "player": "Bhayshul Tuten",
-      "position": "RB",
-      "actual": 1.6,
-      "projected": 13.00800332,
-      "line": "Rilind, starting Bhayshul Tuten and getting 1.6 points has to be one of the most creative ways to actively sabotage your own season\u2014congrats on the commitment to losing."
-    },
-    {
-      "type": "under",
-      "owner": "Flamur Muriqi",
-      "player": "Trevor Lawrence",
-      "position": "QB",
-      "actual": 7.76,
-      "projected": 18.95310887,
-      "line": "Trevor Lawrence put up 7.8 points and Flamur out here acting like he didn't just start a QB that shit the bed harder than a toddler after Taco Bell\u2014maybe next time don't ride the \"he'll bounce back\" hype train straight off a cliff."
-    },
-    {
-      "type": "under",
-      "owner": "Jetmir Asllani / Peter Mardjonovic",
-      "player": "Cowboys D/ST",
-      "position": "D/ST",
-      "actual": -2.0,
-      "projected": 7.43669872,
-      "line": "You started Cowboys D/ST and watched them get absolutely skull-fucked for -2 points when you were expecting 7, so basically you took a -9 point swing straight to the nuts this week\u2014that's what happens when you trust Dallas to do literally anything competently."
-    },
-    {
-      "type": "under",
-      "owner": "Arben Sinanaj",
-      "player": "Jakobi Meyers",
-      "position": "WR",
-      "actual": 0.0,
-      "projected": 8.79686326,
-      "line": "Arben really said \"you know what my team needs? Zero fucking points from the slot receiver position\" and just rolled with it\u2014Meyers put up a donut while projecting for nearly 9, so congrats on that masterclass in lineup management."
-    },
-    {
-      "type": "under",
-      "owner": "Rilind Ahmetaj",
-      "player": "Darius Cooper",
-      "position": "WR",
-      "actual": 0.0,
-      "projected": 7.51328133,
-      "line": "Rilind really said \"you know what this team needs? Zero fucking points from the wide receiver spot\" and started Darius Cooper like it was a guaranteed path to success\u2014congrats on the 7.5 point swing in the wrong direction, you absolute genius."
-    },
-    {
-      "type": "over",
-      "owner": "Flamur Muriqi",
-      "player": "Emeka Egbuka",
-      "position": "WR",
-      "actual": 14.2,
-      "projected": 8.16114123,
-      "line": "Flamur actually looked like he knew what the fuck he was doing for once\u2014Egbuka went off for 14.2 when everyone said he'd crap out with 8, so congrats on accidentally having a brain this week."
-    },
-    {
-      "type": "under",
-      "owner": "Rinor Ahmetaj",
-      "player": "Dak Prescott",
-      "position": "QB",
-      "actual": 12.64,
-      "projected": 17.75122865,
-      "line": "Rinor, Dak put up a wet fart this week and you had the balls to start him anyway\u2014that's the kind of decision-making that explains why your season's circling the drain."
+      "projected": 15.45567942,
+      "line": "Flamur, CeeDee showing up with 1.9 points after you projected 15.5 is like ordering a steak and getting a fucking napkin -- and the worst part is you *knew* it was coming and started him anyway."
     }
   ]
 }

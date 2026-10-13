@@ -1,358 +1,281 @@
 {
-  "generatedAt": "2026-10-12T17:11:25.334390+00:00",
+  "generatedAt": "2026-10-13T12:01:43.518305+00:00",
   "seasonId": 2026,
-  "matchupPeriodId": 5,
+  "matchupPeriodId": 6,
   "matchups": [
     {
-      "homeOwner": "Arben Sinanaj",
-      "awayOwner": "Rob Ricigliano",
-      "home": {
-        "score": 113.6,
-        "projectedFinal": 113.6,
-        "winProbability": 0.02,
-        "yetToPlay": [],
-        "worstMistake": {
-          "benched": "Courtland Sutton",
-          "benchedPoints": 8.8,
-          "started": "Alvin Kamara",
-          "startedPoints": 1.6,
-          "margin": 7.2
-        },
-        "bestStarter": {
-          "name": "Jaylen Warren",
-          "actual": 33.8,
-          "projected": 15.9,
-          "delta": 17.9
-        },
-        "worstStarter": {
-          "name": "Alvin Kamara",
-          "actual": 1.6,
-          "projected": 9.7,
-          "delta": -8.1
-        }
-      },
-      "away": {
-        "score": 114.7,
-        "projectedFinal": 130.8,
-        "winProbability": 0.98,
-        "yetToPlay": [
-          "Kyren Williams"
-        ],
-        "worstMistake": {
-          "benched": "Kyle Pitts Sr.",
-          "benchedPoints": 12.7,
-          "started": "Kenyon Sadiq",
-          "startedPoints": -0.7,
-          "margin": 13.4
-        },
-        "bestStarter": {
-          "name": "Jayden Daniels",
-          "actual": 32.3,
-          "projected": 20.5,
-          "delta": 11.8
-        },
-        "worstStarter": {
-          "name": "Michael Wilson",
-          "actual": 5.3,
-          "projected": 14.0,
-          "delta": -8.7
-        }
-      },
-      "familyName": null,
-      "analysis": "Rob's cruising home at 98% with a projected 130.8 final while Arben's stuck at 113.6 and mathematically dead, but the real comedy is how Arben sabotaged himself before the game even started\u2014benching Courtland Sutton (8.8) to start Alvin Kamara (1.6) is the kind of lineup decision that haunts you all offseason, especially when you're already getting buried by 17 points on paper. Jaylen Warren's 33.8-point explosion was nice, but it's basically found money when your starter tanked that hard and you're chasing from a 7.2-point self-inflicted hole. Meanwhile Rob's sitting there with Jayden Daniels going nuclear at 32.3 and Kyren Williams waiting on the bench as a freebie\u2014that's not even a matchup at this point, that's just a formality with 98% win probability doing all the talking. The real insult is Rob benching Kyle Pitts (12.7) for Kenyon Sadiq (-0.7) cost him 13.4 points, except it doesn't matter because he's so far ahead that even his own mistakes are basically rounding error compared to your entire roster imploding."
-    },
-    {
-      "homeOwner": "Flamur Muriqi",
+      "homeOwner": "Rob Ricigliano",
       "awayOwner": "Nori Kastrati",
       "home": {
-        "score": 112.4,
-        "projectedFinal": 112.4,
-        "winProbability": 0.0,
-        "yetToPlay": [],
-        "worstMistake": {
-          "benched": "Chris Godwin Jr.",
-          "benchedPoints": 5.5,
-          "started": "CeeDee Lamb",
-          "startedPoints": 1.9,
-          "margin": 3.6
-        },
-        "bestStarter": {
-          "name": "Isaiah Likely",
-          "actual": 26.9,
-          "projected": 10.4,
-          "delta": 16.5
-        },
-        "worstStarter": {
-          "name": "CeeDee Lamb",
-          "actual": 1.9,
-          "projected": 15.5,
-          "delta": -13.6
-        }
+        "score": 0.0,
+        "projectedFinal": 94.8,
+        "winProbability": 0.72,
+        "yetToPlay": [
+          "Christian McCaffrey",
+          "Garrett Wilson",
+          "Jameson Williams",
+          "Michael Wilson",
+          "Jayden Daniels",
+          "Texans D/ST",
+          "Kyren Williams",
+          "Kenyon Sadiq",
+          "Kendrick Bourne"
+        ],
+        "worstMistake": null,
+        "bestStarter": null,
+        "worstStarter": null
       },
       "away": {
-        "score": 130.9,
-        "projectedFinal": 130.9,
-        "winProbability": 1.0,
-        "yetToPlay": [],
+        "score": 0.0,
+        "projectedFinal": 63.0,
+        "winProbability": 0.28,
+        "yetToPlay": [
+          "Brock Bowers",
+          "Breece Hall",
+          "Christian Watson",
+          "Marvin Harrison Jr.",
+          "Javonte Williams",
+          "Deebo Samuel Sr.",
+          "Mark Andrews",
+          "Steelers D/ST"
+        ],
         "worstMistake": null,
-        "bestStarter": {
-          "name": "Christian Watson",
-          "actual": 29.3,
-          "projected": 11.5,
-          "delta": 17.8
-        },
-        "worstStarter": {
-          "name": "Roman Wilson",
-          "actual": 0.0,
-          "projected": 8.4,
-          "delta": -8.4
-        }
+        "bestStarter": null,
+        "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Flamur's getting absolutely buried at 0% with ESPN locking this at 112.4 final, and Nori's already cashed out at 130.9\u2014this one's been over for hours. You benched Godwin (5.5) to start Lamb (1.9), which wasn't just bad, it was choosing to actively sabotage yourself before Lamb then went out and shit the bed by another 13.6 below his own projection, and that self-inflicted 3.6-point swing is basically your entire margin of competitiveness right there. Isaiah Likely dragging you to 26.9 (up 16.5 from projection) was wasted heroics when the rest of your lineup was busy imploding; Nori's Christian Watson pulled 29.3 and Roman Wilson contributed a clean zero, but it doesn't matter because his depth was already good enough to bury you before anything mattered. You're getting out-built top-to-bottom and you helped it along by making the wrong call when both options were literally sitting in front of you."
+      "analysis": "Rob's cruising at 72% with ESPN projecting a 31.8-point cushion (94.8 to 63.0), and Nori's already mathematically dead before Brock Bowers even checks in\u2014you're chasing from a 31.8-point hole with eight starters still to play, which means your entire remaining roster basically needs to hit ceiling on every single snap just to make this close. Rob's got Christian McCaffrey, Jayden Daniels, and Garrett Wilson all still waiting to pile on, and ESPN's not even sweating it because the lead's already insurmountable; meanwhile Nori's best-case scenario requires Marvin Harrison Jr., Breece Hall, and Christian Watson to all go absolutely nuclear in concert, which isn't how probability works. This one's functionally over despite neither side being done playing\u2014Rob's got so much depth waiting that even if half his lineup craters, Nori still can't catch up, and that's the definition of a roster that got drafted better top-to-bottom."
     },
     {
-      "homeOwner": "Rinor Ahmetaj",
-      "awayOwner": "Ben Vucetaj",
+      "homeOwner": "Ben Vucetaj",
+      "awayOwner": "Arben Sinanaj",
       "home": {
-        "score": 128.4,
-        "projectedFinal": 152.1,
-        "winProbability": 0.99,
+        "score": 0.0,
+        "projectedFinal": 47.1,
+        "winProbability": 0.14,
         "yetToPlay": [
+          "Jeremiyah Love",
+          "TreVeyon Henderson",
+          "Joe Burrow",
+          "KC Concepcion",
+          "Malachi Fields",
+          "Browns D/ST",
+          "Quinshon Judkins",
+          "Justin Jefferson",
+          "Brenton Strange"
+        ],
+        "worstMistake": null,
+        "bestStarter": null,
+        "worstStarter": null
+      },
+      "away": {
+        "score": 0.0,
+        "projectedFinal": 107.5,
+        "winProbability": 0.86,
+        "yetToPlay": [
+          "Jonathan Taylor",
+          "Trey McBride",
+          "Terry McLaurin",
+          "Jaylen Warren",
+          "Jaxon Smith-Njigba",
+          "Jakobi Meyers",
+          "Alvin Kamara",
+          "Jaguars D/ST",
+          "Deshaun Watson"
+        ],
+        "worstMistake": null,
+        "bestStarter": null,
+        "worstStarter": null
+      },
+      "familyName": null,
+      "analysis": "Ben's staring at 14% and ESPN's got him getting absolutely buried by 60 points (47.1 to 107.5), which means this is functionally over\u2014Arben's got nine starters left to play and Ben's sitting at a complete zero, so even if half of Ben's roster goes nuclear, he's still chasing from a crater. The gap between these rosters isn't even close: Arben's got Jonathan Taylor, Deshaun Watson, Jaxon Smith-Njigba, and Trey McBride all still waiting to stack on top of an already insurmountable lead, while Ben's best-case scenario requires literally every single remaining player to beat projection by double digits just to sniff this. ESPN basically already cashed Arben's ticket before kickoff\u2014you drafted better, built deeper, and Ben's got nothing left except hoping for a miracle that math says isn't coming."
+    },
+    {
+      "homeOwner": "Veton Gjonbalaj",
+      "awayOwner": "Flamur Muriqi",
+      "home": {
+        "score": 0.0,
+        "projectedFinal": 104.7,
+        "winProbability": 0.66,
+        "yetToPlay": [
+          "Malik Nabers",
+          "Mike Evans",
+          "Tony Pollard",
+          "Nico Collins",
+          "Dallas Goedert",
+          "Rashid Shaheed",
+          "Broncos D/ST",
+          "Brian Robinson Jr.",
+          "Brock Purdy"
+        ],
+        "worstMistake": null,
+        "bestStarter": null,
+        "worstStarter": null
+      },
+      "away": {
+        "score": 0.0,
+        "projectedFinal": 79.6,
+        "winProbability": 0.34,
+        "yetToPlay": [
+          "CeeDee Lamb",
+          "Tee Higgins",
+          "Emeka Egbuka",
+          "Chase Brown",
+          "Isaiah Likely",
+          "Trevor Lawrence",
+          "Dontayvion Wicks",
+          "Emanuel Wilson",
+          "Jets D/ST"
+        ],
+        "worstMistake": null,
+        "bestStarter": null,
+        "worstStarter": null
+      },
+      "familyName": null,
+      "analysis": "Veton's cruising at 66% with ESPN projecting a 104.7 final while Flamur's staring down 34% and a 79.6\u2014that's a 25-point gap that's basically already baked in before either of these rosters even finishes playing. Flamur's still got legitimate weapons left (CeeDee Lamb, Tee Higgins, Chase Brown) but they'd all need to massively exceed projection just to sniff competitiveness when Veton's sitting on nine starters who are basically all expected to contribute\u2014it's a depth blowout disguised as a close matchup. Veton's got Tony Pollard, Nico Collins, and Brian Robinson Jr. all waiting to pile on, which means Flamur isn't just losing this one, he's getting buried by somebody who actually built a roster while you apparently assembled a bottom-tier squad and hoped nobody noticed. ESPN's basically already called it; Flamur's just watching the clock tick down at this point."
+    },
+    {
+      "homeOwner": "Faton Muriqi",
+      "awayOwner": "Rinor Ahmetaj",
+      "home": {
+        "score": 0.0,
+        "projectedFinal": 96.4,
+        "winProbability": 0.56,
+        "yetToPlay": [
+          "James Cook III",
+          "Drake London",
+          "D'Andre Swift",
+          "Colston Loveland",
+          "Parker Washington",
+          "Josh Downs",
+          "Braelon Allen",
+          "Tyler Shough",
+          "Bears D/ST"
+        ],
+        "worstMistake": null,
+        "bestStarter": null,
+        "worstStarter": null
+      },
+      "away": {
+        "score": 0.0,
+        "projectedFinal": 87.3,
+        "winProbability": 0.44,
+        "yetToPlay": [
+          "Derrick Henry",
           "DJ Moore",
-          "Davante Adams"
+          "Davante Adams",
+          "Dak Prescott",
+          "Matthew Golden",
+          "Romeo Doubs",
+          "Bucky Irving"
         ],
         "worstMistake": null,
-        "bestStarter": {
-          "name": "Bucky Irving",
-          "actual": 30.5,
-          "projected": 14.0,
-          "delta": 16.5
-        },
-        "worstStarter": {
-          "name": "Dak Prescott",
-          "actual": 12.6,
-          "projected": 17.7,
-          "delta": -5.0
-        }
-      },
-      "away": {
-        "score": 78.7,
-        "projectedFinal": 78.7,
-        "winProbability": 0.01,
-        "yetToPlay": [],
-        "worstMistake": {
-          "benched": "Makai Lemon",
-          "benchedPoints": 6.8,
-          "started": "KC Concepcion",
-          "startedPoints": 1.0,
-          "margin": 5.8
-        },
-        "bestStarter": {
-          "name": "Browns D/ST",
-          "actual": 11.0,
-          "projected": 5.7,
-          "delta": 5.3
-        },
-        "worstStarter": {
-          "name": "Jeremiyah Love",
-          "actual": 2.2,
-          "projected": 13.1,
-          "delta": -10.9
-        }
+        "bestStarter": null,
+        "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Rinor's walking this home at 99% with ESPN projecting a 23.4-point final (152.1 to 128.7), and Ben's already completely done\u2014you're staring at a 49.7-point deficit from your entire remaining roster, which is mathematically impossible to overcome. Bucky Irving single-handedly outscored Ben's entire current team (30.5 to 28.7), and that's the roster construction gap right there; meanwhile Dak underperforming by 5 points doesn't move the needle one bit when Rinor's bench depth is just casually dominating your starters. The real self-inflicted damage was benching Makai Lemon (6.8) to start KC Concepcion (1.0)\u2014losing 5.8 points in a matchup where you literally can't afford to leave anything on the bench, which is the kind of lineup decision that haunts you when you're already getting demolished from opening kickoff. Rinor's still got DJ Moore and Davante Adams waiting to pile on, but honestly at this point ESPN might as well just call it now because Ben's got nothing left except the mercy of the clock."
+      "analysis": "Faton's walking this home at 56% with ESPN projecting a 9.1-point cushion (96.4 to 87.3), and while Rinor's still got Dak and the stack cooking, he's basically need them to combine for 15+ points above projection just to sniff this\u2014a tall order when you're already chasing from behind with seven guys left. The real problem is that both of you are running on fumes right now, but Faton's got the deeper bench threat here: James Cook, Drake London, and D'Andre Swift are all waiting to pile on, while Rinor's hoping Derrick Henry doesn't get game-scripted into oblivion once Buffalo goes up. ESPN's not locking this down yet, but the math heavily favors Faton's remaining workload over whatever Rinor's got left\u2014Cook alone could swing this entire matchup if Buffalo actually uses him, and at that point Rinor's basically praying for a shootout nobody's expecting. This is genuinely still competitive on paper, but Faton's got the lottery tickets with actual value here."
     },
     {
-      "homeOwner": "Adam Vilajeti",
-      "awayOwner": "Veton Gjonbalaj",
+      "homeOwner": "Ilir Asllani",
+      "awayOwner": "Adam Vilajeti",
       "home": {
-        "score": 83.2,
-        "projectedFinal": 101.2,
-        "winProbability": 0.18,
+        "score": 0.0,
+        "projectedFinal": 95.2,
+        "winProbability": 0.4,
         "yetToPlay": [
-          "Puka Nacua"
+          "Bijan Robinson",
+          "George Pickens",
+          "Josh Allen",
+          "David Montgomery",
+          "Carnell Tate",
+          "Chris Olave",
+          "Jacory Croskey-Merritt",
+          "Juwan Johnson"
         ],
-        "worstMistake": {
-          "benched": "MarShawn Lloyd",
-          "benchedPoints": 16.2,
-          "started": "RJ Harvey",
-          "startedPoints": 0.7,
-          "margin": 15.5
-        },
-        "bestStarter": {
-          "name": "Drake Maye",
-          "actual": 39.5,
-          "projected": 18.5,
-          "delta": 21.0
-        },
-        "worstStarter": {
-          "name": "RJ Harvey",
-          "actual": 0.7,
-          "projected": 9.2,
-          "delta": -8.5
-        }
+        "worstMistake": null,
+        "bestStarter": null,
+        "worstStarter": null
       },
       "away": {
-        "score": 109.4,
-        "projectedFinal": 109.4,
-        "winProbability": 0.82,
-        "yetToPlay": [],
-        "worstMistake": {
-          "benched": "Dallas Goedert",
-          "benchedPoints": 6.8,
-          "started": "T.J. Hockenson",
-          "startedPoints": 1.2,
-          "margin": 5.6
-        },
-        "bestStarter": {
-          "name": "Malik Nabers",
-          "actual": 23.6,
-          "projected": 11.2,
-          "delta": 12.4
-        },
-        "worstStarter": {
-          "name": "Tony Pollard",
-          "actual": 5.2,
-          "projected": 12.5,
-          "delta": -7.3
-        }
+        "score": 0.0,
+        "projectedFinal": 112.1,
+        "winProbability": 0.6,
+        "yetToPlay": [
+          "Zay Flowers",
+          "George Kittle",
+          "Tucker Kraft",
+          "Xavier Worthy",
+          "Rams D/ST",
+          "Drake Maye",
+          "Puka Nacua",
+          "Cam Skattebo",
+          "MarShawn Lloyd"
+        ],
+        "worstMistake": null,
+        "bestStarter": null,
+        "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Adam's staring at 18% and ESPN's got him losing by 8 projected (101.2 to 109.4) with Veton already locked in and done playing\u2014that's a death sentence when you need Puka to go absolutely nuclear just to make this a game. The real killer is that you benched MarShawn Lloyd (16.2) to start RJ Harvey (0.7), which cost you 15.5 points you absolutely cannot waste when you're already chasing from behind; that's the kind of self-inflicted wound that turns \"maybe we got this\" into \"yeah, this is over.\" Veton caught some breaks with Nabers exploding (23.6 on an 11.2 projection), but it doesn't matter because his starters are done and you're still begging for miracles\u2014Puka would basically need to put up 30+ points for you to even sniff this, which isn't happening in any realistic scenario."
-    },
-    {
-      "homeOwner": "Rilind Ahmetaj",
-      "awayOwner": "Faton Muriqi",
-      "home": {
-        "score": 52.7,
-        "projectedFinal": 70.9,
-        "winProbability": 0.01,
-        "yetToPlay": [
-          "Matthew Stafford"
-        ],
-        "worstMistake": {
-          "benched": "Dalton Schultz",
-          "benchedPoints": 4.5,
-          "started": "Harold Fannin Jr.",
-          "startedPoints": 0.9,
-          "margin": 3.6
-        },
-        "bestStarter": {
-          "name": "Darius Cooper",
-          "actual": 14.1,
-          "projected": 7.5,
-          "delta": 6.6
-        },
-        "worstStarter": {
-          "name": "Raiders D/ST",
-          "actual": -6.0,
-          "projected": 4.8,
-          "delta": -10.8
-        }
-      },
-      "away": {
-        "score": 83.0,
-        "projectedFinal": 97.7,
-        "winProbability": 0.99,
-        "yetToPlay": [
-          "James Cook III"
-        ],
-        "worstMistake": {
-          "benched": "Bo Nix",
-          "benchedPoints": 7.9,
-          "started": "Tyler Shough",
-          "startedPoints": -0.2,
-          "margin": 8.1
-        },
-        "bestStarter": {
-          "name": "Parker Washington",
-          "actual": 27.4,
-          "projected": 11.9,
-          "delta": 15.5
-        },
-        "worstStarter": {
-          "name": "Tyler Shough",
-          "actual": -0.2,
-          "projected": 16.5,
-          "delta": -16.7
-        }
-      },
-      "familyName": null,
-      "analysis": "Faton's walking this one home at 99% with ESPN projecting a 27-point blowout (97.7 to 70.9), and Rilind's already dead in the water before Matthew Stafford even takes a snap\u2014you're down 30.3 points right now with one starter left, which means you'd need Stafford to put up 40 in PPR just to sniff competitiveness, and that's not happening. The real damage came from your own lineup: benching Dalton Schultz (4.5) to start Harold Fannin Jr. (0.9) was self-sabotage when you're already getting demolished, and meanwhile Faton's Parker Washington went absolutely nuclear at 27.4 (beating his projection by 15.5) before you even had a chance. Faton also got cute benching Bo Nix for Tyler Shough and still doesn't matter because his lead's already insurmountable\u2014you're just watching the clock run out on this one."
+      "analysis": "Both of you are sitting at 0.0 right now, but ESPN's got Adam cruising home at 112.1 final (60% win probability) while Ilir's staring down 95.2 (40%)\u2014that's a 16.9-point gap that's basically insurmountable even with both rosters still loaded. Ilir's got Josh Allen, Bijan Robinson, and Chris Olave left to play, which is legitimately scary on paper, but Adam's got the same depth advantage plus a lead that gives him the cushion to survive even if half his guys underperform. The math is simple: Adam needs his roster to just show up normally and he wins; Ilir needs basically everyone to overperform by double digits to claw back from a hole that ESPN's already calling game over. Neither of you made a meaningful lineup mistake, so this one's purely about roster construction\u2014and that's where Adam's team just happens to be deeper and more projected to perform."
     },
     {
       "homeOwner": "Jetmir Asllani / Peter Mardjonovic",
-      "awayOwner": "Ilir Asllani",
+      "awayOwner": "Rilind Ahmetaj",
       "home": {
-        "score": 95.7,
-        "projectedFinal": 95.7,
-        "winProbability": 0.89,
-        "yetToPlay": [],
-        "worstMistake": {
-          "benched": "Keenan Allen",
-          "benchedPoints": 7.0,
-          "started": "Jaylen Waddle",
-          "startedPoints": 3.8,
-          "margin": 3.2
-        },
-        "bestStarter": {
-          "name": "Tyler Warren",
-          "actual": 17.9,
-          "projected": 9.2,
-          "delta": 8.7
-        },
-        "worstStarter": {
-          "name": "Cowboys D/ST",
-          "actual": -2.0,
-          "projected": 7.5,
-          "delta": -9.5
-        }
+        "score": 0.0,
+        "projectedFinal": 103.3,
+        "winProbability": 0.73,
+        "yetToPlay": [
+          "Omarion Hampton",
+          "Kenneth Walker III",
+          "Tetairoa McMillan",
+          "Jaylen Waddle",
+          "Tyler Warren",
+          "Rhamondre Stevenson",
+          "Luther Burden III",
+          "Bryce Young",
+          "Cowboys D/ST"
+        ],
+        "worstMistake": null,
+        "bestStarter": null,
+        "worstStarter": null
       },
       "away": {
-        "score": 63.9,
-        "projectedFinal": 83.8,
-        "winProbability": 0.11,
+        "score": 0.0,
+        "projectedFinal": 69.1,
+        "winProbability": 0.27,
         "yetToPlay": [
-          "Josh Allen"
+          "Amon-Ra St. Brown",
+          "Ashton Jeanty",
+          "DeVonta Smith",
+          "Bhayshul Tuten",
+          "Rico Dowdle",
+          "Harold Fannin Jr.",
+          "Denzel Boston",
+          "Matthew Stafford",
+          "Raiders D/ST"
         ],
-        "worstMistake": {
-          "benched": "Woody Marks",
-          "benchedPoints": 10.5,
-          "started": "David Montgomery",
-          "startedPoints": 1.1,
-          "margin": 9.4
-        },
-        "bestStarter": {
-          "name": "George Pickens",
-          "actual": 23.5,
-          "projected": 10.9,
-          "delta": 12.6
-        },
-        "worstStarter": {
-          "name": "Carnell Tate",
-          "actual": 1.1,
-          "projected": 11.1,
-          "delta": -10.0
-        }
+        "worstMistake": null,
+        "bestStarter": null,
+        "worstStarter": null
       },
-      "familyName": "Asllani",
-      "analysis": "Jetmir's getting absolutely demolished at 89% with ESPN projecting a 32-point final (95.7 to 63.9), and this is basically already over before Ilir's Josh Allen even touches the field\u2014you're down 31.8 points right now with only one starter left to play, which means Allen would need a vintage MVP performance just to make this respectable. Ilir's got legitimate talent waiting (Bijan Robinson, Chris Olave are still out there) but he's already buried himself so deep that it doesn't matter: George Pickens went absolutely nuclear at 23.5 (beating his projection by 12.6), while you benched Keenan Allen for Jaylen Waddle and watched that decision cost you 3.2 points in a matchup where you can't afford to leave anything on the bench. That Cowboys defense sitting at -2.0 is just adding insult to injury\u2014one side's roster overperformed while yours actively hemorrhaged points, and now you get to spend the next 365 days hearing about this at every family gathering. Ilir's absolutely bringing this one up at Thanksgiving dinner, Christmas, every holiday, and honestly he's earned the right to talk shit when the margin's this brutal\u2014start preparing your excuses now."
+      "familyName": null,
+      "analysis": "Jetmir's walking into this at 73% with ESPN projecting a 34-point blowout (103.3 to 69.1), and Rilind's already dead before his starters even finish their first drive\u2014you're down 34.2 on the board right now with nine guys still to play, which tells you everything about how badly you got outbuilt at every position. Yeah, ESPN says there's technically a 27% chance here, but that's just the computer being generous; you'd need basically your entire remaining roster to beat projection by 5+ points each while Jetmir's nine starters all crater simultaneously, and that's not a scenario, that's a fantasy. Jetmir's loaded up with legit production (Hampton, Kenneth Walker, McMillan, Waddle are all coming) while your best bet is praying Ashton Jeanty somehow goes nuclear, except he's your RB1 and already needs to carry way too much weight on his shoulders. This one's getting blown out before halftime ends."
     }
   ],
   "recentLines": [
+    "Rob's cruising at 72% with ESPN projecting a 31.8-point cushion (94.8 to 63.0), and Nori's already mathematically dead before Brock Bowers even checks in\u2014you're chasing from a 31.8-point hole with eight starters still to play, which means your entire remaining roster basically needs to hit ceiling on every single snap just to make this close. Rob's got Christian McCaffrey, Jayden Daniels, and Garrett Wilson all still waiting to pile on, and ESPN's not even sweating it because the lead's already insurmountable; meanwhile Nori's best-case scenario requires Marvin Harrison Jr., Breece Hall, and Christian Watson to all go absolutely nuclear in concert, which isn't how probability works. This one's functionally over despite neither side being done playing\u2014Rob's got so much depth waiting that even if half his lineup craters, Nori still can't catch up, and that's the definition of a roster that got drafted better top-to-bottom.",
+    "Ben's staring at 14% and ESPN's got him getting absolutely buried by 60 points (47.1 to 107.5), which means this is functionally over\u2014Arben's got nine starters left to play and Ben's sitting at a complete zero, so even if half of Ben's roster goes nuclear, he's still chasing from a crater. The gap between these rosters isn't even close: Arben's got Jonathan Taylor, Deshaun Watson, Jaxon Smith-Njigba, and Trey McBride all still waiting to stack on top of an already insurmountable lead, while Ben's best-case scenario requires literally every single remaining player to beat projection by double digits just to sniff this. ESPN basically already cashed Arben's ticket before kickoff\u2014you drafted better, built deeper, and Ben's got nothing left except hoping for a miracle that math says isn't coming.",
+    "Veton's cruising at 66% with ESPN projecting a 104.7 final while Flamur's staring down 34% and a 79.6\u2014that's a 25-point gap that's basically already baked in before either of these rosters even finishes playing. Flamur's still got legitimate weapons left (CeeDee Lamb, Tee Higgins, Chase Brown) but they'd all need to massively exceed projection just to sniff competitiveness when Veton's sitting on nine starters who are basically all expected to contribute\u2014it's a depth blowout disguised as a close matchup. Veton's got Tony Pollard, Nico Collins, and Brian Robinson Jr. all waiting to pile on, which means Flamur isn't just losing this one, he's getting buried by somebody who actually built a roster while you apparently assembled a bottom-tier squad and hoped nobody noticed. ESPN's basically already called it; Flamur's just watching the clock tick down at this point.",
+    "Faton's walking this home at 56% with ESPN projecting a 9.1-point cushion (96.4 to 87.3), and while Rinor's still got Dak and the stack cooking, he's basically need them to combine for 15+ points above projection just to sniff this\u2014a tall order when you're already chasing from behind with seven guys left. The real problem is that both of you are running on fumes right now, but Faton's got the deeper bench threat here: James Cook, Drake London, and D'Andre Swift are all waiting to pile on, while Rinor's hoping Derrick Henry doesn't get game-scripted into oblivion once Buffalo goes up. ESPN's not locking this down yet, but the math heavily favors Faton's remaining workload over whatever Rinor's got left\u2014Cook alone could swing this entire matchup if Buffalo actually uses him, and at that point Rinor's basically praying for a shootout nobody's expecting. This is genuinely still competitive on paper, but Faton's got the lottery tickets with actual value here.",
+    "Both of you are sitting at 0.0 right now, but ESPN's got Adam cruising home at 112.1 final (60% win probability) while Ilir's staring down 95.2 (40%)\u2014that's a 16.9-point gap that's basically insurmountable even with both rosters still loaded. Ilir's got Josh Allen, Bijan Robinson, and Chris Olave left to play, which is legitimately scary on paper, but Adam's got the same depth advantage plus a lead that gives him the cushion to survive even if half his guys underperform. The math is simple: Adam needs his roster to just show up normally and he wins; Ilir needs basically everyone to overperform by double digits to claw back from a hole that ESPN's already calling game over. Neither of you made a meaningful lineup mistake, so this one's purely about roster construction\u2014and that's where Adam's team just happens to be deeper and more projected to perform.",
+    "Jetmir's walking into this at 73% with ESPN projecting a 34-point blowout (103.3 to 69.1), and Rilind's already dead before his starters even finish their first drive\u2014you're down 34.2 on the board right now with nine guys still to play, which tells you everything about how badly you got outbuilt at every position. Yeah, ESPN says there's technically a 27% chance here, but that's just the computer being generous; you'd need basically your entire remaining roster to beat projection by 5+ points each while Jetmir's nine starters all crater simultaneously, and that's not a scenario, that's a fantasy. Jetmir's loaded up with legit production (Hampton, Kenneth Walker, McMillan, Waddle are all coming) while your best bet is praying Ashton Jeanty somehow goes nuclear, except he's your RB1 and already needs to carry way too much weight on his shoulders. This one's getting blown out before halftime ends.",
     "Rob's cruising home at 98% with a projected 130.8 final while Arben's stuck at 113.6 and mathematically dead, but the real comedy is how Arben sabotaged himself before the game even started\u2014benching Courtland Sutton (8.8) to start Alvin Kamara (1.6) is the kind of lineup decision that haunts you all offseason, especially when you're already getting buried by 17 points on paper. Jaylen Warren's 33.8-point explosion was nice, but it's basically found money when your starter tanked that hard and you're chasing from a 7.2-point self-inflicted hole. Meanwhile Rob's sitting there with Jayden Daniels going nuclear at 32.3 and Kyren Williams waiting on the bench as a freebie\u2014that's not even a matchup at this point, that's just a formality with 98% win probability doing all the talking. The real insult is Rob benching Kyle Pitts (12.7) for Kenyon Sadiq (-0.7) cost him 13.4 points, except it doesn't matter because he's so far ahead that even his own mistakes are basically rounding error compared to your entire roster imploding.",
     "Flamur's getting absolutely buried at 0% with ESPN locking this at 112.4 final, and Nori's already cashed out at 130.9\u2014this one's been over for hours. You benched Godwin (5.5) to start Lamb (1.9), which wasn't just bad, it was choosing to actively sabotage yourself before Lamb then went out and shit the bed by another 13.6 below his own projection, and that self-inflicted 3.6-point swing is basically your entire margin of competitiveness right there. Isaiah Likely dragging you to 26.9 (up 16.5 from projection) was wasted heroics when the rest of your lineup was busy imploding; Nori's Christian Watson pulled 29.3 and Roman Wilson contributed a clean zero, but it doesn't matter because his depth was already good enough to bury you before anything mattered. You're getting out-built top-to-bottom and you helped it along by making the wrong call when both options were literally sitting in front of you.",
     "Rinor's walking this home at 99% with ESPN projecting a 23.4-point final (152.1 to 128.7), and Ben's already completely done\u2014you're staring at a 49.7-point deficit from your entire remaining roster, which is mathematically impossible to overcome. Bucky Irving single-handedly outscored Ben's entire current team (30.5 to 28.7), and that's the roster construction gap right there; meanwhile Dak underperforming by 5 points doesn't move the needle one bit when Rinor's bench depth is just casually dominating your starters. The real self-inflicted damage was benching Makai Lemon (6.8) to start KC Concepcion (1.0)\u2014losing 5.8 points in a matchup where you literally can't afford to leave anything on the bench, which is the kind of lineup decision that haunts you when you're already getting demolished from opening kickoff. Rinor's still got DJ Moore and Davante Adams waiting to pile on, but honestly at this point ESPN might as well just call it now because Ben's got nothing left except the mercy of the clock.",
     "Adam's staring at 18% and ESPN's got him losing by 8 projected (101.2 to 109.4) with Veton already locked in and done playing\u2014that's a death sentence when you need Puka to go absolutely nuclear just to make this a game. The real killer is that you benched MarShawn Lloyd (16.2) to start RJ Harvey (0.7), which cost you 15.5 points you absolutely cannot waste when you're already chasing from behind; that's the kind of self-inflicted wound that turns \"maybe we got this\" into \"yeah, this is over.\" Veton caught some breaks with Nabers exploding (23.6 on an 11.2 projection), but it doesn't matter because his starters are done and you're still begging for miracles\u2014Puka would basically need to put up 30+ points for you to even sniff this, which isn't happening in any realistic scenario.",
     "Faton's walking this one home at 99% with ESPN projecting a 27-point blowout (97.7 to 70.9), and Rilind's already dead in the water before Matthew Stafford even takes a snap\u2014you're down 30.3 points right now with one starter left, which means you'd need Stafford to put up 40 in PPR just to sniff competitiveness, and that's not happening. The real damage came from your own lineup: benching Dalton Schultz (4.5) to start Harold Fannin Jr. (0.9) was self-sabotage when you're already getting demolished, and meanwhile Faton's Parker Washington went absolutely nuclear at 27.4 (beating his projection by 15.5) before you even had a chance. Faton also got cute benching Bo Nix for Tyler Shough and still doesn't matter because his lead's already insurmountable\u2014you're just watching the clock run out on this one.",
-    "Jetmir's getting absolutely demolished at 89% with ESPN projecting a 32-point final (95.7 to 63.9), and this is basically already over before Ilir's Josh Allen even touches the field\u2014you're down 31.8 points right now with only one starter left to play, which means Allen would need a vintage MVP performance just to make this respectable. Ilir's got legitimate talent waiting (Bijan Robinson, Chris Olave are still out there) but he's already buried himself so deep that it doesn't matter: George Pickens went absolutely nuclear at 23.5 (beating his projection by 12.6), while you benched Keenan Allen for Jaylen Waddle and watched that decision cost you 3.2 points in a matchup where you can't afford to leave anything on the bench. That Cowboys defense sitting at -2.0 is just adding insult to injury\u2014one side's roster overperformed while yours actively hemorrhaged points, and now you get to spend the next 365 days hearing about this at every family gathering. Ilir's absolutely bringing this one up at Thanksgiving dinner, Christmas, every holiday, and honestly he's earned the right to talk shit when the margin's this brutal\u2014start preparing your excuses now.",
-    "Rob's cruising at 98% with ESPN projecting a 16.2-point final (130.8 to 113.6), and Arben's already done despite somehow sneaking Jaylen Warren onto the board for 33.8\u2014that's the whole season right there in one lineup decision. Benching Courtland Sutton (8.8) to start Alvin Kamara (1.6) cost Arben 7.2 points he absolutely cannot spare when he's getting buried by 16 on projection alone, and meanwhile Rob's sitting on a 114.7-point cushion with Kyren Williams still coming off the bench as a freebie. Yeah, ESPN's projections say Rob's already at 130.8 before Williams even touches the field, which means Arben would need basically his entire remaining roster to somehow beat projection by 25+ just to make this respectable\u2014exponentially harder math when you're already trailing by a full touchdown on paper. Jayden Daniels going nuclear (32.3 on a 20.5 projection) shows why Rob drafted better top-to-bottom, while Arben's benching decisions just accelerated the inevitable.",
-    "Flamur's done. ESPN's got this locked at 112.4 final with zero percent, and there's genuinely nothing left to play for here\u2014Nori's sitting at 130.9 and fully coasted home while you were still fumbling lineups. The real killer is that you benched Chris Godwin (5.5) to start CeeDee Lamb (1.9), which means you voluntarily handed Nori a 3.6-point head start before Lamb even managed to actively tank you by 13.6 below his own projection\u2014that's not just bad triage, that's choosing the wrong medication when both bottles were sitting right in front of you. Isaiah Likely dragging you to 26.9 (up 16.5 from projection) was honestly wasted effort since the rest of your roster was too busy imploding to matter; Nori's got Christian Watson pulling 29.3 and Roman Wilson contributing absolutely nothing, yet somehow that doesn't matter because his depth was already good enough to bury you before anything meaningful happened.",
-    "Rinor's walking this one home at 99% with ESPN projecting a 23.4-point final (152.1 to 128.7), and Ben's already completely done before either DJ Moore or Davante Adams even steps on the field\u2014you're staring at a 49.7-point deficit from your entire remaining roster, which is mathematically impossible. Bucky Irving single-handedly outscored Ben's entire current team (30.5 to 28.7), and while Dak underperformed by 5 points, it doesn't matter because Rinor's bench depth is just casually dominating your starters\u2014that's the roster construction gap right there. Ben's got nothing left to play for except the mercy of the clock, and the Browns D/ST overperforming by 5.3 didn't move the needle one bit when you're getting absolutely demolished from opening kickoff. Jeremiyah Love's 2.2 on a 13.1 projection and that KC Concepcion bench swap (losing 5.8 points) are just footnotes to a matchup that was decided before Sunday morning kickoff.",
-    "Adam's looking at 18% and ESPN's got him losing by 8 projected (101.2 to 109.4), which is basically game over when Veton's already done playing and sitting on 109.4 with nothing left\u2014you need Puka Nacua to go absolutely bonkers just to make this respectable, and even then you're chasing from a hole. The real damage wasn't Veton's lineup though; it was yours: benching MarShawn Lloyd (16.2) to start RJ Harvey (0.7) cost you 15.5 points that absolutely would've changed this from \"dead\" to \"maybe,\" which is the kind of self-inflicted wound that stings when you're already trailing by 8 on projection. Veton got lucky in spots (Nabers exploded for 23.6 on an 11.2 projection, Tony Pollard cratered at 5.2) but it doesn't matter because his starters are done and you're still chasing\u2014this one's over before Puka even takes the field.",
-    "Faton's walking into this at 99% with ESPN projecting a 27-point blowout (97.7 to 70.9), and Rilind's already underwater before Matthew Stafford even takes a snap\u2014you're down 30.3 on the board with one starter left to play, which is mathematically impossible to overcome. Benching Dalton Schultz for Harold Fannin Jr. cost you 3.6 points, but that's basically rounding error compared to the fact that your entire remaining roster needs to go absolutely nuclear just to crack 71\u2014Stafford would need to put up 40 points in PPR to make this close, which isn't happening. Meanwhile Faton's not even worried about James Cook III because Parker Washington already beat his projection by 15.5 and the lead's already insurmountable before anybody else touches the field. This matchup's been over since kickoff; you're just watching Rilind's corpse twitch at this point.",
-    "Jetmir's getting absolutely demolished at 89% with ESPN projecting a 32-point cushion (95.7 to 63.9), and this is basically already over before Ilir's Josh Allen even steps on the field\u2014you're down 31.8 points right now with only one starter left to play, which means Allen would need a vintage MVP performance just to make this respectable. Ilir's got legitimate talent waiting (Bijan Robinson, Chris Olave are still out there) but he's already buried himself so deep that it doesn't matter: George Pickens went absolutely nuclear at 23.5 (beating his projection by 12.6), while you benched Keenan Allen for Jaylen Waddle and watched that decision cost you 3.2 points in a matchup where you can't afford to leave anything on the bench. That Cowboys defense sitting at -2.0 is just adding insult to injury\u2014one side's roster overperformed while yours actively hemorrhaged points, and now you get to spend the next 365 days hearing about this at every family gathering. Ilir's absolutely bringing this one up at Thanksgiving dinner, Christmas, every holiday, and honestly he's earned the right to talk shit when the margin's this brutal."
+    "Jetmir's getting absolutely demolished at 89% with ESPN projecting a 32-point final (95.7 to 63.9), and this is basically already over before Ilir's Josh Allen even touches the field\u2014you're down 31.8 points right now with only one starter left to play, which means Allen would need a vintage MVP performance just to make this respectable. Ilir's got legitimate talent waiting (Bijan Robinson, Chris Olave are still out there) but he's already buried himself so deep that it doesn't matter: George Pickens went absolutely nuclear at 23.5 (beating his projection by 12.6), while you benched Keenan Allen for Jaylen Waddle and watched that decision cost you 3.2 points in a matchup where you can't afford to leave anything on the bench. That Cowboys defense sitting at -2.0 is just adding insult to injury\u2014one side's roster overperformed while yours actively hemorrhaged points, and now you get to spend the next 365 days hearing about this at every family gathering. Ilir's absolutely bringing this one up at Thanksgiving dinner, Christmas, every holiday, and honestly he's earned the right to talk shit when the margin's this brutal\u2014start preparing your excuses now."
   ]
 }

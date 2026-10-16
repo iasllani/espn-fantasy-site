@@ -1,6 +1,43 @@
 {
-  "generatedAt": "2026-10-13T12:01:16.034262+00:00",
+  "generatedAt": "2026-10-16T09:10:59.845265+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 6,
-  "events": []
+  "events": [
+    {
+      "type": "benched",
+      "owner": "Adam Vilajeti",
+      "player": "RJ Harvey",
+      "position": "RB",
+      "actual": 13.1,
+      "projected": 7.63732904,
+      "line": "Adam sat RJ Harvey on the bench and watched him put up 13 points\u2014that's what happens when you get cute with your lineup decisions instead of trusting the guy who was supposed to be your RB2, you absolute donkey."
+    },
+    {
+      "type": "benched",
+      "owner": "Faton Muriqi",
+      "player": "J.K. Dobbins",
+      "position": "RB",
+      "actual": 12.1,
+      "projected": 9.46094147,
+      "line": "Faton, you absolute coward\u2014benched Dobbins and watched him outscore his projection on the bench like some kind of fantasy masochist. That's what happens when you panic and lose faith in your own draft picks, you dumbass."
+    },
+    {
+      "type": "under",
+      "owner": "Flamur Muriqi",
+      "player": "Emanuel Wilson",
+      "position": "RB",
+      "actual": 5.2,
+      "projected": 14.01330594,
+      "line": "Flamur really said \"let me fire up this RB who's been getting garbage touches\" and watched Emanuel Wilson shit the bed for 5 points\u2014good luck explaining that to your league when you could've literally started a waiver wire scramble and gotten the same production from your couch."
+    },
+    {
+      "type": "over",
+      "owner": "Veton Gjonbalaj",
+      "player": "Broncos D/ST",
+      "position": "D/ST",
+      "actual": 11.0,
+      "projected": 5.54089451,
+      "line": "Veton finally found a defense that doesn't shit the bed, and of course it's the one week he actually started them\u2014maybe there's hope for you yet, you absolute buffoon."
+    }
+  ]
 }

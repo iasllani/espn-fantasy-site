@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T11:53:38.893418+00:00",
+  "generatedAt": "2026-10-18T08:58:57.147946+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 6,
   "matchups": [
@@ -8,7 +8,7 @@
       "awayOwner": "Nori Kastrati",
       "home": {
         "score": 0.0,
-        "projectedFinal": 111.7,
+        "projectedFinal": 111.8,
         "winProbability": 0.62,
         "yetToPlay": [
           "Christian McCaffrey",
@@ -45,17 +45,16 @@
         "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Rob's walking this home at 62% with a 21.6-point cushion according to ESPN (111.7 to 90.1), and both of you starting at zeros doesn't change the fact that his remaining nine are just built different\u2014McCaffrey, Daniels, the Wilsons, and Pitts are the kind of guys who execute normally and that's enough to win this thing. Nori's got some serious talent left (Bowers, Watson, Harrison Jr., Andrews), but he's essentially asking for a perfect storm where three receivers all hit ceiling while his other six guys chip in enough to overcome being down 21 before a snap gets called. The depth advantage is massive in Rob's favor\u2014he can afford to have a guy completely shit the bed and still cruise past 112, while Nori needs basically everyone playing their best game simultaneously just to make this close. ESPN's not wrong at 62-38, and that gap's already baked in before kickoff."
+      "analysis": "Rob's walking this home at 62% with ESPN projecting 111.8 to Nori's 90.1\u2014a 21.7-point gap that's basically already locked in before either of you gets a starter on the field. Both of you are sitting at zeros with nine guys left to play, but Rob's got the kind of depth that just executes: McCaffrey, Daniels, the Wilsons, Pitts, and Williams are all floor plays that win games when you're already up 20, while Nori's entire comeback requires Bowers, Watson, and Harrison Jr. to all hit ceiling simultaneously and then pray Mark Andrews actually does something useful instead of being a game-time question mark every single week. Nori's not dead yet since he's still got nine starters remaining, but ESPN's essentially telling you that even if everything breaks perfectly for him, he's still probably losing by a few possessions\u2014Rob's got too much redundancy at receiver and running back to blow this one, and Nori's got the kind of \"hope everyone explodes\" roster construction that loses these when the math is already working against you."
     },
     {
       "homeOwner": "Ben Vucetaj",
       "awayOwner": "Arben Sinanaj",
       "home": {
         "score": 0.0,
-        "projectedFinal": 72.7,
-        "winProbability": 0.29,
+        "projectedFinal": 78.2,
+        "winProbability": 0.23,
         "yetToPlay": [
-          "Jeremiyah Love",
           "Stefon Diggs",
           "KC Concepcion",
           "Travis Kelce",
@@ -63,7 +62,8 @@
           "Browns D/ST",
           "Quinshon Judkins",
           "Brenton Strange",
-          "Kirk Cousins"
+          "Kirk Cousins",
+          "Ty Johnson"
         ],
         "worstMistake": null,
         "bestStarter": null,
@@ -71,17 +71,17 @@
       },
       "away": {
         "score": 19.4,
-        "projectedFinal": 101.9,
-        "winProbability": 0.71,
+        "projectedFinal": 122.7,
+        "winProbability": 0.77,
         "yetToPlay": [
           "Jonathan Taylor",
           "Trey McBride",
-          "Lamar Jackson",
           "Terry McLaurin",
           "Jaylen Warren",
           "Chuba Hubbard",
           "Jakobi Meyers",
-          "Chiefs D/ST"
+          "Chiefs D/ST",
+          "Jordan Love"
         ],
         "worstMistake": null,
         "bestStarter": {
@@ -98,15 +98,15 @@
         }
       },
       "familyName": null,
-      "analysis": "Arben's coasting to a 71% win at 101.9 projected while Ben's staring at a death sentence at 72.7\u2014this matchup stopped being competitive the second the draft ended, not because Ben made a bad start-sit call, but because his entire roster construction is genuinely worse at every level. Ben's got nine starters left (Love, Diggs, Kelce, Kirk Cousins, the whole mess) and he's still projected to lose by nearly 30 points, which is basically ESPN telling you that even if all nine of those guys hit their ceiling simultaneously, Arben's still probably going to have Jonathan Taylor, Lamar Jackson, and Terry McLaurin left over to pad the margin further. Jaxon Smith-Njigba already dropped 19.4 on Ben solo and Arben's still sitting with eight starters remaining, meaning Arben can literally get half his bench completely wrong and still coast past 102 without any real stress. This isn't close and it was never going to be close."
+      "analysis": "Ben's staring at a 23% death wish with ESPN projecting a 44.5-point final bloodbath (122.7 to 78.2), and this matchup stopped being competitive the moment the draft ended\u2014not because of some cute lineup mistake, but because he built an objectively worse roster three months ago. Ben's got nine starters left including Diggs, Kelce, Kirk Cousins, and Love, and he's still projected to lose by nearly 45 points, which is basically ESPN telling you that even if all nine guys hit their ceiling simultaneously, Arben's Jonathan Taylor, Trey McBride, Terry McLaurin, and Chuba Hubbard are still going to waltz over the finish line while Arben's literally sitting on his couch watching the back-half garbage time accumulate. Jaxon Smith-Njigba already dropped 19.4 solo for Arben and there are still eight starters in the lineup waiting to pile on, meaning Arben can afford to get half his remaining bench completely wrong and still win by 30 points without breaking a sweat. This isn't close and it never was."
     },
     {
       "homeOwner": "Veton Gjonbalaj",
       "awayOwner": "Flamur Muriqi",
       "home": {
         "score": 20.3,
-        "projectedFinal": 111.8,
-        "winProbability": 0.7,
+        "projectedFinal": 110.7,
+        "winProbability": 0.69,
         "yetToPlay": [
           "Malik Nabers",
           "Mike Evans",
@@ -133,7 +133,7 @@
       "away": {
         "score": 5.2,
         "projectedFinal": 82.5,
-        "winProbability": 0.3,
+        "winProbability": 0.31,
         "yetToPlay": [
           "CeeDee Lamb",
           "Emeka Egbuka",
@@ -159,7 +159,7 @@
         }
       },
       "familyName": null,
-      "analysis": "Veton's walking this home at 70% with ESPN projecting a 29.3-point final lead (111.8 to 82.5), and Flamur's essentially already lost before anyone even snaps the ball\u2014the gap between those projections isn't a comeback scenario, it's a full indictment of a roster that got constructed like a dumpster fire back in August. Flamur's got some serious firepower left in CeeDee Lamb and Emeka Egbuka, but Veton's sitting with seven starters remaining including Malik Nabers, Tony Pollard, Nico Collins, Dallas Goedert, and Brock Purdy\u2014basically an entire functional offense waiting to pile on while Flamur's banking on two guys carrying the entire load to make up a 29-point hole. Emanuel Wilson underperforming by 8.8 points would've helped, but it honestly doesn't matter because Veton's depth is so overwhelming that even if both Lamb and Egbuka go nuclear, Veton can afford to get half his remaining bench completely wrong and still cruise past 112 without blinking. ESPN's calling this a lock, and they're absolutely right\u2014Flamur needed to construct an actual functioning roster back in draft season instead of whatever this nightmare turned into."
+      "analysis": "Veton's walking this home at 69% with ESPN projecting a 28.2-point final cushion (110.7 to 82.5), and Flamur's already looking up from the bottom of a hole he can't climb out of before kickoff even happens. Flamur's got CeeDee Lamb and Emeka Egbuka still waiting, but Veton's sitting with seven starters remaining\u2014Malik Nabers, Mike Evans, Tony Pollard, Nico Collins, Dallas Goedert, Brian Robinson Jr., and Brock Purdy\u2014which is basically an entire functional offense queued up to pile on while Flamur's banking on two guys going nuclear just to make this respectable. The Broncos D/ST already crushed expectations by 5.5 points for Veton, and now he gets to let his actual playmakers run the offense while Flamur watches from down 28; even if both Lamb and Egbuka explode, Veton can afford half his remaining bench to completely shit the bed and still cruise past 111 without breaking a sweat. This got decided at draft time when Flamur's roster got constructed like a revenge pick gone wrong, and this blowout is just the final bill coming due."
     },
     {
       "homeOwner": "Faton Muriqi",
@@ -203,24 +203,24 @@
         "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Both of you are staring at absolute zeros with ESPN projecting a dead heat at 108.8 to 106.1, so this entire matchup comes down to whose nine remaining guys actually execute at their normal baseline without any catastrophic busts. You've got James Cook III, D'Andre Swift, Rome Odunze, and Drake London waiting to contribute, while Rinor's countering with Derrick Henry, DJ Moore, Davante Adams, and Dak Prescott\u2014both rosters have serious firepower left, which means this stays competitive straight through the final whistle since neither of you made a meaningful mistake. The math gives you a marginal edge at 51% purely because your remaining workload distributes slightly better across positions, but this is legitimately close enough that whoever's depth just happens to execute normally wins it by a hair, and the loser's going to spend the next week pissed about how tight this ended up being."
+      "analysis": "Both of you are staring at absolute zeros with ESPN basically calling this a dead heat at 51-49, so this entire thing comes down to whose nine remaining guys actually show up and execute without completely shitting the bed. You've got James Cook III, D'Andre Swift, Rome Odunze, and Drake London on deck, while Rinor's rolling out Derrick Henry, DJ Moore, Davante Adams, and Dak Prescott\u2014both rosters have the kind of firepower that can absolutely win this, which means neither of you made a meaningful mistake and the margin between 108.8 and 106.1 is basically asking \"whose depth decides to be slightly less mediocre than the other guy's?\" ESPN's giving you the slightest of edges at 51% purely because your remaining production distributes better across the board, but this is legitimately close enough that the loser's going to spend the next week furious about how the final whistle fell when both of you had the ammunition to win it outright."
     },
     {
       "homeOwner": "Ilir Asllani",
       "awayOwner": "Adam Vilajeti",
       "home": {
         "score": 6.0,
-        "projectedFinal": 113.6,
+        "projectedFinal": 114.7,
         "winProbability": 0.51,
         "yetToPlay": [
           "Bijan Robinson",
           "George Pickens",
           "Josh Allen",
           "Chris Olave",
-          "Jacory Croskey-Merritt",
           "Jalen Coker",
           "Juwan Johnson",
-          "Woody Marks"
+          "Woody Marks",
+          "Germie Bernard"
         ],
         "worstMistake": null,
         "bestStarter": {
@@ -238,13 +238,13 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 110.9,
+        "projectedFinal": 112.3,
         "winProbability": 0.49,
         "yetToPlay": [
+          "A.J. Brown",
           "Zay Flowers",
           "George Kittle",
           "Tucker Kraft",
-          "Xavier Worthy",
           "Rams D/ST",
           "Drake Maye",
           "Puka Nacua",
@@ -256,7 +256,7 @@
         "worstStarter": null
       },
       "familyName": null,
-      "analysis": "This is basically a coin flip at 50-50 with ESPN projecting a 2.7-point final gap (113.6 to 110.9), and since both of you have eight starters left to play, this entire thing comes down to whose remaining guys actually execute at baseline without imploding. Ilir's got Josh Allen, Bijan Robinson, George Pickens, and Chris Olave carrying the offensive load, while Adam's countering with Xavier Worthy, George Kittle, Puka Nacua, and Drake Maye\u2014both rosters have legitimate firepower waiting, which means neither of you made a meaningful lineup mistake and the math is so razor-thin it barely matters. The Seahawks D/ST already dropped a turd on Ilir (6.0 points), but that's irrelevant since both of you are still very much alive and whoever's depth just happens to execute slightly better than normal probably wins by a fingernail. This one stays competitive straight through the final whistle, and one of you's going to spend the next week absolutely fuming about how close it ended up being\u2014because it's going to be close."
+      "analysis": "This is basically a coin flip at 50-50 with ESPN projecting a 2.4-point final gap (114.7 to 112.3), and since both of you have eight starters left to play, this entire thing comes down to whose remaining guys actually execute at baseline without imploding. Ilir's got Josh Allen, Bijan Robinson, George Pickens, and Chris Olave carrying the offensive load, while Adam's countering with A.J. Brown, Zay Flowers, George Kittle, and Drake Maye\u2014both rosters have legitimate firepower waiting, which means neither of you made a meaningful lineup mistake and the math is so razor-thin it barely matters. The Seahawks D/ST already dropped a turd on Ilir (6.0 points), but that's irrelevant since both of you are still very much alive and whoever's depth just happens to execute slightly better than normal probably wins by a fingernail. This one stays competitive straight through the final whistle, and one of you's going to spend the next week absolutely fuming about how close it ended up being\u2014because it's going to be close."
     },
     {
       "homeOwner": "Jetmir Asllani / Peter Mardjonovic",
@@ -309,21 +309,21 @@
         "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Jetmir's walking this home at 57% with ESPN projecting a 12-point cushion (107.9 to 95.9), and Rilind's looking at a projection that basically requires Ashton Jeanty and Brian Thomas Jr. to both go full ceiling mode just to stay within striking distance. Both of you are sitting at absolute zeros with eight starters left to play, but Jetmir's got the kind of reliable depth that wins football games\u2014Kenneth Walker III, Rhamondre Stevenson, and the Ravens D/ST are the floor plays that just execute without drama, while Rilind's entire path to victory is basically \"pray everyone simultaneously explodes.\" Jaylen Waddle underperforming by 3.2 points stings, but Jetmir can absorb that kind of variance and still comfortably hit 108; Rilind can't afford anyone to underperform because he's already chasing from behind. ESPN's still technically open at 43% for Rilind since he's got firepower left, but the math is already doing most of the work for Jetmir before a snap gets called."
+      "analysis": "Jetmir's walking this home at 57% with ESPN projecting a 12-point cushion (107.9 to 95.9), and Rilind's looking at a scenario where he needs basically his entire remaining eight guys to execute flawlessly just to stay in striking distance. Both of you started at absolute zeros, but Jetmir's got the kind of depth distribution that wins without drama\u2014Kenneth Walker III, Rhamondre Stevenson, Tyler Warren, and the Ravens D/ST are baseline floor plays that just need to show up, while Rilind's entire path to victory is \"pray Ashton Jeanty, Brian Thomas Jr., and DeVonta Smith all go nuclear simultaneously.\" Jaylen Waddle already shortchanged Jetmir by 3.2 points but it barely matters since Jetmir can absorb that variance and still cruise past 108; Rilind doesn't have that luxury since he's already chasing from behind with no room for error. ESPN's technically still open at 43% for Rilind with all that firepower remaining, but the math is already doing the heavy lifting for Jetmir before the first snap gets called."
     }
   ],
   "recentLines": [
+    "Rob's walking this home at 62% with ESPN projecting 111.8 to Nori's 90.1\u2014a 21.7-point gap that's basically already locked in before either of you gets a starter on the field. Both of you are sitting at zeros with nine guys left to play, but Rob's got the kind of depth that just executes: McCaffrey, Daniels, the Wilsons, Pitts, and Williams are all floor plays that win games when you're already up 20, while Nori's entire comeback requires Bowers, Watson, and Harrison Jr. to all hit ceiling simultaneously and then pray Mark Andrews actually does something useful instead of being a game-time question mark every single week. Nori's not dead yet since he's still got nine starters remaining, but ESPN's essentially telling you that even if everything breaks perfectly for him, he's still probably losing by a few possessions\u2014Rob's got too much redundancy at receiver and running back to blow this one, and Nori's got the kind of \"hope everyone explodes\" roster construction that loses these when the math is already working against you.",
+    "Ben's staring at a 23% death wish with ESPN projecting a 44.5-point final bloodbath (122.7 to 78.2), and this matchup stopped being competitive the moment the draft ended\u2014not because of some cute lineup mistake, but because he built an objectively worse roster three months ago. Ben's got nine starters left including Diggs, Kelce, Kirk Cousins, and Love, and he's still projected to lose by nearly 45 points, which is basically ESPN telling you that even if all nine guys hit their ceiling simultaneously, Arben's Jonathan Taylor, Trey McBride, Terry McLaurin, and Chuba Hubbard are still going to waltz over the finish line while Arben's literally sitting on his couch watching the back-half garbage time accumulate. Jaxon Smith-Njigba already dropped 19.4 solo for Arben and there are still eight starters in the lineup waiting to pile on, meaning Arben can afford to get half his remaining bench completely wrong and still win by 30 points without breaking a sweat. This isn't close and it never was.",
+    "Veton's walking this home at 69% with ESPN projecting a 28.2-point final cushion (110.7 to 82.5), and Flamur's already looking up from the bottom of a hole he can't climb out of before kickoff even happens. Flamur's got CeeDee Lamb and Emeka Egbuka still waiting, but Veton's sitting with seven starters remaining\u2014Malik Nabers, Mike Evans, Tony Pollard, Nico Collins, Dallas Goedert, Brian Robinson Jr., and Brock Purdy\u2014which is basically an entire functional offense queued up to pile on while Flamur's banking on two guys going nuclear just to make this respectable. The Broncos D/ST already crushed expectations by 5.5 points for Veton, and now he gets to let his actual playmakers run the offense while Flamur watches from down 28; even if both Lamb and Egbuka explode, Veton can afford half his remaining bench to completely shit the bed and still cruise past 111 without breaking a sweat. This got decided at draft time when Flamur's roster got constructed like a revenge pick gone wrong, and this blowout is just the final bill coming due.",
+    "Both of you are staring at absolute zeros with ESPN basically calling this a dead heat at 51-49, so this entire thing comes down to whose nine remaining guys actually show up and execute without completely shitting the bed. You've got James Cook III, D'Andre Swift, Rome Odunze, and Drake London on deck, while Rinor's rolling out Derrick Henry, DJ Moore, Davante Adams, and Dak Prescott\u2014both rosters have the kind of firepower that can absolutely win this, which means neither of you made a meaningful mistake and the margin between 108.8 and 106.1 is basically asking \"whose depth decides to be slightly less mediocre than the other guy's?\" ESPN's giving you the slightest of edges at 51% purely because your remaining production distributes better across the board, but this is legitimately close enough that the loser's going to spend the next week furious about how the final whistle fell when both of you had the ammunition to win it outright.",
+    "This is basically a coin flip at 50-50 with ESPN projecting a 2.4-point final gap (114.7 to 112.3), and since both of you have eight starters left to play, this entire thing comes down to whose remaining guys actually execute at baseline without imploding. Ilir's got Josh Allen, Bijan Robinson, George Pickens, and Chris Olave carrying the offensive load, while Adam's countering with A.J. Brown, Zay Flowers, George Kittle, and Drake Maye\u2014both rosters have legitimate firepower waiting, which means neither of you made a meaningful lineup mistake and the math is so razor-thin it barely matters. The Seahawks D/ST already dropped a turd on Ilir (6.0 points), but that's irrelevant since both of you are still very much alive and whoever's depth just happens to execute slightly better than normal probably wins by a fingernail. This one stays competitive straight through the final whistle, and one of you's going to spend the next week absolutely fuming about how close it ended up being\u2014because it's going to be close.",
+    "Jetmir's walking this home at 57% with ESPN projecting a 12-point cushion (107.9 to 95.9), and Rilind's looking at a scenario where he needs basically his entire remaining eight guys to execute flawlessly just to stay in striking distance. Both of you started at absolute zeros, but Jetmir's got the kind of depth distribution that wins without drama\u2014Kenneth Walker III, Rhamondre Stevenson, Tyler Warren, and the Ravens D/ST are baseline floor plays that just need to show up, while Rilind's entire path to victory is \"pray Ashton Jeanty, Brian Thomas Jr., and DeVonta Smith all go nuclear simultaneously.\" Jaylen Waddle already shortchanged Jetmir by 3.2 points but it barely matters since Jetmir can absorb that variance and still cruise past 108; Rilind doesn't have that luxury since he's already chasing from behind with no room for error. ESPN's technically still open at 43% for Rilind with all that firepower remaining, but the math is already doing the heavy lifting for Jetmir before the first snap gets called.",
     "Rob's walking this home at 62% with a 21.6-point cushion according to ESPN (111.7 to 90.1), and both of you starting at zeros doesn't change the fact that his remaining nine are just built different\u2014McCaffrey, Daniels, the Wilsons, and Pitts are the kind of guys who execute normally and that's enough to win this thing. Nori's got some serious talent left (Bowers, Watson, Harrison Jr., Andrews), but he's essentially asking for a perfect storm where three receivers all hit ceiling while his other six guys chip in enough to overcome being down 21 before a snap gets called. The depth advantage is massive in Rob's favor\u2014he can afford to have a guy completely shit the bed and still cruise past 112, while Nori needs basically everyone playing their best game simultaneously just to make this close. ESPN's not wrong at 62-38, and that gap's already baked in before kickoff.",
     "Arben's coasting to a 71% win at 101.9 projected while Ben's staring at a death sentence at 72.7\u2014this matchup stopped being competitive the second the draft ended, not because Ben made a bad start-sit call, but because his entire roster construction is genuinely worse at every level. Ben's got nine starters left (Love, Diggs, Kelce, Kirk Cousins, the whole mess) and he's still projected to lose by nearly 30 points, which is basically ESPN telling you that even if all nine of those guys hit their ceiling simultaneously, Arben's still probably going to have Jonathan Taylor, Lamar Jackson, and Terry McLaurin left over to pad the margin further. Jaxon Smith-Njigba already dropped 19.4 on Ben solo and Arben's still sitting with eight starters remaining, meaning Arben can literally get half his bench completely wrong and still coast past 102 without any real stress. This isn't close and it was never going to be close.",
     "Veton's walking this home at 70% with ESPN projecting a 29.3-point final lead (111.8 to 82.5), and Flamur's essentially already lost before anyone even snaps the ball\u2014the gap between those projections isn't a comeback scenario, it's a full indictment of a roster that got constructed like a dumpster fire back in August. Flamur's got some serious firepower left in CeeDee Lamb and Emeka Egbuka, but Veton's sitting with seven starters remaining including Malik Nabers, Tony Pollard, Nico Collins, Dallas Goedert, and Brock Purdy\u2014basically an entire functional offense waiting to pile on while Flamur's banking on two guys carrying the entire load to make up a 29-point hole. Emanuel Wilson underperforming by 8.8 points would've helped, but it honestly doesn't matter because Veton's depth is so overwhelming that even if both Lamb and Egbuka go nuclear, Veton can afford to get half his remaining bench completely wrong and still cruise past 112 without blinking. ESPN's calling this a lock, and they're absolutely right\u2014Flamur needed to construct an actual functioning roster back in draft season instead of whatever this nightmare turned into.",
     "Both of you are staring at absolute zeros with ESPN projecting a dead heat at 108.8 to 106.1, so this entire matchup comes down to whose nine remaining guys actually execute at their normal baseline without any catastrophic busts. You've got James Cook III, D'Andre Swift, Rome Odunze, and Drake London waiting to contribute, while Rinor's countering with Derrick Henry, DJ Moore, Davante Adams, and Dak Prescott\u2014both rosters have serious firepower left, which means this stays competitive straight through the final whistle since neither of you made a meaningful mistake. The math gives you a marginal edge at 51% purely because your remaining workload distributes slightly better across positions, but this is legitimately close enough that whoever's depth just happens to execute normally wins it by a hair, and the loser's going to spend the next week pissed about how tight this ended up being.",
     "This is basically a coin flip at 50-50 with ESPN projecting a 2.7-point final gap (113.6 to 110.9), and since both of you have eight starters left to play, this entire thing comes down to whose remaining guys actually execute at baseline without imploding. Ilir's got Josh Allen, Bijan Robinson, George Pickens, and Chris Olave carrying the offensive load, while Adam's countering with Xavier Worthy, George Kittle, Puka Nacua, and Drake Maye\u2014both rosters have legitimate firepower waiting, which means neither of you made a meaningful lineup mistake and the math is so razor-thin it barely matters. The Seahawks D/ST already dropped a turd on Ilir (6.0 points), but that's irrelevant since both of you are still very much alive and whoever's depth just happens to execute slightly better than normal probably wins by a fingernail. This one stays competitive straight through the final whistle, and one of you's going to spend the next week absolutely fuming about how close it ended up being\u2014because it's going to be close.",
-    "Jetmir's walking this home at 57% with ESPN projecting a 12-point cushion (107.9 to 95.9), and Rilind's looking at a projection that basically requires Ashton Jeanty and Brian Thomas Jr. to both go full ceiling mode just to stay within striking distance. Both of you are sitting at absolute zeros with eight starters left to play, but Jetmir's got the kind of reliable depth that wins football games\u2014Kenneth Walker III, Rhamondre Stevenson, and the Ravens D/ST are the floor plays that just execute without drama, while Rilind's entire path to victory is basically \"pray everyone simultaneously explodes.\" Jaylen Waddle underperforming by 3.2 points stings, but Jetmir can absorb that kind of variance and still comfortably hit 108; Rilind can't afford anyone to underperform because he's already chasing from behind. ESPN's still technically open at 43% for Rilind since he's got firepower left, but the math is already doing most of the work for Jetmir before a snap gets called.",
-    "Rob's walking this home at 62% with ESPN projecting a 21.6-point cushion (111.7 to 90.1), and Nori's already staring at a deficit that requires ceiling performances across the board just to stay competitive. Both of you are sitting at absolute zeros with nine starters each left to play, but the math is massively in Rob's favor because his remaining depth (McCaffrey, Daniels, the Wilsons, Pitts, Williams) are all floor plays that execute normally, while Nori's path to victory basically needs Bowers, Watson, and Harrison Jr. to all hit ceiling simultaneously and then have Mark Andrews actually do something useful for once. Rob's got the kind of redundancy at running back and receiver that wins fantasy football when you're already up 21 points heading into the final stretch, and Nori's got the kind of \"pray everyone goes off\" roster construction that loses it\u2014ESPN's still technically open since you've got starters left, but Rob's already got this locked in before the first snap.",
-    "Arben's cruising to a comfortable 71% win at 101.9 projected while Ben's staring at a 29% death wish at 72.7\u2014this matchup stopped being competitive the moment the drafts ended. Ben's got nine starters left (Diggs, Kelce, Kirk Cousins, Love, the whole bench) and he's still projected to lose by nearly 30 points, which tells you everything you need to know about how badly he constructed this roster compared to a team that already got 19.4 from Jaxon Smith-Njigba and still has Jonathan Taylor, Lamar Jackson, and Terry McLaurin waiting to finish the job. Even if Ben's entire remaining lineup explodes simultaneously, Arben's sitting with eight guys left including two of the most consistent scorers in football, meaning Arben can absorb multiple starters underperforming and still cruise comfortably past 102. Ben didn't lose because of a bad start-sit call\u2014he built a worse team three months ago and ESPN's already calling that a lock.",
-    "Veton's walking this home at 70% with ESPN projecting a comfortable 29.3-point final lead (111.8 to 82.5), and Flamur's essentially already lost\u2014the gap between his projection and Veton's isn't a comeback scenario, it's a full indictment of a roster that got constructed like a revenge-draft disaster. Flamur's got some serious firepower left in CeeDee Lamb and Emeka Egbuka, but Veton's sitting with seven starters remaining including Malik Nabers, Tony Pollard, Nico Collins, Dallas Goedert, and Brock Purdy\u2014basically an entire functional offense waiting to pile on while Flamur's banking on two guys carrying the entire load. Emanuel Wilson underperformed by 8.8 points, which would've helped, but it honestly doesn't matter because Veton's depth advantage is so overwhelming that even if Lamb and Egbuka both explode, Veton can afford half his remaining bench to completely tank and still cruise past 112 without sweating it. Flamur didn't lose because of a lineup mistake\u2014he lost because his roster got absolutely gutted at the draft, and this blowout is just the final bill coming due.",
-    "Both of you are staring at absolute zeros with ESPN projecting basically a dead heat at 108.8 to 106.1, so this entire matchup comes down to whose nine remaining guys actually execute at their normal baseline without any catastrophic busts. You've got James Cook III, D'Andre Swift, Rome Odunze, and Drake London waiting to contribute, while Rinor's countering with Derrick Henry, DJ Moore, Davante Adams, and Dak Prescott\u2014both rosters have serious firepower left, which means this stays competitive straight through the final whistle since neither of you made a meaningful mistake. The math gives you a marginal edge at 51% purely because your remaining workload distributes slightly better across positions, but this is legitimately close enough that whoever's depth just happens to execute normally wins it by a hair, and the loser's going to spend the next week pissed about how tight this ended up being.",
-    "Both of you are staring down a dead heat at 50-50 with ESPN projecting basically identical finales at 113.6 to 110.9, and this is legitimately a coin flip where neither of you made a meaningful mistake\u2014it just comes down to whose nine remaining starters actually execute without blowing it. Ilir's got Josh Allen, Bijan Robinson, George Pickens, and Chris Olave carrying the load, while Adam's countering with Xavier Worthy, George Kittle, Puka Nacua, and Drake Maye\u2014both rosters have enough firepower to win outright, which means the math is so razor-thin it barely exists and whoever's depth just happens to execute slightly better probably wins by less than a point. The Seahawks D/ST already dropped a dud on Ilir (6.0 points), but that doesn't matter since both of you are still in this thing with serious ammunition left waiting\u2014this one stays competitive straight through the final whistle since the projection gap is basically nonexistent, and one of you's going to spend the offseason absolutely pissed about losing to variance when your entire remaining bench did exactly what it was supposed to.",
-    "Jetmir's walking this home at 57% with ESPN projecting a 12-point cushion (107.9 to 95.9), and Rilind's already staring at a deficit he can't climb out of before anyone even steps on the field. Both of you are sitting at complete zeros with eight starters left to play, but Jetmir's got way more reliable depth waiting in the wings\u2014Kenneth Walker III, Rhamondre Stevenson, and the Ravens D/ST are the kind of floor plays that just need to execute normally, while Rilind's entire path to victory hinges on Ashton Jeanty, Brian Thomas Jr., and DeVonta Smith all hitting ceiling simultaneously just to stay competitive. The math says Jetmir can afford half his remaining bench to underperform and still cruise past 108, while Rilind needs basically everything to break perfectly just to catch up from behind. ESPN's still technically open at 43% for Rilind since he's got firepower left, but the projection gap is already doing most of the heavy lifting for Jetmir before a single play gets called."
+    "Jetmir's walking this home at 57% with ESPN projecting a 12-point cushion (107.9 to 95.9), and Rilind's looking at a projection that basically requires Ashton Jeanty and Brian Thomas Jr. to both go full ceiling mode just to stay within striking distance. Both of you are sitting at absolute zeros with eight starters left to play, but Jetmir's got the kind of reliable depth that wins football games\u2014Kenneth Walker III, Rhamondre Stevenson, and the Ravens D/ST are the floor plays that just execute without drama, while Rilind's entire path to victory is basically \"pray everyone simultaneously explodes.\" Jaylen Waddle underperforming by 3.2 points stings, but Jetmir can absorb that kind of variance and still comfortably hit 108; Rilind can't afford anyone to underperform because he's already chasing from behind. ESPN's still technically open at 43% for Rilind since he's got firepower left, but the math is already doing most of the work for Jetmir before a snap gets called."
   ]
 }

@@ -1,43 +1,97 @@
 {
-  "generatedAt": "2026-10-16T09:10:59.845265+00:00",
+  "generatedAt": "2026-10-19T10:07:56.505223+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 6,
   "events": [
+    {
+      "type": "benched",
+      "owner": "Ilir Asllani",
+      "player": "Omar Cooper Jr.",
+      "position": "WR",
+      "actual": 19.3,
+      "projected": 1.68826114,
+      "line": "Ilir, you absolute coward\u2014Omar Cooper Jr. just put up 19.3 points on your bench while you were busy jerking around with whatever wasteland you started instead, and now you get to watch everyone else's teams improve while yours stays mediocre as hell."
+    },
+    {
+      "type": "benched",
+      "owner": "Ilir Asllani",
+      "player": "Carnell Tate",
+      "position": "WR",
+      "actual": 16.0,
+      "projected": 8.70643458,
+      "line": "Ilir benched Carnell Tate and watched him drop 16 fucking points on the bench\u2014that's what happens when you panic-check the waiver wire at 11:55 PM like your hair's on fire."
+    },
+    {
+      "type": "over",
+      "owner": "Rinor Ahmetaj",
+      "player": "Tre Tucker",
+      "position": "WR",
+      "actual": 24.2,
+      "projected": 8.59458,
+      "line": "Rinor somehow managed to stumble ass-backwards into the play of the week by starting Tucker like he actually knows what he's doing\u201424.2 points when projections had him at 8.6, so either your waiver wire luck finally kicked in or you've been flying blind and accidentally nailed it."
+    },
+    {
+      "type": "under",
+      "owner": "Ilir Asllani",
+      "player": "Bijan Robinson",
+      "position": "RB",
+      "actual": 6.3,
+      "projected": 21.33848543,
+      "line": "Ilir, you started Bijan Robinson expecting 21 points and got 6.3\u2014that's not a fantasy decision, that's a fucking cry for help from your entire roster."
+    },
+    {
+      "type": "benched",
+      "owner": "Rinor Ahmetaj",
+      "player": "DK Metcalf",
+      "position": "WR",
+      "actual": 14.8,
+      "projected": 9.61474002,
+      "line": "Rinor, you absolute coward\u2014DK went off for nearly 15 points on your bench while you were out here playing it safe with some waiver wire scrub, and now you're gonna spend all week wondering what could've been."
+    },
+    {
+      "type": "benched",
+      "owner": "Arben Sinanaj",
+      "player": "Alvin Kamara",
+      "position": "RB",
+      "actual": 13.9,
+      "projected": 8.55303159,
+      "line": "Arben, you absolute coward\u2014Kamara went off for nearly 14 points on your bench while you started some committee back who couldn't find the end zone with a GPS, and now you're probably gonna lose by less than that. This is what happens when you panic and bench your studs."
+    },
+    {
+      "type": "over",
+      "owner": "Rob Ricigliano",
+      "player": "Kyle Pitts Sr.",
+      "position": "TE",
+      "actual": 20.5,
+      "projected": 7.16379935,
+      "line": "Rob, Kyle Pitts just shit all over your projection like a disappointed parent at a parent-teacher conference\u201420.5 points when you were expecting a fucking 7.2? Maybe next time have a little goddamn faith in your tight end instead of looking like you drafted him as a lottery ticket."
+    },
+    {
+      "type": "under",
+      "owner": "Rinor Ahmetaj",
+      "player": "Derrick Henry",
+      "position": "RB",
+      "actual": 4.5,
+      "projected": 17.60444257,
+      "line": "Rinor really said \"let me start Derrick Henry against that elite run defense\" and then watched him get absolutely stuffed for 4.5 points\u2014maybe next week you'll try this crazy thing called checking matchups before plugging in your guys."
+    },
     {
       "type": "benched",
       "owner": "Adam Vilajeti",
       "player": "RJ Harvey",
       "position": "RB",
       "actual": 13.1,
-      "projected": 7.63732904,
-      "line": "Adam sat RJ Harvey on the bench and watched him put up 13 points\u2014that's what happens when you get cute with your lineup decisions instead of trusting the guy who was supposed to be your RB2, you absolute donkey."
+      "projected": 7.61238346,
+      "line": "Adam benched a guy who put up 13 points, nearly double what the so-called experts said\u2014absolute masterclass in shooting yourself in the foot, you coward."
     },
     {
       "type": "benched",
-      "owner": "Faton Muriqi",
-      "player": "J.K. Dobbins",
+      "owner": "Arben Sinanaj",
+      "player": "Blake Corum",
       "position": "RB",
-      "actual": 12.1,
-      "projected": 9.46094147,
-      "line": "Faton, you absolute coward\u2014benched Dobbins and watched him outscore his projection on the bench like some kind of fantasy masochist. That's what happens when you panic and lose faith in your own draft picks, you dumbass."
-    },
-    {
-      "type": "under",
-      "owner": "Flamur Muriqi",
-      "player": "Emanuel Wilson",
-      "position": "RB",
-      "actual": 5.2,
-      "projected": 14.01330594,
-      "line": "Flamur really said \"let me fire up this RB who's been getting garbage touches\" and watched Emanuel Wilson shit the bed for 5 points\u2014good luck explaining that to your league when you could've literally started a waiver wire scramble and gotten the same production from your couch."
-    },
-    {
-      "type": "over",
-      "owner": "Veton Gjonbalaj",
-      "player": "Broncos D/ST",
-      "position": "D/ST",
-      "actual": 11.0,
-      "projected": 5.54089451,
-      "line": "Veton finally found a defense that doesn't shit the bed, and of course it's the one week he actually started them\u2014maybe there's hope for you yet, you absolute buffoon."
+      "actual": 13.0,
+      "projected": 8.36250723,
+      "line": "Arben benched Blake Corum this week and watched him put up 13 fucking points from the sideline\u2014that's what happens when you panic-bench your guy for a \"safer\" play that probably shit the bed instead."
     }
   ]
 }

@@ -1,335 +1,285 @@
 {
-  "generatedAt": "2026-10-19T15:10:12.500738+00:00",
+  "generatedAt": "2026-10-20T09:33:40.944363+00:00",
   "seasonId": 2026,
-  "matchupPeriodId": 6,
+  "matchupPeriodId": 7,
   "matchups": [
     {
-      "homeOwner": "Rob Ricigliano",
-      "awayOwner": "Nori Kastrati",
+      "homeOwner": "Ben Vucetaj",
+      "awayOwner": "Rob Ricigliano",
       "home": {
-        "score": 64.8,
-        "projectedFinal": 103.9,
-        "winProbability": 0.99,
+        "score": 0.0,
+        "projectedFinal": 53.3,
+        "winProbability": 0.25,
+        "yetToPlay": [
+          "Ladd McConkey",
+          "TreVeyon Henderson",
+          "KC Concepcion",
+          "Travis Kelce",
+          "Malachi Fields",
+          "Browns D/ST",
+          "Brenton Strange",
+          "Kirk Cousins",
+          "Najee Harris"
+        ],
+        "worstMistake": null,
+        "bestStarter": null,
+        "worstStarter": null
+      },
+      "away": {
+        "score": 0.0,
+        "projectedFinal": 85.8,
+        "winProbability": 0.75,
         "yetToPlay": [
           "Christian McCaffrey",
-          "Jayden Daniels"
+          "Garrett Wilson",
+          "Michael Wilson",
+          "Jayden Daniels",
+          "Kyle Pitts Sr.",
+          "Texans D/ST",
+          "Kyren Williams",
+          "Dameon Pierce",
+          "Ryan Flournoy"
         ],
         "worstMistake": null,
-        "bestStarter": {
-          "name": "Kyle Pitts Sr.",
-          "actual": 20.5,
-          "projected": 7.2,
-          "delta": 13.3
-        },
-        "worstStarter": {
-          "name": "Kyren Williams",
-          "actual": 8.2,
-          "projected": 19.2,
-          "delta": -11.0
-        }
-      },
-      "away": {
-        "score": 57.7,
-        "projectedFinal": 63.0,
-        "winProbability": 0.01,
-        "yetToPlay": [
-          "Brandin Cooks"
-        ],
-        "worstMistake": null,
-        "bestStarter": {
-          "name": "Steelers D/ST",
-          "actual": 11.0,
-          "projected": 6.9,
-          "delta": 4.1
-        },
-        "worstStarter": {
-          "name": "Jameis Winston",
-          "actual": 6.5,
-          "projected": 17.8,
-          "delta": -11.3
-        }
+        "bestStarter": null,
+        "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Rob's walking away with this one at 99% with ESPN projecting 103.9 to Nori's 63.0\u2014a 40-point chasm that Brandin Cooks isn't bridging before the final whistle. Nori's got the trifecta of failure locked in: Jameis Winston completely whiffed on a 17.8 projection by delivering 6.5 points, which is the kind of QB performance that tanks an entire week, while the rest of his roster just sorta existed somewhere between \"forgettable\" and \"actively harmful.\" McCaffrey and Daniels are still waiting for Rob in the wings, which means this blowout's about to get actively insulting before Nori even gets to watch Cooks do whatever it is he does these days\u2014ESPN's already penciled in the outcome, so at this point Rob's just running up the score while Nori watches his season get a little bit worse."
+      "analysis": "Rob's running away with this at 75% with ESPN projecting a 32-point final gap (85.8 to 53.3), and Ben's staring down a blowout before Kelce and Kirk Cousins even take the field. Ben's got nine starters left to play, which sounds good until you realize ESPN's expecting them to combine for 53.3 total points\u2014that's basically one decent game from one guy and absolute nothing from everyone else, which isn't a comeback, that's fantasy purgatory. The real problem is Ben's roster construction got exposed; even with a full slate of guys still out there, he's projected to lose by 32 to a team that's already got CMC, Garrett Wilson, and Jayden Daniels waiting to pile on more damage. Rob's walking into this with a massive cushion and better remaining talent, so unless Ben gets six simultaneous ceiling games (which ESPN's literally betting against), this one gets ugly fast."
     },
     {
-      "homeOwner": "Ben Vucetaj",
-      "awayOwner": "Arben Sinanaj",
+      "homeOwner": "Nori Kastrati",
+      "awayOwner": "Veton Gjonbalaj",
       "home": {
-        "score": 56.4,
-        "projectedFinal": 56.4,
-        "winProbability": 0.01,
-        "yetToPlay": [],
+        "score": 0.0,
+        "projectedFinal": 108.2,
+        "winProbability": 0.44,
+        "yetToPlay": [
+          "Jahmyr Gibbs",
+          "Brock Bowers",
+          "Breece Hall",
+          "Christian Watson",
+          "Marvin Harrison Jr.",
+          "Javonte Williams",
+          "Jordan Addison",
+          "Steelers D/ST",
+          "Jared Goff"
+        ],
         "worstMistake": null,
-        "bestStarter": {
-          "name": "Browns D/ST",
-          "actual": 10.0,
-          "projected": 5.3,
-          "delta": 4.7
-        },
-        "worstStarter": {
-          "name": "Najee Harris",
-          "actual": 0.2,
-          "projected": 6.7,
-          "delta": -6.5
-        }
+        "bestStarter": null,
+        "worstStarter": null
       },
       "away": {
-        "score": 120.7,
-        "projectedFinal": 130.8,
-        "winProbability": 0.99,
+        "score": 0.0,
+        "projectedFinal": 119.7,
+        "winProbability": 0.56,
         "yetToPlay": [
-          "Terry McLaurin"
-        ],
-        "worstMistake": {
-          "benched": "Alvin Kamara",
-          "benchedPoints": 13.9,
-          "started": "Jaylen Warren",
-          "startedPoints": 8.8,
-          "margin": 5.1
-        },
-        "bestStarter": {
-          "name": "Chiefs D/ST",
-          "actual": 14.0,
-          "projected": 7.3,
-          "delta": 6.7
-        },
-        "worstStarter": {
-          "name": "Trey McBride",
-          "actual": 8.8,
-          "projected": 13.3,
-          "delta": -4.5
-        }
-      },
-      "familyName": null,
-      "analysis": "Ben's getting absolutely demolished at 1% with ESPN projecting his final at 56.4\u2014the exact score he's sitting at right now, which is a fancy way of saying whatever's left in his lineup is expected to combine for nothing. Arben's got Terry McLaurin still waiting in the wings and a 130.8 projected final, which means he's about to pad this to a 74-point margin of victory while Ben watches his best performer (Browns D/ST at 10.0) get completely obliterated by the gap between the two rosters. The real killer here is that Najee Harris went 0.2 when he was supposed to contribute 6.7\u2014that's not variance, that's just Ben's entire season of underperformance hitting its final, devastating crescendo. Even the fact that Arben benched Kamara for Warren and lost 5.1 points doesn't matter; when you're winning by 74, your bench moves are just footnotes in someone else's autopsy report."
-    },
-    {
-      "homeOwner": "Veton Gjonbalaj",
-      "awayOwner": "Flamur Muriqi",
-      "home": {
-        "score": 70.9,
-        "projectedFinal": 104.9,
-        "winProbability": 0.19,
-        "yetToPlay": [
+          "Ja'Marr Chase",
+          "Malik Nabers",
           "Mike Evans",
+          "Josh Jacobs",
+          "Tony Pollard",
+          "Nico Collins",
+          "Dallas Goedert",
+          "Broncos D/ST",
           "Brock Purdy"
         ],
         "worstMistake": null,
-        "bestStarter": {
-          "name": "Malik Nabers",
-          "actual": 22.5,
-          "projected": 14.6,
-          "delta": 7.9
-        },
-        "worstStarter": {
-          "name": "Tony Pollard",
-          "actual": 7.6,
-          "projected": 13.3,
-          "delta": -5.7
-        }
-      },
-      "away": {
-        "score": 117.3,
-        "projectedFinal": 117.3,
-        "winProbability": 0.81,
-        "yetToPlay": [],
-        "worstMistake": null,
-        "bestStarter": {
-          "name": "Trevor Lawrence",
-          "actual": 27.3,
-          "projected": 17.7,
-          "delta": 9.7
-        },
-        "worstStarter": {
-          "name": "Emanuel Wilson",
-          "actual": 5.2,
-          "projected": 14.0,
-          "delta": -8.8
-        }
+        "bestStarter": null,
+        "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Veton's got 19% because he's down 46 points with Mike Evans and Brock Purdy left to play\u2014ESPN's banking on both of them going absolutely nuclear just to make this respectable, and even then it's basically a Hail Mary scenario. Flamur's got this locked down at 81% with everyone already in the books and a 46-point cushion that Evans and Purdy would need to combine for 80 points to even threaten, which isn't happening. Tony Pollard managed 7.6 when he was supposed to contribute 13.3, and while that's not catastrophic by itself, it's the kind of underwhelming performance that compounds when your entire team's already getting outscored by nearly 50\u2014you needed Pollard to actually do something useful and instead got a ghost. Malik Nabers balling out for 22.5 is great and all, but one receiver going nuclear while your RB2 disappears and your entire rest of roster combines for nothing is the definition of \"too little, too late\" when you're staring down a guy who got Trevor Lawrence dropping 27.3 and still has double-digit production cushions across the board."
+      "analysis": "Veton's got this locked at 56% with ESPN projecting a 119.7 finish, which is an 11-point cushion he's built despite both teams still having most of their firepower left on the sideline\u2014Nori's projecting 108.2 and needs a perfect storm to steal this one. The matchup stays competitive because Nori's got a legitimately stacked bench with Gibbs, Bowers, Breece Hall, and MHJ all still waiting to go, but Veton's got Ja'Marr Chase and Brock Purdy which is basically the fantasy equivalent of having two lottery tickets in your pocket. Neither team's made a lineup mistake that'll haunt them, so this one comes down to ceiling hits versus floor hits\u2014Veton's slightly ahead because his ceiling is a little higher and ESPN's numbers agree, but Nori's absolutely still in this if Gibbs goes full beast mode and Watson doesn't drop another dud on him."
     },
     {
-      "homeOwner": "Faton Muriqi",
-      "awayOwner": "Rinor Ahmetaj",
+      "homeOwner": "Arben Sinanaj",
+      "awayOwner": "Faton Muriqi",
       "home": {
-        "score": 122.7,
-        "projectedFinal": 122.7,
-        "winProbability": 0.99,
-        "yetToPlay": [],
+        "score": 0.0,
+        "projectedFinal": 98.3,
+        "winProbability": 0.68,
+        "yetToPlay": [
+          "Jonathan Taylor",
+          "Trey McBride",
+          "Terry McLaurin",
+          "Jaylen Warren",
+          "Chuba Hubbard",
+          "Jaxon Smith-Njigba",
+          "Jakobi Meyers",
+          "Chiefs D/ST",
+          "Jordan Love"
+        ],
         "worstMistake": null,
-        "bestStarter": {
-          "name": "Tyler Shough",
-          "actual": 27.0,
-          "projected": 16.8,
-          "delta": 10.1
-        },
-        "worstStarter": {
-          "name": "Parker Washington",
-          "actual": 8.4,
-          "projected": 13.0,
-          "delta": -4.6
-        }
+        "bestStarter": null,
+        "worstStarter": null
       },
       "away": {
-        "score": 72.6,
-        "projectedFinal": 77.6,
-        "winProbability": 0.01,
+        "score": 0.0,
+        "projectedFinal": 71.2,
+        "winProbability": 0.32,
         "yetToPlay": [
-          "49ers D/ST"
+          "James Cook III",
+          "Drake London",
+          "D'Andre Swift",
+          "Colston Loveland",
+          "Parker Washington",
+          "Rome Odunze",
+          "Braelon Allen",
+          "Tyler Shough",
+          "Giants D/ST"
         ],
-        "worstMistake": {
-          "benched": "DK Metcalf",
-          "benchedPoints": 14.8,
-          "started": "DJ Moore",
-          "startedPoints": 0.0,
-          "margin": 14.8
-        },
-        "bestStarter": {
-          "name": "Tre Tucker",
-          "actual": 24.2,
-          "projected": 8.6,
-          "delta": 15.6
-        },
-        "worstStarter": {
-          "name": "Derrick Henry",
-          "actual": 4.5,
-          "projected": 17.6,
-          "delta": -13.1
-        }
+        "worstMistake": null,
+        "bestStarter": null,
+        "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Faton's running away with this at 99% and ESPN's got the final locked at 122.7\u2014basically the same score he's sitting at right now because his entire roster already finished the job. Rinor's staring down a 50-point chasm with only the 49ers D/ST left to play, which is the fantasy equivalent of being down two possessions with 10 seconds on the clock and no timeouts. The real disaster wasn't just Derrick Henry completely shitting the bed at 4.5 when he was supposed to contribute 17.6; it was the absolute brain-dead decision to bench DK Metcalf (14.8 points) and start DJ Moore (0.0), which in a blowout you're already losing just feels like punching yourself in the face while you're going down. Tre Tucker went nuclear at 24.2 and Tyler Shough overdelivered at 27.0, but when one team's sitting at 99% win probability, nice performances from the losing side just become confirmation that you fucked up the only decisions that actually mattered."
+      "analysis": "Arben's rolling home at 68% with ESPN projecting a 98.3 final while Faton's staring down a 27-point deficit and desperately hoping his entire lineup\u2014Cook, London, Swift, the whole Works\u2014decides to go full ceiling mode simultaneously, which ESPN's only giving him a 32% chance of happening. Faton's still got nine guys left to play so it's technically not over, but ESPN's basically saying \"yeah you could win this, but also you probably won't\" when the math favors Arben by that much with Jonathan Taylor and Terry McLaurin still waiting in the wings. Both teams are basically unscathed by lineup mistakes, which means Faton's just getting outgunned on roster construction\u2014he's got depth and bodies but Arben's got the studs, and in a blowout race that's the difference between \"still hope\" and \"hope's already dead.\""
     },
     {
-      "homeOwner": "Ilir Asllani",
-      "awayOwner": "Adam Vilajeti",
+      "homeOwner": "Flamur Muriqi",
+      "awayOwner": "Ilir Asllani",
       "home": {
-        "score": 95.2,
-        "projectedFinal": 95.2,
-        "winProbability": 0.99,
-        "yetToPlay": [],
-        "worstMistake": {
-          "benched": "Omar Cooper Jr.",
-          "benchedPoints": 19.3,
-          "started": "George Pickens",
-          "startedPoints": 10.3,
-          "margin": 9.0
-        },
-        "bestStarter": {
-          "name": "Germie Bernard",
-          "actual": 20.2,
-          "projected": 7.8,
-          "delta": 12.4
-        },
-        "worstStarter": {
-          "name": "Bijan Robinson",
-          "actual": 6.3,
-          "projected": 21.3,
-          "delta": -15.0
-        }
+        "score": 0.0,
+        "projectedFinal": 55.8,
+        "winProbability": 0.28,
+        "yetToPlay": [
+          "CeeDee Lamb",
+          "Emeka Egbuka",
+          "Chris Godwin Jr.",
+          "Isaiah Likely",
+          "Trevor Lawrence",
+          "Patriots D/ST",
+          "Emanuel Wilson",
+          "Keon Coleman",
+          "Roschon Johnson"
+        ],
+        "worstMistake": null,
+        "bestStarter": null,
+        "worstStarter": null
       },
       "away": {
-        "score": 59.2,
-        "projectedFinal": 71.6,
-        "winProbability": 0.01,
+        "score": 0.0,
+        "projectedFinal": 84.2,
+        "winProbability": 0.72,
         "yetToPlay": [
-          "George Kittle"
+          "Bijan Robinson",
+          "George Pickens",
+          "Josh Allen",
+          "Chris Olave",
+          "Jalen Coker",
+          "Seahawks D/ST",
+          "Juwan Johnson",
+          "Woody Marks",
+          "Germie Bernard"
         ],
-        "worstMistake": {
-          "benched": "RJ Harvey",
-          "benchedPoints": 13.1,
-          "started": "Cam Skattebo",
-          "startedPoints": 0.0,
-          "margin": 13.1
-        },
-        "bestStarter": {
-          "name": "Drake Maye",
-          "actual": 23.8,
-          "projected": 20.3,
-          "delta": 3.5
-        },
-        "worstStarter": {
-          "name": "MarShawn Lloyd",
-          "actual": 1.0,
-          "projected": 10.1,
-          "delta": -9.1
-        }
+        "worstMistake": null,
+        "bestStarter": null,
+        "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Ilir's walking away with this at 99% and ESPN's already got the final locked in at 95.2-71.6, which is basically a done deal before Adam's George Kittle even hits the field. Adam completely sabotaged himself by benching RJ Harvey (13.1 points) to start Cam Skattebo (0.0)\u2014that's a 13-point swing in a matchup where you're already getting buried, which is the kind of self-inflicted wound that turns a loss into a humiliation. Ilir didn't even need to get cute here; Germie Bernard just randomly exploded for 20.2 instead of his 7.8 projection while Bijan Robinson underperformed by 15 points, but none of that mattered because Ilir was already coasting on Germie's ceiling hit and your own incompetence. Even if Kittle goes off for 20+ points, you're still looking at needing Ilir's entire remaining bench to collectively score negative points, and ESPN gave you that 1% win probability purely out of statistical obligation. This one's been over since you started the Skattebo special."
+      "analysis": "Both of these teams are rolling out complete lineups while Ilir's sitting pretty at 72% with a 28.4-point ESPN projection lead, and Flamur's staring down a 28% survival rate that requires basically everyone left on his roster to go nuclear simultaneously. Ilir's got Josh Allen, Bijan Robinson, and George Pickens still to play\u2014three guys who've combined for way more boom potential than CeeDee Lamb and whatever the hell Emanuel Wilson's supposed to do for you. Flamur's best shot is if Trevor Lawrence goes absolutely unhinged while Bijan decides to take the week off, but ESPN's already got this locked down, and frankly if you're down 28 points before any of these studs even take the field, you've already lost the game you needed to win three weeks ago."
     },
     {
-      "homeOwner": "Jetmir Asllani / Peter Mardjonovic",
+      "homeOwner": "Rinor Ahmetaj",
+      "awayOwner": "Jetmir Asllani / Peter Mardjonovic",
+      "home": {
+        "score": 0.0,
+        "projectedFinal": 113.9,
+        "winProbability": 0.61,
+        "yetToPlay": [
+          "Derrick Henry",
+          "DK Metcalf",
+          "Sam LaPorta",
+          "Dak Prescott",
+          "Matthew Golden",
+          "Aaron Jones Sr.",
+          "Tre Tucker",
+          "Bucky Irving",
+          "Vikings D/ST"
+        ],
+        "worstMistake": null,
+        "bestStarter": null,
+        "worstStarter": null
+      },
+      "away": {
+        "score": 0.0,
+        "projectedFinal": 93.8,
+        "winProbability": 0.39,
+        "yetToPlay": [
+          "Kenneth Walker III",
+          "Tetairoa McMillan",
+          "Jaylen Waddle",
+          "Tyler Warren",
+          "Rhamondre Stevenson",
+          "Luther Burden III",
+          "Bryce Young",
+          "Ollie Gordon II",
+          "Ravens D/ST"
+        ],
+        "worstMistake": null,
+        "bestStarter": null,
+        "worstStarter": null
+      },
+      "familyName": null,
+      "analysis": "Rinor's getting bailed out by ESPN's projections at 61% win probability, but this matchup's still got plenty of football left\u2014he's only up 20.1 points with nine starters remaining and Jetmir's got eight of his own still waiting to play, which means either one of these teams could completely collapse in the next few hours. Rinor's got the elite volume (Derrick Henry, DK Metcalf, Dak Prescott, Aaron Jones Sr.) that should theoretically carry him, but ESPN's projecting his final at 113.9 compared to Jetmir's 93.8, and that's the kind of gap that evaporates fast if Derrick Henry decides to go full James Robinson again. Jetmir's got Kenneth Walker III and some decent pass catchers still waiting, so if Rinor's starters start underperforming like they did all season, he could absolutely blow this\u2014for now he's got the edge, but with this many players left on both sides, coronating anyone is premature as hell."
+    },
+    {
+      "homeOwner": "Adam Vilajeti",
       "awayOwner": "Rilind Ahmetaj",
       "home": {
-        "score": 97.2,
-        "projectedFinal": 97.2,
-        "winProbability": 1.0,
-        "yetToPlay": [],
-        "worstMistake": {
-          "benched": "Keenan Allen",
-          "benchedPoints": 12.2,
-          "started": "Jaylen Waddle",
-          "startedPoints": 4.4,
-          "margin": 7.8
-        },
-        "bestStarter": {
-          "name": "Kenneth Walker III",
-          "actual": 26.9,
-          "projected": 21.9,
-          "delta": 5.0
-        },
-        "worstStarter": {
-          "name": "Rhamondre Stevenson",
-          "actual": 3.6,
-          "projected": 11.9,
-          "delta": -8.3
-        }
+        "score": 0.0,
+        "projectedFinal": 113.5,
+        "winProbability": 0.73,
+        "yetToPlay": [
+          "A.J. Brown",
+          "Zay Flowers",
+          "George Kittle",
+          "RJ Harvey",
+          "Tucker Kraft",
+          "Rams D/ST",
+          "Drake Maye",
+          "Puka Nacua",
+          "Kendre Miller"
+        ],
+        "worstMistake": null,
+        "bestStarter": null,
+        "worstStarter": null
       },
       "away": {
-        "score": 87.2,
-        "projectedFinal": 87.2,
-        "winProbability": 0.0,
-        "yetToPlay": [],
-        "worstMistake": {
-          "benched": "Ja'Kobi Lane",
-          "benchedPoints": 6.0,
-          "started": "Brian Thomas Jr.",
-          "startedPoints": 0.0,
-          "margin": 6.0
-        },
-        "bestStarter": {
-          "name": "Bhayshul Tuten",
-          "actual": 22.7,
-          "projected": 11.7,
-          "delta": 11.0
-        },
-        "worstStarter": {
-          "name": "Denzel Boston",
-          "actual": 2.0,
-          "projected": 11.5,
-          "delta": -9.5
-        }
+        "score": 0.0,
+        "projectedFinal": 75.9,
+        "winProbability": 0.27,
+        "yetToPlay": [
+          "Ashton Jeanty",
+          "DeVonta Smith",
+          "Bhayshul Tuten",
+          "Brian Thomas Jr.",
+          "Rico Dowdle",
+          "Harold Fannin Jr.",
+          "Denzel Boston",
+          "Matthew Stafford",
+          "Buccaneers D/ST"
+        ],
+        "worstMistake": null,
+        "bestStarter": null,
+        "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Jetmir's walking out of here with a clean 10-point win at 100% with both rosters completely cooked, and Rilind managed to lose this thing almost entirely through self-inflicted wounds. Brian Thomas Jr. dropping a goose egg while Ja'Kobi Lane sat on the bench scoring 6.0 is the kind of lineup disaster that costs you games you should've had a legitimate shot at winning, but the real killer was watching Denzel Boston put up 2.0 points when ESPN projected 11.5\u2014that's a 9.5-point swing from a receiver you apparently trusted enough to start. Kenneth Walker III coming in at 26.9 instead of his projected 21.9 gave Jetmir just enough juice to survive a mediocre day from Stevenson (3.6), and suddenly your 6-point benching mistake turned into a 10-point final loss that felt closer than it actually was\u2014that's what happens when you make two separate receiver bets and both of them implode simultaneously."
+      "analysis": "Adam's running away with this at 73% with ESPN projecting a 37-point final margin (113.5 to 75.9), and Rilind's basically already cooked even though he's still got nine starters left to play. The gap here is so wide that even if Rilind's entire bench goes nuclear, he's still needing a combined 40+ points from a roster that's already been projected to underperform\u2014meanwhile Adam's got A.J. Brown, Drake Maye, and Puka Nacua all still waiting to pad what's already a comfortable lead. Neither of you made a meaningful lineup mistake, which means this is just pure roster construction getting exposed: Adam went out and built a team that can run up on you even when it's been dormant all week, while Rilind's got the statistical equivalent of a second-half collapse built right into his projected ceiling. ESPN's basically saying Rilind's got a Hail Mary prayer that Ashton Jeanty and Brian Thomas Jr. both go full ceiling, but that's fantasy math for \"you're done\"\u2014Adam just needs his studs to do normal studs things and this turns into a 50-point blowout by Sunday night."
     }
   ],
   "recentLines": [
+    "Rob's running away with this at 75% with ESPN projecting a 32-point final gap (85.8 to 53.3), and Ben's staring down a blowout before Kelce and Kirk Cousins even take the field. Ben's got nine starters left to play, which sounds good until you realize ESPN's expecting them to combine for 53.3 total points\u2014that's basically one decent game from one guy and absolute nothing from everyone else, which isn't a comeback, that's fantasy purgatory. The real problem is Ben's roster construction got exposed; even with a full slate of guys still out there, he's projected to lose by 32 to a team that's already got CMC, Garrett Wilson, and Jayden Daniels waiting to pile on more damage. Rob's walking into this with a massive cushion and better remaining talent, so unless Ben gets six simultaneous ceiling games (which ESPN's literally betting against), this one gets ugly fast.",
+    "Veton's got this locked at 56% with ESPN projecting a 119.7 finish, which is an 11-point cushion he's built despite both teams still having most of their firepower left on the sideline\u2014Nori's projecting 108.2 and needs a perfect storm to steal this one. The matchup stays competitive because Nori's got a legitimately stacked bench with Gibbs, Bowers, Breece Hall, and MHJ all still waiting to go, but Veton's got Ja'Marr Chase and Brock Purdy which is basically the fantasy equivalent of having two lottery tickets in your pocket. Neither team's made a lineup mistake that'll haunt them, so this one comes down to ceiling hits versus floor hits\u2014Veton's slightly ahead because his ceiling is a little higher and ESPN's numbers agree, but Nori's absolutely still in this if Gibbs goes full beast mode and Watson doesn't drop another dud on him.",
+    "Arben's rolling home at 68% with ESPN projecting a 98.3 final while Faton's staring down a 27-point deficit and desperately hoping his entire lineup\u2014Cook, London, Swift, the whole Works\u2014decides to go full ceiling mode simultaneously, which ESPN's only giving him a 32% chance of happening. Faton's still got nine guys left to play so it's technically not over, but ESPN's basically saying \"yeah you could win this, but also you probably won't\" when the math favors Arben by that much with Jonathan Taylor and Terry McLaurin still waiting in the wings. Both teams are basically unscathed by lineup mistakes, which means Faton's just getting outgunned on roster construction\u2014he's got depth and bodies but Arben's got the studs, and in a blowout race that's the difference between \"still hope\" and \"hope's already dead.\"",
+    "Both of these teams are rolling out complete lineups while Ilir's sitting pretty at 72% with a 28.4-point ESPN projection lead, and Flamur's staring down a 28% survival rate that requires basically everyone left on his roster to go nuclear simultaneously. Ilir's got Josh Allen, Bijan Robinson, and George Pickens still to play\u2014three guys who've combined for way more boom potential than CeeDee Lamb and whatever the hell Emanuel Wilson's supposed to do for you. Flamur's best shot is if Trevor Lawrence goes absolutely unhinged while Bijan decides to take the week off, but ESPN's already got this locked down, and frankly if you're down 28 points before any of these studs even take the field, you've already lost the game you needed to win three weeks ago.",
+    "Rinor's getting bailed out by ESPN's projections at 61% win probability, but this matchup's still got plenty of football left\u2014he's only up 20.1 points with nine starters remaining and Jetmir's got eight of his own still waiting to play, which means either one of these teams could completely collapse in the next few hours. Rinor's got the elite volume (Derrick Henry, DK Metcalf, Dak Prescott, Aaron Jones Sr.) that should theoretically carry him, but ESPN's projecting his final at 113.9 compared to Jetmir's 93.8, and that's the kind of gap that evaporates fast if Derrick Henry decides to go full James Robinson again. Jetmir's got Kenneth Walker III and some decent pass catchers still waiting, so if Rinor's starters start underperforming like they did all season, he could absolutely blow this\u2014for now he's got the edge, but with this many players left on both sides, coronating anyone is premature as hell.",
+    "Adam's running away with this at 73% with ESPN projecting a 37-point final margin (113.5 to 75.9), and Rilind's basically already cooked even though he's still got nine starters left to play. The gap here is so wide that even if Rilind's entire bench goes nuclear, he's still needing a combined 40+ points from a roster that's already been projected to underperform\u2014meanwhile Adam's got A.J. Brown, Drake Maye, and Puka Nacua all still waiting to pad what's already a comfortable lead. Neither of you made a meaningful lineup mistake, which means this is just pure roster construction getting exposed: Adam went out and built a team that can run up on you even when it's been dormant all week, while Rilind's got the statistical equivalent of a second-half collapse built right into his projected ceiling. ESPN's basically saying Rilind's got a Hail Mary prayer that Ashton Jeanty and Brian Thomas Jr. both go full ceiling, but that's fantasy math for \"you're done\"\u2014Adam just needs his studs to do normal studs things and this turns into a 50-point blowout by Sunday night.",
     "Rob's walking away with this one at 99% with ESPN projecting 103.9 to Nori's 63.0\u2014a 40-point chasm that Brandin Cooks isn't bridging before the final whistle. Nori's got the trifecta of failure locked in: Jameis Winston completely whiffed on a 17.8 projection by delivering 6.5 points, which is the kind of QB performance that tanks an entire week, while the rest of his roster just sorta existed somewhere between \"forgettable\" and \"actively harmful.\" McCaffrey and Daniels are still waiting for Rob in the wings, which means this blowout's about to get actively insulting before Nori even gets to watch Cooks do whatever it is he does these days\u2014ESPN's already penciled in the outcome, so at this point Rob's just running up the score while Nori watches his season get a little bit worse.",
     "Ben's getting absolutely demolished at 1% with ESPN projecting his final at 56.4\u2014the exact score he's sitting at right now, which is a fancy way of saying whatever's left in his lineup is expected to combine for nothing. Arben's got Terry McLaurin still waiting in the wings and a 130.8 projected final, which means he's about to pad this to a 74-point margin of victory while Ben watches his best performer (Browns D/ST at 10.0) get completely obliterated by the gap between the two rosters. The real killer here is that Najee Harris went 0.2 when he was supposed to contribute 6.7\u2014that's not variance, that's just Ben's entire season of underperformance hitting its final, devastating crescendo. Even the fact that Arben benched Kamara for Warren and lost 5.1 points doesn't matter; when you're winning by 74, your bench moves are just footnotes in someone else's autopsy report.",
     "Veton's got 19% because he's down 46 points with Mike Evans and Brock Purdy left to play\u2014ESPN's banking on both of them going absolutely nuclear just to make this respectable, and even then it's basically a Hail Mary scenario. Flamur's got this locked down at 81% with everyone already in the books and a 46-point cushion that Evans and Purdy would need to combine for 80 points to even threaten, which isn't happening. Tony Pollard managed 7.6 when he was supposed to contribute 13.3, and while that's not catastrophic by itself, it's the kind of underwhelming performance that compounds when your entire team's already getting outscored by nearly 50\u2014you needed Pollard to actually do something useful and instead got a ghost. Malik Nabers balling out for 22.5 is great and all, but one receiver going nuclear while your RB2 disappears and your entire rest of roster combines for nothing is the definition of \"too little, too late\" when you're staring down a guy who got Trevor Lawrence dropping 27.3 and still has double-digit production cushions across the board.",
     "Faton's running away with this at 99% and ESPN's got the final locked at 122.7\u2014basically the same score he's sitting at right now because his entire roster already finished the job. Rinor's staring down a 50-point chasm with only the 49ers D/ST left to play, which is the fantasy equivalent of being down two possessions with 10 seconds on the clock and no timeouts. The real disaster wasn't just Derrick Henry completely shitting the bed at 4.5 when he was supposed to contribute 17.6; it was the absolute brain-dead decision to bench DK Metcalf (14.8 points) and start DJ Moore (0.0), which in a blowout you're already losing just feels like punching yourself in the face while you're going down. Tre Tucker went nuclear at 24.2 and Tyler Shough overdelivered at 27.0, but when one team's sitting at 99% win probability, nice performances from the losing side just become confirmation that you fucked up the only decisions that actually mattered.",
     "Ilir's walking away with this at 99% and ESPN's already got the final locked in at 95.2-71.6, which is basically a done deal before Adam's George Kittle even hits the field. Adam completely sabotaged himself by benching RJ Harvey (13.1 points) to start Cam Skattebo (0.0)\u2014that's a 13-point swing in a matchup where you're already getting buried, which is the kind of self-inflicted wound that turns a loss into a humiliation. Ilir didn't even need to get cute here; Germie Bernard just randomly exploded for 20.2 instead of his 7.8 projection while Bijan Robinson underperformed by 15 points, but none of that mattered because Ilir was already coasting on Germie's ceiling hit and your own incompetence. Even if Kittle goes off for 20+ points, you're still looking at needing Ilir's entire remaining bench to collectively score negative points, and ESPN gave you that 1% win probability purely out of statistical obligation. This one's been over since you started the Skattebo special.",
-    "Jetmir's walking out of here with a clean 10-point win at 100% with both rosters completely cooked, and Rilind managed to lose this thing almost entirely through self-inflicted wounds. Brian Thomas Jr. dropping a goose egg while Ja'Kobi Lane sat on the bench scoring 6.0 is the kind of lineup disaster that costs you games you should've had a legitimate shot at winning, but the real killer was watching Denzel Boston put up 2.0 points when ESPN projected 11.5\u2014that's a 9.5-point swing from a receiver you apparently trusted enough to start. Kenneth Walker III coming in at 26.9 instead of his projected 21.9 gave Jetmir just enough juice to survive a mediocre day from Stevenson (3.6), and suddenly your 6-point benching mistake turned into a 10-point final loss that felt closer than it actually was\u2014that's what happens when you make two separate receiver bets and both of them implode simultaneously.",
-    "Rob's running away with this at 99% with ESPN projecting a 40-point final gap (103.9 to 63.0), and Nori's not just losing\u2014he's getting absolutely buried before McCaffrey and Daniels even take the field. Kyle Pitts Sr. already decided to show up and drop 20.5 points for Rob (nearly triple his projection), which is the kind of ceiling hit that makes a blowout into a complete massacre, while Jameis Winston delivered Nori a wet fart with 6.5 points instead of the 17.8 he was supposed to contribute. Kyren Williams projecting 19.2 but only delivering 8.2 for Rob would be catastrophic for most teams, except Rob's so stacked that a 11-point miss just gets absorbed into the running clock of a 40-point win that was decided in camp. Nori's got Brandin Cooks left to play, but even if Cooks goes full prime Antonio Brown, it doesn't matter\u2014this matchup stopped being close the second your team construction got exposed, and now you're just waiting for the final whistle so you can turn this page.",
-    "Ben's getting absolutely eviscerated at 1% win probability with ESPN projecting he'll finish at 56.4\u2014the exact same score he's got right now, which is a fancy way of saying his remaining starters are basically expected to combine for a donut. Arben's coasting home with Terry McLaurin still waiting in the wings and a 130.8 projected final, which means he's about to add another 10 points minimum while Ben's watching his defense score double digits and still get demolished by a 74-point margin. The real indictment here is that Ben's \"worst performer\" Najee Harris went for 0.2 when he was supposed to contribute 6.7\u2014that's not a fluke, that's just the final confirmation that Ben's roster spent all season underperforming in exactly the ways that mattered most. Arben even benched Alvin Kamara for Jaylen Warren and lost 5.1 points on the decision, and he's still winning by enough to make that mistake completely irrelevant\u2014that's what happens when you're not just ahead, you're so far ahead that your bench moves stop mattering. This one's a morgue.",
-    "Flamur's getting absolutely buried at 19% with ESPN projecting a 34-point final gap (104.9 to 117.3), and the worst part is it's not even close anymore since he's completely locked in while Veton's still got Mike Evans and Brock Purdy waiting on the sideline. Trevor Lawrence dropping 27.3 points should've been enough to at least make this interesting, but Tony Pollard's pathetic 7.6 showing (projected 13.2 more) turned what could've been competitive into a rout before halftime even ended. Veton's Malik Nabers already crushed his projection by 7.9 points and now gets to sit back while his QB and top receiver pile on the damage\u2014Flamur needed Emanuel Wilson to actually produce instead of tanking his projection by 8.8 points, but that's the kind of variance you don't recover from when you're already staring down a 46-point swing between the teams' remaining output. This one's mathematically over; Flamur just gets to watch it finish.",
-    "Faton's walking away with this one at 99% with ESPN projecting 122.7 final, and Rinor's staring at a 50-point chasm that the 49ers D/ST isn't climbing out of in the fourth quarter. Rinor's got exactly one guy left to play and he's already down 45 points\u2014that's not a comeback scenario, that's a mercy killing. The real damage wasn't even Derrick Henry completely shitting the bed at 4.5 points when ESPN projected 17.6; it was benching DK Metcalf (14.8) to start DJ Moore (0.0), which is the kind of lineup brainfart that costs you 15 points in a blowout you were never winning anyway. Tre Tucker went absolutely nuclear at 24.2 for Rinor and Tyler Shough hit ceiling for Faton, but when one guy's got a 99% win probability, nice performances from your skill positions just feel like adding insult to injury.",
-    "Ilir's walking away with this one at 99% and ESPN's already penciled in the final at 95.2-71.6, which is basically a 24-point mercy killing before Adam's George Kittle even steps on the field. Adam managed to turn a matchup into a autopsy by benching RJ Harvey (13.1 points) to start Cam Skattebo (who put up a flat zero), which is the kind of lineup decision that costs you 13 points when you're already getting buried by 24\u2014that's not unlucky, that's self-sabotage in real time. Ilir didn't need to do anything special here; Germie Bernard just happened to explode for 20.2 instead of his projected 7.8 and suddenly Adam's looking at a double-digit projection deficit with only Kittle remaining and nowhere near enough firepower to climb out. ESPN's giving Adam a 1% path purely out of pity, but that math is basically saying \"what if Kittle goes for 40 points and Ilir's entire bench forgets how to play football?\"\u2014spoiler alert, that's not happening.",
-    "Jetmir's already locked this down at 100% with both rosters completely done and the final score sitting at 97.2-87.2\u2014a 10-point beatdown that didn't even need to be close. Rilind torched himself with the Brian Thomas Jr. (0.0) over Ja'Kobi Lane (6.0) swap, which cost him 6 points he absolutely couldn't spare, but the real story is that Jetmir's Kenneth Walker III (26.9) decided to show up and actually run while Rilind's entire receiving corps\u2014Denzel Boston, you absolute clown\u2014managed 2.0 points from a guy ESPN thought would contribute 11.5. You benched a productive slot receiver to start a dud, watched your other receiver completely disappear, and still lost to a guy whose worst move was starting the wrong running back out of two solid options\u2014that's not just a loss, that's a masterclass in how to sabotage yourself when you had every chance to steal this."
+    "Jetmir's walking out of here with a clean 10-point win at 100% with both rosters completely cooked, and Rilind managed to lose this thing almost entirely through self-inflicted wounds. Brian Thomas Jr. dropping a goose egg while Ja'Kobi Lane sat on the bench scoring 6.0 is the kind of lineup disaster that costs you games you should've had a legitimate shot at winning, but the real killer was watching Denzel Boston put up 2.0 points when ESPN projected 11.5\u2014that's a 9.5-point swing from a receiver you apparently trusted enough to start. Kenneth Walker III coming in at 26.9 instead of his projected 21.9 gave Jetmir just enough juice to survive a mediocre day from Stevenson (3.6), and suddenly your 6-point benching mistake turned into a 10-point final loss that felt closer than it actually was\u2014that's what happens when you make two separate receiver bets and both of them implode simultaneously."
   ]
 }

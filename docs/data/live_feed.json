@@ -1,6 +1,61 @@
 {
-  "generatedAt": "2026-10-20T09:33:18.209683+00:00",
+  "generatedAt": "2026-10-23T09:28:22.921704+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 7,
-  "events": []
+  "events": [
+    {
+      "type": "benched",
+      "owner": "Jetmir Asllani / Peter Mardjonovic",
+      "player": "Rhamondre Stevenson",
+      "position": "RB",
+      "actual": 20.0,
+      "projected": 10.14682837,
+      "line": "Jetmir, you absolute coward\u2014benched Stevenson and watched him drop a 20-burger on your ass from the sidelines while your starter probably shit the bed; that's the kind of pussy decision that loses playoff games."
+    },
+    {
+      "type": "over",
+      "owner": "Jetmir Asllani / Peter Mardjonovic",
+      "player": "Luther Burden III",
+      "position": "WR",
+      "actual": 21.7,
+      "projected": 10.22556837,
+      "line": "Jetmir, you absolute madman\u2014you actually started Luther Burden and watched him absolutely explode for 21.7 points against a 10-point projection, which means you either have the balls of a deity or you accidentally hit start while taking a shit. Either way, that's the kind of spontaneous combustion that'll carry a team through the playoffs if you don't fuck it up next week."
+    },
+    {
+      "type": "under",
+      "owner": "Adam Vilajeti",
+      "player": "A.J. Brown",
+      "position": "WR",
+      "actual": 6.3,
+      "projected": 13.37345773,
+      "line": "Adam, A.J. Brown shit the bed harder than your draft strategy, and you still had the balls to start him\u2014congratulations on turning a 7-point swing into a weekly reminder that you probably shouldn't be trusted with roster decisions."
+    },
+    {
+      "type": "over",
+      "owner": "Faton Muriqi",
+      "player": "Colston Loveland",
+      "position": "TE",
+      "actual": 16.4,
+      "projected": 9.451845,
+      "line": "Faton actually found a tight end who can catch a fucking football\u2014too bad he's been riding the bench all season because this guy doesn't know what he has until the waiver wire does the work for him."
+    },
+    {
+      "type": "over",
+      "owner": "Adam Vilajeti",
+      "player": "Drake Maye",
+      "position": "QB",
+      "actual": 27.44,
+      "projected": 20.58848271,
+      "line": "Drake Maye just put up 27.4 and made your projection look like dogshit, Adam\u2014maybe next time trust the rookie instead of second-guessing yourself like you second-guessed literally every draft pick that didn't blow up in your face."
+    },
+    {
+      "type": "under",
+      "owner": "Flamur Muriqi",
+      "player": "Patriots D/ST",
+      "position": "D/ST",
+      "actual": -1.0,
+      "projected": 4.14869759,
+      "line": "Flamur, starting the Patriots D this week was absolutely fucking brutal\u2014you projected 4 points of defensive help and got a goddamn minus sign instead, like your defense actively tried to sabotage you."
+    }
+  ]
 }

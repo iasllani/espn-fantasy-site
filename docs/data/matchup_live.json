@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T09:16:49.965910+00:00",
+  "generatedAt": "2026-10-25T12:52:52.815769+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 7,
   "matchups": [
@@ -9,7 +9,7 @@
       "home": {
         "score": 7.1,
         "projectedFinal": 80.4,
-        "winProbability": 0.35,
+        "winProbability": 0.36,
         "yetToPlay": [
           "Joe Burrow",
           "KC Concepcion",
@@ -35,8 +35,8 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 102.9,
-        "winProbability": 0.65,
+        "projectedFinal": 102.3,
+        "winProbability": 0.64,
         "yetToPlay": [
           "Christian McCaffrey",
           "Garrett Wilson",
@@ -53,25 +53,25 @@
         "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Rob's cruising to this one at 65% with ESPN projecting 102.9 to Ben's 80.4\u2014a comfortable 22.5-point gap that basically locks in when you realize Rob's literally sitting at zero with Christian McCaffrey, Garrett Wilson, and Jameson Williams all still waiting to punch in, while Ben's already sweating at 7.1 after DeMario Douglas decided to contribute 3.8 points instead of the 8.7 ESPN promised. Ben technically has seven guys left to play, but he's not just chasing points\u2014he's chasing a mirage where Burrow, Kelce, and Jefferson all simultaneously decide to go nuclear while Rob's bench just needs to show up and execute basic NFL-level production. The gap holds because Rob drafted more consistent remaining firepower and Ben's betting his whole week on ceiling games from basically everyone still on the field, which is historically the formula that ends with refreshing the score at 10 PM wondering how you blew a \"seven starters left\" situation."
+      "analysis": "Rob's walking away with this one at 64% with ESPN projecting 102.3 to Ben's 80.4\u2014a 22-point gap that basically locks in when Rob's sitting at zero with Christian McCaffrey, Garrett Wilson, and Jameson Williams all still waiting to execute while Ben's already scraped together 7.1 and needs Burrow, Kelce, and Jefferson to all hit ceiling simultaneously just to chip away at it. Ben's got seven studs left to play which technically keeps a pulse, but the problem is ESPN's remaining projections favor Rob's roster construction across the board\u2014Rob drafted the more consistent firepower and now gets to watch his bench just show up and do normal work while Ben needs coordinated perfection from basically his entire remaining arsenal. The gap holds because Rob's got more reliable volume waiting in the wings, and when you're already down 22 with ESPN's math working against you, seven studs left just means seven more chances to watch someone underperform."
     },
     {
       "homeOwner": "Nori Kastrati",
       "awayOwner": "Veton Gjonbalaj",
       "home": {
         "score": 0.0,
-        "projectedFinal": 121.5,
-        "winProbability": 0.54,
+        "projectedFinal": 116.8,
+        "winProbability": 0.51,
         "yetToPlay": [
           "Jahmyr Gibbs",
           "Brock Bowers",
-          "Breece Hall",
           "Christian Watson",
-          "Marvin Harrison Jr.",
           "Javonte Williams",
           "Jordan Addison",
           "Steelers D/ST",
-          "Jared Goff"
+          "Jared Goff",
+          "Bam Knight",
+          "Jaylin Noel"
         ],
         "worstMistake": null,
         "bestStarter": null,
@@ -80,7 +80,7 @@
       "away": {
         "score": 0.0,
         "projectedFinal": 114.2,
-        "winProbability": 0.46,
+        "winProbability": 0.49,
         "yetToPlay": [
           "Ja'Marr Chase",
           "Malik Nabers",
@@ -97,7 +97,7 @@
         "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Nori's walking this one at 54% with ESPN projecting 121.5 to Veton's 114.2\u2014a 7.3-point gap that holds even with both teams running completely loaded from zero. Nori's got the cleaner path here: Gibbs is a guaranteed volume machine, Bowers is the safety valve in what's shaping up to be a shootout, and MHJ just operates on another level, while Veton's entire comeback depends on Ja'Marr Chase going absolutely unhinged and Josh Jacobs hitting the end zone simultaneously just to chip away at what's already comfortable margin. Neither team fucked up their lineups, so this is pure roster construction\u2014Nori drafted the marginally more consistent remaining firepower and ESPN's got him favored because his studs just need normal production while Veton needs coordinated ceiling games across multiple positions. Veton's absolutely still breathing with nine studs left to play, but Nori just needs his arsenal to execute and this should hold."
+      "analysis": "This is basically a coin flip dressed up as competition\u2014both of you are running completely loaded rosters from zero with nine studs left to play, and ESPN's got Nori at 51% only because he's got marginally cleaner remaining firepower. Nori's sitting on Jahmyr Gibbs (guaranteed volume), Brock Bowers (safety valve in what's shaping up as a shootout), and Jared Goff as his floor, while Veton's entire comeback math depends on Ja'Marr Chase going absolutely unhinged and basically everyone else hitting ceiling simultaneously just to chip away at a 2.6-point projection gap. Neither team sabotaged their lineups, so this comes down to roster construction\u2014Nori just drafted the marginally more consistent remaining weapons and ESPN's got him favored because his studs need normal production while Veton needs coordinated perfection across multiple positions. With this much football left Veton's absolutely still breathing, but Nori's got the cleaner execution path and should hold unless his entire arsenal collectively decides to phone it in."
     },
     {
       "homeOwner": "Arben Sinanaj",
@@ -105,7 +105,7 @@
       "home": {
         "score": 0.0,
         "projectedFinal": 112.3,
-        "winProbability": 0.54,
+        "winProbability": 0.51,
         "yetToPlay": [
           "Jonathan Taylor",
           "Trey McBride",
@@ -123,8 +123,8 @@
       },
       "away": {
         "score": 42.3,
-        "projectedFinal": 106.2,
-        "winProbability": 0.46,
+        "projectedFinal": 111.5,
+        "winProbability": 0.49,
         "yetToPlay": [
           "Drake London",
           "J.K. Dobbins",
@@ -148,7 +148,7 @@
         }
       },
       "familyName": null,
-      "analysis": "Arben's walking this one at 54% with ESPN projecting 112.3 to Faton's 106.2\u2014a clean 6-point gap that holds even though both of you are running it back from zero with full squads still waiting. The difference is Arben's got Jonathan Taylor, Jaxon Smith-Njigba, Jordan Love, and the Chiefs D/ST sitting there ready to just execute their normal assignments, while Faton's entire Sunday depends on J.K. Dobbins, Drake London, and Braelon Allen all collectively deciding to go absolutely nuclear just to chip away at what's already a comfortable cushion. Faton did get bailed out by Colston Loveland actually showing up (16.4 vs 9.5 projected), but that's a one-week miracle that doesn't fix the underlying problem\u2014Arben's remaining nine studs are just more consistent across the board, and ESPN's got him favored because his guys need normal production while Faton needs ceiling games from basically everyone still left to play. Neither team completely botched their lineups, so this is pure construction\u2014Arben built the marginally more reliable remaining arsenal and should cruise unless his weapons collectively phone it in, which ESPN thinks happens about 46% of the time."
+      "analysis": "Arben's walking this one at 51% with ESPN projecting 112.3 to Faton's 111.5\u2014basically a coin flip, except Arben's got Jonathan Taylor and Jaxon Smith-Njigba still waiting to execute their normal assignments while Faton's entire Sunday depends on J.K. Dobbins, Drake London, and Braelon Allen all collectively deciding to go absolutely nuclear just to chip away at what's already a razor-thin gap. The one thing saving Faton here is that Colston Loveland actually showed up and outperformed his projection by nearly 7 points, proving his bench has some fight left, but that's a one-week miracle that doesn't fix the underlying problem\u2014he's betting on coordinated ceiling games from multiple positions while Arben's just waiting for his studs to do their normal jobs. Both teams managed clean lineups, so this comes down to execution: Arben's got the marginally more consistent remaining firepower, ESPN's got him favored by a hair because his weapons need normal production while Faton needs perfection from basically everyone still left to play. Neither side's out of this, but Arben's built the cleaner path to 112."
     },
     {
       "homeOwner": "Flamur Muriqi",
@@ -201,7 +201,7 @@
         "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Flamur's sitting at 0.0 with eight studs still waiting and ESPN's got him at 45% to win, which is basically polite fiction\u2014Ilir's already projecting to 110.2 while Flamur needs 101.8, meaning he needs CeeDee, Saquon, Tee Higgins, and literally everyone else to hit their ceiling while Ilir's nine remaining guys just need to exist and C.J. Stroud's already locked in as a consistency machine. The Patriots D/ST already took a -1.0 shit on his week before the games even started, which is the kind of self-inflicted wound that stings when you're chasing projections, but with this much football left Flamur's absolutely still breathing if his studs all decide to cooperate simultaneously. ESPN's math is clean though: Ilir coasts with normal production from Bijan and the rest of his arsenal while Flamur needs coordinated perfection across an entire eight-man roster, which is the kind of probability that usually ends with him refreshing his score at 9 PM wondering how a 8.4-point gap felt this insurmountable."
+      "analysis": "Ilir's walking this one at 55% with ESPN projecting a 110.2 finish to Flamur's 101.8\u2014an 8.4-point gap that holds even though both of you are starting completely from zero with eight and nine studs still waiting to play. The problem for Flamur is that he needs CeeDee, Saquon, Tee Higgins, and basically his entire remaining arsenal to all hit ceiling simultaneously while Ilir's just sitting there needing Bijan and C.J. Stroud to execute their normal high-volume assignments, and that's a fundamentally different ask when the projections are already in Ilir's favor. Patriots D/ST already shit the bed with -1.0 before the games even started, which is the kind of self-inflicted wound that stings when you're chasing projections, but Flamur's absolutely still alive if his studs all decide to show up at the same time\u2014ESPN's just not betting on it."
     },
     {
       "homeOwner": "Rinor Ahmetaj",
@@ -252,21 +252,21 @@
         }
       },
       "familyName": null,
-      "analysis": "Jetmir's walking this one at 57% with ESPN projecting a 122.4 finish to Rinor's 111.8\u2014an 10.6-point gap that should hold even though Rinor's got nine studs still waiting to play and Luther Burden already proved he's willing to detonate his projection by 11 points. The reality is Jetmir's already sitting at 54.4 with only six guys left to go, meaning he can afford to watch Kenneth Walker III average himself into oblivion and still coast while Rinor needs Derrick Henry, DK Metcalf, Dak Prescott, Aaron Jones Sr., and literally five other weapons to all simultaneously hit their ceiling just to chip away at what's already a comfortable margin. Neither team sabotaged their lineups, but ESPN's math is simple: Jetmir's just waiting for normal production from his remaining arsenal while Rinor's praying for coordinated perfection across an entire nine-man roster, which is the kind of probability that usually ends with him refreshing his score at 9 PM on Sunday wondering how he managed to accumulate zero points by kickoff."
+      "analysis": "Jetmir's walking this one at 57% with ESPN projecting 122.4 to Rinor's 111.8\u2014a 10.6-point gap that should hold even though Rinor's got nine studs still waiting to play. The problem is Rinor needs Henry, Metcalf, Prescott, Jones Sr., and literally five other weapons to all simultaneously execute at or above their ceiling projections just to chip away at what's already a comfortable margin, while Jetmir's sitting at 54.4 with only six guys left to go and can afford to watch Kenneth Walker III completely shit the bed and still coast to a win. Luther Burden already proved he's willing to blow past his projection by 11 points, so Jetmir's got the luxury of normal production from his remaining arsenal while Rinor's praying for coordinated perfection across an entire nine-man roster\u2014the kind of probability that usually ends with him refreshing his score at 9 PM Sunday wondering how he managed to accumulate zero points by kickoff and is now chasing a fantasy miracle from basically nine different angles that all have to break right simultaneously."
     },
     {
       "homeOwner": "Adam Vilajeti",
       "awayOwner": "Rilind Ahmetaj",
       "home": {
         "score": 33.7,
-        "projectedFinal": 104.7,
-        "winProbability": 0.63,
+        "projectedFinal": 102.5,
+        "winProbability": 0.61,
         "yetToPlay": [
           "Zay Flowers",
           "George Kittle",
-          "RJ Harvey",
           "Tucker Kraft",
           "Xavier Worthy",
+          "Cam Skattebo",
           "Kendre Miller",
           "Titans D/ST"
         ],
@@ -287,7 +287,7 @@
       "away": {
         "score": 3.0,
         "projectedFinal": 88.0,
-        "winProbability": 0.37,
+        "winProbability": 0.39,
         "yetToPlay": [
           "Amon-Ra St. Brown",
           "Ashton Jeanty",
@@ -313,21 +313,21 @@
         }
       },
       "familyName": null,
-      "analysis": "Adam's walking this one in at 65% with ESPN projecting a 117.1 finish to Rilind's 95.4\u2014that's a 21.7-point gap that basically ends the discussion when you're already up 30 points with seven guys still warming up on the sideline. Rilind's got eight studs left and needs basically all of them to go nuclear simultaneously\u2014Amon-Ra, Jeanty, Stafford, the whole arsenal hitting ceiling at once\u2014while Adam's just sitting there needing Kittle and Worthy to do their normal jobs with Puka Nacua already on deck to add more to a lead that's already insurmountable. The real problem for Rilind is that he started this thing at 3.0 points after the Bears defense contributed jack shit to his week, and there's no amount of ceiling-hitting that fixes a 21-point hole when the other guy's Drake Maye is already at 27.4 and still has half his roster left to cash in. ESPN's pricing Rilind's comeback at 35% odds, which is basically charity\u2014he'd need Adam's remaining seven weapons to collectively underperform while his entire bench catches fire, and that's not a path, that's a fantasy miracle with eight different angles that all have to break right."
+      "analysis": "Adam's walking this one at 65% with ESPN projecting a 117.1 finish to Rilind's 95.4\u2014a 21.7-point gap that basically seals it when Adam's already sitting pretty at 33.7 with seven studs still warming the bench while Rilind's stuck at 3.0 after the Bears defense decided to contribute absolutely jack shit. Rilind needs Amon-Ra, Jeanty, Stafford, and literally everyone else left to go nuclear simultaneously just to chip away at what's already an insurmountable hole, while Adam's just waiting for Kittle and Worthy to do their normal jobs with a lead that's already larger than most full rosters score. The math doesn't work: Adam's remaining arsenal is built for consistency and he's got the luxury of watching it unfold with a comfortable cushion, while Rilind's chasing a fantasy miracle that requires eight different weapons to all hit ceiling at once\u2014ESPN's pricing that at 35% odds, which is generous considering he's already down more than a touchdown before half the Sunday games even kick off."
     }
   ],
   "recentLines": [
+    "Rob's walking away with this one at 64% with ESPN projecting 102.3 to Ben's 80.4\u2014a 22-point gap that basically locks in when Rob's sitting at zero with Christian McCaffrey, Garrett Wilson, and Jameson Williams all still waiting to execute while Ben's already scraped together 7.1 and needs Burrow, Kelce, and Jefferson to all hit ceiling simultaneously just to chip away at it. Ben's got seven studs left to play which technically keeps a pulse, but the problem is ESPN's remaining projections favor Rob's roster construction across the board\u2014Rob drafted the more consistent firepower and now gets to watch his bench just show up and do normal work while Ben needs coordinated perfection from basically his entire remaining arsenal. The gap holds because Rob's got more reliable volume waiting in the wings, and when you're already down 22 with ESPN's math working against you, seven studs left just means seven more chances to watch someone underperform.",
+    "This is basically a coin flip dressed up as competition\u2014both of you are running completely loaded rosters from zero with nine studs left to play, and ESPN's got Nori at 51% only because he's got marginally cleaner remaining firepower. Nori's sitting on Jahmyr Gibbs (guaranteed volume), Brock Bowers (safety valve in what's shaping up as a shootout), and Jared Goff as his floor, while Veton's entire comeback math depends on Ja'Marr Chase going absolutely unhinged and basically everyone else hitting ceiling simultaneously just to chip away at a 2.6-point projection gap. Neither team sabotaged their lineups, so this comes down to roster construction\u2014Nori just drafted the marginally more consistent remaining weapons and ESPN's got him favored because his studs need normal production while Veton needs coordinated perfection across multiple positions. With this much football left Veton's absolutely still breathing, but Nori's got the cleaner execution path and should hold unless his entire arsenal collectively decides to phone it in.",
+    "Arben's walking this one at 51% with ESPN projecting 112.3 to Faton's 111.5\u2014basically a coin flip, except Arben's got Jonathan Taylor and Jaxon Smith-Njigba still waiting to execute their normal assignments while Faton's entire Sunday depends on J.K. Dobbins, Drake London, and Braelon Allen all collectively deciding to go absolutely nuclear just to chip away at what's already a razor-thin gap. The one thing saving Faton here is that Colston Loveland actually showed up and outperformed his projection by nearly 7 points, proving his bench has some fight left, but that's a one-week miracle that doesn't fix the underlying problem\u2014he's betting on coordinated ceiling games from multiple positions while Arben's just waiting for his studs to do their normal jobs. Both teams managed clean lineups, so this comes down to execution: Arben's got the marginally more consistent remaining firepower, ESPN's got him favored by a hair because his weapons need normal production while Faton needs perfection from basically everyone still left to play. Neither side's out of this, but Arben's built the cleaner path to 112.",
+    "Ilir's walking this one at 55% with ESPN projecting a 110.2 finish to Flamur's 101.8\u2014an 8.4-point gap that holds even though both of you are starting completely from zero with eight and nine studs still waiting to play. The problem for Flamur is that he needs CeeDee, Saquon, Tee Higgins, and basically his entire remaining arsenal to all hit ceiling simultaneously while Ilir's just sitting there needing Bijan and C.J. Stroud to execute their normal high-volume assignments, and that's a fundamentally different ask when the projections are already in Ilir's favor. Patriots D/ST already shit the bed with -1.0 before the games even started, which is the kind of self-inflicted wound that stings when you're chasing projections, but Flamur's absolutely still alive if his studs all decide to show up at the same time\u2014ESPN's just not betting on it.",
+    "Jetmir's walking this one at 57% with ESPN projecting 122.4 to Rinor's 111.8\u2014a 10.6-point gap that should hold even though Rinor's got nine studs still waiting to play. The problem is Rinor needs Henry, Metcalf, Prescott, Jones Sr., and literally five other weapons to all simultaneously execute at or above their ceiling projections just to chip away at what's already a comfortable margin, while Jetmir's sitting at 54.4 with only six guys left to go and can afford to watch Kenneth Walker III completely shit the bed and still coast to a win. Luther Burden already proved he's willing to blow past his projection by 11 points, so Jetmir's got the luxury of normal production from his remaining arsenal while Rinor's praying for coordinated perfection across an entire nine-man roster\u2014the kind of probability that usually ends with him refreshing his score at 9 PM Sunday wondering how he managed to accumulate zero points by kickoff and is now chasing a fantasy miracle from basically nine different angles that all have to break right simultaneously.",
+    "Adam's walking this one at 65% with ESPN projecting a 117.1 finish to Rilind's 95.4\u2014a 21.7-point gap that basically seals it when Adam's already sitting pretty at 33.7 with seven studs still warming the bench while Rilind's stuck at 3.0 after the Bears defense decided to contribute absolutely jack shit. Rilind needs Amon-Ra, Jeanty, Stafford, and literally everyone else left to go nuclear simultaneously just to chip away at what's already an insurmountable hole, while Adam's just waiting for Kittle and Worthy to do their normal jobs with a lead that's already larger than most full rosters score. The math doesn't work: Adam's remaining arsenal is built for consistency and he's got the luxury of watching it unfold with a comfortable cushion, while Rilind's chasing a fantasy miracle that requires eight different weapons to all hit ceiling at once\u2014ESPN's pricing that at 35% odds, which is generous considering he's already down more than a touchdown before half the Sunday games even kick off.",
     "Rob's cruising to this one at 65% with ESPN projecting 102.9 to Ben's 80.4\u2014a comfortable 22.5-point gap that basically locks in when you realize Rob's literally sitting at zero with Christian McCaffrey, Garrett Wilson, and Jameson Williams all still waiting to punch in, while Ben's already sweating at 7.1 after DeMario Douglas decided to contribute 3.8 points instead of the 8.7 ESPN promised. Ben technically has seven guys left to play, but he's not just chasing points\u2014he's chasing a mirage where Burrow, Kelce, and Jefferson all simultaneously decide to go nuclear while Rob's bench just needs to show up and execute basic NFL-level production. The gap holds because Rob drafted more consistent remaining firepower and Ben's betting his whole week on ceiling games from basically everyone still on the field, which is historically the formula that ends with refreshing the score at 10 PM wondering how you blew a \"seven starters left\" situation.",
     "Nori's walking this one at 54% with ESPN projecting 121.5 to Veton's 114.2\u2014a 7.3-point gap that holds even with both teams running completely loaded from zero. Nori's got the cleaner path here: Gibbs is a guaranteed volume machine, Bowers is the safety valve in what's shaping up to be a shootout, and MHJ just operates on another level, while Veton's entire comeback depends on Ja'Marr Chase going absolutely unhinged and Josh Jacobs hitting the end zone simultaneously just to chip away at what's already comfortable margin. Neither team fucked up their lineups, so this is pure roster construction\u2014Nori drafted the marginally more consistent remaining firepower and ESPN's got him favored because his studs just need normal production while Veton needs coordinated ceiling games across multiple positions. Veton's absolutely still breathing with nine studs left to play, but Nori just needs his arsenal to execute and this should hold.",
     "Arben's walking this one at 54% with ESPN projecting 112.3 to Faton's 106.2\u2014a clean 6-point gap that holds even though both of you are running it back from zero with full squads still waiting. The difference is Arben's got Jonathan Taylor, Jaxon Smith-Njigba, Jordan Love, and the Chiefs D/ST sitting there ready to just execute their normal assignments, while Faton's entire Sunday depends on J.K. Dobbins, Drake London, and Braelon Allen all collectively deciding to go absolutely nuclear just to chip away at what's already a comfortable cushion. Faton did get bailed out by Colston Loveland actually showing up (16.4 vs 9.5 projected), but that's a one-week miracle that doesn't fix the underlying problem\u2014Arben's remaining nine studs are just more consistent across the board, and ESPN's got him favored because his guys need normal production while Faton needs ceiling games from basically everyone still left to play. Neither team completely botched their lineups, so this is pure construction\u2014Arben built the marginally more reliable remaining arsenal and should cruise unless his weapons collectively phone it in, which ESPN thinks happens about 46% of the time.",
     "Flamur's sitting at 0.0 with eight studs still waiting and ESPN's got him at 45% to win, which is basically polite fiction\u2014Ilir's already projecting to 110.2 while Flamur needs 101.8, meaning he needs CeeDee, Saquon, Tee Higgins, and literally everyone else to hit their ceiling while Ilir's nine remaining guys just need to exist and C.J. Stroud's already locked in as a consistency machine. The Patriots D/ST already took a -1.0 shit on his week before the games even started, which is the kind of self-inflicted wound that stings when you're chasing projections, but with this much football left Flamur's absolutely still breathing if his studs all decide to cooperate simultaneously. ESPN's math is clean though: Ilir coasts with normal production from Bijan and the rest of his arsenal while Flamur needs coordinated perfection across an entire eight-man roster, which is the kind of probability that usually ends with him refreshing his score at 9 PM wondering how a 8.4-point gap felt this insurmountable.",
     "Jetmir's walking this one at 57% with ESPN projecting a 122.4 finish to Rinor's 111.8\u2014an 10.6-point gap that should hold even though Rinor's got nine studs still waiting to play and Luther Burden already proved he's willing to detonate his projection by 11 points. The reality is Jetmir's already sitting at 54.4 with only six guys left to go, meaning he can afford to watch Kenneth Walker III average himself into oblivion and still coast while Rinor needs Derrick Henry, DK Metcalf, Dak Prescott, Aaron Jones Sr., and literally five other weapons to all simultaneously hit their ceiling just to chip away at what's already a comfortable margin. Neither team sabotaged their lineups, but ESPN's math is simple: Jetmir's just waiting for normal production from his remaining arsenal while Rinor's praying for coordinated perfection across an entire nine-man roster, which is the kind of probability that usually ends with him refreshing his score at 9 PM on Sunday wondering how he managed to accumulate zero points by kickoff.",
-    "Adam's walking this one in at 65% with ESPN projecting a 117.1 finish to Rilind's 95.4\u2014that's a 21.7-point gap that basically ends the discussion when you're already up 30 points with seven guys still warming up on the sideline. Rilind's got eight studs left and needs basically all of them to go nuclear simultaneously\u2014Amon-Ra, Jeanty, Stafford, the whole arsenal hitting ceiling at once\u2014while Adam's just sitting there needing Kittle and Worthy to do their normal jobs with Puka Nacua already on deck to add more to a lead that's already insurmountable. The real problem for Rilind is that he started this thing at 3.0 points after the Bears defense contributed jack shit to his week, and there's no amount of ceiling-hitting that fixes a 21-point hole when the other guy's Drake Maye is already at 27.4 and still has half his roster left to cash in. ESPN's pricing Rilind's comeback at 35% odds, which is basically charity\u2014he'd need Adam's remaining seven weapons to collectively underperform while his entire bench catches fire, and that's not a path, that's a fantasy miracle with eight different angles that all have to break right.",
-    "Rob's cruising to a 65% win at 102.9 while Ben's stuck at 7.1 watching a 22.4-point gap that ESPN says doesn't close\u2014and the problem isn't just that Ben's already treading water, it's that he needs Burrow, Kelce, and Jefferson to all simultaneously hit their ceiling while Rob's literally sitting at zero with Christian McCaffrey and Garrett Wilson still waiting to just do their normal jobs. Ben's got seven studs left to play which technically keeps a pulse in this thing, but ESPN's projecting Rob's remaining weapons to outpace Ben's entire roster output by nearly a full touchdown, and that's before accounting for the fact that Ben's bench needs to execute flawlessly while Rob's bench just needs to exist. The math here is pure fantasy murder: Rob drafted the better team, neither of you fucked up your lineups, and now you're watching Rob's roster construction dominate yours with more than half the Sunday slate still to play.",
-    "Nori's walking this one at 53% with ESPN projecting a 121.3 finish to Veton's 114.5\u2014a near 7-point gap that should hold even though both of you are running completely loaded rosters from zero. The difference is Nori's got Gibbs as a guaranteed volume machine, Bowers operating as a security blanket in what's become a shootout, and MHJ who just does his thing without needing perfect weather, while Veton's entire path depends on Ja'Marr Chase going absolutely unhinged and Josh Jacobs hitting paydirt simultaneously just to chip away at what's already a comfortable margin. Neither team sabotaged their lineups, so this comes down to roster construction\u2014Nori built the slightly more consistent remaining firepower and ESPN's got him favored because his studs need normal production while Veton needs ceiling games across multiple positions. Both sides have enough football left that Veton can absolutely still win if his whole bench cooperates, but the projection gap is real and Nori's got the cleaner execution path.",
-    "Arben's walking this one at 54% with ESPN projecting 112.3 to Faton's 106.2\u2014a clean 6-point gap that holds even though both of you are running it back from zero with full squads still waiting. The difference is Arben's got Jonathan Taylor, Jaxon Smith-Njigba, Jordan Love, and the Chiefs D/ST\u2014the kind of reliable volume that ESPN's banking on to just execute their projections without needing perfect weather\u2014while Faton's praying J.K. Dobbins, Drake London, and Braelon Allen all go nuclear simultaneously just to chip away at a comfortable cushion. Faton did get bailed out by Colston Loveland actually showing up (16.4 vs 9.5), but that's a one-week miracle that doesn't fix the underlying roster problem: Arben's remaining nine studs are just more consistent across the board, and ESPN's got him favored because his guys need normal production while Faton needs ceiling games from basically everyone still left to play. Neither team completely botched their lineups, so this is pure construction\u2014Arben built the marginally more reliable remaining arsenal and should cruise unless his weapons collectively phone it in.",
-    "Ilir's walking this one at 55% with ESPN projecting a 109.8 finish to Flamur's 101.7\u2014an 8.1-point gap that should hold even though both of you are starting from absolute zero with nine studs left to play. The difference is Ilir's got Bijan Robinson and C.J. Stroud as the kind of high-volume guys who consistently hit their floor, while Flamur's entire path depends on CeeDee Lamb, Saquon Barkley, and Aaron Rodgers all going absolutely nuclear simultaneously just to chip away at what's already a comfortable margin. Flamur's only real problem is that Patriots D/ST already took a -1.0 shit on his week before the games even started, which is the kind of self-inflicted wound that haunts you when you're already chasing 8 points heading into Sunday, but with this much football left he's absolutely still breathing if his studs decide to cooperate.",
-    "Rinor's sitting at 0.0 with nine studs still waiting to play and ESPN's got him at 45% to win, which is basically fantasy fiction\u2014Jetmir's already up 54.4 points and projected to 122.4 while Rinor needs 113.8, meaning he needs Henry, Metcalf, Prescott, Jones Sr., and literally everyone else to hit ceiling while Jetmir's six remaining guys just need to exist and Luther Burden already showed he's willing to blow past projections by 11 points, so Rinor's praying for a statistical miracle from nine different angles when he should've started playing guys three days ago. Both teams managed clean lineups, but ESPN's math is simple: Jetmir coasts with normal production from Kenneth Walker and the rest of his arsenal while Rinor needs coordinated perfection across an entire nine-man roster, which is the kind of probability that usually ends with him refreshing his score at 9 PM on Sunday wondering how he got here.",
-    "Adam's walking this one at 65% with ESPN projecting a 117.1 finish to Rilind's 95.4\u2014that's a 21.7-point gap that basically ends the discussion when you realize Adam's already at 33.7 with seven studs still left to play while Rilind's sitting at 3.0 after the Bears defense decided to contribute absolutely nothing to his cause. Rilind's got eight guys left and ESPN's banking on them all hitting ceiling simultaneously\u2014Amon-Ra, Jeanty, DeVonta Smith, the whole bench going nuclear at once\u2014while Adam's just needs his remaining weapons to play normal football with Kittle, Worthy, and Nacua doing exactly what they're supposed to do. The projections say Adam coasts here; the only way this gets interesting is if Rilind's entire remaining roster decides to go absolutely unhinged while Adam's studs collectively underperform, which ESPN's pricing at around 35% odds. Neither of you fucked up your lineups, but starting a day at 3.0 points against someone at 33.7 is basically asking for a miracle when that 21-point gap is still waiting to grow."
+    "Adam's walking this one in at 65% with ESPN projecting a 117.1 finish to Rilind's 95.4\u2014that's a 21.7-point gap that basically ends the discussion when you're already up 30 points with seven guys still warming up on the sideline. Rilind's got eight studs left and needs basically all of them to go nuclear simultaneously\u2014Amon-Ra, Jeanty, Stafford, the whole arsenal hitting ceiling at once\u2014while Adam's just sitting there needing Kittle and Worthy to do their normal jobs with Puka Nacua already on deck to add more to a lead that's already insurmountable. The real problem for Rilind is that he started this thing at 3.0 points after the Bears defense contributed jack shit to his week, and there's no amount of ceiling-hitting that fixes a 21-point hole when the other guy's Drake Maye is already at 27.4 and still has half his roster left to cash in. ESPN's pricing Rilind's comeback at 35% odds, which is basically charity\u2014he'd need Adam's remaining seven weapons to collectively underperform while his entire bench catches fire, and that's not a path, that's a fantasy miracle with eight different angles that all have to break right."
   ]
 }

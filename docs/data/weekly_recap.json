@@ -1,109 +1,109 @@
 {
-  "generatedAt": "2026-10-26T14:50:10.656053+00:00",
+  "generatedAt": "2026-10-27T14:13:38.583698+00:00",
   "seasonId": 2026,
   "lastWeek": {
-    "matchupPeriodId": 6,
-    "matchups": [
-      {
-        "homeOwner": "Rob Ricigliano",
-        "awayOwner": "Nori Kastrati",
-        "homeScore": 112.0,
-        "awayScore": 59.48,
-        "winner": "Rob Ricigliano",
-        "loser": "Nori Kastrati",
-        "recap": "Nori got absolutely skull-fucked this week, losing by a football field and a half\u201453 points is the kind of margin you see when someone forgets to set their lineup entirely, except Nori apparently remembered to bench his entire offense. Rob put up 112 and still could've won by more if he'd started his kicker's grandmother. This wasn't a matchup, it was a mercy killing."
-      },
-      {
-        "homeOwner": "Ben Vucetaj",
-        "awayOwner": "Arben Sinanaj",
-        "homeScore": 56.42,
-        "awayScore": 123.94,
-        "winner": "Arben Sinanaj",
-        "loser": "Ben Vucetaj",
-        "recap": "Ben got absolutely obliterated by a margin so massive it looks like a typo\u201467.5 fucking points. That's not a loss, that's a public execution; you scored 56.4 and got lapped like you're playing a different sport entirely. Your roster this week had all the firepower of a wet paper bag, and Arben just ran straight through it like he was bowling. Next time maybe actually set your lineup instead of whatever dumpster fire decision-making led to this catastrophe."
-      },
-      {
-        "homeOwner": "Veton Gjonbalaj",
-        "awayOwner": "Flamur Muriqi",
-        "homeScore": 99.16,
-        "awayScore": 117.34,
-        "winner": "Flamur Muriqi",
-        "loser": "Veton Gjonbalaj",
-        "recap": "Veton got absolutely skull-fucked this week, limping across the finish line 18 points in the red like a one-legged horse at a glue factory. Flamur's squad showed up ready to play while Veton's roster looked like he drafted it during a blackout, fielding a collection of underperforming nobodies who couldn't score if the defense was asleep. The gap between these teams was so wide you could drive a fucking truck through it, and honestly Veton's probably still wondering what hit him\u2014spoiler alert, it was his own incompetence."
-      },
-      {
-        "homeOwner": "Faton Muriqi",
-        "awayOwner": "Rinor Ahmetaj",
-        "homeScore": 122.66,
-        "awayScore": 77.62,
-        "winner": "Faton Muriqi",
-        "loser": "Rinor Ahmetaj",
-        "recap": "Rinor got absolutely skull-fucked by a 45-point margin this week\u2014that's not a loss, that's a goddamn public execution. Dude's roster looked like he drafted with his eyes closed and a concussion, while Faton was out here running a functional football team. At this point Rinor might as well check his lineups with a Magic 8-Ball because his decision-making has been shakier than a newborn giraffe all season."
-      },
-      {
-        "homeOwner": "Ilir Asllani",
-        "awayOwner": "Adam Vilajeti",
-        "homeScore": 95.2,
-        "awayScore": 74.6,
-        "winner": "Ilir Asllani",
-        "loser": "Adam Vilajeti",
-        "recap": "Adam got absolutely skull-fucked this week, losing by 20.6 points like he drafted his entire roster based on vibes and a fever dream. 74.6 points is what you score when your \"late-round sleeper\" turns out to be more of a comatose corpse, and your \"bounce-back candidate\" decides to bounce straight into the IR. Ilir walked into this matchup like he was playing your JV squad, and honestly, that's exactly what it looked like from the scoreboard."
-      },
-      {
-        "homeOwner": "Jetmir Asllani / Peter Mardjonovic",
-        "awayOwner": "Rilind Ahmetaj",
-        "homeScore": 97.24,
-        "awayScore": 87.18,
-        "winner": "Jetmir Asllani / Peter Mardjonovic",
-        "loser": "Rilind Ahmetaj",
-        "recap": "Rilind got absolutely dicked down 97.2 to 87.2 this week\u2014a straight-up 10-point beatdown that had more mercy than a mercy rule in Little League. At this point he's not just losing, he's losing *badly*, which is somehow worse than just being mediocre. Jetmir and Peter waltzed into the end zone while Rilind's lineup spent the afternoon looking like a practice squad. Better luck next week, chief\u2014you're gonna need it."
-      }
-    ]
-  },
-  "thisWeek": {
     "matchupPeriodId": 7,
     "matchups": [
       {
         "homeOwner": "Ben Vucetaj",
         "awayOwner": "Rob Ricigliano",
-        "homeRecord": "2-4",
-        "awayRecord": "2-4",
-        "preview": "Two teams circling the drain at 2-4, but Ben's about to find out what rock bottom actually feels like\u2014Rob's got just enough momentum this week to capitalize on whatever dumpster fire Ben's roster turns into. Ben's been drafting like he's playing checkers while everyone else plays chess, and this is the week his paper-thin depth chart finally implodes on national television."
+        "homeScore": 115.88,
+        "awayScore": 96.48,
+        "winner": "Ben Vucetaj",
+        "loser": "Rob Ricigliano",
+        "recap": "Rob got absolutely skull-fucked by 19.4 points this week, and honestly, that's what happens when you field a roster that couldn't score in a brothel with a fistful of cash. You limped across the finish line at 96.5 like a guy who just discovered his entire bench was on bye week, while Ben flexed 115.9 and left you wondering where the hell your \"studs\" went. Better luck next week, you absolute donkey."
       },
       {
         "homeOwner": "Nori Kastrati",
         "awayOwner": "Veton Gjonbalaj",
-        "homeRecord": "4-2",
-        "awayRecord": "0-6",
-        "preview": "Nori's cruising at 4-2 while Veton's out here looking like he drafted his entire roster blindfolded and hungover\u2014the man's 0-6 and somehow still thinks he's got a shot. This week Veton's going to discover what it feels like to lose to someone who actually knows what a waiver wire is, and Nori's going to add another W to the column just by showing up."
+        "homeScore": 93.62,
+        "awayScore": 117.32,
+        "winner": "Veton Gjonbalaj",
+        "loser": "Nori Kastrati",
+        "recap": "Nori showed up to this matchup like he showed up to the draft\u2014completely fucking unprepared and wondering why everything fell apart by halftime. Down 23.7 points, Nori's roster looked like a clearance bin at a thrift store, with every player underperforming like they had money on the other team. Veton didn't even need to break a sweat; he just sat back and watched Nori's season implode in real time like a highlight reel of pure fantasy incompetence. Better luck next year, chief\u2014or actually, keep doing exactly what you're doing so we can all keep laughing."
       },
       {
         "homeOwner": "Arben Sinanaj",
         "awayOwner": "Faton Muriqi",
-        "homeRecord": "5-1",
-        "awayRecord": "4-2",
-        "preview": "Arben's rolling in at 5-1 like he accidentally stumbled into competence, but Faton's about to remind everyone why you don't get cute with your waiver wire pickups\u2014this week Arben's luck dries up faster than his bench and Faton's scrappy ass squad is hungry to close that gap."
+        "homeScore": 113.56,
+        "awayScore": 108.98,
+        "winner": "Arben Sinanaj",
+        "loser": "Faton Muriqi",
+        "recap": "Faton got absolutely cock-teased this week, limping across the finish line 4.6 points short like a guy who thought he had it in the bag and then remembered he left his wallet at home. 109 points should be enough to win most weeks, but apparently not when you're facing Arben, who managed to scrape together 113.6 points of pure, unapologetic fantasy football competence. Faton's roster had all the makings of a championship run until it didn't\u2014kind of like watching a Ferrari with no gas tank. Better luck next week, chief, because this loss is gonna sting like whiskey on a paper cut."
       },
       {
         "homeOwner": "Flamur Muriqi",
         "awayOwner": "Ilir Asllani",
-        "homeRecord": "5-1",
-        "awayRecord": "4-2",
-        "preview": "Muriqi's sitting pretty at 5-1, but let's be honest\u2014that record's held together with duct tape and prayer, propped up by whatever waiver-wire lottery tickets actually hit. Asllani's nipping at your heels at 4-2, and this week you're about to find out what happens when your house of cards meets a team that's actually figured out how to string together competent weeks. Time to see if you're a legitimate contender or just a guy who got lucky enough to avoid the basement\u2014spoiler alert: your playoff hopes are sweating."
+        "homeScore": 104.58,
+        "awayScore": 77.92,
+        "winner": "Flamur Muriqi",
+        "loser": "Ilir Asllani",
+        "recap": "Ilir got absolutely obliterated this week, losing by 27.7 points like he was trying to tank for draft picks. His roster put up 77.9 points of pure dogshit, which is what happens when your \"strategy\" is apparently to autodraft players who've been injured since 2019. Flamur waltzed into the endzone with 104.6 while Ilir's team choked harder than a rookie QB in the playoffs, and now he's got nothing but excuses and a bye week to contemplate his garbage life choices."
       },
       {
         "homeOwner": "Rinor Ahmetaj",
         "awayOwner": "Jetmir Asllani / Peter Mardjonovic",
-        "homeRecord": "3-3",
-        "awayRecord": "4-2",
-        "preview": "Rinor's back to his usual 3-3 mediocrity\u2014barely treading water while Jetmir and Peter are actually figuring out how to win games. This matchup is gonna be a bloodbath; Rinor's been held together with duct tape and prayer all season, and now he's gotta face a team that actually knows what the fuck they're doing. Better luck next week, buddy."
+        "homeScore": 100.88,
+        "awayScore": 98.12,
+        "winner": "Rinor Ahmetaj",
+        "loser": "Jetmir Asllani / Peter Mardjonovic",
+        "recap": "Jetmir and Peter got so close to stealing this one they could taste it\u2014too bad they choked it down like a two-minute drill led by a rookie. Losing by 2.8 points is the fantasy football equivalent of showing up to a gunfight with a butter knife: technically you tried, but everyone watching just felt bad. Rinor walked out with the W while you two were left arguing about whose draft pick was worse, and spoiler alert\u2014it doesn't matter because you both shit the bed this week."
       },
       {
         "homeOwner": "Adam Vilajeti",
         "awayOwner": "Rilind Ahmetaj",
-        "homeRecord": "2-4",
-        "awayRecord": "1-5",
-        "preview": "Adam's \"2-4 record\" is basically just a participation trophy at this point\u2014dude's been treading water while Rilind's actively drowning at 1-5, which somehow makes this matchup a race to see who can fuck it up worse. Two teams held together with duct tape and prayer, but at least Adam can say he's only half-collapsed; Rilind's entire season is a dumpster fire that somehow keeps burning."
+        "homeScore": 111.54,
+        "awayScore": 87.9,
+        "winner": "Adam Vilajeti",
+        "loser": "Rilind Ahmetaj",
+        "recap": "Rilind got absolutely skull-fucked by 23.6 points this week, limping across the finish line like a three-legged dog with a score that wouldn't embarrass a bye week. Adam went full on weekend warrior and left you in the dust while your roster looked like you drafted it at a fucking bus stop. Better luck next week, chief\u2014though honestly, I wouldn't count on it."
+      }
+    ]
+  },
+  "thisWeek": {
+    "matchupPeriodId": 8,
+    "matchups": [
+      {
+        "homeOwner": "Rob Ricigliano",
+        "awayOwner": "Veton Gjonbalaj",
+        "homeRecord": "2-5",
+        "awayRecord": "1-6",
+        "preview": "Rob's clinging to a .286 winning percentage like it's a participation trophy, but Veton's here to remind him that 1-6 is somehow even more pathetic\u2014this is a race to the bottom between two teams that make you wonder if they even set their lineups. One of these dumpster fires is going down 0-7, and honestly, does it even matter which one at this point?"
+      },
+      {
+        "homeOwner": "Faton Muriqi",
+        "awayOwner": "Ben Vucetaj",
+        "homeRecord": "4-3",
+        "awayRecord": "3-4",
+        "preview": "Faton's sitting pretty at 4-3 thinking he's got this locked down, but we all remember how last year ended\u2014choking harder than a rookie in the playoffs. Ben's desperate at 3-4 and has nothing to lose, which means he's either going to pull off the upset or continue his season-long tradition of starting the wrong guys. Either way, one of these clowns is about to get exposed this week."
+      },
+      {
+        "homeOwner": "Ilir Asllani",
+        "awayOwner": "Nori Kastrati",
+        "homeRecord": "4-3",
+        "awayRecord": "4-3",
+        "preview": "Two mediocre bastards limping along at .500 are about to find out which one is actually worse\u2014and spoiler alert, Ilir, your \"balanced approach\" is just code for \"I panic-started three guys who combined for 8 points last week.\" Nori's at least been consistently mid all season, but you? You've got all the talent in the world and somehow still managed to lose to half this league. One of you is about to remember what it feels like to actually lose momentum, and my money's on the guy who thought his draft capital could carry him through November."
+      },
+      {
+        "homeOwner": "Jetmir Asllani / Peter Mardjonovic",
+        "awayOwner": "Arben Sinanaj",
+        "homeRecord": "4-3",
+        "awayRecord": "6-1",
+        "preview": "Jetmir and Peter are about to find out why 4-3 feels a lot worse than it actually is when they run into a 6-1 buzzsaw that knows how to close out games. Arben's been running circles around this league while you two have been trading punches with the middle pack\u2014this week you're just getting knocked the fuck out."
+      },
+      {
+        "homeOwner": "Rilind Ahmetaj",
+        "awayOwner": "Flamur Muriqi",
+        "homeRecord": "1-6",
+        "awayRecord": "6-1",
+        "preview": "Rilind's bringing a dumpster fire to face the league's hottest team\u2014and honestly, that might be the most entertaining thing his roster's done all season. Flamur's rolling with the kind of momentum that makes 1-6 records look even more pathetic, so expect Rilind to find new and creative ways to lose while watching his studs underperform on the bench. This isn't a matchup; it's a mercy killing."
+      },
+      {
+        "homeOwner": "Adam Vilajeti",
+        "awayOwner": "Rinor Ahmetaj",
+        "homeRecord": "3-4",
+        "awayRecord": "4-3",
+        "preview": "Adam's sitting at 3-4 with a roster that screams \"I panic-drafted and never looked back,\" while Rinor limps in at 4-3 probably wondering how the fuck he's still this close to .500 with the mid-tier garbage he's been fielding. This is the matchup of two dudes desperately trying not to fall out of contention, which means one of you is about to absolutely implode and waste your Sunday afternoon watching your team score 60 points."
       }
     ]
   }

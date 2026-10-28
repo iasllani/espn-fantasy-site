@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T13:49:44.684652+00:00",
+  "generatedAt": "2026-10-28T10:43:34.502819+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 8,
   "matchups": [
@@ -8,18 +8,18 @@
       "awayOwner": "Veton Gjonbalaj",
       "home": {
         "score": 0.0,
-        "projectedFinal": 69.6,
-        "winProbability": 0.43,
+        "projectedFinal": 106.9,
+        "winProbability": 0.67,
         "yetToPlay": [
-          "Christian McCaffrey",
+          "Rashee Rice",
           "Garrett Wilson",
           "Jameson Williams",
           "Michael Wilson",
-          "Texans D/ST",
+          "Rachaad White",
+          "Jayden Daniels",
+          "Kyle Pitts Sr.",
           "Kyren Williams",
-          "Kenyon Sadiq",
-          "Christian Kirk",
-          "Geno Smith"
+          "Jaguars D/ST"
         ],
         "worstMistake": null,
         "bestStarter": null,
@@ -28,7 +28,7 @@
       "away": {
         "score": 0.0,
         "projectedFinal": 78.9,
-        "winProbability": 0.57,
+        "winProbability": 0.33,
         "yetToPlay": [
           "Ja'Marr Chase",
           "Josh Jacobs",
@@ -45,7 +45,7 @@
         "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Both teams are sitting at 0.0 with fully loaded rosters still to play, but ESPN's already handing this to Veton at 57% with a projected 9.3-point gap (78.9 to 69.6), which is basically saying Rob's got the harder path even though both sides have nine guys left on the field. Rob's got the better individual talent with CMC and Garrett Wilson, but Veton stacked the late window with Ja'Marr Chase and Josh Jacobs in what could turn into a blowout, while Rob's relying on his entire bench showing up and overperforming at the same time\u2014ESPN's math says that happens 43% of the time and honestly that might be generous. Neither guy made a benching blunder, so this is pure execution, but the projection favors Veton's roster construction and depth enough that you should already be nervous if you're banking on Rob catching a late-game miracle."
+      "analysis": "Rob's sitting at 67% with ESPN projecting 106.9, which sounds great until you realize Veton's only 28 points behind at 78.9 with the exact same nine starters left to play\u2014so basically ESPN's saying Rob's got the better roster but Veton's path to 79 points is way easier than Rob's path to 107. Rob's got elite talent in Rice, Wilson, and Williams, but he's asking all three to hit their ceiling while Veton's just banking on Chase and Jacobs showing up in what could be a shootout that gets out of hand. The gap between a projected 79 and 107 is the difference between \"yeah that'll probably happen\" and \"all your guys need to be really good,\" and ESPN's basically admitting that by giving Rob the coin flip odds despite having the higher projection\u2014this one's closer than the math suggests, but Rob's got the harder needle to thread when Veton only needs competent performances from his late-window stack."
     },
     {
       "homeOwner": "Faton Muriqi",
@@ -53,7 +53,7 @@
       "home": {
         "score": 0.0,
         "projectedFinal": 83.8,
-        "winProbability": 0.45,
+        "winProbability": 0.41,
         "yetToPlay": [
           "Drake London",
           "D'Andre Swift",
@@ -71,25 +71,25 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 90.8,
-        "winProbability": 0.55,
+        "projectedFinal": 97.4,
+        "winProbability": 0.59,
         "yetToPlay": [
-          "TreVeyon Henderson",
+          "Jeremiyah Love",
+          "Ladd McConkey",
           "Joe Burrow",
+          "Stefon Diggs",
           "KC Concepcion",
           "Travis Kelce",
-          "Caleb Douglas",
           "Browns D/ST",
           "Quinshon Judkins",
-          "Justin Jefferson",
-          "DeMario Douglas"
+          "Justin Jefferson"
         ],
         "worstMistake": null,
         "bestStarter": null,
         "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Faton's at 45% and Ben's at 55%, ESPN projecting a 7-point gap that'll come down to execution\u2014both lineups are fully loaded so this absolutely stays competitive until the late slots kick off. The issue is Ben's got the cleaner roster construction with Kelce and Justin Jefferson still pending; Faton needs Drake London, D'Andre Swift, and Rome Odunze to all hit their floors while Ben's basically just waiting for his studs to show up and be studs. ESPN's saying Ben wins this 55% of the time, but if Faton's receivers actually catch passes and his RBs get fed, this one stays tight\u2014just don't expect the comeback when you're asking five different guys to deliver simultaneously while Ben's got two all-world names waiting in the wings."
+      "analysis": "Both lineups are completely loaded with nine guys left apiece, but ESPN's already handed this to Ben at 59% with a 13.6-point projected edge (97.4 to 83.8), which is basically saying Faton's got a much harder path even though they're both sitting at 0.0 right now. Faton's betting everything on Drake London, D'Andre Swift, Colston Loveland, Rome Odunze, and Bo Nix all delivering their floors simultaneously while Ben's got Travis Kelce and Justin Jefferson still waiting in the wings\u2014and when your survival plan requires five different guys to all show up instead of two all-world talents just being themselves, ESPN's math gets real unfavorable real fast. Neither guy torpedoed themselves with a benching disaster, so this one's pure execution, but Ben's roster construction is cleaner and has way more redundancy built in. Faton's not dead yet since the late window hasn't kicked off, but he's asking for a perfect storm while Ben's just waiting for his studs to remember they're studs."
     },
     {
       "homeOwner": "Ilir Asllani",
@@ -132,7 +132,7 @@
         "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Nori's walking out of here at 84% with ESPN projecting a 57.6-point gap (112.7 to 55.1), and that's before half these lineups even check in\u2014Ilir's got nine guys left to play and it still doesn't matter because Nori's got Jahmyr Gibbs, Breece Hall, Christian Watson, and Brock Bowers all pending, which is basically just asking if Ilir can overcome an entire elite receiving corps while his own guys deliver ceiling games across the board. The math is suffocating: Gibbs and Hall are both projected north of 15 points each, Watson's getting 12+, and Bowers is sitting at 10\u2014that's 50+ points from four players before you even count Javonte Williams or Jared Goff, and Ilir's banking on C.J. Stroud, Bijan Robinson, and George Pickens all going absolutely nuclear to even make this competitive. Nori didn't need a perfect storm; he just needed a competent roster, and that's exactly what he's sitting on\u2014Ilir's the one staring at needing his entire bench to explode while hoping Nori's studs somehow underperform their projections by 10+ points each, which ESPN's basically saying won't happen 84% of the time."
+      "analysis": "Nori's walking into this one with basically a cheat code\u2014ESPN's got him at 84% with a projected 57.6-point advantage (112.7 to 55.1), and Ilir's got nine guys left to play and it still doesn't move the needle because Gibbs, Breece Hall, Watson, and Bowers are already doing the heavy lifting before anyone even checks in. Ilir needs C.J. Stroud, Bijan Robinson, and George Pickens to all hit absolute ceiling games while hoping Nori's studs somehow underperform by double digits each, which is basically asking ESPN to be catastrophically wrong about their own projections. The math is suffocating: that's 50+ points locked in from four guys on Nori's bench, and Ilir's entire remaining roster has to explode simultaneously just to keep pace. Nori didn't need perfection\u2014he just needed a competent roster, and that's exactly what he built; Ilir's the one staring down needing a miracle while his opponent's just waiting for normal production to roll in."
     },
     {
       "homeOwner": "Jetmir Asllani / Peter Mardjonovic",
@@ -158,37 +158,38 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 113.7,
+        "projectedFinal": 114.1,
         "winProbability": 0.55,
         "yetToPlay": [
           "Jonathan Taylor",
           "Trey McBride",
           "Jaylen Warren",
-          "Courtland Sutton",
           "Chuba Hubbard",
           "Jaxon Smith-Njigba",
           "Jakobi Meyers",
           "Chiefs D/ST",
-          "Jordan Love"
+          "Jordan Love",
+          "Treylon Burks"
         ],
         "worstMistake": null,
         "bestStarter": null,
         "worstStarter": null
       },
       "familyName": null,
-      "analysis": "ESPN's got Arben walking out of here at 55% with a 9.3-point projected edge (113.7 to 104.4), but Jetmir's still got nine starters left to run out so this isn't sealed yet\u2014Kenneth Walker, Caleb Williams, and Tetairoa McMillan are exactly the kind of names that can chip away at a single-digit deficit if the slate breaks right. The problem is Arben's bench is just as loaded: Jonathan Taylor, Jaxon Smith-Njigba, and Jaylen Warren are all still pending, which means this thing could easily swing into comfortable territory for either guy depending on whose studs actually deliver their floor. Both rosters are clean with no meaningful benching disasters, so this one's genuinely coming down to execution and whether the projected gap holds up once everyone's locked in\u2014Arben's got the slight edge because his lineup feels marginally more consistent top-to-bottom, but Jetmir's absolutely still alive if his later slots go off. This stays competitive until the final whistle."
+      "analysis": "Arben's walking away with this at 55% with ESPN projecting a 9.7-point gap (114.1 to 104.4), and yeah Jetmir's still got nine starters left to play but that's not actually good news when your opponent's got an equally loaded bench\u2014Kenneth Walker and Caleb Williams can chip away, sure, but Jonathan Taylor and Jaxon Smith-Njigba are the kind of names that just keep the gap comfortable. Both rosters are clean with zero benching disasters, so this one genuinely comes down to whose bench actually delivers their projected floors, and Arben's got the marginally more consistent lineup top-to-bottom when you're counting on depth. Jetmir's still alive until the final whistle, but ESPN's basically saying Arben's studs are slightly more reliable than yours, and that's usually how these single-digit gaps play out in real life."
     },
     {
       "homeOwner": "Rilind Ahmetaj",
       "awayOwner": "Flamur Muriqi",
       "home": {
         "score": 0.0,
-        "projectedFinal": 88.4,
-        "winProbability": 0.42,
+        "projectedFinal": 96.4,
+        "winProbability": 0.43,
         "yetToPlay": [
           "Amon-Ra St. Brown",
           "Ashton Jeanty",
           "Bhayshul Tuten",
+          "Rico Dowdle",
           "Harold Fannin Jr.",
           "Denzel Boston",
           "Ja'Kobi Lane",
@@ -201,25 +202,25 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 100.9,
-        "winProbability": 0.58,
+        "projectedFinal": 108.7,
+        "winProbability": 0.57,
         "yetToPlay": [
           "CeeDee Lamb",
           "Saquon Barkley",
           "Tee Higgins",
           "Emeka Egbuka",
           "Chase Brown",
-          "Isaiah Likely",
           "Trevor Lawrence",
           "Patriots D/ST",
-          "Emanuel Wilson"
+          "Emanuel Wilson",
+          "Mark Andrews"
         ],
         "worstMistake": null,
         "bestStarter": null,
         "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Rilind's sitting at 42% and ESPN's got him projecting to 88.4, which sounds hopeful until you remember Flamur's already locked in at 100.9 with CeeDee Lamb, Saquon Barkley, and Tee Higgins all still waiting to punch their tickets. The gap's already 12.5 points and Flamur's got three elite-tier weapons left while Rilind's banking on Amon-Ra, Ashton Jeanty, and Matthew Stafford all hitting their ceiling simultaneously\u2014ESPN's basically saying that happens less than half the time, and honestly they're probably being nice about it. Neither guy made a trainwreck benching decision, so this one comes down to pure roster construction, and Flamur just straight-up built better with his late-round stack while Rilind's got more question marks in his remaining lineup. This one's getting away from you unless Jeanty decides to have the game of his life."
+      "analysis": "Rilind's sitting at 43% and ESPN's got him crawling in at 96.4 while Flamur's cruising at 57% with a 108.7 projection\u2014that's a 12.3-point gap that's basically insurmountable when Flamur's got CeeDee Lamb, Saquon Barkley, and Tee Higgins still waiting to clock in. Rilind needs Amon-Ra, Jeanty, and Matthew Stafford to all exceed their projections simultaneously while Flamur's three elite weapons collectively underperform by double digits, which is the kind of math ESPN's saying happens less than half the time for a reason. Both rosters are clean with no benching disasters, so this one's pure execution\u2014Flamur just built a lineup that doesn't need miracles to win, while Rilind's asking his entire bench to go absolutely nuclear just to stay in it. Flamur's got the better starters still pending and the projection to match; Rilind's got hope, but that's about it."
     },
     {
       "homeOwner": "Adam Vilajeti",
@@ -263,21 +264,21 @@
         "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Both teams are sitting at 0.0 with completely full lineups still to play, which means this is legitimately a toss-up on paper\u2014ESPN's got Adam favored at 51% with a 2.3-point projected edge (110.4 to 108.1), but neither one of you has actually locked anything in yet. Adam's got the slightly cleaner roster top-to-bottom with A.J. Brown and Puka Nacua still pending while Rinor's banking on Derrick Henry and DK Metcalf actually showing up, and that's usually where these coin flips get decided\u2014whose studs remember they're studs when the games matter. Neither guy made any bone-headed benching decisions, so this comes down to pure execution and who gets the production they're projected for, which is basically asking whose guys decide to be competent on Sunday. The math says Adam edges this out if both teams get their projected floors, but you're one boom performance away from watching this flip entirely\u2014this stays tight until the last kickoff wraps up."
+      "analysis": "Adam's sitting at 51% with ESPN projecting a 2.3-point edge (110.4 to 108.1), which is basically a coin flip until these lineups actually run out\u2014both teams are fully loaded so don't get comfortable yet. The real difference is Adam's got the cleaner path with A.J. Brown and Puka Nacua still cooking, while Rinor's betting everything on Derrick Henry remembering he's an elite back and DK Metcalf actually showing up on time, which is basically asking for two things to go right simultaneously when one of them's been inconsistent all year. Drake Maye running around in that backfield helps Adam's floor way more than anything Rinor's got working later in the slate, and if A.J. Brown hits 18+ like he's supposed to, this gap widens into comfort territory real quick. Neither guy benched anyone dumb, so this comes down to pure execution\u2014but ESPN's got Adam favored because his studs are just slightly more reliable when the pressure's on, and that's usually enough to decide these coin flips."
     }
   ],
   "recentLines": [
+    "Rob's sitting at 67% with ESPN projecting 106.9, which sounds great until you realize Veton's only 28 points behind at 78.9 with the exact same nine starters left to play\u2014so basically ESPN's saying Rob's got the better roster but Veton's path to 79 points is way easier than Rob's path to 107. Rob's got elite talent in Rice, Wilson, and Williams, but he's asking all three to hit their ceiling while Veton's just banking on Chase and Jacobs showing up in what could be a shootout that gets out of hand. The gap between a projected 79 and 107 is the difference between \"yeah that'll probably happen\" and \"all your guys need to be really good,\" and ESPN's basically admitting that by giving Rob the coin flip odds despite having the higher projection\u2014this one's closer than the math suggests, but Rob's got the harder needle to thread when Veton only needs competent performances from his late-window stack.",
+    "Both lineups are completely loaded with nine guys left apiece, but ESPN's already handed this to Ben at 59% with a 13.6-point projected edge (97.4 to 83.8), which is basically saying Faton's got a much harder path even though they're both sitting at 0.0 right now. Faton's betting everything on Drake London, D'Andre Swift, Colston Loveland, Rome Odunze, and Bo Nix all delivering their floors simultaneously while Ben's got Travis Kelce and Justin Jefferson still waiting in the wings\u2014and when your survival plan requires five different guys to all show up instead of two all-world talents just being themselves, ESPN's math gets real unfavorable real fast. Neither guy torpedoed themselves with a benching disaster, so this one's pure execution, but Ben's roster construction is cleaner and has way more redundancy built in. Faton's not dead yet since the late window hasn't kicked off, but he's asking for a perfect storm while Ben's just waiting for his studs to remember they're studs.",
+    "Nori's walking into this one with basically a cheat code\u2014ESPN's got him at 84% with a projected 57.6-point advantage (112.7 to 55.1), and Ilir's got nine guys left to play and it still doesn't move the needle because Gibbs, Breece Hall, Watson, and Bowers are already doing the heavy lifting before anyone even checks in. Ilir needs C.J. Stroud, Bijan Robinson, and George Pickens to all hit absolute ceiling games while hoping Nori's studs somehow underperform by double digits each, which is basically asking ESPN to be catastrophically wrong about their own projections. The math is suffocating: that's 50+ points locked in from four guys on Nori's bench, and Ilir's entire remaining roster has to explode simultaneously just to keep pace. Nori didn't need perfection\u2014he just needed a competent roster, and that's exactly what he built; Ilir's the one staring down needing a miracle while his opponent's just waiting for normal production to roll in.",
+    "Arben's walking away with this at 55% with ESPN projecting a 9.7-point gap (114.1 to 104.4), and yeah Jetmir's still got nine starters left to play but that's not actually good news when your opponent's got an equally loaded bench\u2014Kenneth Walker and Caleb Williams can chip away, sure, but Jonathan Taylor and Jaxon Smith-Njigba are the kind of names that just keep the gap comfortable. Both rosters are clean with zero benching disasters, so this one genuinely comes down to whose bench actually delivers their projected floors, and Arben's got the marginally more consistent lineup top-to-bottom when you're counting on depth. Jetmir's still alive until the final whistle, but ESPN's basically saying Arben's studs are slightly more reliable than yours, and that's usually how these single-digit gaps play out in real life.",
+    "Rilind's sitting at 43% and ESPN's got him crawling in at 96.4 while Flamur's cruising at 57% with a 108.7 projection\u2014that's a 12.3-point gap that's basically insurmountable when Flamur's got CeeDee Lamb, Saquon Barkley, and Tee Higgins still waiting to clock in. Rilind needs Amon-Ra, Jeanty, and Matthew Stafford to all exceed their projections simultaneously while Flamur's three elite weapons collectively underperform by double digits, which is the kind of math ESPN's saying happens less than half the time for a reason. Both rosters are clean with no benching disasters, so this one's pure execution\u2014Flamur just built a lineup that doesn't need miracles to win, while Rilind's asking his entire bench to go absolutely nuclear just to stay in it. Flamur's got the better starters still pending and the projection to match; Rilind's got hope, but that's about it.",
+    "Adam's sitting at 51% with ESPN projecting a 2.3-point edge (110.4 to 108.1), which is basically a coin flip until these lineups actually run out\u2014both teams are fully loaded so don't get comfortable yet. The real difference is Adam's got the cleaner path with A.J. Brown and Puka Nacua still cooking, while Rinor's betting everything on Derrick Henry remembering he's an elite back and DK Metcalf actually showing up on time, which is basically asking for two things to go right simultaneously when one of them's been inconsistent all year. Drake Maye running around in that backfield helps Adam's floor way more than anything Rinor's got working later in the slate, and if A.J. Brown hits 18+ like he's supposed to, this gap widens into comfort territory real quick. Neither guy benched anyone dumb, so this comes down to pure execution\u2014but ESPN's got Adam favored because his studs are just slightly more reliable when the pressure's on, and that's usually enough to decide these coin flips.",
     "Both teams are sitting at 0.0 with fully loaded rosters still to play, but ESPN's already handing this to Veton at 57% with a projected 9.3-point gap (78.9 to 69.6), which is basically saying Rob's got the harder path even though both sides have nine guys left on the field. Rob's got the better individual talent with CMC and Garrett Wilson, but Veton stacked the late window with Ja'Marr Chase and Josh Jacobs in what could turn into a blowout, while Rob's relying on his entire bench showing up and overperforming at the same time\u2014ESPN's math says that happens 43% of the time and honestly that might be generous. Neither guy made a benching blunder, so this is pure execution, but the projection favors Veton's roster construction and depth enough that you should already be nervous if you're banking on Rob catching a late-game miracle.",
     "Faton's at 45% and Ben's at 55%, ESPN projecting a 7-point gap that'll come down to execution\u2014both lineups are fully loaded so this absolutely stays competitive until the late slots kick off. The issue is Ben's got the cleaner roster construction with Kelce and Justin Jefferson still pending; Faton needs Drake London, D'Andre Swift, and Rome Odunze to all hit their floors while Ben's basically just waiting for his studs to show up and be studs. ESPN's saying Ben wins this 55% of the time, but if Faton's receivers actually catch passes and his RBs get fed, this one stays tight\u2014just don't expect the comeback when you're asking five different guys to deliver simultaneously while Ben's got two all-world names waiting in the wings.",
     "Nori's walking out of here at 84% with ESPN projecting a 57.6-point gap (112.7 to 55.1), and that's before half these lineups even check in\u2014Ilir's got nine guys left to play and it still doesn't matter because Nori's got Jahmyr Gibbs, Breece Hall, Christian Watson, and Brock Bowers all pending, which is basically just asking if Ilir can overcome an entire elite receiving corps while his own guys deliver ceiling games across the board. The math is suffocating: Gibbs and Hall are both projected north of 15 points each, Watson's getting 12+, and Bowers is sitting at 10\u2014that's 50+ points from four players before you even count Javonte Williams or Jared Goff, and Ilir's banking on C.J. Stroud, Bijan Robinson, and George Pickens all going absolutely nuclear to even make this competitive. Nori didn't need a perfect storm; he just needed a competent roster, and that's exactly what he's sitting on\u2014Ilir's the one staring at needing his entire bench to explode while hoping Nori's studs somehow underperform their projections by 10+ points each, which ESPN's basically saying won't happen 84% of the time.",
     "ESPN's got Arben walking out of here at 55% with a 9.3-point projected edge (113.7 to 104.4), but Jetmir's still got nine starters left to run out so this isn't sealed yet\u2014Kenneth Walker, Caleb Williams, and Tetairoa McMillan are exactly the kind of names that can chip away at a single-digit deficit if the slate breaks right. The problem is Arben's bench is just as loaded: Jonathan Taylor, Jaxon Smith-Njigba, and Jaylen Warren are all still pending, which means this thing could easily swing into comfortable territory for either guy depending on whose studs actually deliver their floor. Both rosters are clean with no meaningful benching disasters, so this one's genuinely coming down to execution and whether the projected gap holds up once everyone's locked in\u2014Arben's got the slight edge because his lineup feels marginally more consistent top-to-bottom, but Jetmir's absolutely still alive if his later slots go off. This stays competitive until the final whistle.",
     "Rilind's sitting at 42% and ESPN's got him projecting to 88.4, which sounds hopeful until you remember Flamur's already locked in at 100.9 with CeeDee Lamb, Saquon Barkley, and Tee Higgins all still waiting to punch their tickets. The gap's already 12.5 points and Flamur's got three elite-tier weapons left while Rilind's banking on Amon-Ra, Ashton Jeanty, and Matthew Stafford all hitting their ceiling simultaneously\u2014ESPN's basically saying that happens less than half the time, and honestly they're probably being nice about it. Neither guy made a trainwreck benching decision, so this one comes down to pure roster construction, and Flamur just straight-up built better with his late-round stack while Rilind's got more question marks in his remaining lineup. This one's getting away from you unless Jeanty decides to have the game of his life.",
-    "Both teams are sitting at 0.0 with completely full lineups still to play, which means this is legitimately a toss-up on paper\u2014ESPN's got Adam favored at 51% with a 2.3-point projected edge (110.4 to 108.1), but neither one of you has actually locked anything in yet. Adam's got the slightly cleaner roster top-to-bottom with A.J. Brown and Puka Nacua still pending while Rinor's banking on Derrick Henry and DK Metcalf actually showing up, and that's usually where these coin flips get decided\u2014whose studs remember they're studs when the games matter. Neither guy made any bone-headed benching decisions, so this comes down to pure execution and who gets the production they're projected for, which is basically asking whose guys decide to be competent on Sunday. The math says Adam edges this out if both teams get their projected floors, but you're one boom performance away from watching this flip entirely\u2014this stays tight until the last kickoff wraps up.",
-    "Rob's staring at 41% odds while Veton's cruising at 59% with ESPN projecting a 10-point gap (80.4 to 69.4), and honestly that's generous to Rob since both teams still have full lineups to play\u2014this thing could swing either way depending on who actually shows up. Rob's got the better floor with CMC and Garrett Wilson still cooking, but Veton's stacked the late slots with Ja'Marr Chase and Josh Jacobs in a game that could get out of hand, which is basically just asking whose guys decide to give a shit in the second half. The projection favors Veton by double digits and his win probability backs that up, but neither one of you finished your week yet so start sweating\u2014this stays tight until Sunday night kicks off.",
-    "Both of these guys are sitting at 0.0 with fully loaded benches, so it's not over yet\u2014but ESPN's already got Ben's wallet out at 54% to Faton's 46%, projecting a 90.8 to 84.3 finish that's basically a 6-point gap ESPN thinks is locked in before the first snap even happens. The real problem is Faton's got a harder path: he needs Drake London, D'Andre Swift, and Rome Odunze to all show up and play like their projections, while Ben's got Travis Kelce and Justin Jefferson still waiting\u2014if either one of those guys hits their ceiling like they're supposed to, this one's over. Neither guy made a meaningful lineup mistake, so this is just going to come down to whose studs actually deliver their projected floor, and ESPN's basically saying Ben's got the cleaner roster to count on making it happen.",
-    "Nori's getting absolutely cooked here\u2014ESPN's got this locked at 79% for Kastrati with a projected 97.8 finish while Asllani's limping in at 54.9 with 9 starters still left to play, which sounds like hope until you do the math and realize that's a 43-point deficit ESPN thinks will survive multiple full lineups running out. The problem is Asllani's got depth but it's all mid-tier guys who are gonna need a perfect storm to chip away at what's basically a roster full of studs on the other side\u2014Jahmyr Gibbs, Breece Hall, Christian Watson, and Brock Bowers are the kind of targets that turn projections into reality, and Kastrati's sitting there with basically zero risk. Asllani's got names that matter in Stroud and Coker, but this is the kind of matchup where one team's ceiling is another team's floor, and you're already spotting 43 points before George Pickens even hits the field.",
-    "Both lineups are fully loaded and ESPN's got this at 53-47 Arben's way with a 5.1-point projected edge, which is basically a coin flip until the slate closes\u2014still plenty of ways this swings depending on who actually shows up. Jetmir's got Kenneth Walker and Caleb Williams punching in later, so it's not officially dead yet, but Arben's sitting pretty with Jonathan Taylor and Jaxon Smith-Njigba already proven commodities while Jetmir's banking on late-game heroics from a bench that hasn't exactly been screaming reliability all season. The math says Arben edges this one out, but with nine starters still on the field for both sides, whoever gets the bounce from their boom players wins\u2014this is exactly the kind of matchup where one guy goes off for 25 and the other gets a goose egg and decides the whole week.",
-    "Rilind's got 8 guys left and ESPN's still only giving him a 47% shot at this\u2014that's how badly Flamur's stacked this thing with CeeDee Lamb, Saquon Barkley, and Tee Higgins all still pending while he's already projected at 92.8. The gap's only 4.6 points right now, but Flamur's got the elite tier receivers and a top-5 RB still to check in, which basically means Rilind needs his entire bench to go nuclear while Flamur just needs his guys to show up and be competent. Amon-Ra, Jeanty, and Matthew Stafford have some ceiling, but you're banking on all of them overperforming their projections while three of Flamur's four remaining studs do literally nothing\u2014ESPN's math says that's only happening 47% of the time, and honestly that feels generous to the comeback odds here.",
-    "Adam's sitting pretty at 99% with ESPN projecting 110.5 while Rinor's stuck at 48% needing 107.2\u2014basically a coin flip on paper, but Adam's got the luxury of nine guys still to play versus Rinor's eight, which means he's got more opportunities to either blow this open or survive if one of his studs underperforms. Neither guy made any egregious benching mistakes, so this one actually comes down to execution and roster depth rather than self-sabotage, which is refreshing after watching people actively torpedo themselves all week. A.J. Brown and Derrick Henry are the anchor plays here\u2014if Brown hits his ceiling and Henry continues his recent funk, Adam probably cruises to a comfortable W, but if Henry wakes up and Brown disappoints, Rinor's suddenly got a real shot at stealing this. The projections are tight enough that this stays competitive if both sides get reasonable weeks, but ESPN's got Adam favored because his remaining lineup is just slightly cleaner top-to-bottom, and that's usually how these things shake out when nobody's gifting away points with stupid benching decisions."
+    "Both teams are sitting at 0.0 with completely full lineups still to play, which means this is legitimately a toss-up on paper\u2014ESPN's got Adam favored at 51% with a 2.3-point projected edge (110.4 to 108.1), but neither one of you has actually locked anything in yet. Adam's got the slightly cleaner roster top-to-bottom with A.J. Brown and Puka Nacua still pending while Rinor's banking on Derrick Henry and DK Metcalf actually showing up, and that's usually where these coin flips get decided\u2014whose studs remember they're studs when the games matter. Neither guy made any bone-headed benching decisions, so this comes down to pure execution and who gets the production they're projected for, which is basically asking whose guys decide to be competent on Sunday. The math says Adam edges this out if both teams get their projected floors, but you're one boom performance away from watching this flip entirely\u2014this stays tight until the last kickoff wraps up."
   ]
 }

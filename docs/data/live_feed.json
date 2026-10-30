@@ -1,6 +1,34 @@
 {
-  "generatedAt": "2026-10-27T09:56:36.166340+00:00",
+  "generatedAt": "2026-10-30T10:57:46.775268+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 8,
-  "events": []
+  "events": [
+    {
+      "type": "over",
+      "owner": "Arben Sinanaj",
+      "player": "Chuba Hubbard",
+      "position": "RB",
+      "actual": 21.4,
+      "projected": 14.09006317,
+      "line": "Arben actually made a competent decision for once\u2014Chuba went nuclear and doubled his projection, so congrats on accidentally backing into the right call you absolute donut."
+    },
+    {
+      "type": "over",
+      "owner": "Veton Gjonbalaj",
+      "player": "Josh Jacobs",
+      "position": "RB",
+      "actual": 20.2,
+      "projected": 13.61045368,
+      "line": "Josh Jacobs just put up 20 fucking points and Veton's out here looking like a genius for once\u2014too bad this is probably the only time this season his gut feeling actually paid off instead of imploding spectacularly."
+    },
+    {
+      "type": "over",
+      "owner": "Adam Vilajeti",
+      "player": "Tucker Kraft",
+      "position": "TE",
+      "actual": 14.3,
+      "projected": 8.54543771,
+      "line": "Adam pulled the trigger on Kraft and actually got rewarded for once\u201414.3 points is exactly what happens when you stop panic-benching your guys five minutes before kickoff, you paranoid bastard."
+    }
+  ]
 }

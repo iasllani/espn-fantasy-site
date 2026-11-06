@@ -1,6 +1,61 @@
 {
-  "generatedAt": "2026-11-03T12:10:28.374970+00:00",
+  "generatedAt": "2026-11-06T12:20:22.003253+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 9,
-  "events": []
+  "events": [
+    {
+      "type": "benched",
+      "owner": "Rinor Ahmetaj",
+      "player": "Justice Hill",
+      "position": "RB",
+      "actual": 16.7,
+      "projected": 4.62922837,
+      "line": "Rinor really said \"nah, I don't need 16 points on my bench\" and somehow convinced himself that was the right move\u2014Justice Hill just put up quadruple his projection and you're out here looking like you threw away a winning lottery ticket."
+    },
+    {
+      "type": "benched",
+      "owner": "Rob Ricigliano",
+      "player": "Jaguars D/ST",
+      "position": "D/ST",
+      "actual": 12.0,
+      "projected": 8.59564262,
+      "line": "Rob, you absolute fucking coward\u2014you benched the Jags defense and they put up 12 points like they were the '85 Bears, and now you're gonna watch that points gap haunt you for the rest of the season."
+    },
+    {
+      "type": "under",
+      "owner": "Rinor Ahmetaj",
+      "player": "Derrick Henry",
+      "position": "RB",
+      "actual": 5.58,
+      "projected": 13.31484885,
+      "line": "Rinor, Derrick Henry just put up 5.6 points and you actually started him\u2014congrats on watching a future Hall of Famer turn into a fucking practice squad player this season while your championship hopes evaporated on the bench."
+    },
+    {
+      "type": "under",
+      "owner": "Flamur Muriqi",
+      "player": "Trevor Lawrence",
+      "position": "QB",
+      "actual": 13.58,
+      "projected": 20.33936614,
+      "line": "Trevor Lawrence shit the bed with 13.6 points when you needed 20, and honestly Flamur, that's what you get for trusting a guy who throws more picks than touchdowns\u2014maybe next time don't panic-start a QB just because his name sounds intimidating."
+    },
+    {
+      "type": "under",
+      "owner": "Adam Vilajeti",
+      "player": "Zay Flowers",
+      "position": "WR",
+      "actual": 3.8,
+      "projected": 10.44229364,
+      "line": "Adam, Zay Flowers put up 3.8 points and you actually started that shit? That's a -6.6 swing from projection, my guy -- might as well have just left the slot empty and gone to grab a beer."
+    },
+    {
+      "type": "under",
+      "owner": "Rilind Ahmetaj",
+      "player": "Bhayshul Tuten",
+      "position": "RB",
+      "actual": 8.9,
+      "projected": 14.20885209,
+      "line": "Rilind really said \"I'm starting a guy projected for 14 and settling for 9\" -- that's the kind of decision-making that gets you a participation trophy and a lifetime of regret in this league."
+    }
+  ]
 }

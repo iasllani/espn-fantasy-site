@@ -1,16 +1,70 @@
 {
-  "generatedAt": "2026-11-06T12:20:22.003253+00:00",
+  "generatedAt": "2026-11-08T14:40:04.871317+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 9,
   "events": [
+    {
+      "type": "under",
+      "owner": "Ben Vucetaj",
+      "player": "Joe Burrow",
+      "position": "QB",
+      "actual": 0.0,
+      "projected": 21.36425114,
+      "line": "Ben, starting Joe Burrow this week when he didn't even take a snap is legitimately the dumbest fucking decision I've seen all season\u2014congratulations on single-handedly losing your matchup before Sunday even got rolling."
+    },
+    {
+      "type": "under",
+      "owner": "Veton Gjonbalaj",
+      "player": "Ja'Marr Chase",
+      "position": "WR",
+      "actual": 0.0,
+      "projected": 18.84678439,
+      "line": "Veton, you started Ja'Marr Chase for a goose egg when he put up 0.0 points\u2014that's not just bad roster management, that's a fucking disaster; I'd say pray for better luck next week, but clearly the football gods ain't listening to you."
+    },
     {
       "type": "benched",
       "owner": "Rinor Ahmetaj",
       "player": "Justice Hill",
       "position": "RB",
       "actual": 16.7,
-      "projected": 4.62922837,
-      "line": "Rinor really said \"nah, I don't need 16 points on my bench\" and somehow convinced himself that was the right move\u2014Justice Hill just put up quadruple his projection and you're out here looking like you threw away a winning lottery ticket."
+      "projected": 4.62923812,
+      "line": "Rinor benched Justice Hill and watched him drop 16.7 points from the bench like some kind of fantasy masochist\u2014that's what happens when you panic and don't trust your own roster, you absolute muppet."
+    },
+    {
+      "type": "under",
+      "owner": "Flamur Muriqi",
+      "player": "Chase Brown",
+      "position": "RB",
+      "actual": 0.0,
+      "projected": 14.18949246,
+      "line": "Flamur really said \"Chase Brown is gonna feast\" and then watched his ass get 0 points while riding the bench in real life\u2014that's what you get for reaching on a backup in the fourth round, you absolute donkey."
+    },
+    {
+      "type": "under",
+      "owner": "Flamur Muriqi",
+      "player": "Tee Higgins",
+      "position": "WR",
+      "actual": 0.0,
+      "projected": 13.83373193,
+      "line": "Flamur, you absolute donkey\u2014Tee Higgins put up a goose egg and you started him anyway, watching 13.8 points evaporate like your playoff hopes in real time."
+    },
+    {
+      "type": "under",
+      "owner": "Faton Muriqi",
+      "player": "Drake London",
+      "position": "WR",
+      "actual": 0.0,
+      "projected": 13.69260709,
+      "line": "Drake London putting up a beautiful goose egg while you confidently slotted him in the lineup\u2014nothing says \"I have a fucking clue\" like leaving 13.7 points on the bench by starting that dud."
+    },
+    {
+      "type": "under",
+      "owner": "Ilir Asllani",
+      "player": "Bijan Robinson",
+      "position": "RB",
+      "actual": 5.4,
+      "projected": 17.95937638,
+      "line": "Ilir, Bijan put up 5.4 fucking points and you started him anyway\u2014that's not faith in your studs, that's just statistical negligence at this point."
     },
     {
       "type": "benched",
@@ -19,7 +73,16 @@
       "position": "D/ST",
       "actual": 12.0,
       "projected": 8.59564262,
-      "line": "Rob, you absolute fucking coward\u2014you benched the Jags defense and they put up 12 points like they were the '85 Bears, and now you're gonna watch that points gap haunt you for the rest of the season."
+      "line": "Rob really said \"nah, I'm gonna sit the defense that just dropped 12 points\" -- congrats on leaving 3+ points on the bench like a fucking genius, maybe next time trust your own roster instead of panic-dropping them at 11:59 AM."
+    },
+    {
+      "type": "under",
+      "owner": "Rob Ricigliano",
+      "player": "Kyle Pitts Sr.",
+      "position": "TE",
+      "actual": 0.0,
+      "projected": 8.2003151,
+      "line": "Rob really said \"I'm gonna ride with Kyle Pitts this week\" and got absolutely nothing, like watching someone confidently walk into a glass door at full sprint."
     },
     {
       "type": "under",
@@ -28,34 +91,7 @@
       "position": "RB",
       "actual": 5.58,
       "projected": 13.31484885,
-      "line": "Rinor, Derrick Henry just put up 5.6 points and you actually started him\u2014congrats on watching a future Hall of Famer turn into a fucking practice squad player this season while your championship hopes evaporated on the bench."
-    },
-    {
-      "type": "under",
-      "owner": "Flamur Muriqi",
-      "player": "Trevor Lawrence",
-      "position": "QB",
-      "actual": 13.58,
-      "projected": 20.33936614,
-      "line": "Trevor Lawrence shit the bed with 13.6 points when you needed 20, and honestly Flamur, that's what you get for trusting a guy who throws more picks than touchdowns\u2014maybe next time don't panic-start a QB just because his name sounds intimidating."
-    },
-    {
-      "type": "under",
-      "owner": "Adam Vilajeti",
-      "player": "Zay Flowers",
-      "position": "WR",
-      "actual": 3.8,
-      "projected": 10.44229364,
-      "line": "Adam, Zay Flowers put up 3.8 points and you actually started that shit? That's a -6.6 swing from projection, my guy -- might as well have just left the slot empty and gone to grab a beer."
-    },
-    {
-      "type": "under",
-      "owner": "Rilind Ahmetaj",
-      "player": "Bhayshul Tuten",
-      "position": "RB",
-      "actual": 8.9,
-      "projected": 14.20885209,
-      "line": "Rilind really said \"I'm starting a guy projected for 14 and settling for 9\" -- that's the kind of decision-making that gets you a participation trophy and a lifetime of regret in this league."
+      "line": "Rinor, Derrick Henry just shit the bed harder than a newborn and you started him anyway\u2014that's what happens when you refuse to check the injury report before Sunday, you absolute donkey."
     }
   ]
 }

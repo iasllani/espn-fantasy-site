@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T13:12:24.598636+00:00",
+  "generatedAt": "2026-11-09T18:02:47.340711+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 9,
   "matchups": [
@@ -59,7 +59,7 @@
         }
       },
       "familyName": null,
-      "analysis": "Rob's sitting at 55% with an 86.5 final already locked in while Faton's clinging to 45% and projecting 85.4\u2014ESPN's basically saying this is done, but Faton's still got James Cook to play and he's already down nearly a point before Cook even takes a snap. The real disaster here is that Faton benched Rome Odunze for 14.0 points while starting Josh Downs for a pathetic 3.9\u2014that's a 10-point swing that completely buried any shot at hanging with Rob's Buccaneers D/ST that absolutely obliterated expectations (11.0 actual versus 4.4 projected). D'Andre Swift's 3.1 points versus a 17.2 projection shows Faton's entire bench underperformed across the board, which means he needed Cook to be elite and instead he's chasing a gap that his own lineup decisions already created. Rob's got nothing left to play but his projections are already locked in, which means Faton needs Cook to post like 11+ just to tie, and asking a guy who's already sabotaged himself with bench decisions to suddenly get perfect isn't how this ends."
+      "analysis": "Rob Ricigliano leads Faton Muriqi by 18.6."
     },
     {
       "homeOwner": "Veton Gjonbalaj",
@@ -119,7 +119,7 @@
         }
       },
       "familyName": null,
-      "analysis": "Veton's at 27% and projecting 100.1 while Ilir's cruising at 73% with 106.6\u2014that's a nearly 7-point gap before either team even finishes, and ESPN's basically saying this one's already decided. The real damage here is that Veton benched Goedert for 7.5 points to start Antonio Williams for 4.0, which is a 3.5-point self-sabotage, but the actual assassin is Josh Jacobs completely imploding with 0.5 actual against a 14.6 projection\u2014that's a 14-point swing where Veton's entire RB1 just didn't show up and now he's chasing a comfortable lead with a T.J. Hockenson dart remaining while Ilir's got Josh Allen ready to put this away. Ilir's got his own lineup sins (benching Omar Cooper Jr. for 9.8 while starting Pickens for a goose egg), but his remaining firepower still keeps him comfortably ahead, and by the time the late window kicks off Veton's gonna realize Jacobs and his own lineup decisions already closed this one."
+      "analysis": "Veton Gjonbalaj leads Ilir Asllani by 5.0."
     },
     {
       "homeOwner": "Ben Vucetaj",
@@ -177,7 +177,7 @@
         }
       },
       "familyName": null,
-      "analysis": "Ben's projecting to lose 100.7 to 127.3 with a 1% win probability\u2014ESPN basically already called this one dead before Jefferson even takes a snap, and honestly that's generous. The real damage though is that Ben benched DeMario Douglas for 12.7 points to start Ladd McConkey's goose egg, which is the kind of self-inflicted wound that turns a bad matchup into a flat-out execution failure\u2014you had a guy averaging production sitting on your bench the entire time while your starter contributed absolutely nothing to the scoreboard. Jetmir's Kenneth Walker already went off for 34.3 points and everything else is just running up the score at this point; Jefferson's probably gonna do normal Justin Jefferson shit but it won't matter because Ben already gift-wrapped this loss in Week Whatever by making catastrophically bad bench decisions."
+      "analysis": "Jetmir Asllani / Peter Mardjonovic leads Ben Vucetaj by 41.7."
     },
     {
       "homeOwner": "Nori Kastrati",
@@ -235,7 +235,7 @@
         }
       },
       "familyName": null,
-      "analysis": "Nori's walking out at 99% with a 105.6 projection and this thing's basically over before Addison even checks in\u2014Rilind's sitting at 1% and 84.7, which is the kind of win probability that only exists when you've already lost the game on the scoreboard. The real murder weapon here is that Rilind benched Matthew Stafford (11.2 actual) to start Malik Willis (3.8 actual), which is a 7.4-point self-inflicted wound that compounds the fact that Willis absolutely shit the bed against his own projection (3.8 actual versus 17.4 projected)\u2014he didn't just pick the worse QB, he picked a QB that completely failed to exist while the other guy was sitting on the bench. Nori's Christian Watson absolutely went nuclear (26.6 actual versus 12.8 projected) and he's got Jordan Addison waiting in the wings, while Rilind's entire remaining roster is just praying for scraps\u2014this isn't a matchup anymore, it's a mercy killing that already happened the moment Rilind decided Willis was the move."
+      "analysis": "Nori Kastrati leads Rilind Ahmetaj by 11.7."
     },
     {
       "homeOwner": "Arben Sinanaj",
@@ -285,7 +285,7 @@
         }
       },
       "familyName": null,
-      "analysis": "Arben's walking out at 100% with a 117.5 final while Adam's staring down 90.9 and 0%\u2014this one's already dead, ESPN's got the coffin closed, and there's no late-game magic that brings back a 26.6-point deficit when both teams have already finished. The real problem for Adam is that he didn't just lose, he actively handed this to Arben by benching Corey Kiner's 11.5 points to start Tyler Allgeier's 5.6, which is a self-inflicted 5.9-point wound that turns a bad matchup into a complete burial before the final whistle even blows. Jordan Love absolutely demolished his projection (36.2 actual versus 17.0 projected) while Zay Flowers completely cratered (3.8 actual versus 10.4 projected), but that's all secondary noise when Adam's already sabotaged the entire game with his own roster management\u2014by the time you're staring at 0% win probability with 26.6 points to overcome, you already know exactly where this went wrong, and it wasn't the projections."
+      "analysis": "Arben Sinanaj leads Adam Vilajeti by 26.6."
     },
     {
       "homeOwner": "Flamur Muriqi",
@@ -344,7 +344,7 @@
         }
       },
       "familyName": null,
-      "analysis": "Flamur's walking out at 91% with all starters done and a locked 91.2 final while Rinor's projecting 119.5 with DJ Moore and Aaron Jones Sr. still waiting\u2014ESPN's basically saying Rinor's got enough remaining firepower to cruise to victory even accounting for the fact that he completely torched himself by benching Justice Hill (16.7) and starting Derrick Henry for a sad 5.6, which is an 11-point self-inflicted catastrophe that should've buried him way worse than it actually did. Flamur's entire game plan required CeeDee Lamb to absolutely explode (28.5 vs 17.7 projection) just to stay remotely competitive, and he did exactly that\u2014problem is Patriots D/ST decided to actively help Rinor by going negative and it still doesn't matter because Rinor's got two studs left and a nearly 30-point projected cushion that your best single performance can't even dent. Rinor's getting out of this with a W despite running one of the worst lineup decisions of the week, while Flamur's getting punished for doing literally everything right because he went all-in on Lamb and the Patriots sabotaged him from the other direction."
+      "analysis": "Rinor Ahmetaj leads Flamur Muriqi by 10.5."
     }
   ],
   "recentLines": [

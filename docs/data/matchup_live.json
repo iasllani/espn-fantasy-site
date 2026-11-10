@@ -1,350 +1,271 @@
 {
-  "generatedAt": "2026-11-09T18:02:47.340711+00:00",
+  "generatedAt": "2026-11-10T12:51:50.905036+00:00",
   "seasonId": 2026,
-  "matchupPeriodId": 9,
+  "matchupPeriodId": 10,
   "matchups": [
     {
-      "homeOwner": "Faton Muriqi",
-      "awayOwner": "Rob Ricigliano",
-      "home": {
-        "score": 67.9,
-        "projectedFinal": 85.4,
-        "winProbability": 0.45,
-        "yetToPlay": [
-          "James Cook III"
-        ],
-        "worstMistake": {
-          "benched": "Rome Odunze",
-          "benchedPoints": 14.0,
-          "started": "Josh Downs",
-          "startedPoints": 3.9,
-          "margin": 10.1
-        },
-        "bestStarter": {
-          "name": "Buccaneers D/ST",
-          "actual": 11.0,
-          "projected": 4.4,
-          "delta": 6.6
-        },
-        "worstStarter": {
-          "name": "D'Andre Swift",
-          "actual": 3.1,
-          "projected": 17.2,
-          "delta": -14.1
-        }
-      },
-      "away": {
-        "score": 86.5,
-        "projectedFinal": 86.5,
-        "winProbability": 0.55,
-        "yetToPlay": [],
-        "worstMistake": {
-          "benched": "Jadarian Price",
-          "benchedPoints": 9.8,
-          "started": "Rachaad White",
-          "startedPoints": 5.9,
-          "margin": 3.9
-        },
-        "bestStarter": {
-          "name": "Texans D/ST",
-          "actual": 12.0,
-          "projected": 7.7,
-          "delta": 4.3
-        },
-        "worstStarter": {
-          "name": "Kyren Williams",
-          "actual": 7.6,
-          "projected": 15.3,
-          "delta": -7.7
-        }
-      },
-      "familyName": null,
-      "analysis": "Rob Ricigliano leads Faton Muriqi by 18.6."
-    },
-    {
-      "homeOwner": "Veton Gjonbalaj",
+      "homeOwner": "Rob Ricigliano",
       "awayOwner": "Ilir Asllani",
       "home": {
-        "score": 91.7,
-        "projectedFinal": 100.1,
-        "winProbability": 0.27,
+        "score": 0.0,
+        "projectedFinal": 99.9,
+        "winProbability": 0.56,
         "yetToPlay": [
-          "T.J. Hockenson"
+          "Christian McCaffrey",
+          "Rashee Rice",
+          "Jameson Williams",
+          "Michael Wilson",
+          "Rachaad White",
+          "Jayden Daniels",
+          "Kyle Pitts Sr.",
+          "Texans D/ST",
+          "Kyren Williams"
         ],
-        "worstMistake": {
-          "benched": "Dallas Goedert",
-          "benchedPoints": 7.5,
-          "started": "Antonio Williams",
-          "startedPoints": 4.0,
-          "margin": 3.5
-        },
-        "bestStarter": {
-          "name": "Ja'Marr Chase",
-          "actual": 26.5,
-          "projected": 18.5,
-          "delta": 8.0
-        },
-        "worstStarter": {
-          "name": "Josh Jacobs",
-          "actual": 0.5,
-          "projected": 14.6,
-          "delta": -14.1
-        }
-      },
-      "away": {
-        "score": 86.7,
-        "projectedFinal": 106.6,
-        "winProbability": 0.73,
-        "yetToPlay": [
-          "Josh Allen"
-        ],
-        "worstMistake": {
-          "benched": "Omar Cooper Jr.",
-          "benchedPoints": 9.8,
-          "started": "George Pickens",
-          "startedPoints": 0.0,
-          "margin": 9.8
-        },
-        "bestStarter": {
-          "name": "Bijan Robinson",
-          "actual": 23.7,
-          "projected": 17.9,
-          "delta": 5.8
-        },
-        "worstStarter": {
-          "name": "Woody Marks",
-          "actual": 7.9,
-          "projected": 13.5,
-          "delta": -5.6
-        }
-      },
-      "familyName": null,
-      "analysis": "Veton Gjonbalaj leads Ilir Asllani by 5.0."
-    },
-    {
-      "homeOwner": "Ben Vucetaj",
-      "awayOwner": "Jetmir Asllani / Peter Mardjonovic",
-      "home": {
-        "score": 85.6,
-        "projectedFinal": 100.7,
-        "winProbability": 0.01,
-        "yetToPlay": [
-          "Justin Jefferson"
-        ],
-        "worstMistake": {
-          "benched": "DeMario Douglas",
-          "benchedPoints": 12.7,
-          "started": "Ladd McConkey",
-          "startedPoints": 0.0,
-          "margin": 12.7
-        },
-        "bestStarter": {
-          "name": "Joe Burrow",
-          "actual": 29.5,
-          "projected": 21.2,
-          "delta": 8.3
-        },
-        "worstStarter": {
-          "name": "Ladd McConkey",
-          "actual": 0.0,
-          "projected": 8.8,
-          "delta": -8.8
-        }
-      },
-      "away": {
-        "score": 127.3,
-        "projectedFinal": 127.3,
-        "winProbability": 0.99,
-        "yetToPlay": [],
-        "worstMistake": {
-          "benched": "Bryce Young",
-          "benchedPoints": 20.3,
-          "started": "Caleb Williams",
-          "startedPoints": 12.8,
-          "margin": 7.6
-        },
-        "bestStarter": {
-          "name": "Kenneth Walker III",
-          "actual": 34.3,
-          "projected": 21.5,
-          "delta": 12.8
-        },
-        "worstStarter": {
-          "name": "Ollie Gordon II",
-          "actual": 6.9,
-          "projected": 15.7,
-          "delta": -8.8
-        }
-      },
-      "familyName": null,
-      "analysis": "Jetmir Asllani / Peter Mardjonovic leads Ben Vucetaj by 41.7."
-    },
-    {
-      "homeOwner": "Nori Kastrati",
-      "awayOwner": "Rilind Ahmetaj",
-      "home": {
-        "score": 96.4,
-        "projectedFinal": 105.6,
-        "winProbability": 0.99,
-        "yetToPlay": [
-          "Jordan Addison"
-        ],
-        "worstMistake": {
-          "benched": "Tank Dell",
-          "benchedPoints": 18.5,
-          "started": "Jordyn Tyson",
-          "startedPoints": 3.0,
-          "margin": 15.5
-        },
-        "bestStarter": {
-          "name": "Christian Watson",
-          "actual": 26.6,
-          "projected": 12.8,
-          "delta": 13.8
-        },
-        "worstStarter": {
-          "name": "Jared Goff",
-          "actual": 5.3,
-          "projected": 19.4,
-          "delta": -14.1
-        }
-      },
-      "away": {
-        "score": 84.7,
-        "projectedFinal": 84.7,
-        "winProbability": 0.01,
-        "yetToPlay": [],
-        "worstMistake": {
-          "benched": "Matthew Stafford",
-          "benchedPoints": 11.2,
-          "started": "Malik Willis",
-          "startedPoints": 3.8,
-          "margin": 7.4
-        },
-        "bestStarter": {
-          "name": "Bears D/ST",
-          "actual": 13.0,
-          "projected": 6.4,
-          "delta": 6.6
-        },
-        "worstStarter": {
-          "name": "Malik Willis",
-          "actual": 3.8,
-          "projected": 17.4,
-          "delta": -13.6
-        }
-      },
-      "familyName": null,
-      "analysis": "Nori Kastrati leads Rilind Ahmetaj by 11.7."
-    },
-    {
-      "homeOwner": "Arben Sinanaj",
-      "awayOwner": "Adam Vilajeti",
-      "home": {
-        "score": 117.5,
-        "projectedFinal": 117.5,
-        "winProbability": 1.0,
-        "yetToPlay": [],
         "worstMistake": null,
-        "bestStarter": {
-          "name": "Jordan Love",
-          "actual": 36.2,
-          "projected": 17.0,
-          "delta": 19.1
-        },
-        "worstStarter": {
-          "name": "Jonathan Taylor",
-          "actual": 6.9,
-          "projected": 18.3,
-          "delta": -11.4
-        }
+        "bestStarter": null,
+        "worstStarter": null
       },
       "away": {
-        "score": 90.9,
-        "projectedFinal": 90.9,
-        "winProbability": 0.0,
-        "yetToPlay": [],
-        "worstMistake": {
-          "benched": "Corey Kiner",
-          "benchedPoints": 11.5,
-          "started": "Tyler Allgeier",
-          "startedPoints": 5.6,
-          "margin": 5.9
-        },
-        "bestStarter": {
-          "name": "Jordan Watkins",
-          "actual": 16.6,
-          "projected": 6.4,
-          "delta": 10.2
-        },
-        "worstStarter": {
-          "name": "Zay Flowers",
-          "actual": 3.8,
-          "projected": 10.5,
-          "delta": -6.7
-        }
+        "score": 0.0,
+        "projectedFinal": 89.5,
+        "winProbability": 0.44,
+        "yetToPlay": [
+          "Bijan Robinson",
+          "George Pickens",
+          "Josh Allen",
+          "Chris Olave",
+          "Jalen Coker",
+          "Jonah Coleman",
+          "Seahawks D/ST",
+          "Juwan Johnson",
+          "Woody Marks"
+        ],
+        "worstMistake": null,
+        "bestStarter": null,
+        "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Arben Sinanaj leads Adam Vilajeti by 26.6."
+      "analysis": "Rob Ricigliano leads Ilir Asllani by 0.0."
+    },
+    {
+      "homeOwner": "Jetmir Asllani / Peter Mardjonovic",
+      "awayOwner": "Faton Muriqi",
+      "home": {
+        "score": 0.0,
+        "projectedFinal": 103.6,
+        "winProbability": 0.68,
+        "yetToPlay": [
+          "Kenneth Walker III",
+          "Tyler Warren",
+          "Malik Washington",
+          "Bryce Young",
+          "Ollie Gordon II",
+          "Keenan Allen",
+          "Hunter Henry",
+          "Giants D/ST",
+          "Khalil Shakir"
+        ],
+        "worstMistake": null,
+        "bestStarter": null,
+        "worstStarter": null
+      },
+      "away": {
+        "score": 0.0,
+        "projectedFinal": 76.5,
+        "winProbability": 0.32,
+        "yetToPlay": [
+          "James Cook III",
+          "Drake London",
+          "D'Andre Swift",
+          "Colston Loveland",
+          "Parker Washington",
+          "Josh Downs",
+          "Braelon Allen",
+          "Tyler Shough",
+          "Buccaneers D/ST"
+        ],
+        "worstMistake": null,
+        "bestStarter": null,
+        "worstStarter": null
+      },
+      "familyName": null,
+      "analysis": "Jetmir Asllani / Peter Mardjonovic leads Faton Muriqi by 0.0."
+    },
+    {
+      "homeOwner": "Rilind Ahmetaj",
+      "awayOwner": "Veton Gjonbalaj",
+      "home": {
+        "score": 0.0,
+        "projectedFinal": 94.3,
+        "winProbability": 0.44,
+        "yetToPlay": [
+          "Amon-Ra St. Brown",
+          "Ashton Jeanty",
+          "Bhayshul Tuten",
+          "Harold Fannin Jr.",
+          "Denzel Boston",
+          "Bears D/ST",
+          "Malik Willis",
+          "Audric Estime",
+          "Demarcus Robinson"
+        ],
+        "worstMistake": null,
+        "bestStarter": null,
+        "worstStarter": null
+      },
+      "away": {
+        "score": 0.0,
+        "projectedFinal": 103.2,
+        "winProbability": 0.56,
+        "yetToPlay": [
+          "Ja'Marr Chase",
+          "Malik Nabers",
+          "Tony Pollard",
+          "Nico Collins",
+          "Zach Charbonnet",
+          "Broncos D/ST",
+          "Brock Purdy",
+          "T.J. Hockenson",
+          "Antonio Williams"
+        ],
+        "worstMistake": null,
+        "bestStarter": null,
+        "worstStarter": null
+      },
+      "familyName": null,
+      "analysis": "Rilind Ahmetaj leads Veton Gjonbalaj by 0.0."
+    },
+    {
+      "homeOwner": "Adam Vilajeti",
+      "awayOwner": "Ben Vucetaj",
+      "home": {
+        "score": 0.0,
+        "projectedFinal": 94.3,
+        "winProbability": 0.53,
+        "yetToPlay": [
+          "Zay Flowers",
+          "George Kittle",
+          "Xavier Worthy",
+          "Rams D/ST",
+          "Drake Maye",
+          "Cam Skattebo",
+          "Corey Kiner",
+          "Tyler Allgeier",
+          "Tetairoa McMillan"
+        ],
+        "worstMistake": null,
+        "bestStarter": null,
+        "worstStarter": null
+      },
+      "away": {
+        "score": 0.0,
+        "projectedFinal": 89.7,
+        "winProbability": 0.47,
+        "yetToPlay": [
+          "Ladd McConkey",
+          "Joe Burrow",
+          "Stefon Diggs",
+          "KC Concepcion",
+          "Travis Kelce",
+          "Browns D/ST",
+          "Quinshon Judkins",
+          "Justin Jefferson",
+          "Austin Ekeler"
+        ],
+        "worstMistake": null,
+        "bestStarter": null,
+        "worstStarter": null
+      },
+      "familyName": null,
+      "analysis": "Adam Vilajeti leads Ben Vucetaj by 0.0."
+    },
+    {
+      "homeOwner": "Rinor Ahmetaj",
+      "awayOwner": "Nori Kastrati",
+      "home": {
+        "score": 0.0,
+        "projectedFinal": 96.6,
+        "winProbability": 0.47,
+        "yetToPlay": [
+          "Derrick Henry",
+          "DJ Moore",
+          "DK Metcalf",
+          "Sam LaPorta",
+          "Dak Prescott",
+          "Matthew Golden",
+          "Aaron Jones Sr.",
+          "Devaughn Vele",
+          "Lions D/ST"
+        ],
+        "worstMistake": null,
+        "bestStarter": null,
+        "worstStarter": null
+      },
+      "away": {
+        "score": 0.0,
+        "projectedFinal": 101.5,
+        "winProbability": 0.53,
+        "yetToPlay": [
+          "Jahmyr Gibbs",
+          "Brock Bowers",
+          "Breece Hall",
+          "Christian Watson",
+          "Javonte Williams",
+          "Jordyn Tyson",
+          "Deebo Samuel Sr.",
+          "Jared Goff",
+          "Saints D/ST"
+        ],
+        "worstMistake": null,
+        "bestStarter": null,
+        "worstStarter": null
+      },
+      "familyName": null,
+      "analysis": "Rinor Ahmetaj leads Nori Kastrati by 0.0."
     },
     {
       "homeOwner": "Flamur Muriqi",
-      "awayOwner": "Rinor Ahmetaj",
+      "awayOwner": "Arben Sinanaj",
       "home": {
-        "score": 91.2,
-        "projectedFinal": 91.2,
-        "winProbability": 0.01,
-        "yetToPlay": [],
-        "worstMistake": {
-          "benched": "Chris Godwin Jr.",
-          "benchedPoints": 3.8,
-          "started": "Adonai Mitchell",
-          "startedPoints": 0.0,
-          "margin": 3.8
-        },
-        "bestStarter": {
-          "name": "CeeDee Lamb",
-          "actual": 28.5,
-          "projected": 17.7,
-          "delta": 10.8
-        },
-        "worstStarter": {
-          "name": "Patriots D/ST",
-          "actual": -5.0,
-          "projected": 5.2,
-          "delta": -10.2
-        }
+        "score": 0.0,
+        "projectedFinal": 85.5,
+        "winProbability": 0.38,
+        "yetToPlay": [
+          "CeeDee Lamb",
+          "Saquon Barkley",
+          "Tee Higgins",
+          "Emeka Egbuka",
+          "Chase Brown",
+          "Isaiah Likely",
+          "Trevor Lawrence",
+          "Adonai Mitchell",
+          "Patriots D/ST"
+        ],
+        "worstMistake": null,
+        "bestStarter": null,
+        "worstStarter": null
       },
       "away": {
-        "score": 101.7,
-        "projectedFinal": 119.5,
-        "winProbability": 0.99,
+        "score": 0.0,
+        "projectedFinal": 104.7,
+        "winProbability": 0.62,
         "yetToPlay": [
-          "DJ Moore",
-          "Aaron Jones Sr."
+          "Jonathan Taylor",
+          "Trey McBride",
+          "Courtland Sutton",
+          "Chuba Hubbard",
+          "Jaxon Smith-Njigba",
+          "Blake Corum",
+          "Jakobi Meyers",
+          "Chiefs D/ST",
+          "Jordan Love"
         ],
-        "worstMistake": {
-          "benched": "Justice Hill",
-          "benchedPoints": 16.7,
-          "started": "Derrick Henry",
-          "startedPoints": 5.6,
-          "margin": 11.1
-        },
-        "bestStarter": {
-          "name": "Matthew Golden",
-          "actual": 27.4,
-          "projected": 14.5,
-          "delta": 12.9
-        },
-        "worstStarter": {
-          "name": "Derrick Henry",
-          "actual": 5.6,
-          "projected": 13.2,
-          "delta": -7.6
-        }
+        "worstMistake": null,
+        "bestStarter": null,
+        "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Rinor Ahmetaj leads Flamur Muriqi by 10.5."
+      "analysis": "Flamur Muriqi leads Arben Sinanaj by 0.0."
     }
   ],
   "recentLines": [

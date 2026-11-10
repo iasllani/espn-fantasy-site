@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T12:51:50.905036+00:00",
+  "generatedAt": "2026-11-10T15:58:01.272488+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 10,
   "matchups": [
@@ -8,8 +8,8 @@
       "awayOwner": "Ilir Asllani",
       "home": {
         "score": 0.0,
-        "projectedFinal": 99.9,
-        "winProbability": 0.56,
+        "projectedFinal": 100.0,
+        "winProbability": 0.51,
         "yetToPlay": [
           "Christian McCaffrey",
           "Rashee Rice",
@@ -27,8 +27,8 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 89.5,
-        "winProbability": 0.44,
+        "projectedFinal": 98.1,
+        "winProbability": 0.49,
         "yetToPlay": [
           "Bijan Robinson",
           "George Pickens",
@@ -52,8 +52,8 @@
       "awayOwner": "Faton Muriqi",
       "home": {
         "score": 0.0,
-        "projectedFinal": 103.6,
-        "winProbability": 0.68,
+        "projectedFinal": 103.5,
+        "winProbability": 0.69,
         "yetToPlay": [
           "Kenneth Walker III",
           "Tyler Warren",
@@ -71,8 +71,8 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 76.5,
-        "winProbability": 0.32,
+        "projectedFinal": 75.5,
+        "winProbability": 0.31,
         "yetToPlay": [
           "James Cook III",
           "Drake London",
@@ -96,7 +96,7 @@
       "awayOwner": "Veton Gjonbalaj",
       "home": {
         "score": 0.0,
-        "projectedFinal": 94.3,
+        "projectedFinal": 94.4,
         "winProbability": 0.44,
         "yetToPlay": [
           "Amon-Ra St. Brown",
@@ -115,7 +115,7 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 103.2,
+        "projectedFinal": 103.6,
         "winProbability": 0.56,
         "yetToPlay": [
           "Ja'Marr Chase",
@@ -140,8 +140,8 @@
       "awayOwner": "Ben Vucetaj",
       "home": {
         "score": 0.0,
-        "projectedFinal": 94.3,
-        "winProbability": 0.53,
+        "projectedFinal": 105.4,
+        "winProbability": 0.6,
         "yetToPlay": [
           "Zay Flowers",
           "George Kittle",
@@ -159,8 +159,8 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 89.7,
-        "winProbability": 0.47,
+        "projectedFinal": 89.1,
+        "winProbability": 0.4,
         "yetToPlay": [
           "Ladd McConkey",
           "Joe Burrow",
@@ -184,8 +184,8 @@
       "awayOwner": "Nori Kastrati",
       "home": {
         "score": 0.0,
-        "projectedFinal": 96.6,
-        "winProbability": 0.47,
+        "projectedFinal": 95.3,
+        "winProbability": 0.4,
         "yetToPlay": [
           "Derrick Henry",
           "DJ Moore",
@@ -203,8 +203,8 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 101.5,
-        "winProbability": 0.53,
+        "projectedFinal": 111.9,
+        "winProbability": 0.6,
         "yetToPlay": [
           "Jahmyr Gibbs",
           "Brock Bowers",
@@ -228,8 +228,8 @@
       "awayOwner": "Arben Sinanaj",
       "home": {
         "score": 0.0,
-        "projectedFinal": 85.5,
-        "winProbability": 0.38,
+        "projectedFinal": 85.0,
+        "winProbability": 0.32,
         "yetToPlay": [
           "CeeDee Lamb",
           "Saquon Barkley",
@@ -247,18 +247,18 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 104.7,
-        "winProbability": 0.62,
+        "projectedFinal": 116.5,
+        "winProbability": 0.68,
         "yetToPlay": [
           "Jonathan Taylor",
           "Trey McBride",
-          "Courtland Sutton",
+          "Jaylen Warren",
           "Chuba Hubbard",
           "Jaxon Smith-Njigba",
-          "Blake Corum",
           "Jakobi Meyers",
           "Chiefs D/ST",
-          "Jordan Love"
+          "Jordan Love",
+          "Treylon Burks"
         ],
         "worstMistake": null,
         "bestStarter": null,

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T12:00:25.329822+00:00",
+  "generatedAt": "2026-11-11T15:43:50.925013+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 10,
   "matchups": [
@@ -53,7 +53,7 @@
       "home": {
         "score": 0.0,
         "projectedFinal": 102.8,
-        "winProbability": 0.63,
+        "winProbability": 0.54,
         "yetToPlay": [
           "Kenneth Walker III",
           "Tyler Warren",
@@ -71,18 +71,18 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 82.7,
-        "winProbability": 0.37,
+        "projectedFinal": 95.6,
+        "winProbability": 0.46,
         "yetToPlay": [
           "James Cook III",
           "Drake London",
-          "Colston Loveland",
           "Parker Washington",
           "Josh Downs",
           "Chris Rodriguez Jr.",
           "Braelon Allen",
           "Tyler Shough",
-          "Buccaneers D/ST"
+          "Packers D/ST",
+          "AJ Barner"
         ],
         "worstMistake": null,
         "bestStarter": null,
@@ -140,18 +140,18 @@
       "awayOwner": "Ben Vucetaj",
       "home": {
         "score": 0.0,
-        "projectedFinal": 92.5,
+        "projectedFinal": 92.9,
         "winProbability": 0.51,
         "yetToPlay": [
           "Zay Flowers",
           "George Kittle",
-          "Xavier Worthy",
           "Rams D/ST",
           "Drake Maye",
           "Cam Skattebo",
+          "Dylan Sampson",
           "Corey Kiner",
-          "Tyler Allgeier",
-          "Tetairoa McMillan"
+          "Tetairoa McMillan",
+          "Konata Mumpfield"
         ],
         "worstMistake": null,
         "bestStarter": null,

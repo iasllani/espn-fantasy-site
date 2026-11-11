@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T15:58:01.272488+00:00",
+  "generatedAt": "2026-11-11T12:00:25.329822+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 10,
   "matchups": [
@@ -8,18 +8,18 @@
       "awayOwner": "Ilir Asllani",
       "home": {
         "score": 0.0,
-        "projectedFinal": 100.0,
-        "winProbability": 0.51,
+        "projectedFinal": 110.1,
+        "winProbability": 0.52,
         "yetToPlay": [
           "Christian McCaffrey",
           "Rashee Rice",
+          "Garrett Wilson",
+          "Jadarian Price",
           "Jameson Williams",
-          "Michael Wilson",
-          "Rachaad White",
           "Jayden Daniels",
           "Kyle Pitts Sr.",
-          "Texans D/ST",
-          "Kyren Williams"
+          "Kyren Williams",
+          "Jaguars D/ST"
         ],
         "worstMistake": null,
         "bestStarter": null,
@@ -27,16 +27,16 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 98.1,
-        "winProbability": 0.49,
+        "projectedFinal": 106.7,
+        "winProbability": 0.48,
         "yetToPlay": [
           "Bijan Robinson",
           "George Pickens",
           "Josh Allen",
           "Chris Olave",
           "Jalen Coker",
-          "Jonah Coleman",
           "Seahawks D/ST",
+          "Omar Cooper Jr.",
           "Juwan Johnson",
           "Woody Marks"
         ],
@@ -52,8 +52,8 @@
       "awayOwner": "Faton Muriqi",
       "home": {
         "score": 0.0,
-        "projectedFinal": 103.5,
-        "winProbability": 0.69,
+        "projectedFinal": 102.8,
+        "winProbability": 0.63,
         "yetToPlay": [
           "Kenneth Walker III",
           "Tyler Warren",
@@ -62,8 +62,8 @@
           "Ollie Gordon II",
           "Keenan Allen",
           "Hunter Henry",
-          "Giants D/ST",
-          "Khalil Shakir"
+          "Khalil Shakir",
+          "Bills D/ST"
         ],
         "worstMistake": null,
         "bestStarter": null,
@@ -71,15 +71,15 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 75.5,
-        "winProbability": 0.31,
+        "projectedFinal": 82.7,
+        "winProbability": 0.37,
         "yetToPlay": [
           "James Cook III",
           "Drake London",
-          "D'Andre Swift",
           "Colston Loveland",
           "Parker Washington",
           "Josh Downs",
+          "Chris Rodriguez Jr.",
           "Braelon Allen",
           "Tyler Shough",
           "Buccaneers D/ST"
@@ -96,7 +96,7 @@
       "awayOwner": "Veton Gjonbalaj",
       "home": {
         "score": 0.0,
-        "projectedFinal": 94.4,
+        "projectedFinal": 95.1,
         "winProbability": 0.44,
         "yetToPlay": [
           "Amon-Ra St. Brown",
@@ -104,8 +104,8 @@
           "Bhayshul Tuten",
           "Harold Fannin Jr.",
           "Denzel Boston",
+          "Matthew Stafford",
           "Bears D/ST",
-          "Malik Willis",
           "Audric Estime",
           "Demarcus Robinson"
         ],
@@ -115,7 +115,7 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 103.6,
+        "projectedFinal": 105.0,
         "winProbability": 0.56,
         "yetToPlay": [
           "Ja'Marr Chase",
@@ -140,8 +140,8 @@
       "awayOwner": "Ben Vucetaj",
       "home": {
         "score": 0.0,
-        "projectedFinal": 105.4,
-        "winProbability": 0.6,
+        "projectedFinal": 92.5,
+        "winProbability": 0.51,
         "yetToPlay": [
           "Zay Flowers",
           "George Kittle",
@@ -159,8 +159,8 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 89.1,
-        "winProbability": 0.4,
+        "projectedFinal": 90.7,
+        "winProbability": 0.49,
         "yetToPlay": [
           "Ladd McConkey",
           "Joe Burrow",
@@ -184,8 +184,8 @@
       "awayOwner": "Nori Kastrati",
       "home": {
         "score": 0.0,
-        "projectedFinal": 95.3,
-        "winProbability": 0.4,
+        "projectedFinal": 96.9,
+        "winProbability": 0.42,
         "yetToPlay": [
           "Derrick Henry",
           "DJ Moore",
@@ -203,8 +203,8 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 111.9,
-        "winProbability": 0.6,
+        "projectedFinal": 111.2,
+        "winProbability": 0.58,
         "yetToPlay": [
           "Jahmyr Gibbs",
           "Brock Bowers",
@@ -213,8 +213,8 @@
           "Javonte Williams",
           "Jordyn Tyson",
           "Deebo Samuel Sr.",
-          "Jared Goff",
-          "Saints D/ST"
+          "Steelers D/ST",
+          "Jared Goff"
         ],
         "worstMistake": null,
         "bestStarter": null,
@@ -228,18 +228,18 @@
       "awayOwner": "Arben Sinanaj",
       "home": {
         "score": 0.0,
-        "projectedFinal": 85.0,
-        "winProbability": 0.32,
+        "projectedFinal": 102.1,
+        "winProbability": 0.42,
         "yetToPlay": [
           "CeeDee Lamb",
-          "Saquon Barkley",
           "Tee Higgins",
-          "Emeka Egbuka",
           "Chase Brown",
+          "Jordan Mason",
           "Isaiah Likely",
           "Trevor Lawrence",
           "Adonai Mitchell",
-          "Patriots D/ST"
+          "Keon Coleman",
+          "Dolphins D/ST"
         ],
         "worstMistake": null,
         "bestStarter": null,
@@ -247,8 +247,8 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 116.5,
-        "winProbability": 0.68,
+        "projectedFinal": 116.4,
+        "winProbability": 0.58,
         "yetToPlay": [
           "Jonathan Taylor",
           "Trey McBride",

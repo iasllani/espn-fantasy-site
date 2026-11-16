@@ -1,97 +1,97 @@
 {
-  "generatedAt": "2026-11-15T15:09:07.379382+00:00",
+  "generatedAt": "2026-11-16T13:01:18.327497+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 10,
   "events": [
+    {
+      "type": "benched",
+      "owner": "Adam Vilajeti",
+      "player": "Patrick Mahomes",
+      "position": "QB",
+      "actual": 35.42,
+      "projected": 18.54688911,
+      "line": "Adam Vilajeti benched Patrick Mahomes, who scored 35.4 anyway."
+    },
+    {
+      "type": "over",
+      "owner": "Ilir Asllani",
+      "player": "George Pickens",
+      "position": "WR",
+      "actual": 38.0,
+      "projected": 9.88667651,
+      "line": "George Pickens crushed his projection: 38.0 actual vs 9.9 projected, playing for Ilir Asllani."
+    },
+    {
+      "type": "over",
+      "owner": "Rob Ricigliano",
+      "player": "Christian McCaffrey",
+      "position": "RB",
+      "actual": 44.3,
+      "projected": 19.44570971,
+      "line": "Christian McCaffrey crushed his projection: 44.3 actual vs 19.4 projected, playing for Rob Ricigliano."
+    },
+    {
+      "type": "benched",
+      "owner": "Rinor Ahmetaj",
+      "player": "Vikings D/ST",
+      "position": "D/ST",
+      "actual": 21.0,
+      "projected": 4.95951499,
+      "line": "Rinor Ahmetaj benched Vikings D/ST, who scored 21.0 anyway."
+    },
+    {
+      "type": "benched",
+      "owner": "Ilir Asllani",
+      "player": "C.J. Stroud",
+      "position": "QB",
+      "actual": 20.44,
+      "projected": 18.2698329,
+      "line": "Ilir Asllani benched C.J. Stroud, who scored 20.4 anyway."
+    },
+    {
+      "type": "benched",
+      "owner": "Rilind Ahmetaj",
+      "player": "Matthew Stafford",
+      "position": "QB",
+      "actual": 19.76,
+      "projected": 16.97543114,
+      "line": "Rilind Ahmetaj benched Matthew Stafford, who scored 19.8 anyway."
+    },
+    {
+      "type": "benched",
+      "owner": "Arben Sinanaj",
+      "player": "Blake Corum",
+      "position": "RB",
+      "actual": 19.4,
+      "projected": 10.89452602,
+      "line": "Arben Sinanaj benched Blake Corum, who scored 19.4 anyway."
+    },
+    {
+      "type": "over",
+      "owner": "Nori Kastrati",
+      "player": "Jahmyr Gibbs",
+      "position": "RB",
+      "actual": 40.7,
+      "projected": 21.62976964,
+      "line": "Jahmyr Gibbs crushed his projection: 40.7 actual vs 21.6 projected, playing for Nori Kastrati."
+    },
     {
       "type": "under",
       "owner": "Adam Vilajeti",
       "player": "Drake Maye",
       "position": "QB",
       "actual": 3.02,
-      "projected": 21.95790786,
+      "projected": 21.96715174,
       "line": "Drake Maye bombed his projection: 3.0 actual vs 22.0 projected, playing for Adam Vilajeti."
     },
     {
-      "type": "under",
-      "owner": "Nori Kastrati",
-      "player": "Jahmyr Gibbs",
-      "position": "RB",
-      "actual": 5.2,
-      "projected": 21.6299744,
-      "line": "Jahmyr Gibbs bombed his projection: 5.2 actual vs 21.6 projected, playing for Nori Kastrati."
-    },
-    {
       "type": "over",
-      "owner": "Adam Vilajeti",
-      "player": "Cam Skattebo",
-      "position": "RB",
-      "actual": 25.7,
-      "projected": 10.93433374,
-      "line": "Cam Skattebo crushed his projection: 25.7 actual vs 10.9 projected, playing for Adam Vilajeti."
-    },
-    {
-      "type": "over",
-      "owner": "Flamur Muriqi",
-      "player": "Isaiah Likely",
-      "position": "TE",
-      "actual": 23.2,
-      "projected": 9.78012893,
-      "line": "Isaiah Likely crushed his projection: 23.2 actual vs 9.8 projected, playing for Flamur Muriqi."
-    },
-    {
-      "type": "under",
-      "owner": "Adam Vilajeti",
-      "player": "Rhamondre Stevenson",
-      "position": "RB",
-      "actual": 0.5,
-      "projected": 11.78436544,
-      "line": "Rhamondre Stevenson bombed his projection: 0.5 actual vs 11.8 projected, playing for Adam Vilajeti."
-    },
-    {
-      "type": "under",
-      "owner": "Adam Vilajeti",
-      "player": "A.J. Brown",
-      "position": "WR",
-      "actual": 0.0,
-      "projected": 10.69632637,
-      "line": "A.J. Brown bombed his projection: 0.0 actual vs 10.7 projected, playing for Adam Vilajeti."
-    },
-    {
-      "type": "under",
-      "owner": "Nori Kastrati",
-      "player": "Jared Goff",
-      "position": "QB",
-      "actual": 6.98,
-      "projected": 17.28800458,
-      "line": "Jared Goff bombed his projection: 7.0 actual vs 17.3 projected, playing for Nori Kastrati."
-    },
-    {
-      "type": "under",
-      "owner": "Rob Ricigliano",
-      "player": "Jameson Williams",
-      "position": "WR",
-      "actual": 0.0,
-      "projected": 10.11066128,
-      "line": "Jameson Williams bombed his projection: 0.0 actual vs 10.1 projected, playing for Rob Ricigliano."
-    },
-    {
-      "type": "under",
       "owner": "Rinor Ahmetaj",
-      "player": "Sam LaPorta",
-      "position": "TE",
-      "actual": 0.0,
-      "projected": 9.21652443,
-      "line": "Sam LaPorta bombed his projection: 0.0 actual vs 9.2 projected, playing for Rinor Ahmetaj."
-    },
-    {
-      "type": "over",
-      "owner": "Ben Vucetaj",
-      "player": "Stefon Diggs",
-      "position": "WR",
-      "actual": 17.3,
-      "projected": 8.2732733,
-      "line": "Stefon Diggs crushed his projection: 17.3 actual vs 8.3 projected, playing for Ben Vucetaj."
+      "player": "Dak Prescott",
+      "position": "QB",
+      "actual": 34.42,
+      "projected": 16.55070245,
+      "line": "Dak Prescott crushed his projection: 34.4 actual vs 16.6 projected, playing for Rinor Ahmetaj."
     }
   ]
 }

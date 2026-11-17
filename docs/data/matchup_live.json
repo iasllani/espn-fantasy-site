@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T13:43:13.116799+00:00",
+  "generatedAt": "2026-11-17T17:15:16.033475+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 11,
   "matchups": [
@@ -8,8 +8,8 @@
       "awayOwner": "Rob Ricigliano",
       "home": {
         "score": 0.0,
-        "projectedFinal": 107.3,
-        "winProbability": 0.65,
+        "projectedFinal": 109.9,
+        "winProbability": 0.61,
         "yetToPlay": [
           "Omarion Hampton",
           "Kenneth Walker III",
@@ -27,17 +27,17 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 82.6,
-        "winProbability": 0.35,
+        "projectedFinal": 91.9,
+        "winProbability": 0.39,
         "yetToPlay": [
           "Christian McCaffrey",
           "Rashee Rice",
           "Garrett Wilson",
           "Jadarian Price",
           "Jameson Williams",
+          "Rachaad White",
           "Jayden Daniels",
-          "Kyren Williams",
-          "Jaguars D/ST",
+          "Texans D/ST",
           "Darren Waller"
         ],
         "worstMistake": null,
@@ -52,7 +52,7 @@
       "awayOwner": "Rilind Ahmetaj",
       "home": {
         "score": 0.0,
-        "projectedFinal": 69.4,
+        "projectedFinal": 69.2,
         "winProbability": 0.67,
         "yetToPlay": [
           "Bijan Robinson",
@@ -96,7 +96,7 @@
       "awayOwner": "Adam Vilajeti",
       "home": {
         "score": 0.0,
-        "projectedFinal": 103.3,
+        "projectedFinal": 103.4,
         "winProbability": 0.58,
         "yetToPlay": [
           "James Cook III",
@@ -139,8 +139,8 @@
       "awayOwner": "Rinor Ahmetaj",
       "home": {
         "score": 0.0,
-        "projectedFinal": 114.1,
-        "winProbability": 0.57,
+        "projectedFinal": 114.2,
+        "winProbability": 0.58,
         "yetToPlay": [
           "Ja'Marr Chase",
           "Malik Nabers",
@@ -158,8 +158,8 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 100.9,
-        "winProbability": 0.43,
+        "projectedFinal": 100.5,
+        "winProbability": 0.42,
         "yetToPlay": [
           "Derrick Henry",
           "DJ Moore",
@@ -183,7 +183,7 @@
       "awayOwner": "Flamur Muriqi",
       "home": {
         "score": 0.0,
-        "projectedFinal": 66.6,
+        "projectedFinal": 66.7,
         "winProbability": 0.25,
         "yetToPlay": [
           "Joe Burrow",
@@ -202,7 +202,7 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 104.9,
+        "projectedFinal": 104.6,
         "winProbability": 0.75,
         "yetToPlay": [
           "CeeDee Lamb",
@@ -226,8 +226,8 @@
       "awayOwner": "Arben Sinanaj",
       "home": {
         "score": 0.0,
-        "projectedFinal": 103.5,
-        "winProbability": 0.58,
+        "projectedFinal": 102.9,
+        "winProbability": 0.57,
         "yetToPlay": [
           "Jahmyr Gibbs",
           "Brock Bowers",
@@ -245,8 +245,8 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 90.5,
-        "winProbability": 0.42,
+        "projectedFinal": 90.9,
+        "winProbability": 0.43,
         "yetToPlay": [
           "Jonathan Taylor",
           "Trey McBride",

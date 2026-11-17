@@ -1,109 +1,109 @@
 {
-  "generatedAt": "2026-11-16T17:52:34.608765+00:00",
+  "generatedAt": "2026-11-17T17:29:01.802574+00:00",
   "seasonId": 2026,
   "lastWeek": {
-    "matchupPeriodId": 9,
-    "matchups": [
-      {
-        "homeOwner": "Faton Muriqi",
-        "awayOwner": "Rob Ricigliano",
-        "homeScore": 84.58,
-        "awayScore": 86.46,
-        "winner": "Rob Ricigliano",
-        "loser": "Faton Muriqi",
-        "recap": "Rob Ricigliano beat Faton Muriqi 86.5-84.6."
-      },
-      {
-        "homeOwner": "Veton Gjonbalaj",
-        "awayOwner": "Ilir Asllani",
-        "homeScore": 96.98,
-        "awayScore": 99.56,
-        "winner": "Ilir Asllani",
-        "loser": "Veton Gjonbalaj",
-        "recap": "Ilir Asllani beat Veton Gjonbalaj 99.6-97.0."
-      },
-      {
-        "homeOwner": "Ben Vucetaj",
-        "awayOwner": "Jetmir Asllani / Peter Mardjonovic",
-        "homeScore": 92.94,
-        "awayScore": 127.26,
-        "winner": "Jetmir Asllani / Peter Mardjonovic",
-        "loser": "Ben Vucetaj",
-        "recap": "Jetmir Asllani / Peter Mardjonovic beat Ben Vucetaj 127.3-92.9."
-      },
-      {
-        "homeOwner": "Nori Kastrati",
-        "awayOwner": "Rilind Ahmetaj",
-        "homeScore": 100.2,
-        "awayScore": 84.72,
-        "winner": "Nori Kastrati",
-        "loser": "Rilind Ahmetaj",
-        "recap": "Nori Kastrati beat Rilind Ahmetaj 100.2-84.7."
-      },
-      {
-        "homeOwner": "Arben Sinanaj",
-        "awayOwner": "Adam Vilajeti",
-        "homeScore": 117.48,
-        "awayScore": 90.88,
-        "winner": "Arben Sinanaj",
-        "loser": "Adam Vilajeti",
-        "recap": "Arben Sinanaj beat Adam Vilajeti 117.5-90.9."
-      },
-      {
-        "homeOwner": "Flamur Muriqi",
-        "awayOwner": "Rinor Ahmetaj",
-        "homeScore": 91.18,
-        "awayScore": 109.38,
-        "winner": "Rinor Ahmetaj",
-        "loser": "Flamur Muriqi",
-        "recap": "Rinor Ahmetaj beat Flamur Muriqi 109.4-91.2."
-      }
-    ]
-  },
-  "thisWeek": {
     "matchupPeriodId": 10,
     "matchups": [
       {
         "homeOwner": "Rob Ricigliano",
         "awayOwner": "Ilir Asllani",
-        "homeRecord": "3-6",
-        "awayRecord": "5-4",
-        "preview": "Rob Ricigliano (3-6) vs Ilir Asllani (5-4)."
+        "homeScore": 116.36,
+        "awayScore": 106.64,
+        "winner": "Rob Ricigliano",
+        "loser": "Ilir Asllani",
+        "recap": "Rob Ricigliano beat Ilir Asllani 116.4-106.6."
       },
       {
         "homeOwner": "Jetmir Asllani / Peter Mardjonovic",
         "awayOwner": "Faton Muriqi",
-        "homeRecord": "5-4",
-        "awayRecord": "5-4",
-        "preview": "Jetmir Asllani / Peter Mardjonovic (5-4) vs Faton Muriqi (5-4)."
+        "homeScore": 95.26,
+        "awayScore": 96.58,
+        "winner": "Faton Muriqi",
+        "loser": "Jetmir Asllani / Peter Mardjonovic",
+        "recap": "Faton Muriqi beat Jetmir Asllani / Peter Mardjonovic 96.6-95.3."
       },
       {
         "homeOwner": "Rilind Ahmetaj",
         "awayOwner": "Veton Gjonbalaj",
-        "homeRecord": "2-7",
-        "awayRecord": "2-7",
-        "preview": "Rilind Ahmetaj (2-7) vs Veton Gjonbalaj (2-7)."
+        "homeScore": 87.9,
+        "awayScore": 129.56,
+        "winner": "Veton Gjonbalaj",
+        "loser": "Rilind Ahmetaj",
+        "recap": "Veton Gjonbalaj beat Rilind Ahmetaj 129.6-87.9."
       },
       {
         "homeOwner": "Adam Vilajeti",
         "awayOwner": "Ben Vucetaj",
-        "homeRecord": "3-6",
-        "awayRecord": "3-6",
-        "preview": "Adam Vilajeti (3-6) vs Ben Vucetaj (3-6)."
+        "homeScore": 82.82,
+        "awayScore": 104.26,
+        "winner": "Ben Vucetaj",
+        "loser": "Adam Vilajeti",
+        "recap": "Ben Vucetaj beat Adam Vilajeti 104.3-82.8."
       },
       {
         "homeOwner": "Rinor Ahmetaj",
         "awayOwner": "Nori Kastrati",
-        "homeRecord": "6-3",
-        "awayRecord": "6-3",
-        "preview": "Rinor Ahmetaj (6-3) vs Nori Kastrati (6-3)."
+        "homeScore": 121.72,
+        "awayScore": 120.02,
+        "winner": "Rinor Ahmetaj",
+        "loser": "Nori Kastrati",
+        "recap": "Rinor Ahmetaj beat Nori Kastrati 121.7-120.0."
       },
       {
         "homeOwner": "Flamur Muriqi",
         "awayOwner": "Arben Sinanaj",
-        "homeRecord": "6-3",
-        "awayRecord": "8-1",
-        "preview": "Flamur Muriqi (6-3) vs Arben Sinanaj (8-1)."
+        "homeScore": 127.98,
+        "awayScore": 114.9,
+        "winner": "Flamur Muriqi",
+        "loser": "Arben Sinanaj",
+        "recap": "Flamur Muriqi beat Arben Sinanaj 128.0-114.9."
+      }
+    ]
+  },
+  "thisWeek": {
+    "matchupPeriodId": 11,
+    "matchups": [
+      {
+        "homeOwner": "Jetmir Asllani / Peter Mardjonovic",
+        "awayOwner": "Rob Ricigliano",
+        "homeRecord": "5-5",
+        "awayRecord": "4-6",
+        "preview": "Jetmir Asllani / Peter Mardjonovic (5-5) vs Rob Ricigliano (4-6)."
+      },
+      {
+        "homeOwner": "Ilir Asllani",
+        "awayOwner": "Rilind Ahmetaj",
+        "homeRecord": "5-5",
+        "awayRecord": "2-8",
+        "preview": "Ilir Asllani (5-5) vs Rilind Ahmetaj (2-8)."
+      },
+      {
+        "homeOwner": "Faton Muriqi",
+        "awayOwner": "Adam Vilajeti",
+        "homeRecord": "6-4",
+        "awayRecord": "3-7",
+        "preview": "Faton Muriqi (6-4) vs Adam Vilajeti (3-7)."
+      },
+      {
+        "homeOwner": "Veton Gjonbalaj",
+        "awayOwner": "Rinor Ahmetaj",
+        "homeRecord": "3-7",
+        "awayRecord": "7-3",
+        "preview": "Veton Gjonbalaj (3-7) vs Rinor Ahmetaj (7-3)."
+      },
+      {
+        "homeOwner": "Ben Vucetaj",
+        "awayOwner": "Flamur Muriqi",
+        "homeRecord": "4-6",
+        "awayRecord": "7-3",
+        "preview": "Ben Vucetaj (4-6) vs Flamur Muriqi (7-3)."
+      },
+      {
+        "homeOwner": "Nori Kastrati",
+        "awayOwner": "Arben Sinanaj",
+        "homeRecord": "6-4",
+        "awayRecord": "8-2",
+        "preview": "Nori Kastrati (6-4) vs Arben Sinanaj (8-2)."
       }
     ]
   }

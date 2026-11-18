@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T13:17:37.842735+00:00",
+  "generatedAt": "2026-11-18T16:50:47.455919+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 11,
   "matchups": [
@@ -9,7 +9,7 @@
       "home": {
         "score": 0.0,
         "projectedFinal": 109.9,
-        "winProbability": 0.62,
+        "winProbability": 0.57,
         "yetToPlay": [
           "Omarion Hampton",
           "Kenneth Walker III",
@@ -27,18 +27,18 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 89.7,
-        "winProbability": 0.38,
+        "projectedFinal": 97.3,
+        "winProbability": 0.43,
         "yetToPlay": [
           "Christian McCaffrey",
           "Rashee Rice",
           "Garrett Wilson",
-          "Jadarian Price",
           "Jameson Williams",
-          "Rachaad White",
+          "Kyle Monangai",
           "Jayden Daniels",
           "Texans D/ST",
-          "Chig Okonkwo"
+          "Chig Okonkwo",
+          "Laquon Treadwell"
         ],
         "worstMistake": null,
         "bestStarter": null,
@@ -53,7 +53,7 @@
       "home": {
         "score": 0.0,
         "projectedFinal": 107.7,
-        "winProbability": 0.85,
+        "winProbability": 0.73,
         "yetToPlay": [
           "George Pickens",
           "Josh Allen",
@@ -71,18 +71,18 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 51.0,
-        "winProbability": 0.15,
+        "projectedFinal": 70.8,
+        "winProbability": 0.27,
         "yetToPlay": [
           "Amon-Ra St. Brown",
           "Ashton Jeanty",
           "Bhayshul Tuten",
-          "Harold Fannin Jr.",
-          "Denzel Boston",
-          "Audric Estime",
-          "Demarcus Robinson",
-          "Bengals D/ST",
-          "Drew Lock"
+          "Rico Dowdle",
+          "Bears D/ST",
+          "Drew Lock",
+          "Michael Mayer",
+          "Myles Price",
+          "Tre' Harris"
         ],
         "worstMistake": null,
         "bestStarter": null,
@@ -96,16 +96,16 @@
       "awayOwner": "Adam Vilajeti",
       "home": {
         "score": 0.0,
-        "projectedFinal": 103.4,
-        "winProbability": 0.56,
+        "projectedFinal": 105.8,
+        "winProbability": 0.57,
         "yetToPlay": [
           "James Cook III",
           "D'Andre Swift",
           "Colston Loveland",
           "Parker Washington",
           "Rome Odunze",
+          "J.K. Dobbins",
           "Josh Downs",
-          "Chris Rodriguez Jr.",
           "Bo Nix",
           "Packers D/ST"
         ],
@@ -116,7 +116,7 @@
       "away": {
         "score": 0.0,
         "projectedFinal": 93.8,
-        "winProbability": 0.44,
+        "winProbability": 0.43,
         "yetToPlay": [
           "Zay Flowers",
           "George Kittle",

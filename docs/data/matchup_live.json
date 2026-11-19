@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T16:50:47.455919+00:00",
+  "generatedAt": "2026-11-19T13:40:59.987789+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 11,
   "matchups": [
@@ -8,7 +8,7 @@
       "awayOwner": "Rob Ricigliano",
       "home": {
         "score": 0.0,
-        "projectedFinal": 109.9,
+        "projectedFinal": 109.7,
         "winProbability": 0.57,
         "yetToPlay": [
           "Omarion Hampton",
@@ -27,7 +27,7 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 97.3,
+        "projectedFinal": 97.2,
         "winProbability": 0.43,
         "yetToPlay": [
           "Christian McCaffrey",
@@ -52,8 +52,8 @@
       "awayOwner": "Rilind Ahmetaj",
       "home": {
         "score": 0.0,
-        "projectedFinal": 107.7,
-        "winProbability": 0.73,
+        "projectedFinal": 100.6,
+        "winProbability": 0.7,
         "yetToPlay": [
           "George Pickens",
           "Josh Allen",
@@ -72,7 +72,7 @@
       "away": {
         "score": 0.0,
         "projectedFinal": 70.8,
-        "winProbability": 0.27,
+        "winProbability": 0.3,
         "yetToPlay": [
           "Amon-Ra St. Brown",
           "Ashton Jeanty",
@@ -96,7 +96,7 @@
       "awayOwner": "Adam Vilajeti",
       "home": {
         "score": 0.0,
-        "projectedFinal": 105.8,
+        "projectedFinal": 105.7,
         "winProbability": 0.57,
         "yetToPlay": [
           "James Cook III",
@@ -139,7 +139,7 @@
       "awayOwner": "Rinor Ahmetaj",
       "home": {
         "score": 0.0,
-        "projectedFinal": 117.0,
+        "projectedFinal": 116.9,
         "winProbability": 0.59,
         "yetToPlay": [
           "Ja'Marr Chase",
@@ -158,7 +158,7 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 99.9,
+        "projectedFinal": 100.9,
         "winProbability": 0.41,
         "yetToPlay": [
           "Derrick Henry",
@@ -202,7 +202,7 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 110.8,
+        "projectedFinal": 109.9,
         "winProbability": 0.64,
         "yetToPlay": [
           "CeeDee Lamb",
@@ -246,7 +246,7 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 107.4,
+        "projectedFinal": 107.6,
         "winProbability": 0.47,
         "yetToPlay": [
           "Jonathan Taylor",

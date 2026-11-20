@@ -1,6 +1,52 @@
 {
-  "generatedAt": "2026-11-17T13:43:10.558730+00:00",
+  "generatedAt": "2026-11-20T13:24:08.132010+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 11,
-  "events": []
+  "events": [
+    {
+      "type": "benched",
+      "owner": "Ilir Asllani",
+      "player": "C.J. Stroud",
+      "position": "QB",
+      "actual": 20.46,
+      "projected": 21.84449493,
+      "line": "Ilir Asllani benched C.J. Stroud, who scored 20.5 anyway."
+    },
+    {
+      "type": "under",
+      "owner": "Arben Sinanaj",
+      "player": "Jonathan Taylor",
+      "position": "RB",
+      "actual": 4.7,
+      "projected": 15.17513244,
+      "line": "Jonathan Taylor bombed his projection: 4.7 actual vs 15.2 projected, playing for Arben Sinanaj."
+    },
+    {
+      "type": "over",
+      "owner": "Rob Ricigliano",
+      "player": "Texans D/ST",
+      "position": "D/ST",
+      "actual": 15.0,
+      "projected": 6.69778046,
+      "line": "Texans D/ST crushed his projection: 15.0 actual vs 6.7 projected, playing for Rob Ricigliano."
+    },
+    {
+      "type": "under",
+      "owner": "Adam Vilajeti",
+      "player": "Xavier Hutchinson",
+      "position": "WR",
+      "actual": 2.3,
+      "projected": 9.38969222,
+      "line": "Xavier Hutchinson bombed his projection: 2.3 actual vs 9.4 projected, playing for Adam Vilajeti."
+    },
+    {
+      "type": "under",
+      "owner": "Rob Ricigliano",
+      "player": "Laquon Treadwell",
+      "position": "WR",
+      "actual": 0.0,
+      "projected": 5.93076233,
+      "line": "Laquon Treadwell bombed his projection: 0.0 actual vs 5.9 projected, playing for Rob Ricigliano."
+    }
+  ]
 }

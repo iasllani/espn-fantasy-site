@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T16:32:06.046861+00:00",
+  "generatedAt": "2026-11-21T12:52:57.759299+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 11,
   "matchups": [
@@ -8,8 +8,8 @@
       "awayOwner": "Rob Ricigliano",
       "home": {
         "score": 0.0,
-        "projectedFinal": 108.1,
-        "winProbability": 0.55,
+        "projectedFinal": 108.6,
+        "winProbability": 0.56,
         "yetToPlay": [
           "Omarion Hampton",
           "Caleb Williams",
@@ -28,7 +28,7 @@
       "away": {
         "score": 15.0,
         "projectedFinal": 99.5,
-        "winProbability": 0.45,
+        "winProbability": 0.44,
         "yetToPlay": [
           "Christian McCaffrey",
           "Rashee Rice",
@@ -66,17 +66,17 @@
       "awayOwner": "Rilind Ahmetaj",
       "home": {
         "score": 13.9,
-        "projectedFinal": 101.6,
-        "winProbability": 0.55,
+        "projectedFinal": 108.4,
+        "winProbability": 0.59,
         "yetToPlay": [
           "George Pickens",
           "Josh Allen",
           "Carnell Tate",
           "Chris Olave",
+          "Jalen Coker",
           "Jonah Coleman",
-          "Dalton Kincaid",
-          "Omar Cooper Jr.",
-          "Buccaneers D/ST"
+          "Buccaneers D/ST",
+          "Brenton Strange"
         ],
         "worstMistake": null,
         "bestStarter": {
@@ -94,15 +94,15 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 94.6,
-        "winProbability": 0.45,
+        "projectedFinal": 94.3,
+        "winProbability": 0.41,
         "yetToPlay": [
           "Amon-Ra St. Brown",
           "Ashton Jeanty",
           "DeVonta Smith",
           "Bhayshul Tuten",
-          "Rico Dowdle",
           "Bears D/ST",
+          "Kenny Gainwell",
           "Michael Mayer",
           "Tre' Harris",
           "Bryce Young"
@@ -138,7 +138,7 @@
       },
       "away": {
         "score": 2.3,
-        "projectedFinal": 88.1,
+        "projectedFinal": 87.0,
         "winProbability": 0.39,
         "yetToPlay": [
           "Zay Flowers",
@@ -171,17 +171,17 @@
       "awayOwner": "Rinor Ahmetaj",
       "home": {
         "score": 13.3,
-        "projectedFinal": 112.5,
-        "winProbability": 0.57,
+        "projectedFinal": 116.4,
+        "winProbability": 0.6,
         "yetToPlay": [
           "Ja'Marr Chase",
           "Malik Nabers",
           "Travis Etienne Jr.",
+          "Mike Evans",
           "Tony Pollard",
           "Broncos D/ST",
           "Brock Purdy",
-          "T.J. Hockenson",
-          "Mark Andrews"
+          "T.J. Hockenson"
         ],
         "worstMistake": null,
         "bestStarter": {
@@ -199,8 +199,8 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 100.8,
-        "winProbability": 0.43,
+        "projectedFinal": 100.2,
+        "winProbability": 0.4,
         "yetToPlay": [
           "Derrick Henry",
           "DJ Moore",
@@ -252,7 +252,7 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 109.9,
+        "projectedFinal": 110.7,
         "winProbability": 0.66,
         "yetToPlay": [
           "CeeDee Lamb",
@@ -277,7 +277,7 @@
       "awayOwner": "Arben Sinanaj",
       "home": {
         "score": 4.2,
-        "projectedFinal": 107.9,
+        "projectedFinal": 107.6,
         "winProbability": 0.57,
         "yetToPlay": [
           "Jahmyr Gibbs",
@@ -305,7 +305,7 @@
       },
       "away": {
         "score": 4.7,
-        "projectedFinal": 97.2,
+        "projectedFinal": 96.2,
         "winProbability": 0.43,
         "yetToPlay": [
           "Trey McBride",

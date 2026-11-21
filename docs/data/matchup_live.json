@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T12:52:57.759299+00:00",
+  "generatedAt": "2026-11-21T15:49:51.588453+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 11,
   "matchups": [
@@ -66,7 +66,7 @@
       "awayOwner": "Rilind Ahmetaj",
       "home": {
         "score": 13.9,
-        "projectedFinal": 108.4,
+        "projectedFinal": 108.3,
         "winProbability": 0.59,
         "yetToPlay": [
           "George Pickens",

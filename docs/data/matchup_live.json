@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T12:45:51.493297+00:00",
+  "generatedAt": "2026-11-22T15:48:59.195152+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 11,
   "matchups": [
@@ -94,7 +94,7 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 94.3,
+        "projectedFinal": 94.1,
         "winProbability": 0.41,
         "yetToPlay": [
           "Amon-Ra St. Brown",
@@ -104,8 +104,8 @@
           "Bears D/ST",
           "Kenny Gainwell",
           "Michael Mayer",
-          "Tre' Harris",
-          "Bryce Young"
+          "Bryce Young",
+          "Ja'Kobi Lane"
         ],
         "worstMistake": null,
         "bestStarter": null,
@@ -171,8 +171,8 @@
       "awayOwner": "Rinor Ahmetaj",
       "home": {
         "score": 13.3,
-        "projectedFinal": 116.4,
-        "winProbability": 0.6,
+        "projectedFinal": 118.4,
+        "winProbability": 0.61,
         "yetToPlay": [
           "Ja'Marr Chase",
           "Malik Nabers",
@@ -200,7 +200,7 @@
       "away": {
         "score": 0.0,
         "projectedFinal": 100.2,
-        "winProbability": 0.4,
+        "winProbability": 0.39,
         "yetToPlay": [
           "Derrick Henry",
           "DJ Moore",
@@ -224,13 +224,13 @@
       "awayOwner": "Flamur Muriqi",
       "home": {
         "score": 2.7,
-        "projectedFinal": 84.1,
-        "winProbability": 0.34,
+        "projectedFinal": 87.0,
+        "winProbability": 0.36,
         "yetToPlay": [
+          "Ladd McConkey",
           "Joe Burrow",
           "Stefon Diggs",
           "Caleb Douglas",
-          "Malachi Fields",
           "Justin Jefferson",
           "Samaje Perine",
           "Giants D/ST",
@@ -253,7 +253,7 @@
       "away": {
         "score": 0.0,
         "projectedFinal": 110.7,
-        "winProbability": 0.66,
+        "winProbability": 0.64,
         "yetToPlay": [
           "CeeDee Lamb",
           "Saquon Barkley",
@@ -277,7 +277,7 @@
       "awayOwner": "Arben Sinanaj",
       "home": {
         "score": 4.2,
-        "projectedFinal": 107.6,
+        "projectedFinal": 107.7,
         "winProbability": 0.57,
         "yetToPlay": [
           "Jahmyr Gibbs",
@@ -305,7 +305,7 @@
       },
       "away": {
         "score": 4.7,
-        "projectedFinal": 96.2,
+        "projectedFinal": 96.8,
         "winProbability": 0.43,
         "yetToPlay": [
           "Trey McBride",

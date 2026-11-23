@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T13:24:08.132010+00:00",
+  "generatedAt": "2026-11-23T15:07:41.591180+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 11,
   "events": [
@@ -13,40 +13,85 @@
       "line": "Ilir Asllani benched C.J. Stroud, who scored 20.5 anyway."
     },
     {
-      "type": "under",
-      "owner": "Arben Sinanaj",
-      "player": "Jonathan Taylor",
+      "type": "benched",
+      "owner": "Nori Kastrati",
+      "player": "Jared Goff",
+      "position": "QB",
+      "actual": 20.36,
+      "projected": 14.77321515,
+      "line": "Nori Kastrati benched Jared Goff, who scored 20.4 anyway."
+    },
+    {
+      "type": "benched",
+      "owner": "Rinor Ahmetaj",
+      "player": "Justice Hill",
       "position": "RB",
-      "actual": 4.7,
-      "projected": 15.17513244,
-      "line": "Jonathan Taylor bombed his projection: 4.7 actual vs 15.2 projected, playing for Arben Sinanaj."
+      "actual": 15.6,
+      "projected": 6.85789571,
+      "line": "Rinor Ahmetaj benched Justice Hill, who scored 15.6 anyway."
     },
     {
       "type": "over",
-      "owner": "Rob Ricigliano",
-      "player": "Texans D/ST",
+      "owner": "Ilir Asllani",
+      "player": "Jonah Coleman",
+      "position": "RB",
+      "actual": 32.9,
+      "projected": 17.81039129,
+      "line": "Jonah Coleman crushed his projection: 32.9 actual vs 17.8 projected, playing for Ilir Asllani."
+    },
+    {
+      "type": "benched",
+      "owner": "Faton Muriqi",
+      "player": "Tyler Shough",
+      "position": "QB",
+      "actual": 14.28,
+      "projected": 14.94513732,
+      "line": "Faton Muriqi benched Tyler Shough, who scored 14.3 anyway."
+    },
+    {
+      "type": "over",
+      "owner": "Rinor Ahmetaj",
+      "player": "Dak Prescott",
+      "position": "QB",
+      "actual": 35.9,
+      "projected": 21.89148783,
+      "line": "Dak Prescott crushed his projection: 35.9 actual vs 21.9 projected, playing for Rinor Ahmetaj."
+    },
+    {
+      "type": "benched",
+      "owner": "Jetmir Asllani / Peter Mardjonovic",
+      "player": "49ers D/ST",
       "position": "D/ST",
-      "actual": 15.0,
-      "projected": 6.69778046,
-      "line": "Texans D/ST crushed his projection: 15.0 actual vs 6.7 projected, playing for Rob Ricigliano."
+      "actual": 14.0,
+      "projected": 5.38684475,
+      "line": "Jetmir Asllani / Peter Mardjonovic benched 49ers D/ST, who scored 14.0 anyway."
+    },
+    {
+      "type": "over",
+      "owner": "Rilind Ahmetaj",
+      "player": "Ashton Jeanty",
+      "position": "RB",
+      "actual": 25.4,
+      "projected": 11.92940175,
+      "line": "Ashton Jeanty crushed his projection: 25.4 actual vs 11.9 projected, playing for Rilind Ahmetaj."
+    },
+    {
+      "type": "over",
+      "owner": "Jetmir Asllani / Peter Mardjonovic",
+      "player": "Travis Kelce",
+      "position": "TE",
+      "actual": 22.4,
+      "projected": 9.49178474,
+      "line": "Travis Kelce crushed his projection: 22.4 actual vs 9.5 projected, playing for Jetmir Asllani / Peter Mardjonovic."
     },
     {
       "type": "under",
-      "owner": "Adam Vilajeti",
-      "player": "Xavier Hutchinson",
-      "position": "WR",
-      "actual": 2.3,
-      "projected": 9.38969222,
-      "line": "Xavier Hutchinson bombed his projection: 2.3 actual vs 9.4 projected, playing for Adam Vilajeti."
-    },
-    {
-      "type": "under",
-      "owner": "Rob Ricigliano",
-      "player": "Laquon Treadwell",
-      "position": "WR",
-      "actual": 0.0,
-      "projected": 5.93076233,
-      "line": "Laquon Treadwell bombed his projection: 0.0 actual vs 5.9 projected, playing for Rob Ricigliano."
+      "owner": "Ilir Asllani",
+      "player": "Josh Allen",
+      "position": "QB",
+      "actual": 12.16,
+      "projected": 23.38135757,
+      "line": "Josh Allen bombed his projection: 12.2 actual vs 23.4 projected, playing for Ilir Asllani."
     }
   ]
 }

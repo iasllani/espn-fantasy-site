@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T14:45:54.733057+00:00",
+  "generatedAt": "2026-11-25T18:18:35.400481+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 12,
   "matchups": [
@@ -8,7 +8,7 @@
       "awayOwner": "Rilind Ahmetaj",
       "home": {
         "score": 0.0,
-        "projectedFinal": 104.5,
+        "projectedFinal": 104.9,
         "winProbability": 0.51,
         "yetToPlay": [
           "Christian McCaffrey",
@@ -52,8 +52,8 @@
       "awayOwner": "Jetmir Asllani / Peter Mardjonovic",
       "home": {
         "score": 0.0,
-        "projectedFinal": 103.6,
-        "winProbability": 0.5,
+        "projectedFinal": 103.8,
+        "winProbability": 0.53,
         "yetToPlay": [
           "Zay Flowers",
           "George Kittle",
@@ -71,13 +71,13 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 102.7,
-        "winProbability": 0.5,
+        "projectedFinal": 99.3,
+        "winProbability": 0.47,
         "yetToPlay": [
           "Omarion Hampton",
-          "Kenneth Walker III",
           "Caleb Williams",
           "Luther Burden III",
+          "Emmett Johnson",
           "Ollie Gordon II",
           "Khalil Shakir",
           "49ers D/ST",
@@ -159,7 +159,7 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 83.8,
+        "projectedFinal": 84.2,
         "winProbability": 0.32,
         "yetToPlay": [
           "James Cook III",

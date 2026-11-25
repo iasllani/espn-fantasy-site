@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T19:14:33.638504+00:00",
+  "generatedAt": "2026-11-25T14:45:54.733057+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 12,
   "matchups": [
@@ -96,7 +96,7 @@
       "awayOwner": "Ilir Asllani",
       "home": {
         "score": 0.0,
-        "projectedFinal": 109.0,
+        "projectedFinal": 109.4,
         "winProbability": 0.5,
         "yetToPlay": [
           "Derrick Henry",
@@ -115,7 +115,7 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 108.7,
+        "projectedFinal": 109.7,
         "winProbability": 0.5,
         "yetToPlay": [
           "Bijan Robinson",
@@ -140,8 +140,8 @@
       "awayOwner": "Faton Muriqi",
       "home": {
         "score": 0.0,
-        "projectedFinal": 114.4,
-        "winProbability": 0.66,
+        "projectedFinal": 114.5,
+        "winProbability": 0.68,
         "yetToPlay": [
           "CeeDee Lamb",
           "Saquon Barkley",
@@ -159,8 +159,8 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 86.8,
-        "winProbability": 0.34,
+        "projectedFinal": 83.8,
+        "winProbability": 0.32,
         "yetToPlay": [
           "James Cook III",
           "D'Andre Swift",
@@ -184,8 +184,8 @@
       "awayOwner": "Veton Gjonbalaj",
       "home": {
         "score": 0.0,
-        "projectedFinal": 106.9,
-        "winProbability": 0.45,
+        "projectedFinal": 109.0,
+        "winProbability": 0.46,
         "yetToPlay": [
           "Jonathan Taylor",
           "Trey McBride",
@@ -193,9 +193,9 @@
           "Chuba Hubbard",
           "Jaxon Smith-Njigba",
           "Jakobi Meyers",
-          "Chiefs D/ST",
           "Jordan Love",
-          "Mack Hollins"
+          "Jauan Jennings",
+          "Cowboys D/ST"
         ],
         "worstMistake": null,
         "bestStarter": null,
@@ -203,8 +203,8 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 116.9,
-        "winProbability": 0.55,
+        "projectedFinal": 116.4,
+        "winProbability": 0.54,
         "yetToPlay": [
           "Ja'Marr Chase",
           "Malik Nabers",
@@ -228,8 +228,8 @@
       "awayOwner": "Ben Vucetaj",
       "home": {
         "score": 0.0,
-        "projectedFinal": 115.8,
-        "winProbability": 0.57,
+        "projectedFinal": 118.8,
+        "winProbability": 0.55,
         "yetToPlay": [
           "Jahmyr Gibbs",
           "Brock Bowers",
@@ -239,7 +239,7 @@
           "Jordyn Tyson",
           "Deebo Samuel Sr.",
           "Steelers D/ST",
-          "Jared Goff"
+          "Deshaun Watson"
         ],
         "worstMistake": null,
         "bestStarter": null,
@@ -247,15 +247,15 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 102.4,
-        "winProbability": 0.43,
+        "projectedFinal": 109.9,
+        "winProbability": 0.45,
         "yetToPlay": [
           "Ladd McConkey",
           "Joe Burrow",
           "Stefon Diggs",
-          "Caleb Douglas",
+          "KC Concepcion",
+          "Quinshon Judkins",
           "Justin Jefferson",
-          "Samaje Perine",
           "Giants D/ST",
           "Jacory Croskey-Merritt",
           "Tyler Warren"

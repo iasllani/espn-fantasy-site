@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-11-24T15:05:49.259661+00:00",
+  "generatedAt": "2026-11-26T14:10:05.184298+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 12,
-  "events": []
+  "events": [
+    {
+      "type": "benched",
+      "owner": "Arben Sinanaj",
+      "player": "Blake Corum",
+      "position": "RB",
+      "actual": 27.5,
+      "projected": 12.81690405,
+      "line": "Arben Sinanaj benched Blake Corum, who scored 27.5 anyway."
+    },
+    {
+      "type": "under",
+      "owner": "Rinor Ahmetaj",
+      "player": "Matthew Golden",
+      "position": "WR",
+      "actual": 4.4,
+      "projected": 13.62492718,
+      "line": "Matthew Golden bombed his projection: 4.4 actual vs 13.6 projected, playing for Rinor Ahmetaj."
+    }
+  ]
 }

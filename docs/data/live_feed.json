@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T14:10:05.184298+00:00",
+  "generatedAt": "2026-11-27T14:07:50.401892+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 12,
   "events": [
@@ -13,13 +13,85 @@
       "line": "Arben Sinanaj benched Blake Corum, who scored 27.5 anyway."
     },
     {
-      "type": "under",
-      "owner": "Rinor Ahmetaj",
-      "player": "Matthew Golden",
+      "type": "over",
+      "owner": "Rilind Ahmetaj",
+      "player": "DeVonta Smith",
       "position": "WR",
-      "actual": 4.4,
-      "projected": 13.62492718,
-      "line": "Matthew Golden bombed his projection: 4.4 actual vs 13.6 projected, playing for Rinor Ahmetaj."
+      "actual": 37.5,
+      "projected": 11.67464805,
+      "line": "DeVonta Smith crushed his projection: 37.5 actual vs 11.7 projected, playing for Rilind Ahmetaj."
+    },
+    {
+      "type": "over",
+      "owner": "Nori Kastrati",
+      "player": "Jahmyr Gibbs",
+      "position": "RB",
+      "actual": 45.7,
+      "projected": 23.39823147,
+      "line": "Jahmyr Gibbs crushed his projection: 45.7 actual vs 23.4 projected, playing for Nori Kastrati."
+    },
+    {
+      "type": "over",
+      "owner": "Nori Kastrati",
+      "player": "Javonte Williams",
+      "position": "RB",
+      "actual": 31.8,
+      "projected": 15.96146282,
+      "line": "Javonte Williams crushed his projection: 31.8 actual vs 16.0 projected, playing for Nori Kastrati."
+    },
+    {
+      "type": "benched",
+      "owner": "Nori Kastrati",
+      "player": "Jared Goff",
+      "position": "QB",
+      "actual": 15.82,
+      "projected": 16.9246743,
+      "line": "Nori Kastrati benched Jared Goff, who scored 15.8 anyway."
+    },
+    {
+      "type": "benched",
+      "owner": "Rob Ricigliano",
+      "player": "Kyle Monangai",
+      "position": "RB",
+      "actual": 15.4,
+      "projected": 7.20557468,
+      "line": "Rob Ricigliano benched Kyle Monangai, who scored 15.4 anyway."
+    },
+    {
+      "type": "over",
+      "owner": "Faton Muriqi",
+      "player": "Rome Odunze",
+      "position": "WR",
+      "actual": 23.7,
+      "projected": 9.02301265,
+      "line": "Rome Odunze crushed his projection: 23.7 actual vs 9.0 projected, playing for Faton Muriqi."
+    },
+    {
+      "type": "under",
+      "owner": "Ilir Asllani",
+      "player": "Josh Allen",
+      "position": "QB",
+      "actual": 3.54,
+      "projected": 18.06425527,
+      "line": "Josh Allen bombed his projection: 3.5 actual vs 18.1 projected, playing for Ilir Asllani."
+    },
+    {
+      "type": "benched",
+      "owner": "Ben Vucetaj",
+      "player": "Makai Lemon",
+      "position": "WR",
+      "actual": 13.6,
+      "projected": 5.4802839,
+      "line": "Ben Vucetaj benched Makai Lemon, who scored 13.6 anyway."
+    },
+    {
+      "type": "over",
+      "owner": "Faton Muriqi",
+      "player": "D'Andre Swift",
+      "position": "RB",
+      "actual": 25.7,
+      "projected": 12.73312083,
+      "line": "D'Andre Swift crushed his projection: 25.7 actual vs 12.7 projected, playing for Faton Muriqi."
     }
   ]
 }

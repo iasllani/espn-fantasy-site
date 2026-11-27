@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T14:07:52.932001+00:00",
+  "generatedAt": "2026-11-27T17:45:00.126031+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 12,
   "matchups": [
@@ -180,7 +180,7 @@
       "home": {
         "score": 17.6,
         "projectedFinal": 103.9,
-        "winProbability": 0.43,
+        "winProbability": 0.57,
         "yetToPlay": [
           "Tee Higgins",
           "Chase Brown",
@@ -206,8 +206,8 @@
       },
       "away": {
         "score": 71.2,
-        "projectedFinal": 112.0,
-        "winProbability": 0.57,
+        "projectedFinal": 96.5,
+        "winProbability": 0.43,
         "yetToPlay": [
           "Drake London",
           "Parker Washington",

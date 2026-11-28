@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T14:07:50.401892+00:00",
+  "generatedAt": "2026-11-28T13:25:08.678317+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 12,
   "events": [
@@ -27,8 +27,17 @@
       "player": "Jahmyr Gibbs",
       "position": "RB",
       "actual": 45.7,
-      "projected": 23.39823147,
+      "projected": 23.39822149,
       "line": "Jahmyr Gibbs crushed his projection: 45.7 actual vs 23.4 projected, playing for Nori Kastrati."
+    },
+    {
+      "type": "over",
+      "owner": "Nori Kastrati",
+      "player": "Steelers D/ST",
+      "position": "D/ST",
+      "actual": 26.0,
+      "projected": 6.26269004,
+      "line": "Steelers D/ST crushed his projection: 26.0 actual vs 6.3 projected, playing for Nori Kastrati."
     },
     {
       "type": "over",
@@ -36,7 +45,7 @@
       "player": "Javonte Williams",
       "position": "RB",
       "actual": 31.8,
-      "projected": 15.96146282,
+      "projected": 15.96138261,
       "line": "Javonte Williams crushed his projection: 31.8 actual vs 16.0 projected, playing for Nori Kastrati."
     },
     {
@@ -54,7 +63,7 @@
       "player": "Kyle Monangai",
       "position": "RB",
       "actual": 15.4,
-      "projected": 7.20557468,
+      "projected": 7.20558268,
       "line": "Rob Ricigliano benched Kyle Monangai, who scored 15.4 anyway."
     },
     {
@@ -63,7 +72,7 @@
       "player": "Rome Odunze",
       "position": "WR",
       "actual": 23.7,
-      "projected": 9.02301265,
+      "projected": 9.02301315,
       "line": "Rome Odunze crushed his projection: 23.7 actual vs 9.0 projected, playing for Faton Muriqi."
     },
     {
@@ -83,15 +92,6 @@
       "actual": 13.6,
       "projected": 5.4802839,
       "line": "Ben Vucetaj benched Makai Lemon, who scored 13.6 anyway."
-    },
-    {
-      "type": "over",
-      "owner": "Faton Muriqi",
-      "player": "D'Andre Swift",
-      "position": "RB",
-      "actual": 25.7,
-      "projected": 12.73312083,
-      "line": "D'Andre Swift crushed his projection: 25.7 actual vs 12.7 projected, playing for Faton Muriqi."
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T17:45:00.126031+00:00",
+  "generatedAt": "2026-11-28T13:25:11.061076+00:00",
   "seasonId": 2026,
   "matchupPeriodId": 12,
   "matchups": [
@@ -8,8 +8,8 @@
       "awayOwner": "Rilind Ahmetaj",
       "home": {
         "score": 28.4,
-        "projectedFinal": 99.2,
-        "winProbability": 0.28,
+        "projectedFinal": 99.7,
+        "winProbability": 0.44,
         "yetToPlay": [
           "Christian McCaffrey",
           "Garrett Wilson",
@@ -34,15 +34,15 @@
       },
       "away": {
         "score": 51.6,
-        "projectedFinal": 127.1,
-        "winProbability": 0.72,
+        "projectedFinal": 106.4,
+        "winProbability": 0.56,
         "yetToPlay": [
           "Ashton Jeanty",
-          "Bhayshul Tuten",
           "Harold Fannin Jr.",
           "Denzel Boston",
           "Kenny Gainwell",
-          "J.J. McCarthy"
+          "J.J. McCarthy",
+          "DeMario Douglas"
         ],
         "worstMistake": null,
         "bestStarter": {
@@ -65,14 +65,13 @@
       "homeOwner": "Adam Vilajeti",
       "awayOwner": "Jetmir Asllani / Peter Mardjonovic",
       "home": {
-        "score": 28.1,
-        "projectedFinal": 97.0,
+        "score": 35.9,
+        "projectedFinal": 96.4,
         "winProbability": 0.51,
         "yetToPlay": [
           "Zay Flowers",
           "George Kittle",
           "Cam Skattebo",
-          "Jaylen Waddle",
           "Tetairoa McMillan",
           "Rhamondre Stevenson"
         ],
@@ -80,8 +79,8 @@
         "bestStarter": {
           "name": "Rams D/ST",
           "actual": 12.0,
-          "projected": 7.8,
-          "delta": 4.2
+          "projected": 7.7,
+          "delta": 4.3
         },
         "worstStarter": {
           "name": "Patrick Mahomes",
@@ -92,7 +91,7 @@
       },
       "away": {
         "score": 62.8,
-        "projectedFinal": 96.3,
+        "projectedFinal": 95.2,
         "winProbability": 0.49,
         "yetToPlay": [
           "Omarion Hampton",
@@ -114,18 +113,17 @@
         }
       },
       "familyName": null,
-      "analysis": "Jetmir Asllani / Peter Mardjonovic leads Adam Vilajeti by 34.7."
+      "analysis": "Jetmir Asllani / Peter Mardjonovic leads Adam Vilajeti by 26.9."
     },
     {
       "homeOwner": "Rinor Ahmetaj",
       "awayOwner": "Ilir Asllani",
       "home": {
-        "score": 44.8,
-        "projectedFinal": 101.9,
-        "winProbability": 0.62,
+        "score": 55.9,
+        "projectedFinal": 104.5,
+        "winProbability": 0.7,
         "yetToPlay": [
           "Derrick Henry",
-          "DK Metcalf",
           "Aaron Jones Sr.",
           "Bucky Irving",
           "Vikings D/ST"
@@ -145,15 +143,14 @@
         }
       },
       "away": {
-        "score": 12.7,
-        "projectedFinal": 88.4,
-        "winProbability": 0.38,
+        "score": 23.9,
+        "projectedFinal": 85.1,
+        "winProbability": 0.3,
         "yetToPlay": [
           "Bijan Robinson",
           "David Montgomery",
           "Carnell Tate",
           "Chris Olave",
-          "Jonah Coleman",
           "Buccaneers D/ST",
           "Brenton Strange"
         ],
@@ -172,15 +169,15 @@
         }
       },
       "familyName": null,
-      "analysis": "Rinor Ahmetaj leads Ilir Asllani by 32.1."
+      "analysis": "Rinor Ahmetaj leads Ilir Asllani by 32.0."
     },
     {
       "homeOwner": "Flamur Muriqi",
       "awayOwner": "Faton Muriqi",
       "home": {
         "score": 17.6,
-        "projectedFinal": 103.9,
-        "winProbability": 0.57,
+        "projectedFinal": 104.3,
+        "winProbability": 0.7,
         "yetToPlay": [
           "Tee Higgins",
           "Chase Brown",
@@ -205,13 +202,12 @@
         }
       },
       "away": {
-        "score": 71.2,
-        "projectedFinal": 96.5,
-        "winProbability": 0.43,
+        "score": 72.7,
+        "projectedFinal": 84.1,
+        "winProbability": 0.3,
         "yetToPlay": [
           "Drake London",
-          "Parker Washington",
-          "Bo Nix"
+          "Parker Washington"
         ],
         "worstMistake": null,
         "bestStarter": {
@@ -221,86 +217,93 @@
           "delta": 14.7
         },
         "worstStarter": {
-          "name": "Colston Loveland",
-          "actual": -1.0,
-          "projected": 8.3,
-          "delta": -9.3
+          "name": "Bo Nix",
+          "actual": 1.5,
+          "projected": 14.1,
+          "delta": -12.6
         }
       },
       "familyName": "Muriqi",
-      "analysis": "Faton Muriqi leads Flamur Muriqi by 53.6."
+      "analysis": "Faton Muriqi leads Flamur Muriqi by 55.1."
     },
     {
       "homeOwner": "Arben Sinanaj",
       "awayOwner": "Veton Gjonbalaj",
       "home": {
-        "score": 11.6,
-        "projectedFinal": 99.8,
-        "winProbability": 0.41,
+        "score": 16.7,
+        "projectedFinal": 93.1,
+        "winProbability": 0.36,
         "yetToPlay": [
           "Jonathan Taylor",
           "Trey McBride",
-          "Jaylen Warren",
           "Chuba Hubbard",
           "Jaxon Smith-Njigba",
           "Jakobi Meyers",
           "Jauan Jennings"
         ],
         "worstMistake": {
-          "benched": "Chiefs D/ST",
-          "benchedPoints": 11.0,
-          "started": "Cowboys D/ST",
-          "startedPoints": 3.0,
-          "margin": 8.0
+          "benched": "Blake Corum",
+          "benchedPoints": 27.5,
+          "started": "Jaylen Warren",
+          "startedPoints": 5.1,
+          "margin": 22.4
         },
         "bestStarter": {
           "name": "Cowboys D/ST",
           "actual": 3.0,
-          "projected": 7.2,
-          "delta": -4.2
+          "projected": 7.1,
+          "delta": -4.1
         },
         "worstStarter": {
-          "name": "Jordan Love",
-          "actual": 8.6,
+          "name": "Jaylen Warren",
+          "actual": 5.1,
           "projected": 13.4,
-          "delta": -4.7
+          "delta": -8.3
         }
       },
       "away": {
-        "score": 0.0,
-        "projectedFinal": 116.4,
-        "winProbability": 0.59,
+        "score": 8.0,
+        "projectedFinal": 114.7,
+        "winProbability": 0.64,
         "yetToPlay": [
           "Ja'Marr Chase",
           "Malik Nabers",
-          "Mike Evans",
+          "Travis Etienne Jr.",
           "Tony Pollard",
           "Nico Collins",
-          "Zach Charbonnet",
-          "Broncos D/ST",
-          "Brock Purdy",
-          "T.J. Hockenson"
+          "T.J. Hockenson",
+          "Antonio Williams",
+          "Kirk Cousins"
         ],
         "worstMistake": null,
-        "bestStarter": null,
-        "worstStarter": null
+        "bestStarter": {
+          "name": "Broncos D/ST",
+          "actual": 8.0,
+          "projected": 5.5,
+          "delta": 2.5
+        },
+        "worstStarter": {
+          "name": "Broncos D/ST",
+          "actual": 8.0,
+          "projected": 5.5,
+          "delta": 2.5
+        }
       },
       "familyName": null,
-      "analysis": "Arben Sinanaj leads Veton Gjonbalaj by 11.6."
+      "analysis": "Arben Sinanaj leads Veton Gjonbalaj by 8.7."
     },
     {
       "homeOwner": "Nori Kastrati",
       "awayOwner": "Ben Vucetaj",
       "home": {
-        "score": 92.0,
-        "projectedFinal": 160.1,
-        "winProbability": 0.81,
+        "score": 118.0,
+        "projectedFinal": 179.1,
+        "winProbability": 0.89,
         "yetToPlay": [
           "Brock Bowers",
           "Breece Hall",
           "Jordyn Tyson",
           "Deebo Samuel Sr.",
-          "Steelers D/ST",
           "Deshaun Watson"
         ],
         "worstMistake": null,
@@ -319,8 +322,8 @@
       },
       "away": {
         "score": 0.0,
-        "projectedFinal": 109.8,
-        "winProbability": 0.19,
+        "projectedFinal": 110.3,
+        "winProbability": 0.11,
         "yetToPlay": [
           "Ladd McConkey",
           "Joe Burrow",
@@ -337,7 +340,7 @@
         "worstStarter": null
       },
       "familyName": null,
-      "analysis": "Nori Kastrati leads Ben Vucetaj by 92.0."
+      "analysis": "Nori Kastrati leads Ben Vucetaj by 118.0."
     }
   ],
   "recentLines": [
